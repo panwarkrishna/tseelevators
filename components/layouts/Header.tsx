@@ -14,9 +14,11 @@ import {
   ShieldCheck,
   CheckCircle2,
   Sparkles,
+  Search,
 } from "lucide-react";
 
-// Safe Inline SVGs
+// ================= SOCIAL ICONS =================
+
 const FacebookIcon = ({ className }: { className?: string }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24">
     <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
@@ -47,39 +49,88 @@ const YoutubeIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
+// ================= NAVIGATION =================
+
 type NavLink = {
   label: string;
   href: string;
-  children?: { label: string; href: string; desc?: string }[];
+  children?: {
+    label: string;
+    href: string;
+    desc?: string;
+  }[];
 };
 
 const NAV_LINKS: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
+
   {
     label: "Products",
     href: "/products",
     children: [
-      { label: "Passenger Elevators", href: "/products/passenger-elevators", desc: "For apartments & corporate towers" },
-      { label: "Home / Villa Elevators", href: "/products/home-elevators", desc: "Compact & smooth luxury residential lifts" },
-      { label: "Hospital Elevators", href: "/products/hospital-elevators", desc: "Stretcher & bed-capacity medical lifts" },
-      { label: "Freight & Goods Lifts", href: "/products/freight-elevators", desc: "Heavy industrial payload lifts" },
-      { label: "Hydraulic Elevators", href: "/products/hydraulic-elevators", desc: "Low-rise hydraulic system solutions" },
-      { label: "Capsule Elevators", href: "/products/capsule-elevators", desc: "Panoramic glass architectural designs" },
+      {
+        label: "Passenger Elevators",
+        href: "/products/passenger-elevators",
+        desc: "For apartments & corporate towers",
+      },
+      {
+        label: "Home / Villa Elevators",
+        href: "/products/home-elevators",
+        desc: "Compact & smooth luxury residential lifts",
+      },
+      {
+        label: "Hospital Elevators",
+        href: "/products/hospital-elevators",
+        desc: "Stretcher & bed-capacity medical lifts",
+      },
+      {
+        label: "Freight & Goods Lifts",
+        href: "/products/freight-elevators",
+        desc: "Heavy industrial payload lifts",
+      },
+      {
+        label: "Hydraulic Elevators",
+        href: "/products/hydraulic-elevators",
+        desc: "Low-rise hydraulic system solutions",
+      },
+      {
+        label: "Capsule Elevators",
+        href: "/products/capsule-elevators",
+        desc: "Panoramic glass architectural designs",
+      },
     ],
   },
+
   {
     label: "Services",
     href: "/services",
     children: [
-      { label: "Elevator Installation", href: "/services/installation", desc: "Turnkey installation & commissioning" },
-      { label: "Elevator Modernization", href: "/services/modernization", desc: "Speed, aesthetic & controller upgrades" },
-      { label: "AMC & Maintenance", href: "/services/amc-maintenance", desc: "Preventive care & 24/7 breakdown support" },
-      { label: "Safety Audits & Repair", href: "/services/safety-audit", desc: "Certified safety testing & repairs" },
+      {
+        label: "Elevator Installation",
+        href: "/services/installation",
+        desc: "Turnkey installation & commissioning",
+      },
+      {
+        label: "Elevator Modernization",
+        href: "/services/modernization",
+        desc: "Speed, aesthetic & controller upgrades",
+      },
+      {
+        label: "AMC & Maintenance",
+        href: "/services/amc-maintenance",
+        desc: "Preventive care & 24/7 breakdown support",
+      },
+      {
+        label: "Safety Audits & Repair",
+        href: "/services/safety-audit",
+        desc: "Certified safety testing & repairs",
+      },
     ],
   },
+
   { label: "Gallery", href: "/gallery" },
-  { label: "Blogs", href: "/blog" },
+  { label: "Blogs", href: "/blog1" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -87,6 +138,8 @@ const CONTACT_INFO = {
   phone: "+91 99710-22555",
   email: "info@tseelevators.com",
 };
+
+// ================= HEADER =================
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -99,7 +152,9 @@ export default function Header() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 80);
     };
+
     window.addEventListener("scroll", handleScroll);
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -110,7 +165,10 @@ export default function Header() {
 
   const closeOffcanvas = () => {
     setOffcanvasOpen(false);
-    if (!mobileNavOpen) document.body.style.overflow = "";
+
+    if (!mobileNavOpen) {
+      document.body.style.overflow = "";
+    }
   };
 
   const openMobileNav = () => {
@@ -121,47 +179,55 @@ export default function Header() {
   const closeMobileNav = () => {
     setMobileNavOpen(false);
     setMobileExpanded(null);
-    if (!offcanvasOpen) document.body.style.overflow = "";
+
+    if (!offcanvasOpen) {
+      document.body.style.overflow = "";
+    }
   };
 
   return (
-    <header className="relative w-full font-sans">
-      {/* ================= 1. TOP UTILITY BAR ================= */}
-      <div className="bg-[#0B1130] px-4 py-2 text-xs text-slate-300 sm:px-8 lg:px-12">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-2">
-          {/* Left Contacts */}
-          <div className="flex items-center gap-3 sm:gap-6">
-            <a
-              href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
-              className="flex items-center gap-1.5 whitespace-nowrap transition-colors hover:text-[#E85C4A]"
-            >
-              <Phone className="h-3.5 w-3.5 shrink-0 text-[#E85C4A]" strokeWidth={2.5} />
-              <span className="font-semibold text-slate-200">{CONTACT_INFO.phone}</span>
-            </a>
+    <header className="relative z-50 w-full bg-white font-sans">
 
-            <span className="hidden h-3.5 w-px bg-slate-700 md:inline-block" />
+      {/* =====================================================
+          TOP CONTACT BAR
+      ===================================================== */}
+
+      <div className="bg-[#102D5E] text-white">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
+
+          {/* LEFT */}
+          <div className="flex min-h-[48px] items-center gap-5 sm:gap-8">
 
             <a
               href={`mailto:${CONTACT_INFO.email}`}
-              className="hidden items-center gap-1.5 whitespace-nowrap transition-colors hover:text-[#E85C4A] md:flex"
+              className="hidden items-center gap-2 text-sm font-medium transition-colors hover:text-[#D6362C] sm:flex"
             >
-              <Mail className="h-3.5 w-3.5 shrink-0 text-[#E85C4A]" strokeWidth={2.5} />
-              <span>{CONTACT_INFO.email}</span>
+              <Mail className="h-4 w-4 text-[#D6362C]" />
+              {CONTACT_INFO.email}
             </a>
+
+            <span className="hidden h-5 w-px bg-white/20 sm:block" />
+
+            <a
+              href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
+              className="flex items-center gap-2 text-sm font-medium transition-colors hover:text-[#D6362C]"
+            >
+              <Phone className="h-4 w-4 text-[#D6362C]" />
+              {CONTACT_INFO.phone}
+            </a>
+
           </div>
 
-          {/* Right Socials */}
-          <div className="flex items-center gap-2 sm:gap-3">
-            <span className="hidden text-[11px] uppercase tracking-wider text-slate-400 lg:inline-block">
-              Follow Us:
-            </span>
-            <div className="flex items-center gap-1.5 sm:gap-2">
+          {/* RIGHT */}
+          <div className="flex h-full items-center">
+
+           <div className="flex items-center gap-1.5 sm:gap-2">
               <a
                 href="https://facebook.com"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Facebook"
-                className="flex h-6 w-6 items-center justify-center rounded-full bg-slate-800 text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
+                className="flex h-6 w-6 items-center justify-center rounded-full bg-[#223f70] text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
               >
                 <FacebookIcon className="h-3 w-3" />
               </a>
@@ -170,7 +236,7 @@ export default function Header() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"
-                className="flex h-6 w-6 items-center justify-center rounded-full bg-slate-800 text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
+                className="flex h-6 w-6 items-center justify-center rounded-full bg-[#223f70] text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
               >
                 <InstagramIcon className="h-3 w-3" />
               </a>
@@ -179,7 +245,7 @@ export default function Header() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
-                className="flex h-6 w-6 items-center justify-center rounded-full bg-slate-800 text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
+                className="flex h-6 w-6 items-center justify-center rounded-full bg-[#223f70] text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
               >
                 <LinkedinIcon className="h-3 w-3" />
               </a>
@@ -188,66 +254,177 @@ export default function Header() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Twitter"
-                className="flex h-6 w-6 items-center justify-center rounded-full bg-slate-800 text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
+                className="flex h-6 w-6 items-center justify-center rounded-full bg-[#223f70] text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
               >
                 <TwitterIcon className="h-3 w-3" />
               </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="YouTube"
-                className="flex h-6 w-6 items-center justify-center rounded-full bg-slate-800 text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
-              >
-                <YoutubeIcon className="h-3 w-3" />
-              </a>
+              
             </div>
+          
+
+            {/* Appointment */}
+           
           </div>
         </div>
       </div>
 
-      {/* ================= 2. MIDDLE BRANDING BAR ================= */}
-      <div className="border-b border-slate-100 bg-white px-4 py-3 sm:px-8 lg:px-12">
-        <div className="mx-auto flex max-w-7xl items-center justify-between">
-          <Link href="/" className="inline-block shrink-0">
+      {/* =====================================================
+          MAIN WHITE HEADER
+      ===================================================== */}
+
+      <div
+        className={`border-b border-slate-100 bg-white transition-all duration-300 ${
+          scrolled
+            ? "sticky top-0 z-40 shadow-md"
+            : "relative z-30"
+        }`}
+      >
+        <div className="mx-auto flex min-h-[82px] max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
+
+          {/* LOGO */}
+          <Link
+            href="/"
+            className="inline-flex shrink-0 items-center"
+          >
             <Image
               src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
               alt="TSE Shaft Elevators (I) Pvt Ltd"
               width={180}
               height={55}
-              className="h-10 w-auto object-contain sm:h-12 lg:h-14"
+              className="h-10 w-auto object-contain sm:h-12"
               priority
             />
           </Link>
 
-          <div className="flex items-center gap-4 sm:gap-7">
-            <div className="hidden items-center gap-3 md:flex">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-[#1B2A5E]">
-                <ShieldCheck className="h-5 w-5 text-[#D6362C]" />
-              </div>
-              <div className="text-left text-xs leading-tight">
-                <p className="font-bold uppercase tracking-wider text-[#1B2A5E]">ISO 9001:2015</p>
-                <p className="text-slate-500">Certified Company</p>
-              </div>
-            </div>
+          {/* DESKTOP NAV */}
+          <nav className="hidden items-center lg:flex">
 
-            <div className="hidden items-center gap-3 lg:flex">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-[#1B2A5E]">
-                <Clock className="h-5 w-5 text-[#D6362C]" />
-              </div>
-              <div className="text-left text-xs leading-tight">
-                <p className="font-bold uppercase tracking-wider text-[#1B2A5E]">24/7 Breakdown</p>
-                <p className="text-slate-500">Emergency Support</p>
-              </div>
-            </div>
+            {NAV_LINKS.map((link) => {
+              const hasChildren =
+                !!link.children && link.children.length > 0;
 
-            {/* Owl Philosophy Offcanvas Button */}
+              const isDropdownOpen =
+                openDropdown === link.label;
+
+              return (
+                <div
+                  key={link.label}
+                  className="relative"
+                  onMouseEnter={() =>
+                    hasChildren &&
+                    setOpenDropdown(link.label)
+                  }
+                  onMouseLeave={() =>
+                    hasChildren &&
+                    setOpenDropdown(null)
+                  }
+                >
+                  <Link
+                    href={link.href}
+                    className="flex items-center gap-1 px-4 py-7 text-sm font-bold text-[#102D5E] transition-colors hover:text-[#D6362C]"
+                  >
+                    {link.label}
+
+                    {hasChildren && (
+                      <ChevronDown
+                        className={`h-3.5 w-3.5 transition-transform duration-200 ${
+                          isDropdownOpen
+                            ? "rotate-180 text-[#D6362C]"
+                            : ""
+                        }`}
+                      />
+                    )}
+                  </Link>
+
+                  {/* DROPDOWN */}
+                  {hasChildren && (
+                    <div
+                      className={`absolute left-0 top-full pt-1 transition-all duration-200 ${
+                        link.label === "Products"
+                          ? "w-[560px]"
+                          : "w-80"
+                      } ${
+                        isDropdownOpen
+                          ? "visible translate-y-0 opacity-100"
+                          : "invisible -translate-y-2 opacity-0"
+                      }`}
+                    >
+                      <div
+                        className={`rounded-b-xl border-t-2 border-[#D6362C] bg-white p-3 text-slate-800 shadow-2xl ${
+                          link.label === "Products"
+                            ? "grid grid-cols-2 gap-2"
+                            : "flex flex-col gap-1"
+                        }`}
+                      >
+                        {link.children!.map((child) => (
+                          <Link
+                            key={child.href}
+                            href={child.href}
+                            onClick={() =>
+                              setOpenDropdown(null)
+                            }
+                            className="group rounded-lg p-3 transition-colors hover:bg-slate-50"
+                          >
+                            <span className="block text-sm font-bold text-[#102D5E] transition-colors group-hover:text-[#D6362C]">
+                              {child.label}
+                            </span>
+
+                            {child.desc && (
+                              <span className="mt-1 block text-xs leading-5 text-slate-500">
+                                {child.desc}
+                              </span>
+                            )}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+
+          </nav>
+
+          {/* RIGHT PHONE + SEARCH + MOBILE */}
+          <div className="flex items-center">
+
+
+            {/* PHONE */}
+            {/* <a
+              href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
+              className="hidden items-center gap-3 xl:flex"
+            >
+              <div className="flex h-12 w-12 items-center justify-center rounded-full border-4 border-red-100 bg-[#D6362C] text-white shadow-md">
+                <Phone className="h-5 w-5" />
+              </div>
+
+              <div className="leading-tight">
+                <span className="block text-xs font-medium text-slate-500">
+                  Call Now!
+                </span>
+
+                <span className="mt-1 block text-base font-extrabold text-[#102D5E]">
+                  +91 99710-22555
+                </span>
+              </div>
+            </a> */}
+
+             <Link
+              href="/contact"
+              className="ml-5 flex min-h-[48px] rounded-md items-center gap-2 bg-[#D6362C] px-5 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#B52A21] sm:px-7"
+            >
+              Enquire Now
+              <ArrowUpRight className="h-4 w-4" />  
+            </Link>
+
+
+            {/* OWL */}
             <button
               type="button"
               onClick={openOffcanvas}
               aria-label="TSE Philosophy"
               title="TSE Philosophy"
-              className="cursor-pointer group flex h-10 w-10 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition-all hover:border-[#D6362C] hover:bg-slate-100"
+              className="group ml-4 hidden h-10 w-10 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition-all hover:border-[#D6362C] hover:bg-red-50 lg:flex"
             >
               <Image
                 src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
@@ -258,121 +435,52 @@ export default function Header() {
               />
             </button>
 
-            {/* Mobile Hamburger Toggle */}
+            {/* MOBILE MENU */}
             <button
               type="button"
               onClick={openMobileNav}
               aria-label="Open navigation menu"
-              className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#1B2A5E] text-white transition-colors hover:bg-[#D6362C] lg:hidden"
+              className="ml-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#102D5E] text-white transition-colors hover:bg-[#D6362C] lg:hidden"
             >
               <Menu className="h-5 w-5" />
             </button>
+
           </div>
         </div>
       </div>
 
-      {/* ================= 3. DESKTOP MENUBAR ================= */}
+      {/* =====================================================
+          OWL PHILOSOPHY OFFCANVAS
+      ===================================================== */}
+
       <div
-        className={`w-full border-b border-slate-800 bg-[#1B2A5E] text-white transition-all duration-300 px-4 sm:px-8 lg:px-12 hidden lg:block ${
-          scrolled
-            ? "sticky top-0 z-50 shadow-2xl bg-[#1B2A5E]/95 backdrop-blur-md"
-            : "relative z-30 shadow-none"
+        className={`fixed inset-0 z-[100] transition-all duration-300 ${
+          offcanvasOpen
+            ? "visible pointer-events-auto"
+            : "invisible pointer-events-none"
         }`}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between">
-          <nav className="flex items-center">
-            {NAV_LINKS.map((link) => {
-              const hasChildren = !!link.children && link.children.length > 0;
-              const isDropdownOpen = openDropdown === link.label;
 
-              return (
-                <div
-                  key={link.label}
-                  className="relative"
-                  onMouseEnter={() => hasChildren && setOpenDropdown(link.label)}
-                  onMouseLeave={() => hasChildren && setOpenDropdown(null)}
-                >
-                  <Link
-                    href={link.href}
-                    className="flex items-center gap-1.5 px-5 py-4 text-sm font-semibold tracking-wide text-slate-100 transition-colors hover:bg-[#D6362C] hover:text-white"
-                  >
-                    {link.label}
-                    {hasChildren && (
-                      <ChevronDown
-                        className={`h-4 w-4 opacity-75 transition-transform duration-200 ${
-                          isDropdownOpen ? "rotate-180 opacity-100" : ""
-                        }`}
-                      />
-                    )}
-                  </Link>
-
-                  {/* Dropdown Menu */}
-                  {hasChildren && (
-                    <div
-                      className={`absolute left-0 top-full pt-1 transition-all duration-200 ${
-                        link.label === "Products" ? "w-[560px]" : "w-80"
-                      } ${
-                        isDropdownOpen
-                          ? "pointer-events-auto translate-y-0 opacity-100 visible"
-                          : "pointer-events-none -translate-y-2 opacity-0 invisible"
-                      }`}
-                    >
-                      <div
-                        className={`rounded-b-lg border-t-2 border-[#D6362C] bg-white p-3 text-slate-800 shadow-2xl ${
-                          link.label === "Products" ? "grid grid-cols-2 gap-2" : "flex flex-col gap-1"
-                        }`}
-                      >
-                        {link.children!.map((child) => (
-                          <Link
-                            key={child.href}
-                            href={child.href}
-                            onClick={() => setOpenDropdown(null)}
-                            className="group flex flex-col rounded-md p-2.5 transition-colors hover:bg-slate-50"
-                          >
-                            <span className="text-sm font-semibold text-[#1B2A5E] transition-colors group-hover:text-[#D6362C]">
-                              {child.label}
-                            </span>
-                            {child.desc && (
-                              <span className="mt-0.5 text-xs text-slate-500">{child.desc}</span>
-                            )}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </nav>
-
-          <Link
-            href="/contact"
-            className="my-2 flex items-center gap-1.5 rounded bg-[#D6362C] px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white shadow transition-all hover:bg-[#b52a21] hover:shadow-lg active:scale-95"
-          >
-            Get a Quote
-            <ArrowUpRight className="h-4 w-4" />
-          </Link>
-        </div>
-      </div>
-
-      {/* ================= 4. OWL PHILOSOPHY OFFCANVAS MODAL ================= */}
-      <div
-        className={`fixed inset-0 z-50 transition-all duration-300 ${
-          offcanvasOpen ? "visible pointer-events-auto" : "invisible pointer-events-none"
-        }`}
-      >
+        {/* Overlay */}
         <div
           onClick={closeOffcanvas}
           className={`absolute inset-0 bg-slate-950/60 backdrop-blur-sm transition-opacity duration-300 ${
-            offcanvasOpen ? "opacity-100" : "opacity-0"
+            offcanvasOpen
+              ? "opacity-100"
+              : "opacity-0"
           }`}
         />
 
+        {/* Drawer */}
         <div
-          className={`relative ml-auto flex h-full w-full max-w-2xl flex-col bg-white text-slate-700 shadow-2xl transition-transform duration-300 ease-out overflow-hidden ${
-            offcanvasOpen ? "translate-x-0" : "translate-x-full"
+          className={`relative ml-auto flex h-full w-full max-w-2xl flex-col overflow-hidden bg-white text-slate-700 shadow-2xl transition-transform duration-300 ${
+            offcanvasOpen
+              ? "translate-x-0"
+              : "translate-x-full"
           }`}
         >
+
+          {/* Watermark */}
           <div className="pointer-events-none absolute -bottom-10 -right-10 opacity-[0.04]">
             <Image
               src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
@@ -383,8 +491,11 @@ export default function Header() {
             />
           </div>
 
-          <div className="relative z-10 flex items-center justify-between border-b border-slate-100 bg-slate-50/80 px-6 py-5 backdrop-blur-md">
+          {/* Drawer Header */}
+          <div className="relative z-10 flex items-center justify-between border-b border-slate-100 bg-slate-50 px-6 py-5">
+
             <div className="flex items-center gap-3">
+
               <Image
                 src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
                 alt="TSE Shaft Elevators"
@@ -392,11 +503,14 @@ export default function Header() {
                 height={45}
                 className="h-10 w-auto object-contain"
               />
+
               <span className="h-6 w-px bg-slate-200" />
+
               <div className="flex items-center gap-1.5 rounded-full bg-[#D6362C]/10 px-3 py-1 text-xs font-semibold text-[#D6362C]">
                 <Sparkles className="h-3.5 w-3.5" />
-                <span>Our Philosophy</span>
+                Our Philosophy
               </div>
+
             </div>
 
             <button
@@ -406,177 +520,223 @@ export default function Header() {
             >
               <X className="h-5 w-5" />
             </button>
+
           </div>
 
-          <div className="relative z-10 flex-1 overflow-y-auto p-6 md:p-8 space-y-6 text-sm leading-relaxed text-slate-600">
-            <div className="rounded-2xl border border-slate-100 bg-slate-50/60 p-5">
+          {/* Drawer Content */}
+          <div className="relative z-10 flex-1 space-y-6 overflow-y-auto p-6 text-sm leading-relaxed text-slate-600 md:p-8">
+
+            <div className="rounded-2xl border border-slate-100 bg-slate-50 p-5">
               <p className="text-slate-700">
-                Owls are often associated with <strong className="text-[#1B2A5E]">wisdom, keen observation, and vigilance</strong>. They are known for their energy efficiency in hunting, relying on their sharp senses rather than excessive physical activity. Owls are nocturnal in nature and have specialized feathers that enable them to fly silently.
+                Owls are often associated with{" "}
+                <strong className="text-[#102D5E]">
+                  wisdom, keen observation, and vigilance
+                </strong>
+                . They are known for their energy efficiency in
+                hunting and their silent movement.
               </p>
             </div>
 
             <p>
-              Thinking about all the qualities of an owl, we relate our elevator business with its characteristics. Using the owl logo as a watermark in our website has been our aim in depicting our honest and intrigued practices. Some of the aspects that we closely relate to these nocturnal are:
+              Thinking about all the qualities of an owl, we relate
+              our elevator business with its characteristics. Using
+              the owl logo as a watermark represents our honest and
+              thoughtful practices.
             </p>
 
             <div className="space-y-3">
-              <div className="flex items-start gap-3 rounded-xl border border-slate-100 bg-white p-3.5 shadow-sm">
-                <CheckCircle2 className="h-5 w-5 shrink-0 text-[#D6362C] mt-0.5" />
-                <span className="text-slate-700 font-medium">
-                  We design our elevators with precision and constantly ensure passenger safety.
-                </span>
-              </div>
 
-              <div className="flex items-start gap-3 rounded-xl border border-slate-100 bg-white p-3.5 shadow-sm">
-                <CheckCircle2 className="h-5 w-5 shrink-0 text-[#D6362C] mt-0.5" />
-                <span className="text-slate-700 font-medium">
-                  Our products have energy-efficient features as they consume low power.
-                </span>
-              </div>
+              {[
+                "We design our elevators with precision and constantly ensure passenger safety.",
+                "Our products have energy-efficient features as they consume low power.",
+                "Our noise reduction quality promotes quiet and comfortable elevator operation.",
+                "Our elevators ensure excellent working conditions with round-the-clock monitoring and maintenance.",
+              ].map((text, index) => (
+                <div
+                  key={index}
+                  className="flex items-start gap-3 rounded-xl border border-slate-100 bg-white p-3.5 shadow-sm"
+                >
+                  <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#D6362C]" />
 
-              <div className="flex items-start gap-3 rounded-xl border border-slate-100 bg-white p-3.5 shadow-sm">
-                <CheckCircle2 className="h-5 w-5 shrink-0 text-[#D6362C] mt-0.5" />
-                <span className="text-slate-700 font-medium">
-                  The noise reduction quality relates to the owl&apos;s flying silently, promoting elevators with quiet operation. This offers our customers a comfortable elevator experience with peace of mind.
-                </span>
-              </div>
+                  <span className="font-medium text-slate-700">
+                    {text}
+                  </span>
+                </div>
+              ))}
 
-              <div className="flex items-start gap-3 rounded-xl border border-slate-100 bg-white p-3.5 shadow-sm">
-                <CheckCircle2 className="h-5 w-5 shrink-0 text-[#D6362C] mt-0.5" />
-                <span className="text-slate-700 font-medium">
-                  Our elevators ensure excellent working conditions, ensuring round the clock monitoring and maintenance.
-                </span>
-              </div>
             </div>
 
-            <div className="rounded-xl border-l-4 border-[#D6362C] bg-slate-50 p-4 text-slate-700 italic">
-              &quot;Just like owls move silently and fly higher, our elevators also work smoothly without any interruptions or unwanted sound and give you an excellent vertical experience.&quot;
+            <div className="rounded-xl border-l-4 border-[#D6362C] bg-slate-50 p-4 italic text-slate-700">
+              “Just like owls move silently and fly higher, our
+              elevators work smoothly without interruptions or
+              unwanted sound.”
             </div>
 
-            <div className="rounded-2xl border border-slate-200 bg-[#0B1130] p-5 text-white">
-              <p className="text-xs uppercase tracking-wider text-slate-400 font-bold">
+            {/* Contact */}
+            <div className="rounded-2xl bg-[#102D5E] p-5 text-white">
+
+              <p className="text-xs font-bold uppercase tracking-wider text-slate-300">
                 Get In Touch With Engineers
               </p>
-              <div className="mt-3 flex flex-wrap items-center gap-4 text-sm font-semibold">
+
+              <div className="mt-4 flex flex-wrap gap-4 text-sm font-semibold">
+
                 <a
                   href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
-                  className="flex items-center gap-1.5 transition-colors hover:text-[#E85C4A]"
+                  className="flex items-center gap-2 transition-colors hover:text-[#D6362C]"
                 >
-                  <Phone className="h-4 w-4 text-[#E85C4A]" />
-                  <span>{CONTACT_INFO.phone}</span>
+                  <Phone className="h-4 w-4 text-[#D6362C]" />
+                  {CONTACT_INFO.phone}
                 </a>
-                <span className="text-slate-600">•</span>
+
                 <a
                   href={`mailto:${CONTACT_INFO.email}`}
-                  className="flex items-center gap-1.5 transition-colors hover:text-[#E85C4A]"
+                  className="flex items-center gap-2 transition-colors hover:text-[#D6362C]"
                 >
-                  <Mail className="h-4 w-4 text-[#E85C4A]" />
-                  <span>{CONTACT_INFO.email}</span>
+                  <Mail className="h-4 w-4 text-[#D6362C]" />
+                  {CONTACT_INFO.email}
                 </a>
+
               </div>
             </div>
+
           </div>
         </div>
       </div>
 
-      {/* ================= 5. MOBILE NAVIGATION DRAWER ================= */}
+      {/* =====================================================
+          MOBILE NAVIGATION
+      ===================================================== */}
+
       {mobileNavOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col bg-white lg:hidden">
+        <div className="fixed inset-0 z-[100] flex flex-col bg-white lg:hidden">
+
+          {/* Mobile Header */}
           <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">
+
             <Link href="/" onClick={closeMobileNav}>
               <Image
                 src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
                 alt="TSE Elevators"
-                width={130}
+                width={140}
                 height={45}
-                className="h-9 w-auto object-contain"
+                className="h-10 w-auto object-contain"
               />
             </Link>
+
             <button
               type="button"
               onClick={closeMobileNav}
-              className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-100 text-slate-700"
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-slate-700 transition-colors hover:bg-[#D6362C] hover:text-white"
             >
               <X className="h-5 w-5" />
             </button>
+
           </div>
 
+          {/* Mobile Navigation */}
           <nav className="flex-1 overflow-y-auto px-5 py-4">
+
             <ul className="divide-y divide-slate-100">
+
               {NAV_LINKS.map((link) => {
-                const hasChildren = !!link.children && link.children.length > 0;
-                const isExpanded = mobileExpanded === link.label;
+                const hasChildren =
+                  !!link.children && link.children.length > 0;
+
+                const isExpanded =
+                  mobileExpanded === link.label;
 
                 return (
-                  <li key={link.label} className="py-2.5">
+                  <li
+                    key={link.label}
+                    className="py-3"
+                  >
+
                     {hasChildren ? (
                       <div>
+
                         <button
                           type="button"
                           onClick={() =>
-                            setMobileExpanded((prev) => (prev === link.label ? null : link.label))
+                            setMobileExpanded((prev) =>
+                              prev === link.label
+                                ? null
+                                : link.label
+                            )
                           }
-                          className="flex w-full items-center justify-between text-left text-base font-semibold text-[#1B2A5E]"
+                          className="flex w-full items-center justify-between text-left text-base font-bold text-[#102D5E]"
                         >
                           <span>{link.label}</span>
+
                           <ChevronDown
-                            className={`h-4 w-4 transition-transform duration-200 ${
-                              isExpanded ? "rotate-180 text-[#D6362C]" : "text-slate-400"
+                            className={`h-4 w-4 transition-transform ${
+                              isExpanded
+                                ? "rotate-180 text-[#D6362C]"
+                                : "text-slate-400"
                             }`}
                           />
                         </button>
 
                         {isExpanded && (
-                          <div className="mt-2 space-y-1.5 border-l-2 border-[#D6362C] pl-3">
+                          <div className="mt-3 space-y-2 border-l-2 border-[#D6362C] pl-4">
+
                             {link.children!.map((child) => (
                               <Link
                                 key={child.href}
                                 href={child.href}
                                 onClick={closeMobileNav}
-                                className="block py-1.5 text-sm font-medium text-slate-600 hover:text-[#D6362C]"
+                                className="block py-1 text-sm font-medium text-slate-600 transition-colors hover:text-[#D6362C]"
                               >
                                 {child.label}
                               </Link>
                             ))}
+
                           </div>
                         )}
+
                       </div>
                     ) : (
                       <Link
                         href={link.href}
                         onClick={closeMobileNav}
-                        className="flex items-center py-1 text-base font-semibold text-[#1B2A5E] hover:text-[#D6362C]"
+                        className="flex py-1 text-base font-bold text-[#102D5E] transition-colors hover:text-[#D6362C]"
                       >
-                        <span>{link.label}</span>
+                        {link.label}
                       </Link>
                     )}
+
                   </li>
                 );
               })}
+
             </ul>
           </nav>
 
-          <div className="border-t border-slate-100 bg-slate-50 p-5 space-y-3">
+          {/* Mobile Bottom */}
+          <div className="space-y-3 border-t border-slate-100 bg-slate-50 p-5">
+
             <Link
               href="/contact"
               onClick={closeMobileNav}
-              className="flex w-full items-center justify-center gap-1.5 rounded bg-[#D6362C] py-3 text-xs font-bold uppercase tracking-wider text-white shadow"
+              className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#D6362C] py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-md transition-colors hover:bg-[#B52A21]"
             >
               Get a Free Quote
               <ArrowUpRight className="h-4 w-4" />
             </Link>
-            <div className="flex justify-center gap-3 pt-1">
-              <a
-                href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
-                className="flex items-center gap-1.5 text-xs font-semibold text-[#1B2A5E]"
-              >
-                <Phone className="h-3.5 w-3.5 text-[#D6362C]" />
-                {CONTACT_INFO.phone}
-              </a>
-            </div>
+
+            <a
+              href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
+              className="flex items-center justify-center gap-2 pt-1 text-sm font-bold text-[#102D5E]"
+            >
+              <Phone className="h-4 w-4 text-[#D6362C]" />
+              {CONTACT_INFO.phone}
+            </a>
+
           </div>
+
         </div>
       )}
+
     </header>
   );
 }

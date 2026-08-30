@@ -51,7 +51,7 @@ const staggerContainer = {
 
 export default function AboutSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#0A0F26] py-8 sm:py-10 lg:py-15 text-slate-100">
+    <section className="relative w-full overflow-hidden bg-[#ffffff] py-8 sm:py-10 lg:py-15 text-black">
       {/* Background Architectural Grid & Subtle Ambient Glows */}
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]" />
       <div className="pointer-events-none absolute -left-32 top-20 h-96 w-96 rounded-full bg-[#D6362C]/10 blur-[130px]" />
@@ -71,21 +71,21 @@ export default function AboutSection() {
             {/* Tagline */}
             <motion.div variants={fadeInUp} className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3.5 py-1.5 backdrop-blur-md self-start">
               <span className="h-2 w-2 rounded-full bg-[#D6362C] animate-pulse" />
-              <span className="text-[11px] font-bold uppercase tracking-widest text-slate-300">
+              <span className="text-[11px] font-bold uppercase tracking-widest text-black">
                 Pioneering Vertical Engineering
               </span>
             </motion.div>
 
             {/* Section 1: Lift Manufacturers in Delhi */}
             <motion.div variants={fadeInUp} className="mt-6">
-              <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-[42px] lg:leading-tight">
+              <h2 className="text-3xl font-extrabold tracking-tight text-[#273b76] sm:text-4xl lg:text-[42px] lg:leading-tight">
                 Lift Manufacturers in{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6B5A] to-[#E85C4A]">
                   Delhi
                 </span>
               </h2>
 
-              <p className="mt-4 text-sm leading-relaxed text-slate-300 sm:text-base">
+              <p className="mt-4 text-sm leading-relaxed text-black sm:text-base">
                 We are the leading Lift Manufacturers in Delhi, offering turnkey mobility solutions to Residential, Commercial, and Public Transportation Buildings. Our precision portfolio includes home elevators, passenger elevators, residential lifts, capsule lifts, and escalators—engineered to world-class safety standards at the most competitive value.
               </p>
 
@@ -95,7 +95,7 @@ export default function AboutSection() {
                 className="mt-4 flex items-start gap-3 rounded-xl border border-white/10 bg-white/[0.03] p-3.5 backdrop-blur-sm transition-colors hover:border-[#D6362C]/30 hover:bg-white/[0.05]"
               >
                 <Wrench className="h-5 w-5 shrink-0 text-[#E85C4A] mt-0.5" />
-                <p className="text-xs leading-relaxed text-slate-300 sm:text-sm">
+                <p className="text-xs leading-relaxed text-black sm:text-sm">
                   Apart from new elevator manufacturing, our certified technical team provides comprehensive repair, modernizations, and proactive Annual Maintenance Contracts (AMC) across Delhi-NCR.
                 </p>
               </motion.div>
@@ -165,7 +165,7 @@ export default function AboutSection() {
                           TSE Panoramic Series
                         </h4>
                       </div>
-                      <div className="flex items-center gap-1 text-xs font-semibold text-slate-300">
+                      <div className="flex items-center gap-1 text-xs font-semibold text-black">
                         <ShieldCheck className="h-4 w-4 text-[#E85C4A]" />
                         <span>EN-81 Safety</span>
                       </div>

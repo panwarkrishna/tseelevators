@@ -67,11 +67,9 @@ export default function TestimonialsSection() {
   };
 
   return (
-    <section className="relative w-full overflow-hidden bg-[#0A0F26] py-8 sm:py-10 lg:py-15 text-white">
+    <section className="relative w-full overflow-hidden bg-[#f7f7f7] py-8 sm:py-10 lg:py-15 text-black">
       {/* Background Ambient Glows */}
-      <div className="pointer-events-none absolute -left-32 top-1/4 h-96 w-96 rounded-full bg-[#D6362C]/10 blur-[150px]" />
-      <div className="pointer-events-none absolute -right-32 bottom-1/4 h-96 w-96 rounded-full bg-[#1B2A5E]/50 blur-[150px]" />
-
+ 
       <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         
         {/* ================= SECTION HEADER & CONTROLS ================= */}
@@ -92,7 +90,7 @@ export default function TestimonialsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="mt-3 text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-[42px]"
+              className="mt-3 text-3xl font-extrabold tracking-tight text-black sm:text-4xl lg:text-[42px]"
             >
               We Build Customer Trust and Loyalty
             </motion.h2>
@@ -107,24 +105,25 @@ export default function TestimonialsSection() {
           </div>
 
           {/* Navigation Buttons */}
-          <div className="flex items-center gap-3">
-            <button
-              type="button"
-              onClick={handlePrev}
-              aria-label="Previous testimonial"
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-white/5 text-white transition-all duration-200 hover:border-[#D6362C] hover:bg-[#D6362C] active:scale-95 shadow-lg cursor-pointer"
-            >
-              <ArrowLeft className="h-5 w-5" />
-            </button>
-            <button
-              type="button"
-              onClick={handleNext}
-              aria-label="Next testimonial"
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-white/5 text-white transition-all duration-200 hover:border-[#D6362C] hover:bg-[#D6362C] active:scale-95 shadow-lg cursor-pointer"
-            >
-              <ArrowRight className="h-5 w-5" />
-            </button>
-          </div>
+         <div className="flex items-center gap-3">
+  <button
+    type="button"
+    onClick={handlePrev}
+    aria-label="Previous testimonial"
+    className="flex h-12 w-12 items-center justify-center rounded-full border border-black/20 bg-black/5 text-black transition-all duration-200 hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white active:scale-95 shadow-lg cursor-pointer"
+  >
+    <ArrowLeft className="h-5 w-5" />
+  </button>
+
+  <button
+    type="button"
+    onClick={handleNext}
+    aria-label="Next testimonial"
+    className="flex h-12 w-12 items-center justify-center rounded-full border border-[#D6362C] bg-[#D6362C] text-white transition-all duration-200 hover:bg-[#b52a21] hover:border-[#b52a21] active:scale-95 shadow-lg cursor-pointer"
+  >
+    <ArrowRight className="h-5 w-5" />
+  </button>
+</div>
         </div>
 
         {/* ================= TESTIMONIAL CARDS CONTAINER ================= */}
@@ -145,7 +144,7 @@ export default function TestimonialsSection() {
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: direction * -50 }}
                     transition={{ duration: 0.4, ease: "easeInOut" }}
-                    className="relative flex flex-col justify-between w-full rounded-3xl border border-white/10 bg-gradient-to-br from-slate-900/90 to-slate-950/90 p-8 sm:p-10 shadow-2xl backdrop-blur-xl group hover:border-[#D6362C]/40 transition-all duration-300"
+                    className="relative flex flex-col justify-between w-full rounded-3xl bg-white p-8 sm:p-10 transition-all duration-300"
                   >
                     <div>
                       {/* Top Row: Quote Icon & Stars */}
@@ -161,7 +160,7 @@ export default function TestimonialsSection() {
                       </div>
 
                       {/* Quote Text */}
-                      <p className="text-sm sm:text-base leading-relaxed text-slate-300 italic">
+                      <p className="text-sm sm:text-base leading-relaxed text-black italic">
                         &ldquo;{item.quote}&rdquo;
                       </p>
                     </div>
@@ -169,7 +168,7 @@ export default function TestimonialsSection() {
                     {/* Client Info Footer */}
                     <div className="mt-8 pt-6 border-t border-white/10 flex items-center justify-between">
                       <div>
-                        <h3 className="text-base font-bold text-white tracking-wide">
+                        <h3 className="text-base font-bold text-black tracking-wide">
                           {item.clientName}
                         </h3>
                         <p className="text-xs font-medium text-[#E85C4A] mt-0.5">

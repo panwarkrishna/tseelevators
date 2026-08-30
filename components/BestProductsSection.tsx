@@ -101,7 +101,7 @@ const cardVariants = {
 
 export default function BestProductsSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-white py-8 sm:py-10 lg:py-15 text-slate-900">
+    <section className="relative w-full overflow-hidden bg-[#f7f7f7] py-8 sm:py-10 lg:py-15 text-slate-900">
       {/* Background Architectural Grid Pattern */}
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000004_1px,transparent_1px),linear-gradient(to_bottom,#00000004_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_40%,#000_70%,transparent_100%)]" />
 

@@ -26,7 +26,7 @@ const SLIDES_DATA: SlideItem[] = [
     title: "Lift Manufacturers in Delhi",
     description:
       "Living in Delhi and finding your gateway to vertical luxury, speed, and convenience? If you're a homeowner who values speed, convenience, and elegance, you've come to the right place.",
-    ctaText: "Order Now",
+    ctaText: "Enquire Now",
     ctaLink: "/contact",
     image:
       "https://img.magnific.com/free-photo/view-lift_107420-65780.jpg?t=st=1787844356~exp=1787847956~hmac=8771589df89e4d972b033ae5a871677b9c3474831b734cbb8632c64e189f71d7&w=1480",
@@ -37,7 +37,7 @@ const SLIDES_DATA: SlideItem[] = [
     title: "Bespoke Glass Elevators",
     description:
       "Engineered for modern villas and bungalows with noiseless gearless traction technology, seamless panoramic glass, and zero civil-pit requirements.",
-    ctaText: "Order Now",
+    ctaText: "Enquire Now",
     ctaLink: "/contact",
     image:
       "https://img.magnific.com/free-photo/indoor-hotel-view_1417-1562.jpg?t=st=1787844380~exp=1787847980~hmac=095b5fff1a7bd91d2b3bfc9b3ef1a36937cc4c899a80edf64cf98b4582d66098&w=1480",
@@ -48,7 +48,7 @@ const SLIDES_DATA: SlideItem[] = [
     title: "Hospital & Freight Lifts",
     description:
       "Heavy load-bearing elevators engineered for 24/7 uptime with anti-bacterial stainless cabins, smart microprocessors, and automated emergency safety.",
-    ctaText: "Order Now",
+    ctaText: "Enquire Now",
     ctaLink: "/contact",
     image:
       "https://img.magnific.com/free-vector/hotel-elevator-mockup-lift-tv-screen-lobby_107791-28757.jpg?t=st=1787844454~exp=1787848054~hmac=d0cdf03f7114f27ea3cb9861ff32c0242ff2a55756ff402484e575034f708d4c&w=1480",

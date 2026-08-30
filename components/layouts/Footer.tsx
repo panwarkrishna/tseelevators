@@ -54,7 +54,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative w-full bg-white text-slate-700 font-sans border-t border-slate-200">
+    <footer className="relative w-full bg-[#273b76] text-white font-sans border-t border-slate-200">
       
       {/* Top Banner Feature Strip */}
       <div className="border-b border-slate-100 bg-slate-50 py-8 ">
@@ -90,64 +90,90 @@ export default function Footer() {
           {/* Column 1: Brand Info & Socials (Col 4) */}
           <div className="lg:col-span-4 space-y-5">
             <div className="inline-block">
-              <Image
+              <span className="bg-[#ffffff] inline-block">
+                <Image
                 src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
                 alt="TSE Shaft Elevators"
-                width={150}
-                height={50}
+                width={200}
+                height={70}
                 className="h-11 w-auto object-contain"
-              />
+              /></span>
             </div>
 
-            <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
+            <p className="text-xs sm:text-sm leading-relaxed text-white">
               We are the leading elevator manufacturers in Delhi NCR, offering high-performance residential, commercial, and industrial vertical transport solutions.
             </p>
 
             <div className="space-y-2.5 pt-1">
-              <a href="tel:+919971022555" className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-800 transition-colors hover:text-[#D6362C]">
+              <a href="tel:+919971022555" className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-white transition-colors hover:text-[#D6362C]">
                 <Phone className="h-4 w-4 text-[#D6362C]" />
                 <span>+91 99710-22555</span>
               </a>
-              <a href="mailto:info@tseelevators.com" className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-800 transition-colors hover:text-[#D6362C]">
+              <a href="mailto:info@tseelevators.com" className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-white transition-colors hover:text-[#D6362C]">
                 <Mail className="h-4 w-4 text-[#D6362C]" />
                 <span>info@tseelevators.com</span>
               </a>
             </div>
 
             {/* Social Icons */}
-            <div className="flex items-center gap-2 pt-2">
-              <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook" className="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-100 text-slate-700 transition-colors hover:bg-[#D6362C] hover:text-white border border-slate-200">
-                <FacebookIcon className="h-4 w-4" />
+                <div className="flex items-center gap-1.5 sm:gap-2">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+                className="flex h-6 w-6 items-center justify-center rounded-full bg-[#1c2e62] text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
+              >
+                <FacebookIcon className="h-3 w-3" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram" className="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-100 text-slate-700 transition-colors hover:bg-[#D6362C] hover:text-white border border-slate-200">
-                <InstagramIcon className="h-4 w-4" />
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+                className="flex h-6 w-6 items-center justify-center rounded-full bg-[#1c2e62] text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
+              >
+                <InstagramIcon className="h-3 w-3" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-100 text-slate-700 transition-colors hover:bg-[#D6362C] hover:text-white border border-slate-200">
-                <LinkedinIcon className="h-4 w-4" />
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+                className="flex h-6 w-6 items-center justify-center rounded-full bg-[#1c2e62] text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
+              >
+                <LinkedinIcon className="h-3 w-3" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter" className="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-100 text-slate-700 transition-colors hover:bg-[#D6362C] hover:text-white border border-slate-200">
-                <TwitterIcon className="h-4 w-4" />
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Twitter"
+                className="flex h-6 w-6 items-center justify-center rounded-full bg-[#1c2e62] text-slate-300 transition-colors hover:bg-[#E85C4A] hover:text-white"
+              >
+                <TwitterIcon className="h-3 w-3" />
               </a>
+              
             </div>
           </div>
 
           {/* Column 2: Offices (Col 4) */}
           <div className="lg:col-span-4 space-y-6">
             <div>
-              <h4 className="text-xs font-bold uppercase tracking-widest text-[#1B2A5E] border-l-2 border-[#D6362C] pl-3">
+              <h4 className="text-xs font-bold uppercase tracking-widest text-[#ffffff] border-l-2 border-[#D6362C] pl-3">
                 Head Office
               </h4>
-              <p className="mt-2.5 flex items-start gap-2.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              <p className="mt-2.5 flex items-start gap-2.5 text-xs sm:text-sm text-white leading-relaxed">
                 <MapPin className="h-4 w-4 shrink-0 text-[#D6362C] mt-0.5" />
                 <span>Shop No.– 12, DDA Market, Lado Sarai New Delhi – 110030</span>
               </p>
             </div>
 
             <div>
-              <h4 className="text-xs font-bold uppercase tracking-widest text-[#1B2A5E] border-l-2 border-[#D6362C] pl-3">
+              <h4 className="text-xs font-bold uppercase tracking-widest text-[#ffffff] border-l-2 border-[#D6362C] pl-3">
                 Branch Office
               </h4>
-              <p className="mt-2.5 flex items-start gap-2.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              <p className="mt-2.5 flex items-start gap-2.5 text-xs sm:text-sm text-white leading-relaxed">
                 <MapPin className="h-4 w-4 shrink-0 text-[#D6362C] mt-0.5" />
                 <span>S.C.O. No. 635, Second Floor, PUDA Gateway City, Sector 119, Mohali – 140501</span>
               </p>
@@ -156,7 +182,7 @@ export default function Footer() {
 
           {/* Column 3: Useful Links (Col 2) */}
           <div className="lg:col-span-2">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-[#1B2A5E] border-l-2 border-[#D6362C] pl-3">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#ffffff] border-l-2 border-[#D6362C] pl-3">
               Useful Links
             </h4>
             <ul className="mt-4 space-y-2.5">
@@ -164,7 +190,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="group flex items-center gap-2 text-xs sm:text-sm text-slate-600 transition-colors hover:text-[#D6362C]"
+                    className="group flex items-center gap-2 text-xs sm:text-sm text-white transition-colors hover:text-[#D6362C]"
                   >
                     <ChevronRight className="h-3 w-3 text-[#D6362C] transition-transform group-hover:translate-x-1" />
                     <span>{link.label}</span>
@@ -176,7 +202,7 @@ export default function Footer() {
 
           {/* Column 4: Popular Searches (Col 2) */}
           <div className="lg:col-span-2">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-[#1B2A5E] border-l-2 border-[#D6362C] pl-3">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#ffffff] border-l-2 border-[#D6362C] pl-3">
               Popular Searches
             </h4>
             <ul className="mt-4 space-y-2.5">
@@ -184,7 +210,7 @@ export default function Footer() {
                 <li key={index}>
                   <Link
                     href={item.href}
-                    className="group flex items-center gap-2 text-xs sm:text-sm text-slate-600 transition-colors hover:text-[#D6362C]"
+                    className="group flex items-center gap-2 text-xs sm:text-sm text-white transition-colors hover:text-[#D6362C]"
                   >
                     <ChevronRight className="h-3 w-3 text-[#D6362C] transition-transform group-hover:translate-x-1" />
                     <span>{item.label}</span>
@@ -198,7 +224,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-slate-200 bg-[#0A0F26]  py-6">
+      <div className="border-t border-slate-200 bg-[#273b76]  py-6">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 text-xs text-white sm:flex-row px-5 sm:px-8 lg:px-12">
           <p>© 2026 TSE Shaft Elevators (I) Pvt Ltd. All Rights Reserved.</p>
 
