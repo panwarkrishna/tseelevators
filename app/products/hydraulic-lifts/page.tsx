@@ -285,18 +285,22 @@ export default function ContactPage() {
                     <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
                       <FileText className="h-4 w-4 text-[#D6362C]" />
                     </div>
+
                     <input
                       type="text"
                       placeholder="Requirement"
                       className="w-full rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
                     />
                   </div>
+
                 </div>
+
                 {/* Message */}
                 <div className="relative">
                   <div className="pointer-events-none absolute left-3.5 top-4">
                     <MessageSquare className="h-4 w-4 text-[#D6362C]" />
                   </div>
+
                   <textarea
                     rows={7}
                     placeholder="How can we help you? Feel free to get in touch!"
@@ -304,6 +308,7 @@ export default function ContactPage() {
                     className="w-full resize-none rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
                   />
                 </div>
+
                 {/* Consent */}
                 <div className="flex items-start gap-3">
                   <input
@@ -312,6 +317,7 @@ export default function ContactPage() {
                     required
                     className="mt-0.5 h-4 w-4 cursor-pointer rounded border-slate-300 text-[#D6362C] focus:ring-[#D6362C]"
                   />
+
                   <label
                     htmlFor="consent"
                     className="cursor-pointer text-xs leading-relaxed text-slate-600 sm:text-sm"
@@ -319,6 +325,7 @@ export default function ContactPage() {
                     I agree that my data is collected and stored.
                   </label>
                 </div>
+
                 {/* Submit */}
                 <button
                   type="submit"
@@ -327,8 +334,10 @@ export default function ContactPage() {
                   <Send className="h-4 w-4" />
                   <span>Get In Touch</span>
                 </button>
+
               </form>
             </div>
+
           </div>
         </div>
       </section>

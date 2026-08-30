@@ -1,14 +1,20 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   output: 'export',
+
   basePath: '/tseelevators',
-  trailingSlash: true,
+
+  trailingSlash: false,
+
   typescript: {
     ignoreBuildErrors: true,
   },
-   env: {
+
+  env: {
     NEXT_PUBLIC_BASE_PATH: '/tseelevators',
   },
+
   images: {
     unoptimized: true,
   },

@@ -10,11 +10,8 @@ import {
   Mail,
   ChevronDown,
   ArrowUpRight,
-  Clock,
-  ShieldCheck,
   CheckCircle2,
   Sparkles,
-  Search,
 } from "lucide-react";
 
 // ================= SOCIAL ICONS =================
@@ -27,25 +24,19 @@ const FacebookIcon = ({ className }: { className?: string }) => (
 
 const InstagramIcon = ({ className }: { className?: string }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24">
-    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.79 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
   </svg>
 );
 
 const LinkedinIcon = ({ className }: { className?: string }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24">
-    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.762 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
   </svg>
 );
 
 const TwitterIcon = ({ className }: { className?: string }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24">
-    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-  </svg>
-);
-
-const YoutubeIcon = ({ className }: { className?: string }) => (
-  <svg className={className} fill="currentColor" viewBox="0 0 24 24">
-    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231z" />
   </svg>
 );
 
@@ -70,34 +61,28 @@ const NAV_LINKS: NavLink[] = [
     href: "/products",
     children: [
       {
-        label: "Passenger Elevators",
-        href: "/products/passenger-elevators",
-        desc: "For apartments & corporate towers",
+        label: "Residential Lift",
+        href: "/products/residential-lifts",
       },
       {
-        label: "Home / Villa Elevators",
-        href: "/products/home-elevators",
-        desc: "Compact & smooth luxury residential lifts",
+        label: "Passenger Lift",
+        href: "/products/passenger-lifts",
       },
       {
-        label: "Hospital Elevators",
-        href: "/products/hospital-elevators",
-        desc: "Stretcher & bed-capacity medical lifts",
+        label: "Hydraulic Lift",
+        href: "/products/hydraulic-lifts",
       },
       {
-        label: "Freight & Goods Lifts",
-        href: "/products/freight-elevators",
-        desc: "Heavy industrial payload lifts",
+        label: "Commercial Lift",
+        href: "/products/commercial-lifts",
       },
       {
-        label: "Hydraulic Elevators",
-        href: "/products/hydraulic-elevators",
-        desc: "Low-rise hydraulic system solutions",
+        label: "Pitless Lift",
+        href: "/products/pitless-lifts",
       },
       {
-        label: "Capsule Elevators",
-        href: "/products/capsule-elevators",
-        desc: "Panoramic glass architectural designs",
+        label: "Goods Lift",
+        href: "/products/goods-lifts",
       },
     ],
   },
@@ -107,24 +92,28 @@ const NAV_LINKS: NavLink[] = [
     href: "/services",
     children: [
       {
-        label: "Elevator Installation",
-        href: "/services/installation",
-        desc: "Turnkey installation & commissioning",
+        label: "Lift Installation Services",
+        href: "/services/lift-installation-services",
       },
       {
-        label: "Elevator Modernization",
-        href: "/services/modernization",
-        desc: "Speed, aesthetic & controller upgrades",
+        label: "Lift Repair Services",
+        href: "/services/lift-repair-services",
       },
       {
-        label: "AMC & Maintenance",
-        href: "/services/amc-maintenance",
-        desc: "Preventive care & 24/7 breakdown support",
+        label: "Lift Maintenance Services",
+        href: "/services/lift-maintenance-services",
       },
       {
-        label: "Safety Audits & Repair",
-        href: "/services/safety-audit",
-        desc: "Certified safety testing & repairs",
+        label: "Lift AMC Services",
+        href: "/services/lift-amc-services",
+      },
+      {
+        label: "Lift Dismantling Services",
+        href: "/services/lift-dismantling-services",
+      },
+      {
+        label: "Lift MS Structural Services",
+        href: "/services/lift-ms-structure",
       },
     ],
   },
@@ -133,6 +122,8 @@ const NAV_LINKS: NavLink[] = [
   { label: "Blogs", href: "/blog1" },
   { label: "Contact", href: "/contact" },
 ];
+
+// ================= CONTACT =================
 
 const CONTACT_INFO = {
   phone: "+91 99710-22555",
@@ -188,14 +179,11 @@ export default function Header() {
   return (
     <header className="relative z-50 w-full bg-white font-sans">
 
-      {/* =====================================================
-          TOP CONTACT BAR
-      ===================================================== */}
+      {/* ================= TOP CONTACT BAR ================= */}
 
       <div className="bg-[#102D5E] text-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
 
-          {/* LEFT */}
           <div className="flex min-h-[48px] items-center gap-5 sm:gap-8">
 
             <a
@@ -218,10 +206,9 @@ export default function Header() {
 
           </div>
 
-          {/* RIGHT */}
           <div className="flex h-full items-center">
+            <div className="flex items-center gap-1.5 sm:gap-2">
 
-           <div className="flex items-center gap-1.5 sm:gap-2">
               <a
                 href="https://facebook.com"
                 target="_blank"
@@ -231,6 +218,7 @@ export default function Header() {
               >
                 <FacebookIcon className="h-3 w-3" />
               </a>
+
               <a
                 href="https://instagram.com"
                 target="_blank"
@@ -240,6 +228,7 @@ export default function Header() {
               >
                 <InstagramIcon className="h-3 w-3" />
               </a>
+
               <a
                 href="https://linkedin.com"
                 target="_blank"
@@ -249,6 +238,7 @@ export default function Header() {
               >
                 <LinkedinIcon className="h-3 w-3" />
               </a>
+
               <a
                 href="https://twitter.com"
                 target="_blank"
@@ -258,19 +248,14 @@ export default function Header() {
               >
                 <TwitterIcon className="h-3 w-3" />
               </a>
-              
-            </div>
-          
 
-            {/* Appointment */}
-           
+            </div>
           </div>
+
         </div>
       </div>
 
-      {/* =====================================================
-          MAIN WHITE HEADER
-      ===================================================== */}
+      {/* ================= MAIN HEADER ================= */}
 
       <div
         className={`border-b border-slate-100 bg-white transition-all duration-300 ${
@@ -279,9 +264,11 @@ export default function Header() {
             : "relative z-30"
         }`}
       >
+
         <div className="mx-auto flex min-h-[82px] max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
 
           {/* LOGO */}
+
           <Link
             href="/"
             className="inline-flex shrink-0 items-center"
@@ -296,10 +283,12 @@ export default function Header() {
             />
           </Link>
 
-          {/* DESKTOP NAV */}
+          {/* ================= DESKTOP NAV ================= */}
+
           <nav className="hidden items-center lg:flex">
 
             {NAV_LINKS.map((link) => {
+
               const hasChildren =
                 !!link.children && link.children.length > 0;
 
@@ -319,6 +308,7 @@ export default function Header() {
                     setOpenDropdown(null)
                   }
                 >
+
                   <Link
                     href={link.href}
                     className="flex items-center gap-1 px-4 py-7 text-sm font-bold text-[#102D5E] transition-colors hover:text-[#D6362C]"
@@ -336,26 +326,19 @@ export default function Header() {
                     )}
                   </Link>
 
-                  {/* DROPDOWN */}
+                  {/* ================= DROPDOWN ================= */}
+
                   {hasChildren && (
                     <div
-                      className={`absolute left-0 top-full pt-1 transition-all duration-200 ${
-                        link.label === "Products"
-                          ? "w-[560px]"
-                          : "w-80"
-                      } ${
+                      className={`absolute left-0 top-full w-80 pt-1 transition-all duration-200 ${
                         isDropdownOpen
                           ? "visible translate-y-0 opacity-100"
                           : "invisible -translate-y-2 opacity-0"
                       }`}
                     >
-                      <div
-                        className={`rounded-b-xl border-t-2 border-[#D6362C] bg-white p-3 text-slate-800 shadow-2xl ${
-                          link.label === "Products"
-                            ? "grid grid-cols-2 gap-2"
-                            : "flex flex-col gap-1"
-                        }`}
-                      >
+
+                      <div className="flex flex-col gap-1 rounded-b-xl border-t-2 border-[#D6362C] bg-white p-3 text-slate-800 shadow-2xl">
+
                         {link.children!.map((child) => (
                           <Link
                             key={child.href}
@@ -365,6 +348,7 @@ export default function Header() {
                             }
                             className="group rounded-lg p-3 transition-colors hover:bg-slate-50"
                           >
+
                             <span className="block text-sm font-bold text-[#102D5E] transition-colors group-hover:text-[#D6362C]">
                               {child.label}
                             </span>
@@ -374,51 +358,35 @@ export default function Header() {
                                 {child.desc}
                               </span>
                             )}
+
                           </Link>
                         ))}
+
                       </div>
+
                     </div>
                   )}
+
                 </div>
               );
             })}
 
           </nav>
 
-          {/* RIGHT PHONE + SEARCH + MOBILE */}
+          {/* ================= RIGHT SIDE ================= */}
+
           <div className="flex items-center">
 
-
-            {/* PHONE */}
-            {/* <a
-              href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
-              className="hidden items-center gap-3 xl:flex"
-            >
-              <div className="flex h-12 w-12 items-center justify-center rounded-full border-4 border-red-100 bg-[#D6362C] text-white shadow-md">
-                <Phone className="h-5 w-5" />
-              </div>
-
-              <div className="leading-tight">
-                <span className="block text-xs font-medium text-slate-500">
-                  Call Now!
-                </span>
-
-                <span className="mt-1 block text-base font-extrabold text-[#102D5E]">
-                  +91 99710-22555
-                </span>
-              </div>
-            </a> */}
-
-             <Link
+            <Link
               href="/contact"
-              className="ml-5 flex min-h-[48px] rounded-md items-center gap-2 bg-[#D6362C] px-5 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#B52A21] sm:px-7"
+              className="ml-5 flex min-h-[48px] items-center gap-2 rounded-md bg-[#D6362C] px-5 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#B52A21] sm:px-7"
             >
               Enquire Now
-              <ArrowUpRight className="h-4 w-4" />  
+              <ArrowUpRight className="h-4 w-4" />
             </Link>
 
-
             {/* OWL */}
+
             <button
               type="button"
               onClick={openOffcanvas}
@@ -436,6 +404,7 @@ export default function Header() {
             </button>
 
             {/* MOBILE MENU */}
+
             <button
               type="button"
               onClick={openMobileNav}
@@ -446,12 +415,12 @@ export default function Header() {
             </button>
 
           </div>
+
         </div>
+
       </div>
 
-      {/* =====================================================
-          OWL PHILOSOPHY OFFCANVAS
-      ===================================================== */}
+      {/* ================= OWL PHILOSOPHY OFFCANVAS ================= */}
 
       <div
         className={`fixed inset-0 z-[100] transition-all duration-300 ${
@@ -462,6 +431,7 @@ export default function Header() {
       >
 
         {/* Overlay */}
+
         <div
           onClick={closeOffcanvas}
           className={`absolute inset-0 bg-slate-950/60 backdrop-blur-sm transition-opacity duration-300 ${
@@ -472,6 +442,7 @@ export default function Header() {
         />
 
         {/* Drawer */}
+
         <div
           className={`relative ml-auto flex h-full w-full max-w-2xl flex-col overflow-hidden bg-white text-slate-700 shadow-2xl transition-transform duration-300 ${
             offcanvasOpen
@@ -481,6 +452,7 @@ export default function Header() {
         >
 
           {/* Watermark */}
+
           <div className="pointer-events-none absolute -bottom-10 -right-10 opacity-[0.04]">
             <Image
               src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
@@ -492,6 +464,7 @@ export default function Header() {
           </div>
 
           {/* Drawer Header */}
+
           <div className="relative z-10 flex items-center justify-between border-b border-slate-100 bg-slate-50 px-6 py-5">
 
             <div className="flex items-center gap-3">
@@ -524,6 +497,7 @@ export default function Header() {
           </div>
 
           {/* Drawer Content */}
+
           <div className="relative z-10 flex-1 space-y-6 overflow-y-auto p-6 text-sm leading-relaxed text-slate-600 md:p-8">
 
             <div className="rounded-2xl border border-slate-100 bg-slate-50 p-5">
@@ -573,6 +547,7 @@ export default function Header() {
             </div>
 
             {/* Contact */}
+
             <div className="rounded-2xl bg-[#102D5E] p-5 text-white">
 
               <p className="text-xs font-bold uppercase tracking-wider text-slate-300">
@@ -598,20 +573,22 @@ export default function Header() {
                 </a>
 
               </div>
+
             </div>
 
           </div>
+
         </div>
+
       </div>
 
-      {/* =====================================================
-          MOBILE NAVIGATION
-      ===================================================== */}
+      {/* ================= MOBILE NAVIGATION ================= */}
 
       {mobileNavOpen && (
         <div className="fixed inset-0 z-[100] flex flex-col bg-white lg:hidden">
 
           {/* Mobile Header */}
+
           <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">
 
             <Link href="/" onClick={closeMobileNav}>
@@ -635,11 +612,13 @@ export default function Header() {
           </div>
 
           {/* Mobile Navigation */}
+
           <nav className="flex-1 overflow-y-auto px-5 py-4">
 
             <ul className="divide-y divide-slate-100">
 
               {NAV_LINKS.map((link) => {
+
                 const hasChildren =
                   !!link.children && link.children.length > 0;
 
@@ -666,6 +645,7 @@ export default function Header() {
                           }
                           className="flex w-full items-center justify-between text-left text-base font-bold text-[#102D5E]"
                         >
+
                           <span>{link.label}</span>
 
                           <ChevronDown
@@ -675,6 +655,7 @@ export default function Header() {
                                 : "text-slate-400"
                             }`}
                           />
+
                         </button>
 
                         {isExpanded && (
@@ -710,9 +691,11 @@ export default function Header() {
               })}
 
             </ul>
+
           </nav>
 
           {/* Mobile Bottom */}
+
           <div className="space-y-3 border-t border-slate-100 bg-slate-50 p-5">
 
             <Link
