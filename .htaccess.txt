@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^/mail\.php$ [NC]
+RewriteRule ^ - [L]
+
+# Next.js static files aur routing ke liye
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
