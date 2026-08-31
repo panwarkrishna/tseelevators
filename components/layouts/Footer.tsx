@@ -302,7 +302,7 @@ export default function Footer() {
               BRAND COLUMN
           ================================================= */}
 
-          <div className="lg:col-span-3">
+          <div className="lg:col-span-4">
 
             {/* Logo */}
             <div className="mb-6 inline-flex rounded-xl bg-white px-4 py-2.5 shadow-xl">
@@ -490,7 +490,7 @@ export default function Footer() {
               OFFICES
           ================================================= */}
 
-          <div className="lg:col-span-3">
+          <div className="lg:col-span-2">
 
             <SectionTitle eyebrow="Visit Us">
               Our Offices
@@ -511,9 +511,8 @@ export default function Footer() {
                 <MapPin className="mt-1 h-4 w-4 shrink-0 text-[#ef6a5f]" />
 
                 <p className="text-xs leading-6 text-slate-300">
-                  Shop No.– 12, DDA Market,
-                  <br />
-                  Lado Sarai, New Delhi – 110030
+                  Shop No.- 12, DDA Market,
+                  Lado Sarai, New Delhi - 110030
                 </p>
               </div>
 
@@ -535,10 +534,7 @@ export default function Footer() {
 
                 <p className="text-xs leading-6 text-slate-300">
                   S.C.O. No. 635, Second Floor,
-                  <br />
-                  PUDA Gateway City,
-                  <br />
-                  Sector 119, Mohali – 140501
+                  PUDA Gateway City, Sector 119, Mohali - 140501
                 </p>
               </div>
 
