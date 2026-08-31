@@ -203,7 +203,7 @@ export default function Header() {
 
               <a
                 href={`mailto:${CONTACT_INFO.email}`}
-                className="hidden items-center gap-2 text-sm font-medium transition-colors hover:text-[#D6362C] sm:flex"
+                className="hidden items-center gap-2 text-md font-medium transition-colors hover:text-[#D6362C] sm:flex"
               >
                 <Mail className="h-4 w-4 text-[#D6362C]" />
 
@@ -216,7 +216,7 @@ export default function Header() {
 
               <a
                 href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
-                className="flex items-center gap-2 text-sm font-medium transition-colors hover:text-[#D6362C]"
+                className="flex items-center gap-2 text-md font-medium transition-colors hover:text-[#D6362C]"
               >
                 <Phone className="h-4 w-4 text-[#D6362C]" />
 
@@ -330,7 +330,7 @@ export default function Header() {
 
                     <Link
                       href={link.href}
-                      className="flex items-center gap-1 px-4 py-7 text-sm font-bold text-[#102D5E] transition-colors hover:text-[#D6362C]"
+                      className="flex items-center gap-1 px-4 py-7 text-md font-bold text-[#102D5E] transition-colors hover:text-[#D6362C]"
                     >
                       {link.label}
 
@@ -366,7 +366,7 @@ export default function Header() {
                               className="group rounded-lg p-3 transition-colors hover:bg-slate-50"
                             >
 
-                              <span className="block text-sm font-bold text-[#102D5E] transition-colors group-hover:text-[#D6362C]">
+                              <span className="block text-md font-bold text-[#102D5E] transition-colors group-hover:text-[#D6362C]">
                                 {child.label}
                               </span>
 
@@ -536,7 +536,7 @@ export default function Header() {
 
           {/* DRAWER CONTENT */}
 
-          <div className="relative z-10 flex-1 space-y-6 overflow-y-auto p-6 text-sm leading-relaxed text-slate-600 md:p-8">
+          <div className="relative z-10 flex-1 space-y-6 overflow-y-auto p-6 text-md leading-relaxed text-slate-600 md:p-8">
 
             <div className="rounded-2xl border border-slate-100 bg-slate-50 p-5">
 
@@ -608,7 +608,7 @@ export default function Header() {
                 Get In Touch With Engineers
               </p>
 
-              <div className="mt-4 flex flex-wrap gap-4 text-sm font-semibold">
+              <div className="mt-4 flex flex-wrap gap-4 text-md font-semibold">
 
                 <a
                   href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
@@ -742,7 +742,7 @@ export default function Header() {
                                 key={child.href}
                                 href={child.href}
                                 onClick={closeMobileNav}
-                                className="block py-1 text-sm font-medium text-slate-600 transition-colors hover:text-[#D6362C]"
+                                className="block py-1 text-md font-medium text-slate-600 transition-colors hover:text-[#D6362C]"
                               >
 
                                 {child.label}
@@ -799,7 +799,7 @@ export default function Header() {
 
             <a
               href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
-              className="flex items-center justify-center gap-2 pt-1 text-sm font-bold text-[#102D5E]"
+              className="flex items-center justify-center gap-2 pt-1 text-md font-bold text-[#102D5E]"
             >
 
               <Phone className="h-4 w-4 text-[#D6362C]" />

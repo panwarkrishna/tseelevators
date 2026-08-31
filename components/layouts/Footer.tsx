@@ -186,7 +186,7 @@ function SectionTitle({
         {eyebrow}
       </p>
 
-      <h3 className="text-sm font-bold uppercase tracking-[0.12em] text-white">
+      <h3 className="text-md font-bold uppercase tracking-[0.12em] text-white">
         {children}
       </h3>
 
@@ -305,7 +305,7 @@ export default function Footer() {
 
                 <div className="mb-2 flex flex-wrap items-center gap-2">
 
-                  <h2 className="text-sm font-bold leading-6 sm:text-lg">
+                  <h2 className="text-md font-bold leading-6 sm:text-lg">
                     ISO 9001:2015 Certified Engineering
                   </h2>
 
@@ -327,7 +327,7 @@ export default function Footer() {
 
                 </div>
 
-                <p className="max-w-2xl text-xs leading-6 text-slate-300 sm:text-sm">
+                <p className="max-w-2xl text-xs leading-6 text-slate-300 sm:text-md">
                   Delhi-NCR&apos;s trusted vertical mobility experts delivering
                   safe, reliable and high-performance elevator solutions.
                 </p>
@@ -429,7 +429,7 @@ export default function Footer() {
                 text-[13px]
                 leading-6
                 text-slate-300
-                sm:text-sm
+                sm:text-md
                 sm:leading-7
               "
             >
@@ -488,7 +488,7 @@ export default function Footer() {
                     Call Us
                   </span>
 
-                  <span className="mt-0.5 block text-sm font-semibold text-white">
+                  <span className="mt-0.5 block text-md font-semibold text-white">
                     +91 99710-22555
                   </span>
 
@@ -556,7 +556,7 @@ export default function Footer() {
                       mt-0.5
                       block
                       truncate
-                      text-sm
+                      text-md
                       font-semibold
                       text-white
                     "

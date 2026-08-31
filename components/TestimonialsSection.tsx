@@ -92,7 +92,7 @@ export default function TestimonialsSection() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="mt-3 text-3xl font-extrabold tracking-tight text-black sm:text-4xl lg:text-[42px]"
             >
-              We Build Customer Trust and Loyalty
+              We Build <span className="text-[#D6362C]">Customer</span> Trust and Loyalty
             </motion.h2>
 
             <motion.div
