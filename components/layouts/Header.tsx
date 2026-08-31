@@ -68,27 +68,27 @@ const NAV_LINKS: NavLink[] = [
     children: [
       {
         label: "Residential Lift",
-        href: "/products/residential-lifts",
+        href: "/residential-lifts",
       },
       {
         label: "Passenger Lift",
-        href: "/products/passenger-lifts",
+        href: "/passenger-lifts",
       },
       {
         label: "Hydraulic Lift",
-        href: "/products/hydraulic-lifts",
+        href: "/hydraulic-lifts",
       },
       {
         label: "Commercial Lift",
-        href: "/products/commercial-lifts",
+        href: "/commercial-lifts",
       },
       {
         label: "Pitless Lift",
-        href: "/products/pitless-lifts",
+        href: "/pitless-lifts",
       },
       {
         label: "Goods Lift",
-        href: "/products/goods-lifts",
+        href: "/goods-lifts",
       },
     ],
   },
@@ -99,27 +99,27 @@ const NAV_LINKS: NavLink[] = [
     children: [
       {
         label: "Lift Installation Services",
-        href: "/services/lift-installation-services",
+        href: "/lift-installation-services",
       },
       {
         label: "Lift Repair Services",
-        href: "/services/lift-repair-services",
+        href: "/lift-repair-services",
       },
       {
         label: "Lift Maintenance Services",
-        href: "/services/lift-maintenance-services",
+        href: "/lift-maintenance-services",
       },
       {
         label: "Lift AMC Services",
-        href: "/services/lift-amc-services",
+        href: "/lift-amc-services",
       },
       {
         label: "Lift Dismantling Services",
-        href: "/services/lift-dismantling-services",
+        href: "/lift-dismantling-services",
       },
       {
         label: "Lift MS Structural Services",
-        href: "/services/lift-ms-structure",
+        href: "/lift-ms-structure",
       },
     ],
   },

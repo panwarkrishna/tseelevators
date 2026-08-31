@@ -17,88 +17,131 @@ type ProductItem = {
 };
 
 const PRODUCTS: ProductItem[] = [
-  {
+
+   {
     id: 1,
+    title: "Home Lift",
+    category: "Home Lifts",
+    tag: "Perfect for Homes",
+    description:
+      "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.",
+    image:
+      "https://img.magnific.com/free-photo/business-executive-waiting-lift_107420-65781.jpg",
+    href: "/tseelevators/products/domestic-lifts",
+    altText:
+      "Home Lift for homes, villas, and residential properties",
+  },
+
+  {
+    id: 2,
+    title: "Domestic Lift",
+    category: "Home Lifts",
+    tag: "Perfect for Homes",
+    description:
+      "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.",
+    image:
+      "https://img.magnific.com/free-photo/business-executive-waiting-lift_107420-65781.jpg",
+    href: "/tseelevators/products/domestic-lifts",
+    altText:
+      "Domestic Lift for homes, villas, and residential properties",
+  },
+
+  {
+    id: 3,
     title: "Residential Lift",
-    category: "Elevators",
+    category: "Home Lifts",
     tag: "Smooth & Safe",
     description:
       "Reliable and comfortable residential lifts designed for homes, apartments, and housing societies with a focus on safety and smooth operation.",
     image:
-      "https://img.magnific.com/free-vector/hotel-office-building-hall-with-closed-elevator-door_1284-8147.jpg?t=st=1787853914~exp=1787857514~hmac=97675adb24cb8ee306452f473e145cccf5dd09308c611ecf7b5cc2a2e4c39ce2&w=1480",
+      "https://img.magnific.com/free-vector/hotel-office-building-hall-with-closed-elevator-door_1284-8147.jpg",
     href: "/tseelevators/products/residential-lifts",
     altText:
       "Residential Lift for homes and apartment buildings by TSE Elevators",
   },
 
   {
-    id: 2,
+    id: 4,
     title: "Passenger Lift",
     category: "Elevators",
     tag: "Premium Comfort",
     description:
       "Modern passenger lifts engineered to provide safe, smooth, and efficient vertical transportation for residential and commercial buildings.",
     image:
-      "https://img.magnific.com/free-photo/business-executive-waiting-lift_107420-65781.jpg?t=st=1787844773~exp=1787848373~hmac=34d48eb7860c57a787b7d597496d900ded91448c166e2860cbf19c9224d5a1cc&w=1480",
+      "https://img.magnific.com/free-photo/business-executive-waiting-lift_107420-65781.jpg",
     href: "/tseelevators/products/passenger-lifts",
     altText:
       "Modern Passenger Lift installation for commercial and residential buildings",
   },
 
   {
-    id: 3,
-    title: "Hydraulic Lift",
-    category: "Elevators",
-    tag: "Smooth Lift Tech",
-    description:
-      "Efficient hydraulic lift solutions ideal for low-rise buildings, villas, and applications requiring smooth movement and dependable performance.",
-    image:
-      "https://img.magnific.com/free-photo/full-length-portrait-cheerful-teenager-smiling-lady-standing-beside-closed-lift-doors_259150-59965.jpg?t=st=1787853863~exp=1787857463~hmac=9e2c05096b702134b67c952d845d751fda907f9e8517067b4a28686c7c6a2dce&w=1480",
-    href: "/tseelevators/products/hydraulic-lifts",
-    altText:
-      "Hydraulic Lift system for residential and commercial buildings",
-  },
-
-  {
-    id: 4,
+    id: 5,
     title: "Commercial Lift",
     category: "Elevators",
     tag: "Heavy Duty",
     description:
       "High-performance commercial lifts designed for offices, hotels, shopping centres, hospitals, and other high-traffic commercial environments.",
     image:
-      "https://img.magnific.com/free-vector/metal-elevator-doors-modern-office-hallway_107791-2474.jpg?t=st=1787853889~exp=1787857489~hmac=a9789b0a9f975237c725d1869c7767db0657a120d8d52cbdef6c0e99f15e9229&w=1480",
+      "https://img.magnific.com/free-vector/metal-elevator-doors-modern-office-hallway_107791-2474.jpg",
     href: "/tseelevators/products/commercial-lifts",
     altText:
       "Commercial Lift for offices, hotels, hospitals and commercial buildings",
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Pitless Lift",
-    category: "Elevators",
+    category: "Home Lifts",
     tag: "Space Saving",
     description:
       "Space-efficient pitless lift solutions designed for buildings where conventional deep lift pits are difficult or impractical to install.",
     image:
-      "https://img.magnific.com/free-photo/man-wheelchair-elevator-modern-office-building_23-2152019729.jpg?t=st=1787853944~exp=1787857544~hmac=ef4349647b178905bcbc7f577eeee01c5cb53c4c271052df6ceb77673aecaef4&w=1480",
+      "https://img.magnific.com/free-photo/man-wheelchair-elevator-modern-office-building_23-2152019729.jpg",
     href: "/tseelevators/products/pitless-lifts",
     altText:
       "Space-saving Pitless Lift solution for buildings with limited construction space",
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Goods Lift",
-    category: "Elevators",
+    category: "Industrial Lifts",
     tag: "Industrial Strength",
     description:
       "Heavy-duty goods lifts built for safe and efficient transportation of materials, equipment, and goods across commercial and industrial facilities.",
     image:
-      "https://img.magnific.com/free-vector/hotel-office-building-hall-with-closed-elevator-door_1284-8147.jpg?t=st=1787853914~exp=1787857514~hmac=97675adb24cb8ee306452f473e145cccf5dd09308c611ecf7b5cc2a2e4c39ce2&w=1480",
+      "https://img.magnific.com/free-vector/hotel-office-building-hall-with-closed-elevator-door_1284-8147.jpg",
     href: "/tseelevators/products/goods-lifts",
     altText:
       "Heavy-duty Goods Lift for industrial and commercial material transportation",
+  },
+
+  {
+    id: 8,
+    title: "Glass Lift",
+    category: "Home Lifts",
+    tag: "Modern Design",
+    description:
+      "Elegant glass lifts featuring modern architectural styling, panoramic visibility, and smooth operation for premium homes and contemporary buildings.",
+    image:
+      "https://img.magnific.com/free-photo/full-length-portrait-cheerful-teenager-smiling-lady-standing-beside-closed-lift-doors_259150-59965.jpg",
+    href: "/tseelevators/products/glass-lifts",
+    altText:
+      "Modern Glass Lift with panoramic design for homes and premium buildings",
+  },
+
+  {
+    id: 9,
+    title: "Hydraulic Lift",
+    category: "Home Lifts",
+    tag: "Smooth Lift Tech",
+    description:
+      "Efficient hydraulic lift solutions ideal for low-rise buildings, villas, and applications requiring smooth movement and dependable performance.",
+    image:
+      "https://img.magnific.com/free-photo/full-length-portrait-cheerful-teenager-smiling-lady-standing-beside-closed-lift-doors_259150-59965.jpg",
+    href: "/tseelevators/products/hydraulic-lifts",
+    altText:
+      "Hydraulic Lift system for residential and commercial buildings",
   },
 ];
 
