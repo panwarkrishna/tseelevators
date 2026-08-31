@@ -114,9 +114,9 @@ export default function ContactPage() {
                   </span>
 
                   <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
-                    Shop No.– 12, DDA Market,
-                    <br />
-                    Lado Sarai New Delhi – 110030
+                    Shop No.- 12, DDA Market,
+                   
+                    Lado Sarai New Delhi - 110030
                   </p>
                 </div>
 
@@ -127,11 +127,8 @@ export default function ContactPage() {
                   </span>
 
                   <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
-                    S.C.O. No. 635, Second Floor,
-                    <br />
-                    PUDA Gateway City, Sector 119,
-                    <br />
-                    Mohali – 140501
+                    S.C.O. No. 635, Second Floor, PUDA Gateway City, Sector 119,
+                    Mohali - 140501
                   </p>
                 </div>
 

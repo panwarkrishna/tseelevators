@@ -302,7 +302,7 @@ export default function Footer() {
               BRAND COLUMN
           ================================================= */}
 
-          <div className="lg:col-span-4">
+          <div className="lg:col-span-3">
 
             {/* Logo */}
             <div className="mb-6 inline-flex rounded-xl bg-white px-4 py-2.5 shadow-xl">
@@ -322,68 +322,68 @@ export default function Footer() {
               industrial vertical transport solutions.
             </p>
 
-            {/* Contact Cards */}
-            <div className="mt-7 grid max-w-md grid-cols-1 gap-3 sm:grid-cols-2">
+         {/* Contact Cards */}
+<div className="mt-7 grid w-full max-w-md grid-cols-1 gap-3">
 
-              {/* Phone */}
-              <a
-                href="tel:+919971022555"
-                className="
-                  group flex items-center gap-3
-                  rounded-xl border border-white/10
-                  bg-white/[0.045]
-                  px-3.5 py-3
-                  transition-all duration-300
-                  hover:-translate-y-0.5
-                  hover:border-white/20
-                  hover:bg-white/[0.09]
-                "
-              >
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#D6362C]/15">
-                  <Phone className="h-4 w-4 text-[#ef6a5f]" />
-                </span>
+  {/* Phone */}
+  <a
+    href="tel:+919971022555"
+    className="
+      group flex items-center gap-3
+      rounded-xl border border-white/10
+      bg-white/[0.045]
+      px-3.5 py-3
+      transition-all duration-300
+      hover:-translate-y-0.5
+      hover:border-white/20
+      hover:bg-white/[0.09]
+    "
+  >
+    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#D6362C]/15">
+      <Phone className="h-4 w-4 text-[#ef6a5f]" />
+    </span>
 
-                <span className="min-w-0">
-                  <span className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-slate-400">
-                    Call Us
-                  </span>
+    <span className="min-w-0">
+      <span className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-slate-400">
+        Call Us
+      </span>
 
-                  <span className="block truncate text-xs font-semibold text-white">
-                    +91 99710-22555
-                  </span>
-                </span>
-              </a>
+      <span className="block whitespace-nowrap text-xs font-semibold text-white">
+        +91 99710-22555
+      </span>
+    </span>
+  </a>
 
-              {/* Email */}
-              <a
-                href="mailto:info@tseelevators.com"
-                className="
-                  group flex items-center gap-3
-                  rounded-xl border border-white/10
-                  bg-white/[0.045]
-                  px-3.5 py-3
-                  transition-all duration-300
-                  hover:-translate-y-0.5
-                  hover:border-white/20
-                  hover:bg-white/[0.09]
-                "
-              >
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#D6362C]/15">
-                  <Mail className="h-4 w-4 text-[#ef6a5f]" />
-                </span>
+  {/* Email */}
+  <a
+    href="mailto:info@tseelevators.com"
+    className="
+      group flex items-center gap-3
+      rounded-xl border border-white/10
+      bg-white/[0.045]
+      px-3.5 py-3
+      transition-all duration-300
+      hover:-translate-y-0.5
+      hover:border-white/20
+      hover:bg-white/[0.09]
+    "
+  >
+    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#D6362C]/15">
+      <Mail className="h-4 w-4 text-[#ef6a5f]" />
+    </span>
 
-                <span className="min-w-0">
-                  <span className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-slate-400">
-                    Email Us
-                  </span>
+    <span className="min-w-0">
+      <span className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-slate-400">
+        Email Us
+      </span>
 
-                  <span className="block truncate text-xs font-semibold text-white">
-                    info@tseelevators.com
-                  </span>
-                </span>
-              </a>
+      <span className="block whitespace-nowrap text-xs font-semibold text-white">
+        info@tseelevators.com
+      </span>
+    </span>
+  </a>
 
-            </div>
+</div>
 
             {/* Social */}
             <div className="mt-7">
@@ -490,7 +490,7 @@ export default function Footer() {
               OFFICES
           ================================================= */}
 
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-3">
 
             <SectionTitle eyebrow="Visit Us">
               Our Offices
@@ -500,9 +500,7 @@ export default function Footer() {
             <div className="mb-6">
 
               <div className="mb-2 flex items-center gap-2">
-                <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#D6362C]/15">
-                  <Building2 className="h-3.5 w-3.5 text-[#ef6a5f]" />
-                </div>
+             
 
                 <h4 className="text-[11px] font-bold uppercase tracking-wider text-white">
                   Head Office
@@ -525,9 +523,7 @@ export default function Footer() {
             <div>
 
               <div className="mb-2 flex items-center gap-2">
-                <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#D6362C]/15">
-                  <Building2 className="h-3.5 w-3.5 text-[#ef6a5f]" />
-                </div>
+             
 
                 <h4 className="text-[11px] font-bold uppercase tracking-wider text-white">
                   Branch Office

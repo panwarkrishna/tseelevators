@@ -59,12 +59,12 @@ const NAV_LINKS: NavLink[] = [
   },
   {
     label: "About Us",
-    href: "/about",
+    href: "/about1",
   },
 
   {
     label: "Products",
-    href: "/products",
+    href: "/products1",
     children: [
       {
         label: "Residential Lift",
@@ -95,7 +95,7 @@ const NAV_LINKS: NavLink[] = [
 
   {
     label: "Services",
-    href: "/services",
+    href: "/services1",
     children: [
       {
         label: "Lift Installation Services",
@@ -126,7 +126,7 @@ const NAV_LINKS: NavLink[] = [
 
   {
     label: "Gallery",
-    href: "/gallery",
+    href: "/gallery1",
   },
   {
     label: "Blogs",
@@ -134,7 +134,7 @@ const NAV_LINKS: NavLink[] = [
   },
   {
     label: "Contact",
-    href: "/contact",
+    href: "/contact1",
   },
 ];
 
