@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   applicationName: 'TSE Elevators',
   icons: {
     icon: '/favicon.png',
-    shortcut: '/favicon.png',
-    apple: '/favicon.png',
+    shortcut: '/favicon-96x96.png',
+    apple: '/apple-touch-icon.png',
   },
   appleWebApp: {
     capable: true,

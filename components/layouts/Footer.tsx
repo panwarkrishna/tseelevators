@@ -743,16 +743,7 @@ export default function Footer() {
 
                 <div className="mb-3 flex items-center gap-2.5">
 
-                  <span
-                    className="
-                      flex h-8 w-8 shrink-0
-                      items-center justify-center
-                      rounded-lg
-                      bg-[#D6362C]/15
-                    "
-                  >
-                    <Building2 className="h-4 w-4 text-[#ef6a5f]" />
-                  </span>
+                
 
                   <h4
                     className="
@@ -786,10 +777,8 @@ export default function Footer() {
                       text-slate-300
                     "
                   >
-                    Shop No.– 12, DDA Market,
-                    <br />
+                    Shop No.- 12, DDA Market,
                     Lado Sarai, New Delhi –
-                    <br />
                     110030
                   </p>
 
@@ -815,16 +804,7 @@ export default function Footer() {
 
                 <div className="mb-3 flex items-center gap-2.5">
 
-                  <span
-                    className="
-                      flex h-8 w-8 shrink-0
-                      items-center justify-center
-                      rounded-lg
-                      bg-[#D6362C]/15
-                    "
-                  >
-                    <Building2 className="h-4 w-4 text-[#ef6a5f]" />
-                  </span>
+             
 
                   <h4
                     className="
@@ -859,11 +839,8 @@ export default function Footer() {
                     "
                   >
                     S.C.O. No. 635, Second Floor,
-                    <br />
                     PUDA Gateway City,
-                    <br />
-                    Sector 119, Mohali –
-                    <br />
+                    Sector 119, Mohali -
                     140501
                   </p>
 
@@ -1018,30 +995,7 @@ export default function Footer() {
             "
           >
 
-            <Link
-              href="/privacy-policy"
-              className="
-                text-[11px]
-                text-slate-400
-                transition-colors
-                hover:text-white
-              "
-            >
-              Privacy Policy
-            </Link>
-
-            <Link
-              href="/terms-conditions"
-              className="
-                text-[11px]
-                text-slate-400
-                transition-colors
-                hover:text-white
-              "
-            >
-              Terms & Conditions
-            </Link>
-
+          
             <button
               type="button"
               onClick={scrollToTop}
