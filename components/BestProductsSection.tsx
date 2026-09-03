@@ -26,8 +26,8 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.",
     image:
-      "https://img.magnific.com/free-photo/business-executive-waiting-lift_107420-65781.jpg",
-    href: "/tseelevators/products/domestic-lifts",
+      "https://aditechinfo.com/tseelevators/product-img/home-lift.webp",
+    href: "/domestic-lift",
     altText:
       "Home Lift for homes, villas, and residential properties",
   },
@@ -40,8 +40,8 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.",
     image:
-      "https://img.magnific.com/free-photo/business-executive-waiting-lift_107420-65781.jpg",
-    href: "/tseelevators/products/domestic-lifts",
+      "https://aditechinfo.com/tseelevators/product-img/domestic.webp",
+    href: "/domestic-lift",
     altText:
       "Domestic Lift for homes, villas, and residential properties",
   },
@@ -54,8 +54,8 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Reliable and comfortable residential lifts designed for homes, apartments, and housing societies with a focus on safety and smooth operation.",
     image:
-      "https://img.magnific.com/free-vector/hotel-office-building-hall-with-closed-elevator-door_1284-8147.jpg",
-    href: "/tseelevators/products/residential-lifts",
+      "https://aditechinfo.com/tseelevators/product-img/home-lift.webp",
+    href: "/residential-lift",
     altText:
       "Residential Lift for homes and apartment buildings by TSE Elevators",
   },
@@ -68,8 +68,8 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Modern passenger lifts engineered to provide safe, smooth, and efficient vertical transportation for residential and commercial buildings.",
     image:
-      "https://img.magnific.com/free-photo/business-executive-waiting-lift_107420-65781.jpg",
-    href: "/tseelevators/products/passenger-lifts",
+      "https://aditechinfo.com/tseelevators/product-img/passenger-lift.webp",
+    href: "/passenger-lift",
     altText:
       "Modern Passenger Lift installation for commercial and residential buildings",
   },
@@ -82,8 +82,8 @@ const PRODUCTS: ProductItem[] = [
     description:
       "High-performance commercial lifts designed for offices, hotels, shopping centres, hospitals, and other high-traffic commercial environments.",
     image:
-      "https://img.magnific.com/free-vector/metal-elevator-doors-modern-office-hallway_107791-2474.jpg",
-    href: "/tseelevators/products/commercial-lifts",
+      "https://aditechinfo.com/tseelevators/product-img/commercial-lift.webp",
+    href: "/commercial-lift",
     altText:
       "Commercial Lift for offices, hotels, hospitals and commercial buildings",
   },
@@ -96,8 +96,8 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Space-efficient pitless lift solutions designed for buildings where conventional deep lift pits are difficult or impractical to install.",
     image:
-      "https://img.magnific.com/free-photo/man-wheelchair-elevator-modern-office-building_23-2152019729.jpg",
-    href: "/tseelevators/products/pitless-lifts",
+      "https://aditechinfo.com/tseelevators/product-img/pitlesslift.webp",
+    href: "/pitless-lift",
     altText:
       "Space-saving Pitless Lift solution for buildings with limited construction space",
   },
@@ -110,8 +110,8 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Heavy-duty goods lifts built for safe and efficient transportation of materials, equipment, and goods across commercial and industrial facilities.",
     image:
-      "https://img.magnific.com/free-vector/hotel-office-building-hall-with-closed-elevator-door_1284-8147.jpg",
-    href: "/tseelevators/products/goods-lifts",
+      "https://aditechinfo.com/tseelevators/product-img/goods-lift.webp",
+    href: "/goods-lift",
     altText:
       "Heavy-duty Goods Lift for industrial and commercial material transportation",
   },
@@ -124,8 +124,8 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Elegant glass lifts featuring modern architectural styling, panoramic visibility, and smooth operation for premium homes and contemporary buildings.",
     image:
-      "https://img.magnific.com/free-photo/full-length-portrait-cheerful-teenager-smiling-lady-standing-beside-closed-lift-doors_259150-59965.jpg",
-    href: "/tseelevators/products/glass-lifts",
+      "https://aditechinfo.com/tseelevators/product-img/glass-lift.webp",
+    href: "/glass-lift",
     altText:
       "Modern Glass Lift with panoramic design for homes and premium buildings",
   },
@@ -138,8 +138,8 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Efficient hydraulic lift solutions ideal for low-rise buildings, villas, and applications requiring smooth movement and dependable performance.",
     image:
-      "https://img.magnific.com/free-photo/full-length-portrait-cheerful-teenager-smiling-lady-standing-beside-closed-lift-doors_259150-59965.jpg",
-    href: "/tseelevators/products/hydraulic-lifts",
+      "https://aditechinfo.com/tseelevators/product-img/hydraulic-lift.webp",
+    href: "/hydraulic-lift",
     altText:
       "Hydraulic Lift system for residential and commercial buildings",
   },
@@ -369,7 +369,7 @@ export default function BestProductsSection() {
                   >
 
                     <span>
-                      View Specifications
+                      View More
                     </span>
 
                     <ArrowUpRight className="h-4 w-4 text-[#D6362C] transition-transform duration-200 group-hover:translate-x-1 group-hover:-translate-y-1" />

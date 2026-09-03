@@ -1,337 +1,264 @@
-
 import type { Metadata } from "next";
 import GlobalPageHero from "@/components/GlobalPageHero";
-import {
-  Mail,
-  Phone,
-  Send,
-  User,
-  AtSign,
-  PhoneCall,
-  FileText,
-  MessageSquare,
-} from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowUpRight, Sparkles, ShieldCheck, PhoneCall, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us – TSE Elevators",
-  description:
-    "Get in touch with TSE Elevators for luxury lifts, home elevators, and maintenance services. Visit our head office in New Delhi or branch office in Mohali.",
+  title: "Our Products – TSE Elevators",
+  description: "Explore our comprehensive range of high-performance elevators, including home lifts, passenger lifts, commercial elevators, and glass lifts in Delhi-NCR.",
   alternates: {
-    canonical: "https://tseelevators.com/contact",
+    canonical: "https://tseelevators.com/tseelevators/products",
   },
 };
 
-// Social Icons
-const FacebookIcon = ({ className }: { className?: string }) => (
-  <svg
-    className={className}
-    fill="currentColor"
-    viewBox="0 0 24 24"
-    aria-hidden="true"
-  >
-    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
-  </svg>
-);
+type ProductItem = {
+  id: number;
+  title: string;
+  category: string;
+  description: string;
+  image: string;
+  href: string;
+  tag: string;
+  altText: string;
+};
 
-const InstagramIcon = ({ className }: { className?: string }) => (
-  <svg
-    className={className}
-    fill="currentColor"
-    viewBox="0 0 24 24"
-    aria-hidden="true"
-  >
-    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.204-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.79 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-  </svg>
-);
+const ALL_PRODUCTS: ProductItem[] = [
+  {
+    id: 1,
+    title: "Home Lift",
+    category: "Home Lifts",
+    tag: "Perfect for Homes",
+    description: "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.",
+    image: "https://aditechinfo.com/tseelevators/product-img/home-lift.webp",
+    href: "/home-lift",
+    altText: "Home Lift for homes, villas, and residential properties",
+  },
+  {
+    id: 2,
+    title: "Domestic Lift",
+    category: "Home Lifts",
+    tag: "Perfect for Homes",
+    description: "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.",
+    image: "https://aditechinfo.com/tseelevators/product-img/domestic.webp",
+    href: "/domestic-lifts",
+    altText: "Domestic Lift for homes, villas, and residential properties",
+  },
+  {
+    id: 3,
+    title: "Residential Lift",
+    category: "Home Lifts",
+    tag: "Smooth & Safe",
+    description: "Reliable and comfortable residential lifts designed for homes, apartments, and housing societies with a focus on safety and smooth operation.",
+    image: "https://aditechinfo.com/tseelevators/product-img/home-lift.webp",
+    href: "/residential-lifts",
+    altText: "Residential Lift for homes and apartment buildings by TSE Elevators",
+  },
+  {
+    id: 4,
+    title: "Passenger Lift",
+    category: "Elevators",
+    tag: "Premium Comfort",
+    description: "Modern passenger lifts engineered to provide safe, smooth, and efficient vertical transportation for residential and commercial buildings.",
+    image: "https://aditechinfo.com/tseelevators/product-img/passenger-lift.webp",
+    href: "/passenger-lifts",
+    altText: "Modern Passenger Lift installation for commercial and residential buildings",
+  },
+  {
+    id: 5,
+    title: "Commercial Lift",
+    category: "Elevators",
+    tag: "Heavy Duty",
+    description: "High-performance commercial lifts designed for offices, hotels, shopping centres, hospitals, and other high-traffic commercial environments.",
+    image: "https://aditechinfo.com/tseelevators/product-img/commercial-lift.webp",
+    href: "/commercial-lifts",
+    altText: "Commercial Lift for offices, hotels, hospitals and commercial buildings",
+  },
+  {
+    id: 6,
+    title: "Pitless Lift",
+    category: "Home Lifts",
+    tag: "Space Saving",
+    description: "Space-efficient pitless lift solutions designed for buildings where conventional deep lift pits are difficult or impractical to install.",
+    image: "https://aditechinfo.com/tseelevators/product-img/pitlesslift.webp",
+    href: "/pitless-lifts",
+    altText: "Space-saving Pitless Lift solution for buildings with limited construction space",
+  },
+  {
+    id: 7,
+    title: "Goods Lift",
+    category: "Industrial Lifts",
+    tag: "Industrial Strength",
+    description: "Heavy-duty goods lifts built for safe and efficient transportation of materials, equipment, and goods across commercial and industrial facilities.",
+    image: "https://aditechinfo.com/tseelevators/product-img/goods-lift.webp",
+    href: "/goods-lifts",
+    altText: "Heavy-duty Goods Lift for industrial and commercial material transportation",
+  },
+  {
+    id: 8,
+    title: "Glass Lift",
+    category: "Home Lifts",
+    tag: "Modern Design",
+    description: "Elegant glass lifts featuring modern architectural styling, panoramic visibility, and smooth operation for premium homes and contemporary buildings.",
+    image: "https://aditechinfo.com/tseelevators/product-img/glass-lift.webp",
+    href: "/glass-lifts",
+    altText: "Modern Glass Lift with panoramic design for homes and premium buildings",
+  },
+  {
+    id: 9,
+    title: "Hydraulic Lift",
+    category: "Home Lifts",
+    tag: "Smooth Lift Tech",
+    description: "Efficient hydraulic lift solutions ideal for low-rise buildings, villas, and applications requiring smooth movement and dependable performance.",
+    image: "https://aditechinfo.com/tseelevators/product-img/hydraulic-lift.webp",
+    href: "/hydraulic-lifts",
+    altText: "Hydraulic Lift system for residential and commercial buildings",
+  },
+];
 
-const LinkedinIcon = ({ className }: { className?: string }) => (
-  <svg
-    className={className}
-    fill="currentColor"
-    viewBox="0 0 24 24"
-    aria-hidden="true"
-  >
-    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-  </svg>
-);
-
-const TwitterIcon = ({ className }: { className?: string }) => (
-  <svg
-    className={className}
-    fill="currentColor"
-    viewBox="0 0 24 24"
-    aria-hidden="true"
-  >
-    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-  </svg>
-);
-
-export default function ContactPage() {
+export default function AllProductsPage() {
   return (
-    <main className="w-full bg-white text-black selection:bg-[#D6362C] selection:text-white">
-
-      {/* ================= HERO ================= */}
+    <main className="w-full bg-white text-slate-900 selection:bg-[#D6362C] selection:text-white">
+      
+      {/* ================= HERO SECTION ================= */}
       <GlobalPageHero
-        title="Contact Us"
-        description="Reach out to our vertical mobility experts for inquiries, custom quotations, and 24/7 support."
+        title="Our Products Collection"
+        description="Explore our comprehensive range of high-performance elevators, customized to elevate comfort, safety, and modern architectural aesthetics."
         backgroundImage="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-4.jpg"
-        badgeText="Get In Touch"
+        badgeText="Engineered For Excellence"
       />
 
-      {/* ================= CONTACT SECTION ================= */}
-      <section className="relative w-full overflow-hidden bg-white py-14 sm:py-16 lg:py-20">
+      {/* ================= PRODUCTS GRID SECTION ================= */}
+      <section className="relative w-full overflow-hidden bg-white py-16 sm:py-20 lg:py-24">
+        
+        {/* Background Architectural Grid Pattern */}
+        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:4rem_4rem]" />
+        
+        {/* Subtle Red Ambient Glow */}
+        <div className="pointer-events-none absolute left-1/2 top-1/4 -translate-x-1/2 h-96 w-96 rounded-full bg-[#D6362C]/5 blur-[160px]" />
 
-        {/* Background Grid */}
-        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000003_1px,transparent_1px),linear-gradient(to_bottom,#00000003_1px,transparent_1px)] bg-[size:4rem_4rem]" />
+        <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
 
-        {/* Red Glow */}
-        <div className="pointer-events-none absolute -right-40 top-1/3 h-96 w-96 rounded-full bg-[#D6362C]/10 blur-[150px]" />
-
-        {/* Container */}
-        <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
-
-          {/* Two Columns */}
-          <div className="grid grid-cols-1 items-stretch gap-6 lg:grid-cols-12 lg:gap-8">
-
-            {/* ================= LEFT: CONTACT DETAILS ================= */}
-            <div className="flex h-full flex-col justify-between rounded-3xl border border-slate-200 bg-[#f8f8f8] p-7 shadow-sm sm:p-8 lg:col-span-5 lg:p-10">
-
-              <div className="space-y-8">
-
-                {/* Heading */}
-                <div>
-                  <h3 className="text-2xl font-extrabold tracking-tight text-black">
-                    Contact Details
-                  </h3>
-
-                  <div className="mt-3 h-1 w-16 rounded-full bg-[#D6362C]" />
-                </div>
-
-                {/* Head Office */}
-                <div className="space-y-2">
-                  <span className="text-[11px] font-bold uppercase tracking-widest text-[#D6362C]">
-                    Head Office
-                  </span>
-
-                  <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
-                    Shop No.– 12, DDA Market,
-                    <br />
-                    Lado Sarai New Delhi – 110030
-                  </p>
-                </div>
-
-                {/* Branch Office */}
-                <div className="space-y-2">
-                  <span className="text-[11px] font-bold uppercase tracking-widest text-[#D6362C]">
-                    Branch Office
-                  </span>
-
-                  <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
-                    S.C.O. No. 635, Second Floor,
-                    <br />
-                    PUDA Gateway City, Sector 119,
-                    <br />
-                    Mohali – 140501
-                  </p>
-                </div>
-
-                {/* Contact Information */}
-                <div className="space-y-4 border-t border-slate-200 pt-6">
-
-                  {/* Email */}
-                  <a
-                    href="mailto:info@tseelevators.com"
-                    className="group flex items-center gap-3.5 text-sm text-slate-700 transition-colors hover:text-[#D6362C] sm:text-base"
-                  >
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-slate-200 bg-white text-[#D6362C] shadow-sm transition-colors group-hover:border-[#D6362C]">
-                      <Mail className="h-4 w-4" />
-                    </div>
-
-                    <span className="font-medium">
-                      info@tseelevators.com
-                    </span>
-                  </a>
-
-                  {/* Phone */}
-                  <a
-                    href="tel:+919971022555"
-                    className="group flex items-center gap-3.5 text-sm text-slate-700 transition-colors hover:text-[#D6362C] sm:text-base"
-                  >
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-slate-200 bg-white text-[#D6362C] shadow-sm transition-colors group-hover:border-[#D6362C]">
-                      <Phone className="h-4 w-4" />
-                    </div>
-
-                    <span className="font-medium">
-                      +91-99710-22555
-                    </span>
-                  </a>
-
-                </div>
-              </div>
-
-              {/* Social Icons */}
-              <div className="mt-10 flex items-center gap-3 border-t border-slate-200 pt-6">
-
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Facebook"
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
-                >
-                  <FacebookIcon className="h-4 w-4" />
-                </a>
-
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Instagram"
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
-                >
-                  <InstagramIcon className="h-4 w-4" />
-                </a>
-
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="LinkedIn"
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
-                >
-                  <LinkedinIcon className="h-4 w-4" />
-                </a>
-
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Twitter"
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
-                >
-                  <TwitterIcon className="h-4 w-4" />
-                </a>
-
-              </div>
+          {/* Section Heading Header */}
+          <div className="mx-auto flex max-w-2xl flex-col items-center text-center">
+            <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 shadow-sm">
+              <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" />
+              <span className="text-[11px] font-bold uppercase tracking-widest text-slate-700">
+                World-Class Vertical Mobility
+              </span>
             </div>
 
-            {/* ================= RIGHT: CONTACT FORM ================= */}
-            <div className="flex h-full flex-col rounded-3xl border border-slate-200 bg-[#f8f8f8] p-7 shadow-sm sm:p-8 lg:col-span-7 lg:p-10">
+            <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px]">
+              Innovative <span className="text-[#D6362C]">Elevator Systems</span>
+            </h2>
 
-              {/* Heading */}
-              <div>
-                <h3 className="text-2xl font-extrabold tracking-tight text-black">
-                  Get In Touch
+            <div className="mt-3.5 h-1 w-20 rounded-full bg-[#D6362C]" />
+
+            <p className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base">
+              From luxurious private home lifts to high-capacity commercial and industrial goods elevators, discover solutions tailored for your precise architectural requirements.
+            </p>
+          </div>
+
+          {/* PRODUCTS GRID */}
+          <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {ALL_PRODUCTS.map((product) => (
+              <div
+                key={product.id}
+                className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-[#f8f8f8] shadow-sm transition-all duration-500 hover:border-[#D6362C]/50 hover:shadow-xl hover:-translate-y-1.5"
+              >
+                {/* Product Image Frame */}
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-slate-100">
+                  <Image
+                    src={product.image}
+                    alt={product.altText}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
+                  />
+                  
+                  {/* Overlay Gradient */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent opacity-60 transition-opacity group-hover:opacity-80" />
+
+                  {/* Top Badge Tag */}
+                  <div className="absolute left-4 top-4 z-10">
+                    <span className="rounded-full border border-white/20 bg-black/60 px-3.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-slate-200 backdrop-blur-md">
+                      {product.tag}
+                    </span>
+                  </div>
+                </div>
+
+                {/* Card Body Content */}
+                <div className="flex flex-1 flex-col justify-between p-6 sm:p-7">
+                  <div>
+                    <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#D6362C]">
+                      {product.category}
+                    </span>
+                    <h3 className="mt-1.5 text-xl font-extrabold text-slate-900 sm:text-2xl group-hover:text-[#D6362C] transition-colors">
+                      {product.title}
+                    </h3>
+                    <p className="mt-2.5 line-clamp-3 text-xs leading-relaxed text-slate-600 sm:text-sm">
+                      {product.description}
+                    </p>
+                  </div>
+
+                  {/* Action Link Footer */}
+                  <div className="mt-6 flex items-center justify-between border-t border-slate-200 pt-4">
+                    <Link
+                      href={product.href}
+                      className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-slate-900 transition-colors hover:text-[#D6362C]"
+                    >
+                      <span>View More</span>
+                      <ArrowUpRight className="h-4 w-4 text-[#D6362C] transition-transform duration-200 group-hover:translate-x-1 group-hover:-translate-y-1" />
+                    </Link>
+
+                    <div className="flex h-9 w-9 items-center justify-center rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm transition-all duration-300 group-hover:bg-[#D6362C] group-hover:border-[#D6362C] group-hover:text-white">
+                      <ArrowUpRight className="h-4 w-4" />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Bottom Red Accent Line */}
+                <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-[#D6362C] to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+              </div>
+            ))}
+          </div>
+
+          {/* ================= BOTTOM HELP / CTA BANNER ================= */}
+          <div className="mt-20 overflow-hidden rounded-3xl border border-slate-200 bg-[#f8f8f8] p-8 sm:p-12 shadow-sm relative">
+            <div className="absolute -right-20 -bottom-20 h-64 w-64 rounded-full bg-[#D6362C]/10 blur-3xl pointer-events-none" />
+            
+            <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8 text-center lg:text-left">
+              <div className="max-w-xl">
+                <span className="inline-flex items-center gap-2 rounded-full bg-red-500/10 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-[#D6362C] mb-3 border border-red-500/20">
+                  Need Custom Engineering?
+                </span>
+                <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+                  Looking for a custom lift size or unique cabin finish?
                 </h3>
-
-                <div className="mt-3 h-1 w-16 rounded-full bg-[#D6362C]" />
+                <p className="mt-2 text-sm sm:text-base text-slate-600 leading-relaxed">
+                  Our structural engineers can visit your site in Delhi-NCR or Mohali to provide tailored consultation, shaft measurements, and free quotes.
+                </p>
               </div>
 
-              {/* Form */}
-              <form className="mt-8 space-y-6">
-
-                {/* Name + Email */}
-                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-
-                  {/* Name */}
-                  <div className="relative">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
-                      <User className="h-4 w-4 text-[#D6362C]" />
-                    </div>
-
-                    <input
-                      type="text"
-                      placeholder="Name"
-                      required
-                      className="w-full rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
-                    />
-                  </div>
-
-                  {/* Email */}
-                  <div className="relative">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
-                      <AtSign className="h-4 w-4 text-[#D6362C]" />
-                    </div>
-
-                    <input
-                      type="email"
-                      placeholder="Email Address"
-                      required
-                      className="w-full rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
-                    />
-                  </div>
-
-                </div>
-
-                {/* Phone + Requirement */}
-                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-
-                  {/* Phone */}
-                  <div className="relative">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
-                      <PhoneCall className="h-4 w-4 text-[#D6362C]" />
-                    </div>
-
-                    <input
-                      type="tel"
-                      placeholder="Phone"
-                      required
-                      className="w-full rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
-                    />
-                  </div>
-
-                  {/* Requirement */}
-                  <div className="relative">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
-                      <FileText className="h-4 w-4 text-[#D6362C]" />
-                    </div>
-                    <input
-                      type="text"
-                      placeholder="Requirement"
-                      className="w-full rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
-                    />
-                  </div>
-                </div>
-                {/* Message */}
-                <div className="relative">
-                  <div className="pointer-events-none absolute left-3.5 top-4">
-                    <MessageSquare className="h-4 w-4 text-[#D6362C]" />
-                  </div>
-                  <textarea
-                    rows={7}
-                    placeholder="How can we help you? Feel free to get in touch!"
-                    required
-                    className="w-full resize-none rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
-                  />
-                </div>
-                {/* Consent */}
-                <div className="flex items-start gap-3">
-                  <input
-                    type="checkbox"
-                    id="consent"
-                    required
-                    className="mt-0.5 h-4 w-4 cursor-pointer rounded border-slate-300 text-[#D6362C] focus:ring-[#D6362C]"
-                  />
-                  <label
-                    htmlFor="consent"
-                    className="cursor-pointer text-xs leading-relaxed text-slate-600 sm:text-sm"
-                  >
-                    I agree that my data is collected and stored.
-                  </label>
-                </div>
-                {/* Submit */}
-                <button
-                  type="submit"
-                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#D6362C] px-8 py-4 text-sm font-bold uppercase tracking-wider text-white shadow-lg transition-all duration-300 hover:bg-[#B52A21] hover:shadow-xl active:scale-95"
+              <div className="flex flex-col sm:flex-row items-center gap-4 shrink-0">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#D6362C] px-8 py-4 text-sm font-bold uppercase tracking-wider text-white shadow-lg transition-all hover:bg-[#B52A21] hover:shadow-xl active:scale-95"
                 >
-                  <Send className="h-4 w-4" />
-                  <span>Get In Touch</span>
-                </button>
-              </form>
+                  <PhoneCall className="h-4 w-4" />
+                  <span>Request Site Visit</span>
+                </Link>
+                <div className="flex items-center gap-2 text-xs font-medium text-slate-600">
+                  <ShieldCheck className="h-5 w-5 text-[#D6362C]" />
+                  <span>Certified EN-81 Compliance</span>
+                </div>
+              </div>
             </div>
           </div>
+
         </div>
       </section>
+
     </main>
   );
 }

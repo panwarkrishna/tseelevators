@@ -1,6 +1,11 @@
-
 @import "tailwindcss";
 
+@layer base {
+  body {
+    font-family: var(--font-plus-jakarta-sans), sans-serif;
+    overflow-x: hidden;
+  }
+}
 
 /* ── Swiper custom dots ─────────────────────────────── */
 .adi-dots {
@@ -15,9 +20,11 @@
   width: 100%;
 }
 
+
 .marquee-swiper .swiper-wrapper {
     transition-timing-function: linear !important;
-  }
+}
+
   
 /* Disabled arrows */
 .adi-btn-prev.swiper-button-disabled,
@@ -326,9 +333,6 @@ a    { text-decoration: none; }
   display: none;
 }
 
-body {
-  overflow-x: hidden;
-}
 
 .heading01 h1{
   font-size: 44px;
@@ -347,7 +351,5 @@ body {
 padding-bottom: 0;
 }
 
+
 }
-
-
-

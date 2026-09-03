@@ -53,95 +53,119 @@ type NavLink = {
 };
 
 const NAV_LINKS: NavLink[] = [
-  {
-    label: "Home",
-    href: "/",
-  },
+  // {
+  //   label: "Home",
+  //   href: "/",
+  // },
   {
     label: "About Us",
-    href: "/about1",
+    href: "/about",
   },
 
   {
     label: "Products",
-    href: "/products1",
+    href: "/products",
     children: [
       {
+        label: "Home Lift",
+        href: "/home-lift",
+      },
+      {
+        label: "Domestic Lift",
+        href: "/domestic-lift",
+      },
+      {
         label: "Residential Lift",
-        href: "/residential-lifts",
+        href: "/residential-lift",
       },
       {
         label: "Passenger Lift",
-        href: "/passenger-lifts",
-      },
-      {
-        label: "Hydraulic Lift",
-        href: "/hydraulic-lifts",
+        href: "/passenger-lift",
       },
       {
         label: "Commercial Lift",
-        href: "/commercial-lifts",
+        href: "/commercial-lift",
       },
       {
         label: "Pitless Lift",
-        href: "/pitless-lifts",
+        href: "/pitless-lift",
       },
       {
         label: "Goods Lift",
-        href: "/goods-lifts",
+        href: "/goods-lift",
       },
+      {
+        label: "Glass Lift",
+        href: "/glass-lift",
+      },
+      {
+        label: "Hydraulic Lift",
+        href: "/hydraulic-lift",
+      },
+      
     ],
   },
 
   {
     label: "Services",
-    href: "/services1",
+    href: "/services",
     children: [
       {
-        label: "Lift Installation Services",
+        label: "Lift Installation",
         href: "/lift-installation-services",
       },
       {
-        label: "Lift Repair Services",
+        label: "Lift Repair",
         href: "/lift-repair-services",
       },
       {
-        label: "Lift Maintenance Services",
+        label: "Lift Maintenance",
         href: "/lift-maintenance-services",
       },
       {
-        label: "Lift AMC Services",
+        label: "Lift AMC ",
         href: "/lift-amc-services",
       },
       {
-        label: "Lift Dismantling Services",
+        label: "Lift Dismantling",
         href: "/lift-dismantling-services",
       },
       {
-        label: "Lift MS Structural Services",
+        label: "Lift MS Structural",
         href: "/lift-ms-structure",
       },
+    ],
+  },
+  {
+    label: "Luxury Elevator",
+    href: "/luxury-elevator",
+    children: [
+      {
+        label: "Customized Elevator",
+        href: "/customized-elevator",
+      },
+      
     ],
   },
 
   {
     label: "Gallery",
-    href: "/gallery1",
+    href: "/gallery",
   },
   {
     label: "Blogs",
-    href: "/blog1",
+    href: "/blog001",
   },
   {
     label: "Contact",
-    href: "/contact1",
+    href: "/contact",
   },
 ];
 
 // ================= CONTACT =================
 
 const CONTACT_INFO = {
-  phone: "+91 99710-22555",
+  phone: "+91 9971022555",
   email: "info@tseelevators.com",
 };
 
@@ -190,7 +214,7 @@ export default function Header() {
           FIXED HEADER
       ========================================================= */}
 
-      <header className="fixed left-0 top-0 z-50 w-full bg-white font-sans">
+      <header className="fixed left-0 top-0 z-50 w-full bg-white ">
 
         {/* ================= TOP CONTACT BAR ================= */}
 
@@ -294,8 +318,8 @@ export default function Header() {
                 src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
                 alt="TSE Shaft Elevators (I) Pvt Ltd"
                 width={180}
-                height={55}
-                className="h-10 w-auto object-contain sm:h-12"
+                height={75}
+                className="h-15 w-auto object-contain sm:h-17"
                 priority
               />
             </Link>
@@ -330,7 +354,7 @@ export default function Header() {
 
                     <Link
                       href={link.href}
-                      className="flex items-center gap-1 px-4 py-7 text-md font-bold text-[#102D5E] transition-colors hover:text-[#D6362C]"
+                      className="flex items-center gap-1 px-2 py-7 text-[15px] font-bold text-[#102D5E] transition-colors hover:text-[#D6362C]"
                     >
                       {link.label}
 
@@ -397,13 +421,12 @@ export default function Header() {
               {/* ENQUIRE NOW */}
 
               <Link
-                href="/contact"
-                className="ml-5 flex min-h-[48px] items-center gap-2 rounded-md bg-[#D6362C] px-5 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#B52A21] sm:px-7"
-              >
-                Enquire Now
-
-                <ArrowUpRight className="h-4 w-4" />
-              </Link>
+                  href="/contact"
+                  className="ml-5 hidden min-h-[40px] items-center gap-2 rounded-md bg-[#D6362C] px-5 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#B52A21] sm:px-7 md:flex md:min-h-[48px]"
+                >
+                  Enquire Now
+                  <ArrowUpRight className="h-4 w-4" />
+                </Link>
 
               {/* OWL BUTTON */}
 
@@ -412,7 +435,7 @@ export default function Header() {
                 onClick={openOffcanvas}
                 aria-label="TSE Philosophy"
                 title="TSE Philosophy"
-                className="group ml-4 hidden h-10 w-10 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition-all hover:border-[#D6362C] hover:bg-red-50 lg:flex"
+                className="group ml-4 hidden cursor-pointer h-12 w-12 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition-all hover:border-[#D6362C] hover:bg-red-50 lg:flex"
               >
                 <Image
                   src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
