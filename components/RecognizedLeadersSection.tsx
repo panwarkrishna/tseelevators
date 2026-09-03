@@ -195,9 +195,9 @@ export default function RecognizedLeadersSection() {
 
             <Link
               href="/tseelevators/contact"
-              className="group mt-8 inline-flex items-center gap-2 rounded-full bg-[#1B2A5E] px-5 py-3 text-xs font-bold uppercase tracking-wider text-white shadow-lg transition-all duration-300 hover:bg-[#D6362C] hover:shadow-xl"
+              className="mt-6 group inline-flex items-center gap-2 rounded-lg bg-[#D6362C] px-8 py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-lg shadow-[#D6362C]/25 transition-all duration-200 hover:bg-[#b52a21] hover:shadow-xl active:scale-95 sm:text-sm"
             >
-              Talk to Our Experts
+              Enquire Now
 
               <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
             </Link>

@@ -168,7 +168,7 @@ export default function ContactPage() {
               <div className="mt-10 flex items-center gap-3 border-t border-slate-200 pt-6">
 
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/people/Tse-Elevators/pfbid0381KWAdkMoDyhrK5sRTBGeJVfszTKMdg6W3bSguFszohHpdkTyFTidE1VYnAW9jmCl/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Facebook"
@@ -178,7 +178,7 @@ export default function ContactPage() {
                 </a>
 
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/tse_elevators/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Instagram"
@@ -198,7 +198,7 @@ export default function ContactPage() {
                 </a>
 
                 <a
-                  href="https://twitter.com"
+                  href="http://twitter.com/tseelevators"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Twitter"

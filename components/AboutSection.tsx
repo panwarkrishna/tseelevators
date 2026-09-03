@@ -135,7 +135,7 @@ export default function AboutSection() {
             {/* Product Image */}
             <div className="group relative aspect-[4/5] w-full overflow-hidden">
               <Image
-                src="https://img.magnific.com/free-photo/business-executive-waiting-lift_107420-65781.jpg?t=st=1787844773~exp=1787848373~hmac=34d48eb7860c57a787b7d597496d900ded91448c166e2860cbf19c9224d5a1cc&w=1480"
+                src="https://aditechinfo.com/tseelevators/product-img/about-tseelevators.png"
                 alt="TSE Luxury Gold Elevator Cabin"
                 fill
                 sizes="(max-width: 1024px) 100vw, 30vw"

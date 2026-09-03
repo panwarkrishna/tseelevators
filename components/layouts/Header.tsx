@@ -218,7 +218,7 @@ export default function Header() {
 
         {/* ================= TOP CONTACT BAR ================= */}
 
-        <div className="bg-[#102D5E] text-white">
+        <div className="bg-[#273b76] text-white">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
 
             <div className="flex min-h-[48px] items-center gap-5 sm:gap-8">
@@ -256,7 +256,7 @@ export default function Header() {
               <div className="flex items-center gap-1.5 sm:gap-2">
 
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/people/Tse-Elevators/pfbid0381KWAdkMoDyhrK5sRTBGeJVfszTKMdg6W3bSguFszohHpdkTyFTidE1VYnAW9jmCl/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Facebook"
@@ -266,7 +266,7 @@ export default function Header() {
                 </a>
 
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/tse_elevators/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Instagram"
@@ -286,7 +286,7 @@ export default function Header() {
                 </a>
 
                 <a
-                  href="https://twitter.com"
+                  href="https://www.twitter.com/tseelevators"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Twitter"

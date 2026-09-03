@@ -74,10 +74,10 @@ const SERVICES = [
 ];
 
 const SOCIALS = [
-  { label: "Facebook", href: "https://facebook.com", icon: FacebookIcon },
-  { label: "Instagram", href: "https://instagram.com", icon: InstagramIcon },
+  { label: "Facebook", href: "https://www.facebook.com/people/Tse-Elevators/pfbid0381KWAdkMoDyhrK5sRTBGeJVfszTKMdg6W3bSguFszohHpdkTyFTidE1VYnAW9jmCl/", icon: FacebookIcon },
+  { label: "Instagram", href: "https://www.instagram.com/tse_elevators/", icon: InstagramIcon },
   { label: "LinkedIn", href: "https://linkedin.com", icon: LinkedinIcon },
-  { label: "X", href: "https://twitter.com", icon: TwitterIcon },
+  { label: "X", href: "http://twitter.com/tseelevators", icon: TwitterIcon },
 ];
 
 const MARKET_AREAS = [
@@ -95,7 +95,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative overflow-hidden bg-[#0c1630] text-white selection:bg-[#D6362C] selection:text-white">
+    <footer className="relative overflow-hidden bg-[#253d74] text-white selection:bg-[#D6362C] selection:text-white">
 
       {/* Background Glows */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
@@ -125,13 +125,14 @@ export default function Footer() {
             </div>
           </div>
 
-          <Link
-            href="/contact"
-            className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-[#D6362C] px-6 py-3 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#bd2d25]"
-          >
-            Schedule Site Survey
-            <ArrowUpRight className="h-4 w-4" />
-          </Link>
+         <Link
+              href="/tseelevators/contact"
+              className="mt-6 group inline-flex items-center gap-2 rounded-lg bg-[#D6362C] px-8 py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-lg shadow-[#D6362C]/25 transition-all duration-200 hover:bg-[#b52a21] hover:shadow-xl active:scale-95 sm:text-sm"
+            >
+              Enquire Now
+
+              <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+            </Link>
         </div>
       </div>
 
@@ -149,7 +150,7 @@ export default function Footer() {
               className="h-12 w-auto rounded-lg bg-white p-2 object-contain"
             />
 
-            <p className="text-sm leading-relaxed text-slate-400">
+            <p className="text-sm leading-relaxed text-white">
               Pioneering custom residential, commercial, and industrial vertical
               mobility solutions with German engineering and absolute safety
               compliance.
@@ -162,7 +163,7 @@ export default function Footer() {
                   <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
                     Head Office — New Delhi
                   </p>
-                  <p className="mt-0.5 text-xs leading-relaxed text-slate-400">
+                  <p className="mt-0.5 text-xs leading-relaxed text-white">
                                          Metro Station-Saket, Shop No.02, Opposite Blue Tokai, Champa Gali, Lane No.3, Westend Marg, Near Saket, Saidulajab, New Delhi, Delhi 110030
 
                   </p>
@@ -174,7 +175,7 @@ export default function Footer() {
                   <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
                     Branch Office — Mohali
                   </p>
-                  <p className="mt-0.5 text-xs leading-relaxed text-slate-400">
+                  <p className="mt-0.5 text-xs leading-relaxed text-white">
                     S.C.O. No. 635, Second Floor, PUDA Gateway City, Sector 119,
                     Mohali - 140501
                   </p>
@@ -254,7 +255,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noreferrer"
                       aria-label={social.label}
-                      className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 text-slate-400 transition-colors hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
+                      className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 text-white transition-colors hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
                     >
                       <Icon className="h-3.5 w-3.5" />
                     </a>
@@ -269,7 +270,7 @@ export default function Footer() {
         <div className="mt-14 border-t border-white/10 pt-8">
           <div className="mb-4 flex items-center gap-2">
             <Sparkles className="h-3.5 w-3.5 text-[#ef6a5f]" />
-            <h5 className="text-[11px] font-bold uppercase tracking-widest text-slate-400">
+            <h5 className="text-[11px] font-bold uppercase tracking-widest text-white">
               Active Service Coverage
             </h5>
           </div>
@@ -277,7 +278,7 @@ export default function Footer() {
             {MARKET_AREAS.map((area) => (
               <span
                 key={area}
-                className="rounded-lg border border-white/10 px-3 py-1 text-xs font-medium text-slate-400 transition-colors hover:border-[#D6362C] hover:text-white"
+                className="rounded-lg border border-white/10 px-3 py-1 text-xs font-medium text-white transition-colors hover:border-[#D6362C] hover:text-white"
               >
                 {area}
               </span>
@@ -302,7 +303,7 @@ export default function Footer() {
             <button
               type="button"
               onClick={scrollToTop}
-              className="group flex items-center gap-1.5 text-xs font-semibold text-slate-400 transition-colors hover:text-white"
+              className="group flex items-center gap-1.5 text-xs font-semibold text-white transition-colors hover:text-white"
             >
               Back to top
               <ArrowUpRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
@@ -339,7 +340,7 @@ function FooterLink({ href, label }: { href: string; label: string }) {
     <li>
       <Link
         href={href}
-        className="group flex items-center gap-1.5 text-sm text-slate-400 transition-colors hover:text-white"
+        className="group flex items-center gap-1.5 text-sm text-white transition-colors hover:text-white"
       >
         <ChevronRight className="h-3.5 w-3.5 shrink-0 text-[#D6362C] transition-transform group-hover:translate-x-1" />
         <span className="leading-tight">{label}</span>
