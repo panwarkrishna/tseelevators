@@ -6,8 +6,9 @@ import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } 
 import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Lift Maintenance – TSE Elevators",
-  description: "Modern Lift Maintenances engineered to provide safe, smooth, and efficient vertical transportation.",
+  title: "Lift Maintenance Services in Delhi, Elevator Lift Maintenance in Delhi-NCR",
+  keywords: "Lift Maintenance Services in Delhi, Elevator Lift Maintenance in Delhi-NCR, Lift Maintenance Services, Elevator Lift Maintenance",
+  description: "TSE Shaft Elevators - Reliable Lift Maintenance Services in Delhi & Elevator Maintenance Services in Delhi-NCR. Regular upkeep for safe, smooth performance. Call +919971022555 for a free quote! ",
   alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
 };
 

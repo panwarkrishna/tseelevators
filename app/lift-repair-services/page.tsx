@@ -6,8 +6,9 @@ import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } 
 import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Lift Repair – TSE Elevators",
-  description: "Modern Lift Repairs engineered to provide safe, smooth, and efficient vertical transportation.",
+  title: "Lift Repair Services in Delhi, Elevator Repair Services in Delhi-NCR",
+  keywords: "Lift Repair Services in Delhi, Elevator Repair Services in Delhi-NCR, Lift Repair Services, Elevator Repair Services",
+  description: "TSE Shaft Elevators - Trusted Lift Repair Services in Delhi & Elevator Repair Services in Delhi-NCR. Quick, reliable & affordable repairs. Call +919971022555 for expert help today!",
   alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
 };
 

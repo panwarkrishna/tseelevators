@@ -65,12 +65,12 @@ const PRODUCTS = [
 ];
 
 const SERVICES = [
-  { label: "Lift Installation Services", href: "/services/lift-installation-services" },
-  { label: "Lift Repair Services", href: "/services/lift-repair-services" },
-  { label: "Lift Maintenance Services", href: "/services/lift-maintenance-services" },
-  { label: "Lift AMC Services", href: "/services/lift-amc-services" },
-  { label: "Lift Dismantling Services", href: "/services/lift-dismantling-services" },
-  { label: "Lift MS Structural Services", href: "/services/lift-ms-structure" },
+  { label: "Lift Installation", href: "/services/lift-installation-services" },
+  { label: "Lift Repair", href: "/services/lift-repair-services" },
+  { label: "Lift Maintenance", href: "/services/lift-maintenance-services" },
+  { label: "Lift AMC", href: "/services/lift-amc-services" },
+  { label: "Lift Dismantling", href: "/services/lift-dismantling-services" },
+  { label: "Lift MS Structural", href: "/services/lift-ms-structure" },
 ];
 
 const SOCIALS = [
@@ -95,179 +95,156 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative overflow-hidden bg-[#101b38] text-white selection:bg-[#D6362C] selection:text-white">
-      
+    <footer className="relative overflow-hidden bg-[#0c1630] text-white selection:bg-[#D6362C] selection:text-white">
+
       {/* Background Glows */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="absolute -left-32 top-0 h-[450px] w-[450px] rounded-full bg-[#D6362C]/10 blur-[140px]" />
-        <div className="absolute -right-32 bottom-10 h-[450px] w-[450px] rounded-full bg-blue-500/10 blur-[140px]" />
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:3.5rem_3.5rem]" />
+        <div className="absolute -left-40 -top-20 h-[500px] w-[500px] rounded-full bg-[#D6362C]/10 blur-[160px]" />
+        <div className="absolute -right-40 bottom-0 h-[500px] w-[500px] rounded-full bg-blue-500/10 blur-[160px]" />
       </div>
 
-      {/* ================= TOP CERTIFICATION BANNER ================= */}
-      <div className="relative mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
-        <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-r from-white/[0.08] to-white/[0.02] p-6 sm:p-8 lg:p-10 shadow-2xl backdrop-blur-xl">
-          <div className="absolute right-0 top-0 h-full w-1/2 bg-gradient-to-l from-[#D6362C]/15 to-transparent pointer-events-none" />
-          
-          <div className="relative z-10 flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5">
-              <div className="flex h-14 w-14 sm:h-16 sm:w-16 shrink-0 items-center justify-center rounded-2xl bg-[#D6362C] shadow-lg shadow-red-950/50">
-                <ShieldCheck className="h-7 w-7 sm:h-8 sm:w-8 text-white" />
-              </div>
-              <div>
-                <div className="flex flex-wrap items-center gap-2 mb-1">
-                  <span className="text-xs font-bold uppercase tracking-widest text-[#ef6a5f]">ISO 9001:2015 Certified</span>
-                  <span className="rounded-full bg-emerald-500/20 border border-emerald-500/30 px-2.5 py-0.5 text-[10px] font-bold text-emerald-400">Verified Quality</span>
-                </div>
-                <h3 className="text-lg sm:text-2xl font-extrabold tracking-tight text-white">
-                  Delhi-NCR’s Most Trusted Elevator Manufacturer
-                </h3>
-              </div>
+      {/* ================= TOP CERTIFICATION STRIP ================= */}
+      <div className="relative mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8">
+        <div className="flex flex-col gap-6 rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-7 lg:flex-row lg:items-center lg:justify-between lg:p-8">
+          <div className="flex items-center gap-4">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#D6362C]">
+              <ShieldCheck className="h-6 w-6 text-white" />
             </div>
-
-            <Link
-              href="/contact"
-              className="inline-flex w-full sm:w-auto items-center justify-center gap-2.5 rounded-xl bg-[#D6362C] px-6 py-3.5 sm:px-7 sm:py-4 text-xs font-bold uppercase tracking-wider text-white shadow-xl transition-all duration-300 hover:bg-[#bd2d25] hover:scale-[1.02] active:scale-95 shrink-0"
-            >
-              <span>Schedule Site Survey</span>
-              <ArrowUpRight className="h-4 w-4" />
-            </Link>
+            <div>
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-[11px] font-bold uppercase tracking-widest text-[#ef6a5f]">
+                  ISO 9001:2015 Certified
+                </span>
+                <span className="rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold text-emerald-400">
+                  Verified Quality
+                </span>
+              </div>
+              <h3 className="mt-1 text-base font-bold text-white sm:text-lg">
+                Delhi-NCR&rsquo;s Most Trusted Elevator Manufacturer
+              </h3>
+            </div>
           </div>
+
+          <Link
+            href="/contact"
+            className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-[#D6362C] px-6 py-3 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#bd2d25]"
+          >
+            Schedule Site Survey
+            <ArrowUpRight className="h-4 w-4" />
+          </Link>
         </div>
       </div>
 
-      {/* ================= MAIN FOOTER CONTENT (RESPONSIVE GRID) ================= */}
-      <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-12 lg:px-8 lg:py-15">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
+      {/* ================= MAIN FOOTER CONTENT ================= */}
+      <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_0.8fr_1fr_1fr]">
 
-          {/* BRAND & ADDRESS COLUMN (Span 4 on Desktop, Full on Mobile/Tablet) */}
-          <div className="sm:col-span-2 lg:col-span-4 space-y-6">
-            <div className="inline-block rounded-2xl bg-white px-5 py-3.5 shadow-xl">
-              <Image
-                src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
-                alt="TSE Shaft Elevators"
-                width={200}
-                height={80}
-                className="h-15 w-auto object-contain"
-              />
-            </div>
-            
-            <p className="text-sm leading-relaxed text-slate-300 max-w-md">
-              Pioneering custom residential, commercial, and industrial vertical mobility solutions with German engineering and absolute safety compliance.
+          {/* BRAND & ADDRESS */}
+          <div className="lg:col-span-1 space-y-6 md:col-span-2 lg:max-w-sm">
+            <Image
+              src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
+              alt="TSE Shaft Elevators"
+              width={180}
+              height={72}
+              className="h-12 w-auto rounded-lg bg-white p-2 object-contain"
+            />
+
+            <p className="text-sm leading-relaxed text-slate-400">
+              Pioneering custom residential, commercial, and industrial vertical
+              mobility solutions with German engineering and absolute safety
+              compliance.
             </p>
 
-            {/* Corporate Offices (Under Logo) */}
-            <div className="space-y-4 pt-2">
-              <div className="space-y-1">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-[#ef6a5f]">Head Office - New Delhi</span>
-                <div className="flex items-start gap-2">
-                  <MapPin className="mt-1 h-3.5 w-3.5 shrink-0 text-[#ef6a5f]" />
-                  <p className="text-xs leading-relaxed text-slate-300">
-                    Metro Station-Saket, Shop No.02, opposite Blue Tokai, Champa gali, lane no.3, Westend Marg, near saket, Saidulajab, New Delhi, Delhi 110030
+            <div className="space-y-4">
+              <div className="flex gap-3">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#ef6a5f]" />
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                    Head Office — New Delhi
+                  </p>
+                  <p className="mt-0.5 text-xs leading-relaxed text-slate-400">
+                                         Metro Station-Saket, Shop No.02, Opposite Blue Tokai, Champa Gali, Lane No.3, Westend Marg, Near Saket, Saidulajab, New Delhi, Delhi 110030
+
                   </p>
                 </div>
               </div>
-
-              <div className="space-y-1 pt-2 border-t border-white/10">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-[#ef6a5f]">Branch Office - Mohali</span>
-                <div className="flex items-start gap-2">
-                  <MapPin className="mt-1 h-3.5 w-3.5 shrink-0 text-[#ef6a5f]" />
-                  <p className="text-xs leading-relaxed text-slate-300">
-                    S.C.O. No. 635, Second Floor, PUDA Gateway City, Sector 119, Mohali - 140501
+              <div className="flex gap-3">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#ef6a5f]" />
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                    Branch Office — Mohali
+                  </p>
+                  <p className="mt-0.5 text-xs leading-relaxed text-slate-400">
+                    S.C.O. No. 635, Second Floor, PUDA Gateway City, Sector 119,
+                    Mohali - 140501
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* QUICK LINKS (Span 2) */}
-          <div className="lg:col-span-2 space-y-4">
-            <div>
-              <h4 className="text-xs font-extrabold uppercase tracking-[0.18em] text-white">Quick Links</h4>
-              <div className="mt-2 h-[2px] w-8 rounded-full bg-[#D6362C]" />
-            </div>
-            <ul className="space-y-2.5">
-              {USEFUL_LINKS.map((link) => (
-                <li key={link.label}>
-                  <Link href={link.href} className="group flex items-center gap-2 text-sm text-slate-300 transition-colors hover:text-white">
-                    <ChevronRight className="h-3.5 w-3.5 text-[#D6362C] transition-transform group-hover:translate-x-1 shrink-0" />
-                    <span>{link.label}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {/* QUICK LINKS */}
+          <FooterColumn title="Quick Links">
+            {USEFUL_LINKS.map((link) => (
+              <FooterLink key={link.label} href={link.href} label={link.label} />
+            ))}
+          </FooterColumn>
 
-          {/* PRODUCTS (Span 2) */}
-          <div className="lg:col-span-2 space-y-4">
-            <div>
-              <h4 className="text-xs font-extrabold uppercase tracking-[0.18em] text-white">Our Products</h4>
-              <div className="mt-2 h-[2px] w-8 rounded-full bg-[#D6362C]" />
-            </div>
-            <ul className="space-y-2.5">
-              {PRODUCTS.map((item) => (
-                <li key={item.label}>
-                  <Link href={item.href} className="group flex items-center gap-2 text-sm text-slate-300 transition-colors hover:text-white">
-                    <ChevronRight className="h-3.5 w-3.5 text-[#D6362C] transition-transform group-hover:translate-x-1 shrink-0" />
-                    <span className="truncate">{item.label}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {/* PRODUCTS */}
+          <FooterColumn title="Our Products">
+            {PRODUCTS.map((item) => (
+              <FooterLink key={item.label} href={item.href} label={item.label} />
+            ))}
+          </FooterColumn>
 
-          {/* SERVICES (Span 2) */}
-          <div className="lg:col-span-2 space-y-4">
-            <div>
-              <h4 className="text-xs font-extrabold uppercase tracking-[0.18em] text-white">Expert Services</h4>
-              <div className="mt-2 h-[2px] w-8 rounded-full bg-[#D6362C]" />
-            </div>
-            <ul className="space-y-2.5">
-              {SERVICES.map((item) => (
-                <li key={item.label}>
-                  <Link href={item.href} className="group flex items-center gap-2 text-sm text-slate-300 transition-colors hover:text-white">
-                    <ChevronRight className="h-3.5 w-3.5 text-[#D6362C] transition-transform group-hover:translate-x-1 shrink-0" />
-                    <span className="leading-tight">{item.label}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {/* SERVICES */}
+          <FooterColumn title="Expert Services">
+            {SERVICES.map((item) => (
+              <FooterLink key={item.label} href={item.href} label={item.label} />
+            ))}
+          </FooterColumn>
 
-          {/* CONTACT & SOCIALS (Span 2) */}
-          <div className="lg:col-span-2 space-y-6">
-            <div>
-              <h4 className="text-xs font-extrabold uppercase tracking-[0.18em] text-white">Get In Touch</h4>
-              <div className="mt-2 h-[2px] w-8 rounded-full bg-[#D6362C]" />
-            </div>
+          {/* CONTACT & SOCIALS */}
+          <div className="space-y-5">
+            <h4 className="text-xs font-bold uppercase tracking-[0.15em] text-white">
+              Get In Touch
+            </h4>
 
-            {/* Quick Contacts Box */}
             <div className="space-y-3">
-              <a href="tel:+919971022555" className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.03] p-3 transition-all hover:bg-white/[0.07] hover:border-white/20">
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#D6362C]/20 text-[#ef6a5f]">
-                  <Phone className="h-3.5 w-3.5" />
-                </span>
-                <div className="min-w-0">
-                  <span className="block text-[9px] font-bold uppercase tracking-wider text-slate-400">Helpline</span>
-                  <span className="text-xs font-bold text-white truncate block">+91 9971022555</span>
+              <a
+                href="tel:+919971022555"
+                className="flex items-start gap-3 text-slate-300 transition-colors hover:text-white"
+              >
+                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[#ef6a5f]" />
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                    Helpline
+                  </p>
+                  <p className="text-sm font-semibold">+91 9971022555</p>
                 </div>
               </a>
 
-              <a href="mailto:info@tseelevators.com" className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.03] p-3 transition-all hover:bg-white/[0.07] hover:border-white/20">
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#D6362C]/20 text-[#ef6a5f]">
-                  <Mail className="h-3.5 w-3.5" />
-                </span>
-                <div className="min-w-0">
-                  <span className="block text-[9px] font-bold uppercase tracking-wider text-slate-400">Email Us</span>
-                  <span className="text-xs font-bold text-white truncate block">info@tseelevators.com</span>
+              <a
+                href="mailto:info@tseelevators.com"
+                className="flex items-start gap-3 text-slate-300 transition-colors hover:text-white"
+              >
+                <Mail className="mt-0.5 h-4 w-4 shrink-0 text-[#ef6a5f]" />
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                    Email Us
+                  </p>
+                  <p className="break-words text-sm font-semibold leading-snug">
+                    info@tseelevators.com
+                  </p>
                 </div>
               </a>
             </div>
 
-            {/* Socials */}
             <div>
-              <p className="mb-2.5 text-[10px] font-bold uppercase tracking-[0.18em] text-slate-400">Social Networks</p>
-              <div className="flex items-center gap-2 flex-wrap">
+              <p className="mb-2.5 text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                Follow Us
+              </p>
+              <div className="flex items-center gap-2">
                 {SOCIALS.map((social) => {
                   const Icon = social.icon;
                   return (
@@ -277,7 +254,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noreferrer"
                       aria-label={social.label}
-                      className="flex h-9 w-9 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] text-slate-300 transition-all duration-300 hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
+                      className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 text-slate-400 transition-colors hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
                     >
                       <Icon className="h-3.5 w-3.5" />
                     </a>
@@ -285,73 +262,88 @@ export default function Footer() {
                 })}
               </div>
             </div>
-
           </div>
-
         </div>
 
-        {/* ================= MARKET SERVICE AREA BADGES ================= */}
-        <div className="mt-10 sm:mt-12 rounded-3xl border border-white/10 bg-black/20 p-5 sm:p-8 backdrop-blur-sm">
-          <div className="flex items-center gap-2.5 mb-4">
-            <Sparkles className="h-4 w-4 text-[#ef6a5f]" />
-            <h5 className="text-xs font-bold uppercase tracking-widest text-white">Active Service Coverage Locations Across India</h5>
+        {/* ================= SERVICE AREA BADGES ================= */}
+        <div className="mt-14 border-t border-white/10 pt-8">
+          <div className="mb-4 flex items-center gap-2">
+            <Sparkles className="h-3.5 w-3.5 text-[#ef6a5f]" />
+            <h5 className="text-[11px] font-bold uppercase tracking-widest text-slate-400">
+              Active Service Coverage
+            </h5>
           </div>
-          <div className="flex gap-2 flex-wrap">
+          <div className="flex flex-wrap gap-2">
             {MARKET_AREAS.map((area) => (
               <span
                 key={area}
-                className="rounded-xl border border-white/10 bg-white/[0.04] px-3.5 py-1.5 text-xs font-medium text-slate-300 transition-all hover:border-[#D6362C] hover:bg-[#D6362C]/20 hover:text-white"
+                className="rounded-lg border border-white/10 px-3 py-1 text-xs font-medium text-slate-400 transition-colors hover:border-[#D6362C] hover:text-white"
               >
                 {area}
               </span>
             ))}
           </div>
         </div>
-
       </div>
 
       {/* ================= BOTTOM COPYRIGHT BAR ================= */}
-      <div className="relative border-t border-white/10 bg-[#0a1128]">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 sm:px-6 lg:px-8 sm:flex-row">
-          
-          <p className="text-center text-xs text-slate-400 sm:text-left">
+      <div className="relative border-t border-white/10">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 sm:flex-row sm:px-6 lg:px-8">
+          <p className="text-center text-xs text-slate-500 sm:text-left">
             © 2026{" "}
-            <span className="font-semibold text-slate-200">
+            <span className="font-semibold text-slate-300">
               TSE Shaft Elevators (I) Pvt Ltd.
             </span>{" "}
             All Rights Reserved.
           </p>
 
-          <div className="flex items-center flex-wrap justify-center gap-4 sm:gap-6">
-            <Link href="/privacy-policy" className="text-xs text-slate-400 transition-colors hover:text-white">
-              Privacy Policy
-            </Link>
-            <Link href="/terms-conditions" className="text-xs text-slate-400 transition-colors hover:text-white">
-              Terms & Conditions
-            </Link>
-
+          <div className="flex items-center gap-6">
+          
             <button
               type="button"
               onClick={scrollToTop}
-              className="
-                group flex items-center gap-2
-                rounded-xl border border-white/10
-                bg-white/[0.04]
-                px-4 py-2.5
-                text-xs font-semibold text-slate-300
-                transition-all duration-300
-                hover:border-[#D6362C]
-                hover:bg-[#D6362C]
-                hover:text-white
-              "
+              className="group flex items-center gap-1.5 text-xs font-semibold text-slate-400 transition-colors hover:text-white"
             >
-              <span>Back to top</span>
+              Back to top
               <ArrowUpRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </button>
           </div>
-
         </div>
       </div>
     </footer>
+  );
+}
+
+// =====================================================
+// HELPER COMPONENTS
+// =====================================================
+function FooterColumn({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="space-y-4">
+      <h4 className="text-xs font-bold uppercase tracking-[0.15em] text-white">
+        {title}
+      </h4>
+      <ul className="space-y-2.5">{children}</ul>
+    </div>
+  );
+}
+
+function FooterLink({ href, label }: { href: string; label: string }) {
+  return (
+    <li>
+      <Link
+        href={href}
+        className="group flex items-center gap-1.5 text-sm text-slate-400 transition-colors hover:text-white"
+      >
+        <ChevronRight className="h-3.5 w-3.5 shrink-0 text-[#D6362C] transition-transform group-hover:translate-x-1" />
+        <span className="leading-tight">{label}</span>
+      </Link>
+    </li>
   );
 }

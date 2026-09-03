@@ -5,8 +5,9 @@ import ServicesSliderSection from "@/components/ServicesSliderSection";
 import LiftMaintenanceSection from "@/components/LiftMaintenanceSection";
 
 export const metadata: Metadata = {
-  title: "Our Services – TSE Elevators",
-  description: "Explore TSE Elevators' professional lift installation, modernization, and 24/7 AMC maintenance services across Delhi-NCR.",
+  title: "Luxury Elevator Manufacturers in Delhi, Luxury Elevator Suppliers in Delhi-NCR",
+  keywords: "Luxury Elevator Manufacturers in Delhi, Luxury Elevator Suppliers in Delhi-NCR, Luxury Elevator Manufacturers, Luxury Elevator Suppliers, Luxury Elevator in Delhi, Luxury Elevator in Delhi-NCR",
+  description: "TSE Shaft Elevators - Premium Luxury Elevator Manufacturers in Delhi & Luxury Elevator Suppliers in Delhi-NCR. Elegant designs, top-notch quality & safety. Call +919971022555 for a free consultation! ",
   alternates: {
     canonical: "https://tseelevators.com/services",
   },
@@ -16,15 +17,15 @@ export default function ServicesPage() {
   return (
     <main className="w-full">
       <GlobalPageHero
-        title="Our Services"
+        title="Luxury Elevator Services"
         description="Turnkey elevator installation, preventative maintenance, and 24/7 support across Delhi-NCR."
         backgroundImage="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-14-scaled.jpg"
-        badgeText="Turnkey Elevator Services"
+        badgeText="Luxury Elevator Services"
       />
 
       <ElevatorRepairSection />
-      {/* <ServicesSliderSection />
-      <LiftMaintenanceSection /> */}
+      <ServicesSliderSection />
+      <LiftMaintenanceSection />
     </main>
   );
 }

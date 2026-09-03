@@ -6,8 +6,9 @@ import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } 
 import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Lift Installation – TSE Elevators",
-  description: "Modern Lift Installations engineered to provide safe, smooth, and efficient vertical transportation.",
+  title: "Lift Installation Services in Delhi, Elevator Installation in Delhi-NCR",
+  keywords: "Lift Installation Services in Delhi, Elevator Installation in Delhi-NCR, Lift Installation Services, Elevator Installation",
+  description: "TSE Shaft Elevators - Expert Lift Installation Services in Delhi & Elevator Installation Services in Delhi-NCR. Safe, efficient & timely installation. Call +919971022555 for a free quote today!",
   alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
 };
 

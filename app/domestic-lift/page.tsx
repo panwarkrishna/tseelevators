@@ -6,8 +6,9 @@ import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } 
 import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Domestic Lift – TSE Elevators",
-  description: "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences.",
+  title: "Domestic Lift Manufacturers in Delhi, Domestic Elevator Suppliers in Delhi-NCR",
+  keywords: "Domestic Lift Manufacturers in Delhi, Domestic Elevator Suppliers in Delhi-NCR, Domestic Lift Manufacturers, Domestic Elevator Suppliers, Domestic Lift in Delhi, Domestic Elevator in Delhi-NCR",
+  description: "TSE Shaft Elevators - Trusted Domestic Lift Manufacturers in Delhi & Domestic Elevator Suppliers in Delhi-NCR. Safe, reliable & customized home lifts for every space. Call +919971022555 for a free quote!",
   alternates: { canonical: "https://tseelevators.com/tseelevators/domestic-lifts" },
 };
 

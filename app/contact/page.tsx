@@ -114,9 +114,7 @@ export default function ContactPage() {
                   </span>
 
                   <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
-                    Shop No.- 12, DDA Market,
-                   
-                    Lado Sarai New Delhi - 110030
+                       Metro Station-Saket, Shop No.02, Opposite Blue Tokai, Champa Gali, Lane No.3, Westend Marg, Near Saket, Saidulajab, New Delhi, Delhi 110030
                   </p>
                 </div>
 

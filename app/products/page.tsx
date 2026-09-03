@@ -5,8 +5,9 @@ import Link from "next/link";
 import { ArrowUpRight, Sparkles, ShieldCheck, PhoneCall, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Our Products – TSE Elevators",
-  description: "Explore our comprehensive range of high-performance elevators, including home lifts, passenger lifts, commercial elevators, and glass lifts in Delhi-NCR.",
+  title: "Elevator Solutions in Delhi-NCR ",
+  keywords: "Elevator Solutions, Elevator Manufacturer, Elevator Supplier, Custom Elevators, Elevator Systems",
+  description: "TSE Shaft Elevators - Trusted Elevator Solutions in Delhi-NCR. Custom designs, expert installation & reliable service. Call +919971022555 for a free quote today!",
   alternates: {
     canonical: "https://tseelevators.com/tseelevators/products",
   },

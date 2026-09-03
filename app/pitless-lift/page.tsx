@@ -6,8 +6,9 @@ import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } 
 import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Pitless Lift – TSE Elevators",
-  description: "Space-efficient pitless lift solutions designed for buildings where conventional deep lift pits are impractical.",
+  title: "Pitless Lift Manufacturers in Delhi, Pitless Elevator Suppliers in Delhi-NCR",
+  keywords: "Pitless Lift Manufacturers in Delhi, Pitless Elevator Suppliers in Delhi-NCR, Pitless Lift Manufacturers, Pitless Elevator Suppliers, Pitless Lift in Delhi, Pitless Elevator in Delhi-NCR",
+  description: "TSE Shaft Elevators - Leading Pitless Lift Manufacturers in Delhi & Pitless Elevator Suppliers in Delhi-NCR. Space-saving, easy installation & reliable performance. Call +919971022555 for a free consultation!",
   alternates: { canonical: "https://tseelevators.com/tseelevators/pitless-lifts" },
 };
 

@@ -6,8 +6,9 @@ import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } 
 import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Lift MS Structural – TSE Elevators",
-  description: "Modern Lift MS Structurals engineered to provide safe, smooth, and efficient vertical transportation.",
+  title: "Lift MS Structure Services in Delhi, Elevator MS Structure Services in Delhi-NCR",
+  keywords: "Lift MS Structure Services in Delhi, Elevator MS Structure Services in Delhi-NCR, Lift MS Structure Services, Elevator MS Structure Services",
+  description: "TSE Shaft Elevators - Expert Lift MS Structure Services in Delhi & Elevator MS Structure Services in Delhi-NCR. Sturdy, durable & precision-built structures. Call +919971022555 for a free quote today! ",
   alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
 };
 

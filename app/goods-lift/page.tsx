@@ -6,8 +6,9 @@ import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } 
 import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Goods Lift – TSE Elevators",
-  description: "Heavy-duty goods lifts built for safe and efficient material transportation across industrial facilities.",
+  title: "Goods Lift Manufacturers in Delhi, Goods Elevator Suppliers in Delhi-NCR",
+  keywords: "Goods Lift Manufacturers in Delhi, Goods Elevator Suppliers in Delhi-NCR, Goods Lift Manufacturers, Goods Elevator Suppliers, Goods Lift in Delhi, Goods Elevator in Delhi-NCR",
+  description: "TSE Shaft Elevators - Trusted Goods Lift Manufacturers in Delhi & Goods Elevator Suppliers in Delhi-NCR. Heavy-duty, durable & efficient lifts for industrial use. Call +919971022555 for a free quote!",
   alternates: { canonical: "https://tseelevators.com/tseelevators/goods-lifts" },
 };
 

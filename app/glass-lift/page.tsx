@@ -6,8 +6,9 @@ import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } 
 import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Glass Lift – TSE Elevators",
-  description: "Elegant glass lifts featuring modern architectural styling and panoramic visibility for premium buildings.",
+  title: "Glass Lift Manufacturers in Delhi, Glass Elevator Suppliers in Delhi-NCR",
+  keywords: "Glass Lift Manufacturers in Delhi, Glass Elevator Suppliers in Delhi-NCR, Glass Lift Manufacturers, Glass Elevator Suppliers, Glass Lift in Delhi, Glass Elevator in Delhi-NCR",
+  description: "TSE Shaft Elevators - Premium Glass Lift Manufacturers in Delhi & Glass Elevator Suppliers in Delhi-NCR. Stylish, transparent & safe designs for modern spaces. Call +919971022555 for a free consultation!",
   alternates: { canonical: "https://tseelevators.com/tseelevators/glass-lifts" },
 };
 

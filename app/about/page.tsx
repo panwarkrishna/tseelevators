@@ -4,8 +4,9 @@ import AboutMissionVision from "@/components/AboutMissionVision";
 import AboutValuesMarquee from "@/components/AboutValuesMarquee";
 
 export const metadata = {
-  title: "About Us – TSE Elevators",
-  description: "Learn more about TSE Elevators, Delhi NCR's trusted lift manufacturing and engineering experts.",
+  title: "Luxury Elevator Company in Delhi-NCR",
+  description: "TSE Shaft Elevators - Premium Luxury Elevator Company in Delhi-NCR. Elegant designs, top-notch safety & seamless installation. Call +919971022555 for a free consultation!",
+  keywords: "Luxury Elevator Company in Delhi-NCR, Luxury Lift Manufacturers, Luxury Lift Suppliers, Luxury Lift in Delhi-NCR, Luxury Lift Installation, Luxury Lift Repair Services",
 };
 
 export default function AboutPage() {

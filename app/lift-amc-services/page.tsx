@@ -6,8 +6,9 @@ import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } 
 import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Lift AMC – TSE Elevators",
-  description: "Modern Lift AMCs engineered to provide safe, smooth, and efficient vertical transportation.",
+  title: "Lift AMC Services in Delhi, Elevator AMC Services in Delhi-NCR",
+  keywords: "Lift AMC Services in Delhi, Elevator AMC Services in Delhi-NCR, Lift AMC Services, Elevator AMC Services",
+  description: "TSE Shaft Elevators - Trusted Lift AMC Services in Delhi & Elevator AMC Services in Delhi-NCR. Affordable annual maintenance for safe, reliable performance. Call +919971022555 for a free quote!",
   alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
 };
 

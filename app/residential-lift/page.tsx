@@ -6,8 +6,9 @@ import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } 
 import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Residential Lift – TSE Elevators",
-  description: "Reliable and comfortable residential lifts designed for homes, apartments, and housing societies.",
+  title: "Residential Lift Manufacturers in Delhi, Residential Elevator Suppliers in Delhi-NCR",
+  keywords: "Residential Lift Manufacturers in Delhi, Residential Elevator Suppliers in Delhi-NCR, Residential Lift Manufacturers, Residential Elevator Suppliers, Residential Lift in Delhi, Residential Elevator in Delhi-NCR",
+  description: "TSE Shaft Elevators - Top Residential Lift Manufacturers in Delhi & Residential Elevator Suppliers in Delhi-NCR. Safe, elegant & space-efficient lifts for homes. Call +919971022555 for a free consultation today!",
   alternates: { canonical: "https://tseelevators.com/tseelevators/residential-lifts" },
 };
 
