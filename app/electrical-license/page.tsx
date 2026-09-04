@@ -25,7 +25,7 @@ export default function CommercialLiftPage() {
             <div className="lg:col-span-12 space-y-6">
          <div className="group relative w-full aspect-square overflow-hidden rounded-3xl  mx-auto">
   <Image
-    src="./electrical_license.jpg"
+    src="https://aditechinfo.com/tseelevators/electrical_license-50x50.jpg"
     alt="Electrical License"
     fill
     priority
