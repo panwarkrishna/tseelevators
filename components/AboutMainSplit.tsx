@@ -2,51 +2,50 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { CheckCircle2, Sparkles, ShieldCheck, Award } from "lucide-react";
+import { CheckCircle2, Sparkles, Award } from "lucide-react";
 
-const bulletPoints = [
-  "Genuine expression of the Made in India",
-  "Knowhow on the lifts design",
-  "Perfect combination between handicraft and industrial production",
-  "Customization of any existing project",
-  "Fast passage between any idea and its industrialization",
+const whyUsPoints = [
+  "Safety first — all lifts are tested before installation",
+  "Fine design — luxury finishes for premium spaces",
+  "Skilled team — educated engineers who know your needs",
+  "On-time service — no delays, no pressure",
 ];
 
 export default function AboutMainSplit() {
   return (
-    <section className="relative w-full bg-white py-10 lg:py-15 text-slate-900 overflow-hidden">
+    <section className="relative w-full overflow-hidden bg-white py-10 text-slate-900 lg:py-16">
       {/* Background Subtle Gradient Accents */}
       <div className="pointer-events-none absolute -left-40 top-1/3 h-96 w-96 rounded-full bg-[#D6362C]/5 blur-[140px]" />
       <div className="pointer-events-none absolute -right-40 bottom-1/4 h-96 w-96 rounded-full bg-[#1B2A5E]/5 blur-[140px]" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
-        
+
         {/* SECTION TOP HEADER BADGE */}
-        <div className="text-center max-w-2xl mx-auto mb-16">
+        <div className="mx-auto mb-16 max-w-2xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-1.5 shadow-sm">
             <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" />
             <span className="text-[11px] font-bold uppercase tracking-widest text-slate-700">
               Pioneering Vertical Engineering Since 2010
             </span>
           </div>
-          <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-[#1B2A5E] sm:text-4xl lg:text-[46px] leading-tight">
+          <h2 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight text-[#1B2A5E] sm:text-4xl lg:text-[46px]">
             Luxury Elevator Manufacturers <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6B5A] to-[#E85C4A]">
+            <span className="bg-gradient-to-r from-[#FF6B5A] to-[#E85C4A] bg-clip-text text-transparent">
               in Delhi-NCR
             </span>
           </h2>
         </div>
 
         {/* BENTO GRID CONTAINER */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch">
-          
+        <div className="grid grid-cols-1 items-stretch gap-6 lg:grid-cols-12 lg:gap-8">
+
           {/* ================= BENTO BOX 1: IMAGE SHOWCASE (Col 5) ================= */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.7 }}
-            className="lg:col-span-5 relative group overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 shadow-xl min-h-[400px] lg:min-h-full"
+            className="group relative min-h-[400px] overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 shadow-xl lg:col-span-5 lg:min-h-full"
           >
             <Image
               src="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-5-scaled.jpg"
@@ -55,11 +54,11 @@ export default function AboutMainSplit() {
               sizes="(max-width: 1024px) 100vw, 40vw"
               className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
             />
-            
+
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
 
             {/* Floating Badge Inside Image */}
-            <div className="absolute bottom-6 left-6 right-6 rounded-2xl border border-white/15 bg-slate-900/85 p-4 backdrop-blur-md shadow-lg text-white flex items-center gap-3">
+            <div className="absolute bottom-6 left-6 right-6 flex items-center gap-3 rounded-2xl border border-white/15 bg-slate-900/85 p-4 text-left text-white shadow-lg backdrop-blur-md">
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#D6362C] text-white">
                 <Award className="h-5 w-5" />
               </div>
@@ -80,50 +79,74 @@ export default function AboutMainSplit() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="lg:col-span-7 flex flex-col justify-between rounded-3xl border border-slate-200 bg-slate-50/70 p-8 sm:p-10 shadow-sm backdrop-blur-md"
+            className="flex flex-col justify-center text-left lg:col-span-7"
           >
-            <div>
-              {/* Description Paragraphs */}
-              <div className="space-y-4 text-slate-600 leading-relaxed text-sm sm:text-base">
-                <p>
-                  Our long lasting tradition as manufacturers has allowed us to get an extraordinary knowhow, including any design, production, erection, and maintenance features, in line with any market need.
-                </p>
-                <p>
-                  We are one of the <strong className="text-slate-900 font-bold">Luxury Elevator Manufacturers in Delhi-NCR</strong>. Our experience, knowledge, and professional nature are our best guarantee for customers, companies, and designers.
-                </p>
-              </div>
+            <div className="space-y-4 text-sm leading-relaxed text-slate-600 sm:text-base">
+              <p>
+                Welcome to TSE Shaft Elevators, the name you can trust for
+                lifts and elevators in Delhi-NCR. It is important to select
+                the right elevator partner to ensure long term safety and
+                performance.
+              </p>
 
-              {/* Bento Sub-Grid for Bullet Points */}
-              <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-                {bulletPoints.map((point, index) => (
-                  <div
-                    key={index}
-                    className="group flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4 shadow-sm transition-all duration-300 hover:border-[#D6362C]/40 hover:shadow-md hover:-translate-y-1"
-                  >
-                    <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-red-50 text-[#D6362C] transition-colors group-hover:bg-[#D6362C] group-hover:text-white mt-0.5">
-                      <CheckCircle2 className="h-3.5 w-3.5" />
-                    </div>
-                    <span className="text-xs sm:text-sm font-semibold text-slate-800 leading-snug">
-                      {point}
-                    </span>
-                  </div>
+              <p>
+                We began with one goal — to provide safe, smooth and stylish
+                elevators that last for years to homes and buildings.
+              </p>
+
+              <h3 className="pt-2 text-xl font-bold text-[#1B2A5E] sm:text-2xl">
+                Luxury Elevator Company in Delhi-NCR
+              </h3>
+              <p>
+                Today, we are proud to be recognized as a prominent Luxury
+                Elevator Company in Delhi-NCR. From simple home lifts to
+                grand high-end elevators for villas, hotels and premium
+                buildings, we design every lift with care, style and top
+                quality.
+              </p>
+              <p>
+                We manufacture and supply many types of lifts, including
+                passenger lifts, home lifts, hydraulic lifts, glass lifts and
+                goods lifts. All elevators are made from durable material and
+                state-of-the-art technology, finished with elegant design for
+                a touch of luxury.
+              </p>
+
+              <h3 className="pt-2 text-xl font-bold text-[#1B2A5E] sm:text-2xl">
+                Why Us
+              </h3>
+              <p>
+                We&apos;re not just designing a machine — we&apos;re designing
+                a part of the look and feel of your building. That&apos;s why
+                we focus on:
+              </p>
+
+              <ul className="space-y-3 pt-1">
+                {whyUsPoints.map((point) => (
+                  <li key={point} className="flex items-start gap-3">
+                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#D6362C]" />
+                    <span>{point}</span>
+                  </li>
                 ))}
-              </div>
-            </div>
+              </ul>
 
-            {/* Bottom Trust Strip Inside Bento */}
-            <div className="mt-8 pt-6 border-t border-slate-200/60 flex items-center justify-between">
-              <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#1B2A5E]">
-                <ShieldCheck className="h-4 w-4 text-[#D6362C]" />
-                <span>100% Quality Assurance Guarantee</span>
-              </div>
-              <span className="text-xs font-bold text-slate-400">TSE India</span>
-            </div>
+              <p className="pt-1">
+                Long-term support: we&apos;re with you after installation too.
+              </p>
 
+              <h3 className="pt-2 text-xl font-bold text-[#1B2A5E] sm:text-2xl">
+                Our Promise
+              </h3>
+              <p>
+                Trust is built at TSE Shaft Elevators, not just lifts
+                installed. Be it a small home lift or a luxury elevator for a
+                five-star facility, we treat every job with the same
+                attention and honesty.
+              </p>
+            </div>
           </motion.div>
 
         </div>
-
       </div>
     </section>
   );

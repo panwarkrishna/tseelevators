@@ -22,7 +22,7 @@ export default function DomesticLiftPage() {
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
           <div className="mb-8 sm:mb-10"><Link href="/" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100 px-4 py-2 text-xs font-bold uppercase tracking-wider text-slate-700 transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"><ArrowLeft className="h-4 w-4" /><span>Back to Home</span></Link></div>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-            <div className="lg:col-span-6 space-y-6">
+            <div className="lg:col-span-5 space-y-5">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="https://aditechinfo.com/tseelevators/product-img/domestic.webp" alt="Domestic Lift for homes, villas, and residential properties" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
@@ -30,12 +30,28 @@ export default function DomesticLiftPage() {
               </div>
             
             </div>
-            <div className="lg:col-span-6 space-y-6 sm:space-y-8">
+            <div className="lg:col-span-7 space-y-7 sm:space-y-7">
               <div>
-                <span className="inline-block rounded-full bg-red-500/10 px-3.5 py-1 text-xs font-bold uppercase tracking-[0.2em] text-[#D6362C] mb-3 border border-red-500/20">Home Lifts</span>
-                <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Domestic Lift</h2>
-                <p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.</p>
-              </div>
+ 
+ 
+   <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Domestic Lift</h2>
+<p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.</p>
+
+
+<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
+Domestic Lift Manufacturers in Delhi</h3>
+<p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">When it comes to Domestic Lift Manufacturers in Delhi, TSE Shaft Elevators is an organization that has established a great reputation. Our lifts are developed with high-tech equipment and are characterized by their compact size. We specialize in family lifts that fit perfectly in the interior of your home, villa, or duplex. All our lifts are produced with high-class materials, tested for safety, and are easy to maintain. Moreover, you have a choice of design and finish. With our Domestic Lifts, your loved ones with elderly people, kids, or disabled ones will feel comfortable and safe.
+</p>
+<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
+Trusted Domestic Elevator Suppliers in Delhi-NCR</h3>
+
+<p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is a Domestic Elevator Supplier in Delhi-NCR with great experience. We offer our lift-sitting services to the residents of Delhi, Noida, Gurugram, and Faridabad. Our specialists pay special attention to the peculiarities of your home during the design stage. They provide professional installation and perform all necessary tests to ensure the stable functioning of our lifts. Thus, choosing us, you get the opportunity to enjoy the convenience of a house elevator with minimal effort and stress.
+</p>
+
+ 
+ 
+ 
+               </div>
             
             </div>
           </div>

@@ -123,14 +123,14 @@ export default function AllProductsPage() {
       
       {/* ================= HERO SECTION ================= */}
       <GlobalPageHero
-        title="Our Products Collection"
+        title="Our Products "
         description="Explore our comprehensive range of high-performance elevators, customized to elevate comfort, safety, and modern architectural aesthetics."
         backgroundImage="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-4.jpg"
         badgeText="Engineered For Excellence"
       />
 
       {/* ================= PRODUCTS GRID SECTION ================= */}
-      <section className="relative w-full overflow-hidden bg-white py-16 sm:py-20 lg:py-24">
+      <section className="relative w-full overflow-hidden bg-white py-8 sm:py-12 lg:py-16">
         
         {/* Background Architectural Grid Pattern */}
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:4rem_4rem]" />
@@ -141,24 +141,27 @@ export default function AllProductsPage() {
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
 
           {/* Section Heading Header */}
-          <div className="mx-auto flex max-w-2xl flex-col items-center text-center">
-            <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 shadow-sm">
-              <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" />
-              <span className="text-[11px] font-bold uppercase tracking-widest text-slate-700">
-                World-Class Vertical Mobility
-              </span>
-            </div>
+                   <div className="mx-auto flex max-w-7xl flex-col items-center ">
+          
 
-            <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px]">
-              Innovative <span className="text-[#D6362C]">Elevator Systems</span>
+            <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px] mb-12">
+              Innovative <span className="text-[#D6362C]">Products </span>
             </h2>
 
-            <div className="mt-3.5 h-1 w-20 rounded-full bg-[#D6362C]" />
-
+    </div>
+          
+            <div className="relative z-10 mx-auto max-w-7xl">
+            <h3 className="text-xl font-bold text-slate-800  mb-2 text-left">Elevator Solutions in Delhi-NCR</h3>
             <p className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base">
-              From luxurious private home lifts to high-capacity commercial and industrial goods elevators, discover solutions tailored for your precise architectural requirements.
-            </p>
-          </div>
+For every necessity, TSE Shaft Elevators provides comprehensive Elevator Solutions in Delhi-NCR Passenger, home, hydraulic, commercial, and goods lifts are among the options. You always get comfort and dependability because every product is constructed with sturdy materials, smooth motors, and a secure design. 
+</p>
+
+<h3 className="text-xl font-bold text-slate-800 mt-8 mb-2">Designed to Fit Any Space</h3>
+            <p className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base">
+Our lifts are long-lasting, easy to use, and require little maintenance. We make sure your area receives the ideal lift, whether it's through elegant finishes or straightforward concepts.
+</p></div>
+
+         
 
           {/* PRODUCTS GRID */}
           <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -224,38 +227,7 @@ export default function AllProductsPage() {
             ))}
           </div>
 
-          {/* ================= BOTTOM HELP / CTA BANNER ================= */}
-          <div className="mt-20 overflow-hidden rounded-3xl border border-slate-200 bg-[#f8f8f8] p-8 sm:p-12 shadow-sm relative">
-            <div className="absolute -right-20 -bottom-20 h-64 w-64 rounded-full bg-[#D6362C]/10 blur-3xl pointer-events-none" />
-            
-            <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8 text-center lg:text-left">
-              <div className="max-w-xl">
-                <span className="inline-flex items-center gap-2 rounded-full bg-red-500/10 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-[#D6362C] mb-3 border border-red-500/20">
-                  Need Custom Engineering?
-                </span>
-                <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-                  Looking for a custom lift size or unique cabin finish?
-                </h3>
-                <p className="mt-2 text-sm sm:text-base text-slate-600 leading-relaxed">
-                  Our structural engineers can visit your site in Delhi-NCR or Mohali to provide tailored consultation, shaft measurements, and free quotes.
-                </p>
-              </div>
-
-              <div className="flex flex-col sm:flex-row items-center gap-4 shrink-0">
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#D6362C] px-8 py-4 text-sm font-bold uppercase tracking-wider text-white shadow-lg transition-all hover:bg-[#B52A21] hover:shadow-xl active:scale-95"
-                >
-                  <PhoneCall className="h-4 w-4" />
-                  <span>Request Site Visit</span>
-                </Link>
-                <div className="flex items-center gap-2 text-xs font-medium text-slate-600">
-                  <ShieldCheck className="h-5 w-5 text-[#D6362C]" />
-                  <span>Certified EN-81 Compliance</span>
-                </div>
-              </div>
-            </div>
-          </div>
+       
 
         </div>
       </section>

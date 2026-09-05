@@ -1,7 +1,12 @@
 import GlobalPageHero from "@/components/GlobalPageHero";
-import AboutMainSplit from "@/components/AboutMainSplit";
-import AboutMissionVision from "@/components/AboutMissionVision";
-import AboutValuesMarquee from "@/components/AboutValuesMarquee";
+// import AboutMainSplit from "@/components/AboutMainSplit";
+// import AboutMissionVision from "@/components/AboutMissionVision";
+// import AboutValuesMarquee from "@/components/AboutValuesMarquee";
+
+import WhyUsSection from "@/components/WhyUsSection";
+import OurWorkSection from "@/components/OurWorkSection";
+import OurPromiseSection from "@/components/OurPromiseSection";
+import { ArrowUpRight, Sparkles, ShieldCheck, PhoneCall, Layers } from "lucide-react";
 
 export const metadata = {
   title: "Luxury Elevator Company in Delhi-NCR",
@@ -19,10 +24,18 @@ export default function AboutPage() {
         backgroundImage="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-7-scaled.jpg"
       />
 
-      {/* 2. Other About Section Components */}
-      <AboutMainSplit />
-      <AboutMissionVision />
-      <AboutValuesMarquee />
+           <div className="mx-auto flex max-w-7xl flex-col items-center ">
+          
+
+            <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px] pt-12">
+              Innovative <span className="text-[#D6362C]">Elevator Systems</span>
+            </h2>
+
+    </div>
+
+      <OurPromiseSection />
+      <WhyUsSection />
+
     </main>
   );
 }
