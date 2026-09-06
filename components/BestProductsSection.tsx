@@ -178,6 +178,8 @@ const cardVariants = {
 };
 
 export default function BestProductsSection() {
+
+  
   return (
     <section className="relative w-full overflow-hidden bg-[#f7f7f7] py-8 text-slate-900 sm:py-10 lg:py-15">
 

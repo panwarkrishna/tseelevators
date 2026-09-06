@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import BestProductsSection from "@/components/BestProductsSection";
 
 export const metadata: Metadata = {
   title: "Lift MS Structure Services in Delhi, Elevator MS Structure Services in Delhi-NCR",
@@ -41,6 +42,8 @@ export default function PassengerLiftPage() {
           </div>
         </div>
       </section>
+                   <BestProductsSection />
+      
       <TestimonialsSection />
     </main>
   );

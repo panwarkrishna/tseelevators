@@ -12,7 +12,7 @@ export default function HomePage() {
       <AboutSection />
       <BestProductsSection />
       <RecognizedLeadersSection />
-      <TestimonialsSection />
+      <TestimonialsSection  isHomePage={true} />
     </main>
   );
 }

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import BestProductsSection from "@/components/BestProductsSection";
 
 export const metadata: Metadata = {
   title: "commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR",
@@ -13,6 +14,8 @@ export const metadata: Metadata = {
 };
 
 export default function CommercialLiftPage() {
+
+  
   return (
     <main className="w-full bg-white text-slate-900 selection:bg-[#D6362C] selection:text-white overflow-x-hidden">
       <GlobalPageHero title="Commercial Lift" description="High-capacity commercial lifts designed for efficient vertical transportation in office buildings, shopping malls, and other commercial spaces." backgroundImage="https://aditechinfo.com/tseelevators/product-img/commercial-lift.webp" badgeText="Commercial Lifts" />
@@ -71,7 +74,8 @@ Leading Commercial Elevator Suppliers in Delhi-NCR
           </div>
         </div>
       </section>
-      <TestimonialsSection />
+       <BestProductsSection />
+      <TestimonialsSection  />
     </main>
   );
 }

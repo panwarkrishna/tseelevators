@@ -93,7 +93,7 @@ const itemVariants = {
 
 export default function RecognizedLeadersSection() {
   return (
-    <section className="relative overflow-hidden bg-[#f7f7f7] py-16 text-slate-900 sm:py-20 lg:py-24">
+    <section className="relative overflow-hidden bg-[#fff] py-16 text-slate-900 sm:py-20 lg:py-24">
 
       {/* Background */}
 
@@ -226,7 +226,7 @@ export default function RecognizedLeadersSection() {
               return (
                 <motion.div
                   key={item.id}
-                  variants={itemVariants}
+                 // variants={itemVariants}
                   className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D6362C]/30 hover:shadow-xl"
                 >
 

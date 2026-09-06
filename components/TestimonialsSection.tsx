@@ -4,6 +4,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Quote, Star, ArrowRight, ArrowLeft } from "lucide-react";
 import { useState } from "react";
 
+type TestimonialsSectionProps = {
+  isHomePage?: boolean;
+};
+
 type Testimonial = {
   id: number;
   quote: string;
@@ -52,7 +56,8 @@ const TESTIMONIALS: Testimonial[] = [
   },
 ];
 
-export default function TestimonialsSection() {
+export default function TestimonialsSection({ isHomePage }: TestimonialsSectionProps) {
+  
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
 
@@ -67,7 +72,12 @@ export default function TestimonialsSection() {
   };
 
   return (
-    <section className="relative w-full overflow-hidden bg-[#f7f7f7] py-8 sm:py-10 lg:py-15 text-black">
+    <section  
+    className={`relative w-full overflow-hidden py-8 sm:py-10 lg:py-15 ${
+        isHomePage
+          ? "bg-[#f7f7f7]"
+          : "bg-[#f7f7f7]"
+      }`}>
       {/* Background Ambient Glows */}
  
       <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">

@@ -70,12 +70,12 @@ const PRODUCTS = [
 ];
 
 const SERVICES = [
-  { label: "Lift Installation", href: "/services/lift-installation-services" },
-  { label: "Lift Repair", href: "/services/lift-repair-services" },
-  { label: "Lift Maintenance", href: "/services/lift-maintenance-services" },
-  { label: "Lift AMC", href: "/services/lift-amc-services" },
-  { label: "Lift Dismantling", href: "/services/lift-dismantling-services" },
-  { label: "Lift MS Structural", href: "/services/lift-ms-structure" },
+  { label: "Lift Installation", href: "/lift-installation-services" },
+  { label: "Lift Repair", href: "/lift-repair-services" },
+  { label: "Lift Maintenance", href: "/lift-maintenance-services" },
+  { label: "Lift AMC", href: "/lift-amc-services" },
+  { label: "Lift Dismantling", href: "/lift-dismantling-services" },
+  { label: "Lift MS Structural", href: "/lift-ms-structure" },
 ];
 
 const SOCIALS = [

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import BestProductsSection from "@/components/BestProductsSection";
 
 export const metadata: Metadata = {
   title: "Domestic Lift Manufacturers in Delhi, Domestic Elevator Suppliers in Delhi-NCR",
@@ -57,6 +58,8 @@ Trusted Domestic Elevator Suppliers in Delhi-NCR</h3>
           </div>
         </div>
       </section>
+             <BestProductsSection />
+      
       <TestimonialsSection />
     </main>
   );
