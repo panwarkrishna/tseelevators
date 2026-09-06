@@ -142,7 +142,23 @@ a    { text-decoration: none; }
   transition: all 0.3s ease;
   z-index: 0;
 }
-
+  .wa-float {
+    z-index: 999;
+    color: #fff;
+    background: #25d366;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    font-size: 1.6rem;
+    transition: transform .2s;
+    display: flex;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    box-shadow: 0 4px 20px #25d36666;
+}
 .menu-btn:hover::before, .arrow-btn:hover::before {
   bottom: -20%;
 }

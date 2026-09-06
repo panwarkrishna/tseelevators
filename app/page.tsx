@@ -5,6 +5,7 @@ import HeroSlider from "@/components/HeroSlider";
 import RecognizedLeadersSection from "@/components/RecognizedLeadersSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 
+
 export default function HomePage() {
   return (
     <main className="bg-[#050d1f] min-h-screen">

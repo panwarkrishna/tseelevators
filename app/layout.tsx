@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -86,6 +87,8 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+              <WhatsAppFloat />
+        
       </body>
     </html>
   );
