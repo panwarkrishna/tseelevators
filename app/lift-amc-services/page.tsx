@@ -32,11 +32,39 @@ export default function PassengerLiftPage() {
              
             </div>
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
-              <div>
-                <span className="inline-block rounded-full bg-red-500/10 px-3.5 py-1 text-xs font-bold uppercase tracking-[0.2em] text-[#D6362C] mb-3 border border-red-500/20">Elevators</span>
-                <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Lift AMC</h2>
-                <p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">Modern Lift AMCs engineered to provide safe, smooth, and efficient vertical transportation for residential and commercial buildings.</p>
-              </div>
+            
+
+             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Lift AMC</h2>
+              <p>
+              TSE Shaft Elevators provides best Lift AMC service in Delhi-NCR and ensures that a lift is maintained regularly so that it serves for a longer time without any malfunctioning
+</p>
+
+
+  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Lift AMC Services in Delhi
+</h3>
+
+<p>TSE Shaft Elevators provides Lift AMC Services in Delhi, for residential, commercial and office lifts. Our skilled and experienced technicians take care of all your lift needs like regular inspection, servicing and minor repairs to prevent serious issues. Our Lift AMC services ensure that you have the lift that serves you for a long time without any safety hazards.
+</p>
+
+
+  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Elevator AMC Services in Delhi-NCR
+</h3>
+
+<p>TSE Shaft Elevators offers comprehensive Elevator AMC Services in Delhi-NCR. With our certified professionals and round the clock customer support, we ensure that the lifts in Delhi, Noida, Gurugram, Faridabad, Ghaziabad and surrounding areas are well maintained and free from malfunctioning. The following services are included in our 24×7 Elevator AMC Services.
+</p>
+
+   <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+
+    <li>Regular inspection and servicing by professional elevator technicians.</li>
+    <li>Prompt and quick repair services to avoid breakdowns</li>
+    <li>Safety audit and inspection services for hassle-free and smooth riding experience.</li>
+    <li>Professional and affordable Lift AMC services and many more
+</li>
+</ul>
+
+<p>
+Hassle-free Elevator AMC Services from TSE Shaft Elevators are the best option you can choose for all your lift maintenance needs. We ensure that your lift is well maintained and free from any defects to offer you a seamless experience.
+</p>
              
             </div>
           </div>

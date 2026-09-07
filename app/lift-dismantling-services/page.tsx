@@ -32,11 +32,35 @@ export default function PassengerLiftPage() {
              
             </div>
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
-              <div>
-                <span className="inline-block rounded-full bg-red-500/10 px-3.5 py-1 text-xs font-bold uppercase tracking-[0.2em] text-[#D6362C] mb-3 border border-red-500/20">Elevators</span>
-                <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Lift Dismantling</h2>
-                <p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">Modern Lift Dismantlings engineered to provide safe, smooth, and efficient vertical transportation for residential and commercial buildings.</p>
-              </div>
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight"> Lift Dismantling</h2>
+
+            <p>
+Old lifts and lifts that are damaged beyond repair need to be dismantled in a timely manner. Proper and safe removal of lifts is necessary. TSE Shaft Elevators offer safe and quick lift removal services for people looking to replace their existing lift or upgrade their current lift.
+</p>
+
+
+ <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Lift Dismantling Services in Delhi
+</h3>
+
+<p>TSE Shaft Elevators provides reliable Lift Dismantling Services in Delhi for old lifts, lifts that are not in use, and lifts that have malfunctioned. Our certified professionals take proper safety precautions while removing the lift and its components in order to ensure that the building is not damaged in the process. We provide hassle-free lift dismantling services to make sure that the removal of your lift’s machine, cabin, and other components is done with care.
+</p>
+
+
+ <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Elevator Dismantling Services in Delhi-NCR
+</h3>
+
+<p>We are a reliable name for Elevator Dismantling Services in Delhi-NCR providing lift removal services in Delhi, Noida, Gurugram, Haryana and other local areas. Below are the reasons why you should choose our company for all elevator and lift dismantling services in Delhi-NCR:
+</p>
+
+   <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+
+
+  <li>Safe removal of old lifts</li>
+    <li>Certified professionals wear proper safety equipment</li>  <li>Your building will not be damaged during the dismantling process</li> 
+     <li>Fast dismantling process</li> 
+      <li>Assisting you with the installation of a new lift or elevator</li>
+</ul>
+
              
             </div>
           </div>

@@ -32,11 +32,46 @@ export default function PassengerLiftPage() {
              
             </div>
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
-              <div>
-                <span className="inline-block rounded-full bg-red-500/10 px-3.5 py-1 text-xs font-bold uppercase tracking-[0.2em] text-[#D6362C] mb-3 border border-red-500/20">Elevators</span>
-                <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Customized Elevator</h2>
-                <p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">Modern Customized Elevators engineered to provide safe, smooth, and efficient vertical transportation for residential and commercial buildings.</p>
-              </div>
+             
+             
+
+ <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+Customized Elevator</h2>
+
+<p>
+The requirement of lifts varies from building to building and therefore we provide you with a customized option that fits your building dimension, elevator style and budget. Our Customized Elevator will offer you an ultimate comfortable experience along with elegance and style.
+</p>
+
+<h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+Customized Elevator Manufacturers in Delhi</h3>
+
+
+<p>TSE Shaft Elevators are one of the preferred Customized Elevator Manufacturers in Delhi, we understand every building is different in terms of structure, size and architecture, hence we bring to you a lift of your choice according to your requirement. We specialize in Customized Elevator which offers you the style and comfort of your choice like glass panel, unique design and much more.
+</p>
+
+<h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+
+Customized Elevator Suppliers in Delhi-NCR
+</h3>
+
+<p>We are the top Customized Elevator Suppliers in Delhi-NCR offering our clients with high-end customized lifts. We provide our services in Delhi, Noida, Gurugram, and Haryana. Here are some reasons why our clients prefer us:
+</p>
+
+<h4 className=" text-lg font-bold text-slate-800 mt-2 mb-1">We specialize in:</h4>
+   <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+  <li>Elevator customization that fits your building architecture.</li>
+  <li>Offer a wide range of sizes to suit all your needs.</li>
+  <li>Provide you with a variety of finishes.</li>
+  <li>Unique designs and smart features.</li>
+  <li>Reliable service and professional assistance.</li>
+</ul>
+
+<p>
+
+Choose us to bring home the ultimate experience of a customized lift.</p>
+
+
+
              
             </div>
           </div>

@@ -24,7 +24,7 @@ const PRODUCTS: ProductItem[] = [
     category: "Home Lifts",
     tag: "Perfect for Homes",
     description:
-      "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.",
+      "Everyone's daily life is made easier and safer with a home elevator, especially for children and the elderly.",
     image:
       "https://aditechinfo.com/tseelevators/product-img/home-lift.webp",
     href: "/domestic-lift",
@@ -52,7 +52,7 @@ const PRODUCTS: ProductItem[] = [
     category: "Home Lifts",
     tag: "Smooth & Safe",
     description:
-      "Reliable and comfortable residential lifts designed for homes, apartments, and housing societies with a focus on safety and smooth operation.",
+      "At TSE Shaft Elevators, we present safe and elegant lifts in residential buildings. A residential lift adds comfort, luxury, and space-saver capabilities to every family.",
     image:
       "https://aditechinfo.com/tseelevators/product-img/home-lift.webp",
     href: "/residential-lift",
@@ -66,7 +66,7 @@ const PRODUCTS: ProductItem[] = [
     category: "Elevators",
     tag: "Premium Comfort",
     description:
-      "Modern passenger lifts engineered to provide safe, smooth, and efficient vertical transportation for residential and commercial buildings.",
+      "TSE Shaft Elevators is your premier passenger lift supplier in Delhi-NCR providing safe, smooth and reliable lifts for homes, offices, malls and commercial buildings of all sizes.",
     image:
       "https://aditechinfo.com/tseelevators/product-img/passenger-lift.webp",
     href: "/passenger-lift",
@@ -80,7 +80,7 @@ const PRODUCTS: ProductItem[] = [
     category: "Elevators",
     tag: "Heavy Duty",
     description:
-      "High-performance commercial lifts designed for offices, hotels, shopping centres, hospitals, and other high-traffic commercial environments.",
+      "TSE Shaft Elevators is a renowned commercial lifts manufacturer in Delhi-NCR. We offer premium commercial lifts that can withstand high traffic with ease while providing you with years of safe and smooth riding.",
     image:
       "https://aditechinfo.com/tseelevators/product-img/commercial-lift.webp",
     href: "/commercial-lift",
@@ -94,7 +94,7 @@ const PRODUCTS: ProductItem[] = [
     category: "Home Lifts",
     tag: "Space Saving",
     description:
-      "Space-efficient pitless lift solutions designed for buildings where conventional deep lift pits are difficult or impractical to install.",
+      "Looking for a space-saving and pit-less lift? Our pitless lifts are the right option for you. It is a safe and sophisticated solution for installations with limited pit depth or no pits at all.",
     image:
       "https://aditechinfo.com/tseelevators/product-img/pitlesslift.webp",
     href: "/pitless-lift",
@@ -108,7 +108,7 @@ const PRODUCTS: ProductItem[] = [
     category: "Industrial Lifts",
     tag: "Industrial Strength",
     description:
-      "Heavy-duty goods lifts built for safe and efficient transportation of materials, equipment, and goods across commercial and industrial facilities.",
+      "Do you need the best goods lifts to carry heavy goods from one level to another? Our range of Goods Lifts is suitable for heavy loads and ideal for",
     image:
       "https://aditechinfo.com/tseelevators/product-img/goods-lift.webp",
     href: "/goods-lift",
@@ -122,7 +122,7 @@ const PRODUCTS: ProductItem[] = [
     category: "Home Lifts",
     tag: "Modern Design",
     description:
-      "Elegant glass lifts featuring modern architectural styling, panoramic visibility, and smooth operation for premium homes and contemporary buildings.",
+      "Elevate the aesthetics of your building with our elegant glass lifts. With a combination of contemporary style and luxury appeal, our lifts provide",
     image:
       "https://aditechinfo.com/tseelevators/product-img/glass-lift.webp",
     href: "/glass-lift",
@@ -136,7 +136,7 @@ const PRODUCTS: ProductItem[] = [
     category: "Home Lifts",
     tag: "Smooth Lift Tech",
     description:
-      "Efficient hydraulic lift solutions ideal for low-rise buildings, villas, and applications requiring smooth movement and dependable performance.",
+      "Do you want to install a powerful, smooth, and quiet lift? The hydraulic lift option is a great solution for low- and medium-rise buildings because of",
     image:
       "https://aditechinfo.com/tseelevators/product-img/hydraulic-lift.webp",
     href: "/hydraulic-lift",
@@ -303,99 +303,80 @@ export default function BestProductsSection() {
 
           {PRODUCTS.map((product) => (
 
-            <motion.div
-              key={product.id}
-              variants={cardVariants}
-              className="group relative h-[420px] w-full overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-lg transition-all duration-500 hover:border-[#D6362C]/50 hover:shadow-2xl hover:shadow-[#D6362C]/10 sm:h-[450px]"
-            >
+  <motion.div
+    key={product.id}
+    variants={cardVariants}
+    className="group relative h-[420px] w-full sm:h-[450px]"
+  >
+    <Link
+      href={product.href}
+      className="relative block h-full w-full overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-lg transition-all duration-500 hover:border-[#D6362C]/50 hover:shadow-2xl hover:shadow-[#D6362C]/10"
+    >
 
-              {/* ================= PRODUCT IMAGE ================= */}
+      {/* ================= PRODUCT IMAGE ================= */}
 
-              <div className="absolute inset-0 h-full w-full">
+      <div className="absolute inset-0 h-full w-full">
 
-                <Image
-                  src={product.image}
-                  alt={product.altText}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
-                />
+        <Image
+          src={product.image}
+          alt={product.altText}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
+        />
 
-                {/* IMAGE OVERLAY */}
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent transition-opacity duration-300 group-hover:opacity-95" />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent transition-opacity duration-300 group-hover:opacity-95" />
+        <div className="absolute inset-0 bg-black/10" />
 
-                <div className="absolute inset-0 bg-black/10" />
+      </div>
 
-              </div>
+      {/* ================= TOP TAG ================= */}
 
-              {/* ================= TOP TAG ================= */}
+      <div className="absolute left-5 top-5 z-10 flex items-center gap-2">
+        <span className="rounded-full border border-white/20 bg-black/60 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-slate-200 backdrop-blur-md">
+          {product.tag}
+        </span>
+      </div>
 
-              <div className="absolute left-5 top-5 z-10 flex items-center gap-2">
+      {/* ================= PRODUCT CONTENT ================= */}
 
-                <span className="rounded-full border border-white/20 bg-black/60 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-slate-200 backdrop-blur-md">
-                  {product.tag}
-                </span>
+      <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col justify-end p-6">
 
-              </div>
+        <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#E85C4A]">
+          {product.category}
+        </span>
 
-              {/* ================= PRODUCT CONTENT ================= */}
+        <h3 className="mt-1 text-xl font-extrabold text-white sm:text-2xl">
+          {product.title}
+        </h3>
 
-              <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col justify-end p-6">
+        <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-slate-300 transition-all duration-300 group-hover:line-clamp-none sm:text-sm">
+          {product.description}
+        </p>
 
-                {/* CATEGORY */}
+        <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-2">
 
-                <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#E85C4A]">
-                  {product.category}
-                </span>
+          {/* was a <Link>, now a <span> since the whole card is already the link */}
+          <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-white transition-colors group-hover:text-[#E85C4A]">
+            <span>View More</span>
+            <ArrowUpRight className="h-4 w-4 text-[#D6362C] transition-transform duration-200 group-hover:translate-x-1 group-hover:-translate-y-1" />
+          </span>
 
-                {/* TITLE */}
+          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-white transition-all duration-300 group-hover:bg-[#D6362C]">
+            <ArrowUpRight className="h-4 w-4" />
+          </div>
 
-                <h3 className="mt-1 text-xl font-extrabold text-white sm:text-2xl">
-                  {product.title}
-                </h3>
+        </div>
 
-                {/* DESCRIPTION */}
+      </div>
 
-                <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-slate-300 transition-all duration-300 group-hover:line-clamp-none sm:text-sm">
-                  {product.description}
-                </p>
+      <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-[#D6362C] to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
 
-                {/* ACTION */}
+    </Link>
+  </motion.div>
 
-                <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-2">
-
-                  <Link
-                    href={product.href}
-                    className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:text-[#E85C4A]"
-                  >
-
-                    <span>
-                      View More
-                    </span>
-
-                    <ArrowUpRight className="h-4 w-4 text-[#D6362C] transition-transform duration-200 group-hover:translate-x-1 group-hover:-translate-y-1" />
-
-                  </Link>
-
-                  <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-white transition-all duration-300 group-hover:bg-[#D6362C]">
-
-                    <ArrowUpRight className="h-4 w-4" />
-
-                  </div>
-
-                </div>
-
-              </div>
-
-              {/* ================= BOTTOM ACCENT ================= */}
-
-              <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-[#D6362C] to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-
-            </motion.div>
-
-          ))}
-
+))}
         </motion.div>
 
       </div>

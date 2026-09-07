@@ -32,11 +32,46 @@ export default function PassengerLiftPage() {
              
             </div>
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
-              <div>
-                <span className="inline-block rounded-full bg-red-500/10 px-3.5 py-1 text-xs font-bold uppercase tracking-[0.2em] text-[#D6362C] mb-3 border border-red-500/20">Elevators</span>
-                <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Lift Installation</h2>
-                <p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">Modern Lift Installations engineered to provide safe, smooth, and efficient vertical transportation for residential and commercial buildings.</p>
-              </div>
+         
+
+
+
+             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Lift Installation</h2>
+
+<p>Lift installation requires professional precision and we at TSE Shaft Elevator are here to provide you with safe and fast lift installation. Our professional lift installation services are available for residential, commercial and office lifts in Delhi-NCR.
+  </p>
+  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+Reliable Lift Installation Services in Delhi</h3>
+
+<p>Our Lift Installation Services in Delhi are a reliable choice for seamless lift installation in residential, commercial and office buildings. Our professional lift installers take care of each step of the installation process to ensure your lift is installed to perfection. We always assess your requirements and the site to ensure seamless installation.
+</p>
+<p>
+With our reliable and fast lift installation services in Delhi-NCR, you can rest assured that each step is taken to ensure your lift is safely installed.
+</p>
+
+<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">TSE Shaft Elevators: Professional Elevator Installation in Delhi-NCR</h3>
+
+<p>TSE Shaft Elevators provides professional Elevator Installation Services in Delhi-NCR including Noida, Gurgaon, Haryana and more.
+</p>
+
+
+
+<p>Here are some features of our elevator installation services:</p>
+
+   <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+
+  <li>Professional and experienced elevator installation technicians.</li>
+  <li>On-time elevator installation with no delays </li>
+    <li>Thorough safety checks at every step of installation</li>
+  <li>Hassle-free and clean elevator installation process</li>
+    <li>Post-installation support
+</li>
+</ul>
+
+
+
+
+
              
             </div>
           </div>

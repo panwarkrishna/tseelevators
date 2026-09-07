@@ -81,7 +81,7 @@ const SERVICES = [
 const SOCIALS = [
   { label: "Facebook", href: "https://www.facebook.com/people/Tse-Elevators/pfbid0381KWAdkMoDyhrK5sRTBGeJVfszTKMdg6W3bSguFszohHpdkTyFTidE1VYnAW9jmCl/", icon: FacebookIcon },
   { label: "Instagram", href: "https://www.instagram.com/tse_elevators/", icon: InstagramIcon },
-  { label: "LinkedIn", href: "https://linkedin.com", icon: LinkedinIcon },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/tse-shaft-elevators-i-pvt-tld/about/?viewAsMember=true", icon: LinkedinIcon },
   { label: "X", href: "http://twitter.com/tseelevators", icon: TwitterIcon },
 ];
 

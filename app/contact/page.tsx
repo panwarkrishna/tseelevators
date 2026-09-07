@@ -188,7 +188,7 @@ export default function ContactPage() {
                 </a>
 
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/company/tse-shaft-elevators-i-pvt-tld/about/?viewAsMember=true"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="LinkedIn"
