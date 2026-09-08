@@ -7,6 +7,9 @@ import GlobalPageHero from "@/components/GlobalPageHero";
 import WhyUsSection from "@/components/WhyUsSection";
 import OurWorkSection from "@/components/OurWorkSection";
 import OurPromiseSection from "@/components/OurPromiseSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import BestProductsSection from "@/components/BestProductsSection";
+
 import { ArrowUpRight, Sparkles, ShieldCheck, PhoneCall, Layers } from "lucide-react";
 
 export const metadata = {
@@ -36,7 +39,8 @@ export default function AboutPage() {
 
       <OurPromiseSection />
       <WhyUsSection />
-
+      <BestProductsSection/>
+      <TestimonialsSection />
     </main>
   );
 }

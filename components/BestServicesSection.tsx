@@ -240,8 +240,7 @@ export default function BestProductsSection() {
             }}
             className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base"
           >
-            Discover our comprehensive range of high-performance elevator solutions, designed to enhance comfort, safety, efficiency, and modern architectural aesthetics.
-          </motion.p>
+Explore our comprehensive elevator services, delivering reliable installation, seamless maintenance, modernisation, and expert support to ensure superior performance, safety, efficiency, and long-term reliability.          </motion.p>
 
         </div>
 
