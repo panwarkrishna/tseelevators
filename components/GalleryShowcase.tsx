@@ -15,75 +15,90 @@ const ALL_GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 1,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-1-761x473.jpg",
+      "./gallery/lift-gallery-1.webp",
     alt: "Luxury capsule and passenger elevator installation by TSE Elevators Delhi-NCR",
   },
   {
     id: 2,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-2-723x473.jpg",
+      "./gallery/lift-gallery-2.webp",
     alt: "Modern residential home lift interior design and stainless steel finish",
   },
   {
     id: 3,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-3-464x473.jpg",
+       "./gallery/lift-gallery-3.webp",
     alt: "Custom architectural elevator cabin with premium lighting",
   },
   {
     id: 4,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-4-723x473.jpg",
+      "./gallery/lift-gallery-4.webp",
     alt: "Opulent series luxury elevator manufacturer project in Delhi",
   },
   {
     id: 5,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-6-840x473.jpg",
+       "./gallery/lift-gallery-5.webp",
     alt: "Commercial building glass lift engineering and setup",
   },
   {
     id: 6,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-7-scaled.jpg",
+       "./gallery/lift-gallery-6.webp",
     alt: "Handcrafted elevator doors and high-speed mechanics",
   },
   {
     id: 7,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-8-scaled.jpg",
+      "./gallery/lift-gallery-7.webp",
     alt: "Customized hydraulic lift and shaft design across India",
   },
   {
     id: 8,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-9-scaled.jpg",
+      "./gallery/lift-gallery-8.webp",
     alt: "Elegant hotel capsule elevator installation",
   },
   {
     id: 9,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-10-scaled.jpg",
+       "./gallery/lift-gallery-9.webp",
     alt: "Advanced machine-room-less (MRL) lift manufacturing",
   },
   {
     id: 10,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-11-840x473.jpg",
+       "./gallery/lift-gallery-10.webp",
     alt: "Premium hospital stretcher elevator interior view",
   },
   {
     id: 11,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-12-720x473.jpg",
+       "./gallery/lift-gallery-11.webp",
     alt: "Heavy-duty industrial goods lift manufacturing",
   },
   {
     id: 12,
     image:
-      "https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-13-scaled.jpg",
+      "./gallery/lift-gallery-12.webp",
     alt: "Exquisite glass wall elevator in a luxury villa",
   },
+
+   {
+    id: 13,
+    image:
+      "./gallery/lift-gallery-13.webp",
+    alt: "Exquisite glass wall elevator in a luxury villa",
+  },
+
+    {
+    id: 14,
+    image:
+      "./gallery/lift-gallery-14.webp",
+    alt: "Exquisite glass wall elevator in a luxury villa",
+  },
+
 ];
 
 const ITEMS_PER_PAGE = 6;
