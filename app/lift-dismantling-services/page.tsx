@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Lift Dismantling Services in Delhi, Elevator Dismantling Services in Delhi-NCR ",
   keywords: "Lift Dismantling Services in Delhi, Elevator Dismantling Services in Delhi-NCR, Lift Dismantling Services, Elevator Dismantling Services",
   description: "TSE Shaft Elevators - Professional Lift Dismantling Services in Delhi & Elevator Dismantling Services in Delhi-NCR. Safe, efficient & hassle-free removal. Call +919971022555 for a free quote today!",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
+  alternates: { canonical: "https://tseelevators.com/lift-dismantling-services" },
 };
 
 export default function PassengerLiftPage() {

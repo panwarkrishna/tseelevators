@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Lift MS Structure Services in Delhi, Elevator MS Structure Services in Delhi-NCR",
   keywords: "Lift MS Structure Services in Delhi, Elevator MS Structure Services in Delhi-NCR, Lift MS Structure Services, Elevator MS Structure Services",
   description: "TSE Shaft Elevators - Expert Lift MS Structure Services in Delhi & Elevator MS Structure Services in Delhi-NCR. Sturdy, durable & precision-built structures. Call +919971022555 for a free quote today! ",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
+  alternates: { canonical: "https://tseelevators.com/lift-ms-structure" },
 };
 
 export default function PassengerLiftPage() {

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Lift AMC Services in Delhi, Elevator AMC Services in Delhi-NCR",
   keywords: "Lift AMC Services in Delhi, Elevator AMC Services in Delhi-NCR, Lift AMC Services, Elevator AMC Services",
   description: "TSE Shaft Elevators - Trusted Lift AMC Services in Delhi & Elevator AMC Services in Delhi-NCR. Affordable annual maintenance for safe, reliable performance. Call +919971022555 for a free quote!",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
+  alternates: { canonical: "https://tseelevators.com/lift-amc-services" },
 };
 
 export default function PassengerLiftPage() {

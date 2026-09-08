@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Residential Lift Manufacturers in Delhi, Residential Elevator Suppliers in Delhi-NCR",
   keywords: "Residential Lift Manufacturers in Delhi, Residential Elevator Suppliers in Delhi-NCR, Residential Lift Manufacturers, Residential Elevator Suppliers, Residential Lift in Delhi, Residential Elevator in Delhi-NCR",
   description: "TSE Shaft Elevators - Top Residential Lift Manufacturers in Delhi & Residential Elevator Suppliers in Delhi-NCR. Safe, elegant & space-efficient lifts for homes. Call +919971022555 for a free consultation today!",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/residential-lifts" },
+  alternates: { canonical: "https://tseelevators.com/residential-lift" },
 };
 
 export default function ResidentialLiftPage() {

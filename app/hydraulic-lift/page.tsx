@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Hydraulic Lift Manufacturers in Delhi, Hydraulic Elevator Suppliers in Delhi-NCR",
   keywords: "Hydraulic Lift Manufacturers in Delhi, Hydraulic Elevator Suppliers in Delhi-NCR,  Hydraulic Lift Manufacturers, Hydraulic Elevator Suppliers, Hydraulic Lift in Delhi, Hydraulic Elevator in Delhi-NCR",
   description: "TSE Shaft Elevators - Leading Hydraulic Lift Manufacturers in Delhi & Hydraulic Elevator Suppliers in Delhi-NCR. Smooth, powerful & reliable performance for every space. Call +919971022555 for a free quote!",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/hydraulic-lifts" },
+  alternates: { canonical: "https://tseelevators.com/hydraulic-lifts" },
 };
 
 export default function HydraulicLiftPage() {

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Passenger Lift Manufacturers in Delhi, Passenger Elevator Suppliers in Delhi-NCR",
   keywords: "Passenger Lift Manufacturers in Delhi, Passenger Elevator Suppliers in Delhi-NCR, Passenger Lift Manufacturers, Passenger Elevator Suppliers, Passenger Lift in Delhi, Passenger Elevator in Delhi-NCR",
   description: "TSE Shaft Elevators - Leading Passenger Lift Manufacturers in Delhi & Passenger Elevator Suppliers in Delhi-NCR. Safe, efficient & reliable lifts for commercial & residential spaces. Call +919971022555 for a free quote!",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
+  alternates: { canonical: "https://tseelevators.com/passenger-lift" },
 };
 
 export default function PassengerLiftPage() {

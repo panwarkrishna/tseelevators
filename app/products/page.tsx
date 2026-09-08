@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: "Elevator Solutions, Elevator Manufacturer, Elevator Supplier, Custom Elevators, Elevator Systems",
   description: "TSE Shaft Elevators - Trusted Elevator Solutions in Delhi-NCR. Custom designs, expert installation & reliable service. Call +919971022555 for a free quote today!",
   alternates: {
-    canonical: "https://tseelevators.com/tseelevators/products",
+    canonical: "https://tseelevators.com/products",
   },
 };
 

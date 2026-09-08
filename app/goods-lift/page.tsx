@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Goods Lift Manufacturers in Delhi, Goods Elevator Suppliers in Delhi-NCR",
   keywords: "Goods Lift Manufacturers in Delhi, Goods Elevator Suppliers in Delhi-NCR, Goods Lift Manufacturers, Goods Elevator Suppliers, Goods Lift in Delhi, Goods Elevator in Delhi-NCR",
   description: "TSE Shaft Elevators - Trusted Goods Lift Manufacturers in Delhi & Goods Elevator Suppliers in Delhi-NCR. Heavy-duty, durable & efficient lifts for industrial use. Call +919971022555 for a free quote!",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/goods-lifts" },
+  alternates: { canonical: "https://tseelevators.com/goods-lifts" },
 };
 
 export default function GoodsLiftPage() {

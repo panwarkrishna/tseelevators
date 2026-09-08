@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Home Lift Manufacturers in Delhi, Home Elevator Suppliers in Delhi-NCR",
   keywords: "Home Lift Manufacturers in Delhi, Home Elevator Suppliers in Delhi-NCR, Home Lift Manufacturers, Home Elevator Suppliers, Home Lift in Delhi, Home Elevator in Delhi-NCR",
   description: "TSE Shaft Elevators - Leading Home Lift Manufacturers in Delhi & Home Elevator Suppliers in Delhi-NCR. Space-saving, safe & stylish home elevators. Call +91-9971022555 for a free consultation today!",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/home-lift" },
+  alternates: { canonical: "https://tseelevators.com/home-lift" },
 };
 
 export default function HomeLiftPage() {

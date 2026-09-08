@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Lift Repair Services in Delhi, Elevator Repair Services in Delhi-NCR",
   keywords: "Lift Repair Services in Delhi, Elevator Repair Services in Delhi-NCR, Lift Repair Services, Elevator Repair Services",
   description: "TSE Shaft Elevators - Trusted Lift Repair Services in Delhi & Elevator Repair Services in Delhi-NCR. Quick, reliable & affordable repairs. Call +919971022555 for expert help today!",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
+  alternates: { canonical: "https://tseelevators.com/lift-repair-services" },
 };
 
 export default function PassengerLiftPage() {

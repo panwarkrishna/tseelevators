@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Lift Maintenance Services in Delhi, Elevator Lift Maintenance in Delhi-NCR",
   keywords: "Lift Maintenance Services in Delhi, Elevator Lift Maintenance in Delhi-NCR, Lift Maintenance Services, Elevator Lift Maintenance",
   description: "TSE Shaft Elevators - Reliable Lift Maintenance Services in Delhi & Elevator Maintenance Services in Delhi-NCR. Regular upkeep for safe, smooth performance. Call +919971022555 for a free quote! ",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/passenger-lifts" },
+  alternates: { canonical: "https://tseelevators.com/lift-maintenance-services" },
 };
 
 export default function PassengerLiftPage() {
