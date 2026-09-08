@@ -430,21 +430,21 @@ export default function Header() {
 
               {/* OWL BUTTON */}
 
-              <button
-                type="button"
-                onClick={openOffcanvas}
-                aria-label="TSE Philosophy"
-                title="TSE Philosophy"
-                className="group ml-4 hidden cursor-pointer h-12 w-12 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition-all hover:border-[#D6362C] hover:bg-red-50 lg:flex"
-              >
-                <Image
-                  src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
-                  alt="TSE Owl"
-                  width={28}
-                  height={28}
-                  className="h-6 w-auto object-contain transition-transform group-hover:scale-110"
-                />
-              </button>
+             <button
+  type="button"
+  onClick={openOffcanvas}
+  aria-label="TSE Philosophy"
+  title="TSE Philosophy"
+  className="group ml-4 flex h-12 w-12 cursor-pointer items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition-all hover:border-[#D6362C] hover:bg-red-50"
+>
+  <Image
+    src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
+    alt="TSE Owl"
+    width={28}
+    height={28}
+    className="h-6 w-6 object-contain transition-transform group-hover:scale-110"
+  />
+</button>
 
               {/* MOBILE MENU */}
 

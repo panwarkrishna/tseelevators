@@ -157,7 +157,7 @@ export default function ContactPage() {
                     </div>
 
                     <span className="font-medium">
-                      +91-99710-22555
+                      +919971022555
                     </span>
                   </a>
 
