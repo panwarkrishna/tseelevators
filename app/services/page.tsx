@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import BestProductsSection from "@/components/BestProductsSection";
+import BestServicesSection from "@/components/BestServicesSection";
 
 export const metadata: Metadata = {
   title: "Elevator Services in Delhi, Lift Services in Delhi-NCR",
@@ -63,7 +63,7 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-             <BestProductsSection />
+             <BestServicesSection />
       
       <TestimonialsSection />
     </main>

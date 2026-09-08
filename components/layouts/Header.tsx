@@ -628,7 +628,7 @@ export default function Header() {
             <div className="rounded-2xl bg-[#102D5E] p-5 text-white">
 
               <p className="text-xs font-bold uppercase tracking-wider text-slate-300">
-                Get In Touch With Engineers
+                Get In Touch With Us
               </p>
 
               <div className="mt-4 flex flex-wrap gap-4 text-md font-semibold">

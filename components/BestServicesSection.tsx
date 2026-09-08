@@ -1,0 +1,343 @@
+"use client";
+
+import Link from "next/link";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { ArrowUpRight, Sparkles } from "lucide-react";
+
+type ProductItem = {
+  id: number;
+  title: string;
+  category: string;
+  description: string;
+  image: string;
+  href: string;
+  tag: string;
+  altText: string;
+};
+
+const PRODUCTS: ProductItem[] = [
+
+   {
+    id: 1,
+    title: "Lift Installation",
+    category: "Lift Installation",
+    tag: "Lift Installation",
+    description:
+      "Lift installation requires professional precision and we at TSE Shaft Elevator are here to provide you with safe and fast lift installation. Our professional lift installation services are available for residential, commercial and office lifts in Delhi-NCR.",
+    image:
+      "./services/lift-installation1.webp",
+    href: "/lift-installation-services",
+    altText:
+      "Lift Installation",
+  },
+
+  {
+    id: 2,
+    title: "Lift Repair",
+    category: "Lift Repair",
+    tag: "Lift Repair",
+    description:
+      "Your lift is making strange noises and it is stopping in between floors. The key to prevent such situations is faster and quality repair to avoid larger expenses. We are here to help you get the most reliable and trusted lift repair services in Delhi.",
+    image:
+      "./services/lift-repair1.webp",
+    href: "/lift-repair-services",
+    altText:
+      "Lift Repair",
+  },
+
+  {
+    id: 3,
+    title: "Lift Maintenance",
+    category: "Lift Maintenance",
+    tag: "Lift Maintenance",
+    description:
+      "A properly maintained lift can keep your building operating smoothly and safely with minimal breakdowns and expensive repairs. TSE Shaft Elevators can help to provide high-quality lift maintenance that meets all safety regulations and extends the life of your lifts.",
+    image:
+      "./services/lift-maintenance1.webp",
+    href: "/lift-maintenance-services",
+    altText:
+      "Lift Maintenance",
+  },
+
+  {
+    id: 4,
+    title: "Lift AMC",
+    category: "Lift AMC",
+    tag: "Lift AMC",
+    description:
+      "TSE Shaft Elevators provides best Lift AMC service in Delhi-NCR and ensures that a lift is maintained regularly so that it serves for a longer time without any malfunctioning",
+    image:
+      "./services/amc-lift1.webp",
+    href: "/lift-amc-services",
+    altText:
+      "Lift AMC",
+  },
+
+  {
+    id: 5,
+    title: "Lift Dismantling",
+    category: "Lift Dismantling",
+    tag: "Lift Dismantling",
+    description:
+      "Old lifts and lifts that are damaged beyond repair need to be dismantled in a timely manner. Proper and safe removal of lifts is necessary. TSE Shaft Elevators offer safe and quick lift removal services for people looking to replace their existing lift or upgrade their current lift.",
+    image:
+      "./services/dismantling-llift1.webp",
+    href: "/lift-dismantling-services",
+    altText:
+      "Lift Dismantling",
+  },
+
+  {
+    id: 6,
+    title: "Lift MS Structure",
+    category: "Lift MS Structure",
+    tag: "Lift MS Structure",
+    description:
+      "Any good elevator lift requires a reliable MS structure to bear the total load of the elevator. The MS structure is a reliable system that supports the lift throughout its functioning. We at TSE Shaft Elevators deal in providing you with MS structures made of high-quality steel that are reliable according to your building's requirement and lift specification.",
+    image:
+      "./services/ms-structural1.webp",
+    href: "/lift-ms-structure",
+    altText:
+      "Lift MS Structure",
+  },
+
+];
+
+const containerVariants = {
+  hidden: {
+    opacity: 0,
+  },
+
+  visible: {
+    opacity: 1,
+
+    transition: {
+      staggerChildren: 0.12,
+      delayChildren: 0.1,
+    },
+  },
+};
+
+const cardVariants = {
+  hidden: {
+    opacity: 0,
+    y: 35,
+  },
+
+  visible: {
+    opacity: 1,
+    y: 0,
+
+    transition: {
+      duration: 0.7,
+      ease: [0.22, 1, 0.36, 1],
+    },
+  },
+};
+
+export default function BestProductsSection() {
+
+  
+  return (
+    <section className="relative w-full overflow-hidden bg-[#f7f7f7] py-8 text-slate-900 sm:py-10 lg:py-15">
+
+      {/* ================= BACKGROUND GRID ================= */}
+
+      <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000004_1px,transparent_1px),linear-gradient(to_bottom,#00000004_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_40%,#000_70%,transparent_100%)]" />
+
+      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+
+        {/* ================= SECTION HEADER ================= */}
+
+        <div className="mx-auto flex max-w-2xl flex-col items-center text-center">
+
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: -15,
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            viewport={{
+              once: true,
+            }}
+            transition={{
+              duration: 0.6,
+            }}
+            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 shadow-sm"
+          >
+
+            <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" />
+
+            <span className="text-[11px] font-bold uppercase tracking-widest text-slate-700">
+              Engineered for Excellence
+            </span>
+
+          </motion.div>
+
+          <motion.h2
+            initial={{
+              opacity: 0,
+              y: 15,
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            viewport={{
+              once: true,
+            }}
+            transition={{
+              duration: 0.6,
+              delay: 0.1,
+            }}
+            className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px]"
+          >
+
+            Our {" "}
+
+            <span className="text-[#D6362C]">
+              Services
+            </span>
+
+          </motion.h2>
+
+          {/* RED UNDERLINE */}
+
+          <motion.div
+            initial={{
+              scaleX: 0,
+            }}
+            whileInView={{
+              scaleX: 1,
+            }}
+            viewport={{
+              once: true,
+            }}
+            transition={{
+              duration: 0.5,
+              delay: 0.2,
+            }}
+            className="mt-3.5 h-1 w-20 rounded-full bg-[#D6362C]"
+          />
+
+          <motion.p
+            initial={{
+              opacity: 0,
+            }}
+            whileInView={{
+              opacity: 1,
+            }}
+            viewport={{
+              once: true,
+            }}
+            transition={{
+              duration: 0.6,
+              delay: 0.3,
+            }}
+            className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base"
+          >
+            Discover our comprehensive range of high-performance elevator solutions, designed to enhance comfort, safety, efficiency, and modern architectural aesthetics.
+          </motion.p>
+
+        </div>
+
+        {/* ================= PRODUCTS GRID ================= */}
+
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{
+            once: true,
+            margin: "-60px",
+          }}
+          className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8"
+        >
+
+          {PRODUCTS.map((product) => (
+
+  <motion.div
+    key={product.id}
+    variants={cardVariants}
+    className="group relative h-[420px] w-full sm:h-[450px]"
+  >
+    <Link
+      href={product.href}
+      className="relative block h-full w-full overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-lg transition-all duration-500 hover:border-[#D6362C]/50 hover:shadow-2xl hover:shadow-[#D6362C]/10"
+    >
+
+      {/* ================= PRODUCT IMAGE ================= */}
+
+      <div className="absolute inset-0 h-full w-full">
+
+        <Image
+          src={product.image}
+          alt={product.altText}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent transition-opacity duration-300 group-hover:opacity-95" />
+
+        <div className="absolute inset-0 bg-black/10" />
+
+      </div>
+
+      {/* ================= TOP TAG ================= */}
+
+      <div className="absolute left-5 top-5 z-10 flex items-center gap-2">
+        <span className="rounded-full border border-white/20 bg-black/60 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-slate-200 backdrop-blur-md">
+          {product.tag}
+        </span>
+      </div>
+
+      {/* ================= PRODUCT CONTENT ================= */}
+
+      <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col justify-end p-6">
+
+        <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#E85C4A]">
+          {product.category}
+        </span>
+
+        <h3 className="mt-1 text-xl font-extrabold text-white sm:text-2xl">
+          {product.title}
+        </h3>
+
+        <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-slate-300 transition-all duration-300 group-hover:line-clamp-none sm:text-sm">
+          {product.description}
+        </p>
+
+        <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-2">
+
+          {/* was a <Link>, now a <span> since the whole card is already the link */}
+          <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-white transition-colors group-hover:text-[#E85C4A]">
+            <span>View More</span>
+            <ArrowUpRight className="h-4 w-4 text-[#D6362C] transition-transform duration-200 group-hover:translate-x-1 group-hover:-translate-y-1" />
+          </span>
+
+          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-white transition-all duration-300 group-hover:bg-[#D6362C]">
+            <ArrowUpRight className="h-4 w-4" />
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-[#D6362C] to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+    </Link>
+  </motion.div>
+
+))}
+        </motion.div>
+
+      </div>
+
+    </section>
+  );
+}

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import BestProductsSection from "@/components/BestProductsSection";
+import BestServicesSection from "@/components/BestServicesSection";
 
 export const metadata: Metadata = {
   title: "Lift Dismantling Services in Delhi, Elevator Dismantling Services in Delhi-NCR ",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function PassengerLiftPage() {
   return (
     <main className="w-full bg-white text-slate-900 selection:bg-[#D6362C] selection:text-white overflow-x-hidden">
-      <GlobalPageHero title="Lift Dismantling" description="Modern Lift Dismantlings engineered to provide safe, smooth, and efficient vertical transportation." backgroundImage="https://aditechinfo.com/tseelevators/product-img/passenger-lift.webp" badgeText="Elevators" />
+      <GlobalPageHero title="Lift Dismantling" description="Modern Lift Dismantlings engineered to provide safe, smooth, and efficient vertical transportation." backgroundImage="./services/dismantling-llift1.webp" badgeText="Elevators" />
       <section className="sm:py-10 lg:py-15">
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
@@ -25,7 +25,7 @@ export default function PassengerLiftPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-6 space-y-6">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
-                <Image src="https://aditechinfo.com/tseelevators/product-img/passenger-lift.webp" alt="Modern Lift Dismantling installation for commercial and residential buildings" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
+                <Image src="./services/dismantling-llift1.webp" alt="Modern Lift Dismantling installation for commercial and residential buildings" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
                 <div className="absolute bottom-6 left-6 z-10"><span className="rounded-full bg-[#D6362C] px-3.5 py-1 text-[11px] font-bold uppercase tracking-wider text-white shadow-md">Premium Comfort</span></div>
               </div>
@@ -66,7 +66,7 @@ Old lifts and lifts that are damaged beyond repair need to be dismantled in a ti
           </div>
         </div>
       </section>
-                   <BestProductsSection />
+                   <BestServicesSection />
       
       <TestimonialsSection />
     </main>
