@@ -278,7 +278,7 @@ export default function Footer() {
           <div className="mb-4 flex items-center gap-2">
             <Sparkles className="h-3.5 w-3.5 text-[#ef6a5f]" />
             <h5 className="text-[11px] font-bold uppercase tracking-widest text-white">
-              Active Service Coverage
+Our Best Services Across Multiple Locations
             </h5>
           </div>
           <div className="flex flex-wrap gap-2">

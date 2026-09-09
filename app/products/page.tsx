@@ -3,6 +3,7 @@ import GlobalPageHero from "@/components/GlobalPageHero";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Sparkles, ShieldCheck, PhoneCall, Layers } from "lucide-react";
+import BestProductsSection  from "@/components/BestProductsSection"
 
 export const metadata: Metadata = {
   title: "Elevator Solutions in Delhi-NCR ",
@@ -13,109 +14,7 @@ export const metadata: Metadata = {
   },
 };
 
-type ProductItem = {
-  id: number;
-  title: string;
-  category: string;
-  description: string;
-  image: string;
-  href: string;
-  tag: string;
-  altText: string;
-};
-
-const ALL_PRODUCTS: ProductItem[] = [
-  {
-    id: 1,
-    title: "Home Lift",
-    category: "Home Lifts",
-    tag: "Perfect for Homes",
-    description: "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.",
-    image: "https://aditechinfo.com/tseelevators/product-img/home-lift.webp",
-    href: "/home-lift",
-    altText: "Home Lift for homes, villas, and residential properties",
-  },
-  {
-    id: 2,
-    title: "Domestic Lift",
-    category: "Home Lifts",
-    tag: "Perfect for Homes",
-    description: "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.",
-    image: "https://aditechinfo.com/tseelevators/product-img/domestic.webp",
-    href: "/domestic-lifts",
-    altText: "Domestic Lift for homes, villas, and residential properties",
-  },
-  {
-    id: 3,
-    title: "Residential Lift",
-    category: "Home Lifts",
-    tag: "Smooth & Safe",
-    description: "Reliable and comfortable residential lifts designed for homes, apartments, and housing societies with a focus on safety and smooth operation.",
-    image: "https://aditechinfo.com/tseelevators/product-img/home-lift.webp",
-    href: "/residential-lifts",
-    altText: "Residential Lift for homes and apartment buildings by TSE Elevators",
-  },
-  {
-    id: 4,
-    title: "Passenger Lift",
-    category: "Elevators",
-    tag: "Premium Comfort",
-    description: "Modern passenger lifts engineered to provide safe, smooth, and efficient vertical transportation for residential and commercial buildings.",
-    image: "https://aditechinfo.com/tseelevators/product-img/passenger-lift.webp",
-    href: "/passenger-lifts",
-    altText: "Modern Passenger Lift installation for commercial and residential buildings",
-  },
-  {
-    id: 5,
-    title: "Commercial Lift",
-    category: "Elevators",
-    tag: "Heavy Duty",
-    description: "High-performance commercial lifts designed for offices, hotels, shopping centres, hospitals, and other high-traffic commercial environments.",
-    image: "https://aditechinfo.com/tseelevators/product-img/commercial-lift.webp",
-    href: "/commercial-lifts",
-    altText: "Commercial Lift for offices, hotels, hospitals and commercial buildings",
-  },
-  {
-    id: 6,
-    title: "Pitless Lift",
-    category: "Home Lifts",
-    tag: "Space Saving",
-    description: "Space-efficient pitless lift solutions designed for buildings where conventional deep lift pits are difficult or impractical to install.",
-    image: "https://aditechinfo.com/tseelevators/product-img/pitlesslift.webp",
-    href: "/pitless-lifts",
-    altText: "Space-saving Pitless Lift solution for buildings with limited construction space",
-  },
-  {
-    id: 7,
-    title: "Goods Lift",
-    category: "Industrial Lifts",
-    tag: "Industrial Strength",
-    description: "Heavy-duty goods lifts built for safe and efficient transportation of materials, equipment, and goods across commercial and industrial facilities.",
-    image: "https://aditechinfo.com/tseelevators/product-img/goods-lift.webp",
-    href: "/goods-lifts",
-    altText: "Heavy-duty Goods Lift for industrial and commercial material transportation",
-  },
-  {
-    id: 8,
-    title: "Glass Lift",
-    category: "Home Lifts",
-    tag: "Modern Design",
-    description: "Elegant glass lifts featuring modern architectural styling, panoramic visibility, and smooth operation for premium homes and contemporary buildings.",
-    image: "https://aditechinfo.com/tseelevators/product-img/glass-lift.webp",
-    href: "/glass-lifts",
-    altText: "Modern Glass Lift with panoramic design for homes and premium buildings",
-  },
-  {
-    id: 9,
-    title: "Hydraulic Lift",
-    category: "Home Lifts",
-    tag: "Smooth Lift Tech",
-    description: "Efficient hydraulic lift solutions ideal for low-rise buildings, villas, and applications requiring smooth movement and dependable performance.",
-    image: "https://aditechinfo.com/tseelevators/product-img/hydraulic-lift.webp",
-    href: "/hydraulic-lifts",
-    altText: "Hydraulic Lift system for residential and commercial buildings",
-  },
-];
+ 
 
 export default function AllProductsPage() {
   return (
@@ -138,98 +37,94 @@ export default function AllProductsPage() {
         {/* Subtle Red Ambient Glow */}
         <div className="pointer-events-none absolute left-1/2 top-1/4 -translate-x-1/2 h-96 w-96 rounded-full bg-[#D6362C]/5 blur-[160px]" />
 
-        <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
-
-          {/* Section Heading Header */}
-                   <div className="mx-auto flex max-w-7xl flex-col items-center ">
-          
-
-            <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px] mb-12">
-              Innovative <span className="text-[#D6362C]">Products </span>
-            </h2>
-
-    </div>
-          
-            <div className="relative z-10 mx-auto max-w-7xl">
-            <h3 className="text-xl font-bold text-slate-800  mb-2 text-left">Elevator Solutions in Delhi-NCR</h3>
-            <p className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base">
-For every necessity, TSE Shaft Elevators provides comprehensive Elevator Solutions in Delhi-NCR Passenger, home, hydraulic, commercial, and goods lifts are among the options. You always get comfort and dependability because every product is constructed with sturdy materials, smooth motors, and a secure design. 
-</p>
-
-<h3 className="text-xl font-bold text-slate-800 mt-8 mb-2">Designed to Fit Any Space</h3>
-            <p className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base">
-Our lifts are long-lasting, easy to use, and require little maintenance. We make sure your area receives the ideal lift, whether it's through elegant finishes or straightforward concepts.
-</p></div>
+        <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mb-12">
 
          
 
-          {/* PRODUCTS GRID */}
-          <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {ALL_PRODUCTS.map((product) => (
-              <div
-                key={product.id}
-                className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-[#f8f8f8] shadow-sm transition-all duration-500 hover:border-[#D6362C]/50 hover:shadow-xl hover:-translate-y-1.5"
-              >
-                {/* Product Image Frame */}
-                <div className="relative aspect-[4/3] w-full overflow-hidden bg-slate-100">
-                  <Image
-                    src={product.image}
-                    alt={product.altText}
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
-                  />
-                  
-                  {/* Overlay Gradient */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent opacity-60 transition-opacity group-hover:opacity-80" />
+<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
 
-                  {/* Top Badge Tag */}
-                  <div className="absolute left-4 top-4 z-10">
-                    <span className="rounded-full border border-white/20 bg-black/60 px-3.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-slate-200 backdrop-blur-md">
-                      {product.tag}
-                    </span>
-                  </div>
-                </div>
+    <div className="lg:col-span-8 lg:col-start-3 space-y-8">
 
-                {/* Card Body Content */}
-                <div className="flex flex-1 flex-col justify-between p-6 sm:p-7">
-                  <div>
-                    <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#D6362C]">
-                      {product.category}
-                    </span>
-                    <h3 className="mt-1.5 text-xl font-extrabold text-slate-900 sm:text-2xl group-hover:text-[#D6362C] transition-colors">
-                      {product.title}
-                    </h3>
-                    <p className="mt-2.5 line-clamp-3 text-xs leading-relaxed text-slate-600 sm:text-sm">
-                      {product.description}
-                    </p>
-                  </div>
+      <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+        Elevator Solutions in Delhi-NCR
+      </h2>
 
-                  {/* Action Link Footer */}
-                  <div className="mt-6 flex items-center justify-between border-t border-slate-200 pt-4">
-                    <Link
-                      href={product.href}
-                      className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-slate-900 transition-colors hover:text-[#D6362C]"
-                    >
-                      <span>View More</span>
-                      <ArrowUpRight className="h-4 w-4 text-[#D6362C] transition-transform duration-200 group-hover:translate-x-1 group-hover:-translate-y-1" />
-                    </Link>
+      <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+        For every necessity, TSE Shaft Elevators provides comprehensive
+        Elevator Solutions in Delhi-NCR. Passenger, home, hydraulic,
+        commercial, and goods lifts are among the options. You always get
+        comfort and dependability because every product is constructed with
+        sturdy materials, smooth motors, and a secure design.
+      </p>
 
-                    <div className="flex h-9 w-9 items-center justify-center rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm transition-all duration-300 group-hover:bg-[#D6362C] group-hover:border-[#D6362C] group-hover:text-white">
-                      <ArrowUpRight className="h-4 w-4" />
-                    </div>
-                  </div>
-                </div>
+      <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
+        Designed to Fit Any Space
+      </h3>
 
-                {/* Bottom Red Accent Line */}
-                <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-[#D6362C] to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-              </div>
-            ))}
-          </div>
+      <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+        Our lifts are long-lasting, easy to use, and require little
+        maintenance. We make sure your area receives the ideal lift, whether
+        it's through elegant finishes or straightforward concepts.
+      </p>
 
+      <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
+        Elite Series
+      </h3>
+
+      <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+        TSE Shaft Elevators Elite Series is designed for luxury seekers. It
+        presents a wide range of premium options, from traditional fine
+        finishes to smart technologies to make your ride remarkable. This
+        elevator series promises to bring innovation and sophistication into
+        your home or business.
+      </p>
+
+      <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
+        Includes the following features:
+      </h3>
+
+      <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed space-y-2">
+        <li>Upgraded interior and premium finishes</li>
+        <li>Smart technologies</li>
+        <li>Stylish lighting</li>
+        <li>Suitable for homes and commercial buildings</li>
+      </ul>
+
+      <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
+        Classic Series
+      </h3>
+
+      <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+        Classic series is a simple and sophisticated lift series that offers
+        comprehensive solutions. This elevator series is engineered to meet
+        the demands of the modern home while providing excellent value and
+        performance.
+      </p>
+
+      <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
+        Includes the following features:
+      </h3>
+
+      <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed space-y-2">
+        <li>Ultimate simplicity and reliability</li>
+        <li>Cost-effective and high-quality construction</li>
+        <li>Simple installation</li>
+        <li>Fits in a single-story home or small commercial building</li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+ 
+   
        
 
         </div>
+
+              <BestProductsSection />
+ 
       </section>
 
     </main>

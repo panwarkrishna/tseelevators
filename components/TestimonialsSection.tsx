@@ -185,9 +185,9 @@ export default function TestimonialsSection({ isHomePage }: TestimonialsSectionP
                           {item.designation} • <span className="text-slate-400">{item.location}</span>
                         </p>
                       </div>
-                      <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 bg-white/5 px-3 py-1 rounded-full">
+                      {/* <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 bg-white/5 px-3 py-1 rounded-full">
                         Verified Client
-                      </span>
+                      </span> */}
                     </div>
                   </motion.div>
                 </AnimatePresence>
