@@ -34,7 +34,7 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
               
 
-<h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+<h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
  Lift Maintenance</h2>
 <p>A properly maintained lift can keep your building operating smoothly and safely with minimal breakdowns and expensive repairs. TSE Shaft Elevators can help to provide high-quality lift maintenance that meets all safety regulations and extends the life of your lifts.
 </p>

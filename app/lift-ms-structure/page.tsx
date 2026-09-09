@@ -32,7 +32,7 @@ export default function PassengerLiftPage() {
              
             </div>
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
-           <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Lift MS Structure</h2>
+           <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift MS Structure</h2>
 
              <p>
 Any good elevator lift requires a reliable MS structure to bear the total load of the elevator. The MS structure is a reliable system that supports the lift throughout its functioning. We at TSE Shaft Elevators deal in providing you with MS structures made of high-quality steel that are reliable according to your building's requirement and lift specification.

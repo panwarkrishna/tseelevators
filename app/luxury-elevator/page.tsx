@@ -35,7 +35,7 @@ export default function PassengerLiftPage() {
                
 
 
-<h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+<h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
 
 Luxury Elevator</h2>
 

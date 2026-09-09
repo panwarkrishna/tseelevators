@@ -32,7 +32,7 @@ export default function PassengerLiftPage() {
              
             </div>
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Lift Repair</h2>
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Repair</h2>
             <p className="text-black text-sm sm:text-base leading-relaxed">Your lift is making strange noises and it is stopping in between floors. The key to prevent such situations is faster and quality repair to avoid larger expenses. We are here to help you get the most reliable and trusted lift repair services in Delhi.</p>
 
             <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Lift Repair Services in Delhi for Residential, Commercial & Offices</h3>

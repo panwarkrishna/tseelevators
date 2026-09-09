@@ -40,7 +40,7 @@ TSE Shaft Elevators is your premier passenger lift supplier in Delhi-NCR providi
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Best Passenger Lift Manufacturers in Delhi</h3>
 <p className="text-md text-black">
-TSE Shaft Elevators is one of the best Passenger Lift Manufacturers in Delhi providing lifts that are safe, quick and easy to use. Our lifts are made up of premium quality material and are tested thrice before they are dispatched to our clients. We manufacture lifts that are suitable for both commercial and residential uses. Our team of experts works hard to provide you with the most reliable lifts in the market.
+TSE Shaft Elevators is one of the best <strong>Passenger Lift Manufacturers in Delhi</strong> providing lifts that are safe, quick and easy to use. Our lifts are made up of premium quality material and are tested thrice before they are dispatched to our clients. We manufacture lifts that are suitable for both commercial and residential uses. Our team of experts works hard to provide you with the most reliable lifts in the market.
 </p>
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Reliable Passenger Elevator Suppliers Across Delhi-NCR</h3>

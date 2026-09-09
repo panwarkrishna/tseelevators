@@ -55,12 +55,12 @@ export default function DomesticLiftPage() {
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Trusted Domestic Elevator Suppliers In Delhi-NCR</h3>
 
-<p>TSE Shaft Elevators is one the trusted Domestic <strong>Elevator Suppliers in Delhi-NCR</strong> that supplies residential lifts in Delhi, Noida, Gurugram, and Haryana. Our professional Domestic Elevator installers carry out a detailed survey of your home to come up with the best design and model of lifts for your home.
+<p className="mb-3">TSE Shaft Elevators is one the trusted Domestic <strong>Elevator Suppliers in Delhi-NCR</strong> that supplies residential lifts in Delhi, Noida, Gurugram, and Haryana. Our professional Domestic Elevator installers carry out a detailed survey of your home to come up with the best design and model of lifts for your home.
 </p>
 
 
-<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Below are some of the services we provide when you choose to install our lifts for residential buildings:
-</h3>
+<div className="mb-2 font-bold">Below are some of the services we provide when you choose to install our lifts for residential buildings:
+</div>
 
    <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
 

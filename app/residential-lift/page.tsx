@@ -49,7 +49,7 @@ TSE Shaft Elevators is known to be among the best Residential Lift Manufacturers
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Reliable Residential Elevator Suppliers In Delhi-NCR  </h3>
 
 
-<p>TSE Shaft Elevators is one of the most reliable Residential Elevator Suppliers in Delhi-NCR who provides home lift installation in Haryana, Delhi, Noida, Gurgaon. Our professional elevator installers come to your place to suggest the best lift design for your home.
+<p>TSE Shaft Elevators is one of the most reliable <strong>Residential Elevator Suppliers in Delhi-NCR</strong> who provides home lift installation in Haryana, Delhi, Noida, Gurgaon. Our professional elevator installers come to your place to suggest the best lift design for your home.
 </p>
 
 

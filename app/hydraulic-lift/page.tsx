@@ -34,10 +34,10 @@ export default function HydraulicLiftPage() {
               <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Hydraulic Lift</h2>
               <p className="text-black text-sm sm:text-base leading-relaxed">Do you want to install a powerful, smooth, and quiet lift? The hydraulic lift option is a great solution for low- and medium-rise buildings because of the use of liquid pressure which provides a smooth movement of the car. It is also capable of withstanding heavy passenger flows.</p>
 
-              <h3 className="text-xl font-bold text-slate-900">Trusted Hydraulic Lift Manufacturers In Delhi</h3>
+              <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Trusted Hydraulic Lift Manufacturers In Delhi</h3>
               <p className="text-black text-sm sm:text-base leading-relaxed">We are one of the best <strong>Hydraulic Lift manufacturers in Delhi,</strong> providing top-class residential, commercial and institutional lifts with low-overhead design. Our hydraulic lifts are suitable for small and medium-sized buildings, shops, and houses. All our hydraulic lifts are produced using high-quality components and are subject to rigorous testing to ensure their safe and reliable operation.</p>
 
-              <h3 className="text-xl font-bold text-slate-900">Hydraulic Elevator Suppliers In Delhi-NCR</h3>
+              <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Hydraulic Elevator Suppliers In Delhi-NCR</h3>
               <p className="text-black text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is recognized as one of the trusted <strong>Hydraulic Elevator Suppliers in Delhi-NCR.</strong> Our hydraulic lifts are a perfect solution for residential and commercial buildings because of their
 
 </p>

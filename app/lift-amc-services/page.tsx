@@ -34,7 +34,7 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Lift AMC</h2>
+             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift AMC</h2>
               <p>
               TSE Shaft Elevators provides best Lift AMC service in Delhi-NCR and ensures that a lift is maintained regularly so that it serves for a longer time without any malfunctioning
 </p>

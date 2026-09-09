@@ -34,7 +34,7 @@ export default function PassengerLiftPage() {
              
             </div>
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight"> Lift Dismantling</h2>
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4"> Lift Dismantling</h2>
 
             <p>
 Old lifts and lifts that are damaged beyond repair need to be dismantled in a timely manner. Proper and safe removal of lifts is necessary. TSE Shaft Elevators offer safe and quick lift removal services for people looking to replace their existing lift or upgrade their current lift.

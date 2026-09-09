@@ -36,7 +36,7 @@ export default function PassengerLiftPage() {
 
 
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Lift Installation</h2>
+             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Installation</h2>
 
 <p>Lift installation requires professional precision and we at TSE Shaft Elevator are here to provide you with safe and fast lift installation. Our professional lift installation services are available for residential, commercial and office lifts in Delhi-NCR.
   </p>
@@ -56,7 +56,7 @@ With our reliable and fast lift installation services in Delhi-NCR, you can rest
 
 
 
-<p>Here are some features of our elevator installation services:</p>
+<p className="font-bold p-0 m-0">Here are some features of our elevator installation services:</p>
 
    <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
 
