@@ -814,7 +814,7 @@ export default function Header() {
               className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#D6362C] py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-md transition-colors hover:bg-[#B52A21]"
             >
 
-              Get a Free Quote
+            Enquire Now
 
               <ArrowUpRight className="h-4 w-4" />
 

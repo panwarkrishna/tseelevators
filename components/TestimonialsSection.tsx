@@ -73,7 +73,7 @@ export default function TestimonialsSection({ isHomePage }: TestimonialsSectionP
 
   return (
     <section  
-    className={`relative w-full overflow-hidden py-8 sm:py-10 lg:py-15 ${
+    className={`relative w-full overflow-hidden py-0 md:py-8 sm:py-10 lg:py-15 ${
         isHomePage
           ? "bg-[#f7f7f7]"
           : "bg-[#f7f7f7]"

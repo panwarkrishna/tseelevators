@@ -61,12 +61,12 @@ export default function GlobalPageHero({
           className="flex flex-col items-center"
         >
           {/* Top Floating Badge */}
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 backdrop-blur-md shadow-xl mb-5">
+          {/* <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 backdrop-blur-md shadow-xl mb-5">
             <Sparkles className="h-3.5 w-3.5 text-[#E85C4A]" />
             <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-slate-200">
               {badgeText}
             </span>
-          </div>
+          </div> */}
 
           {/* Page Main Title */}
           <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-[54px] lg:leading-[1.12] drop-shadow-md">

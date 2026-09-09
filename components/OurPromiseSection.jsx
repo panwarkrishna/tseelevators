@@ -56,7 +56,7 @@ export default function OurPromiseSection() {
 
    
 
-            <div className="mt-8 ">
+            <div className="mt-0 md:mt-8 ">
               
          
 <p className="text-md text-black mb-3">

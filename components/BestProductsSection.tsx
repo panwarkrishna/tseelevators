@@ -22,7 +22,7 @@ const PRODUCTS: ProductItem[] = [
     id: 1,
     title: "Home Lift",
     category: "Home Lifts",
-    tag: "Perfect for Homes",
+    tag: "",
     description:
       "Everyone's daily life is made easier and safer with a home elevator, especially for children and the elderly.",
     image:
@@ -191,7 +191,7 @@ export default function BestProductsSection() {
 
         {/* ================= SECTION HEADER ================= */}
 
-        <div className="mx-auto flex max-w-2xl flex-col items-center text-center">
+        <div className="mx-auto flex max-w-2xl flex-col md:items-center  text-left md:text-center">
 
           <motion.div
             initial={{

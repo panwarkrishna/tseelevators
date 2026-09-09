@@ -132,11 +132,11 @@ export default function GalleryShowcase() {
 
         {/* ================= SECTION HEADER ================= */}
 
-        <div className="mx-auto mb-12 max-w-2xl text-center sm:mb-14 lg:mb-16">
+        <div className="mx-auto mb-12 max-w-2xl text-left md:text-center sm:mb-14 lg:mb-16">
 
           {/* Badge */}
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-1.5 shadow-sm">
-            <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" />
+            {/* <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" /> */}
 
             <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-black">
               Visual Craftsmanship
@@ -149,7 +149,7 @@ export default function GalleryShowcase() {
           </h2>
 
           {/* Red underline */}
-          <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-[#D6362C]" />
+          <div className=" md:mx-auto mt-4 h-1 w-20 rounded-full bg-[#D6362C]" />
 
           <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-slate-500 sm:text-base">
             Discover our collection of premium elevator installations,

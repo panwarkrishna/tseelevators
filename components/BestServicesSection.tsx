@@ -150,7 +150,7 @@ export default function BestProductsSection() {
 
         {/* ================= SECTION HEADER ================= */}
 
-        <div className="mx-auto flex max-w-2xl flex-col items-center text-center">
+        <div className="mx-auto flex max-w-2xl flex-col md:items-center text-left md:text-center">
 
           <motion.div
             initial={{

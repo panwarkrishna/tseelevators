@@ -133,7 +133,7 @@ export default function HeroSlider() {
         {/* Previous / Next Buttons */}
         <button
           type="button"
-          className="hero-prev absolute left-4 top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/40 text-white backdrop-blur-md transition-all duration-200 hover:border-white/40 hover:bg-[#D6362C] sm:left-6 sm:h-12 sm:w-12"
+          className="hero-prev absolute left-4 top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/40 text-white backdrop-blur-md transition-all duration-200 hover:border-white/40 hover:bg-[#D6362C] sm:left-6 sm:h-12 sm:w-12 hidden md:block"
           aria-label="Previous slide"
         >
           <ChevronLeft className="h-5 w-5" />
@@ -141,7 +141,7 @@ export default function HeroSlider() {
 
         <button
           type="button"
-          className="hero-next absolute right-4 top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/40 text-white backdrop-blur-md transition-all duration-200 hover:border-white/40 hover:bg-[#D6362C] sm:right-6 sm:h-12 sm:w-12"
+          className="hero-next absolute right-4 top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/40 text-white backdrop-blur-md transition-all duration-200 hover:border-white/40 hover:bg-[#D6362C] sm:right-6 sm:h-12 sm:w-12 hidden md:block"
           aria-label="Next slide"
         >
           <ChevronRight className="h-5 w-5" />

@@ -154,7 +154,7 @@ export default function BestProductsSection() {
 
       <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         {/* ================= SECTION HEADER ================= */}
-        <div className="mx-auto flex max-w-2xl flex-col items-center text-center">
+        <div className="mx-auto flex max-w-2xl flex-col md:items-center text-left md:text-center">
           <motion.div
             initial={{ opacity: 0, y: -15 }}
             whileInView={{ opacity: 1, y: 0 }}

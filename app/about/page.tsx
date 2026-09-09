@@ -31,7 +31,7 @@ export default function AboutPage() {
            <div className="mx-auto flex max-w-7xl flex-col items-center ">
           
 
-            <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px] pt-12">
+            <h2 className="mt-6 md:mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px] pt-0 md:pt-12 ml-8 md:ml-0">
               Innovative <span className="text-[#D6362C]">Elevator Systems</span>
             </h2>
 

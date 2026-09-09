@@ -79,7 +79,7 @@ export default function ContactPage() {
       />
 
       {/* ================= CONTACT SECTION ================= */}
-      <section className="relative w-full overflow-hidden bg-white py-14 sm:py-16 lg:py-20">
+      <section className="relative w-full overflow-hidden bg-white py-4 md:py-14 sm:py-16 lg:py-20">
 
         {/* Background Grid */}
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000003_1px,transparent_1px),linear-gradient(to_bottom,#00000003_1px,transparent_1px)] bg-[size:4rem_4rem]" />
@@ -327,7 +327,7 @@ export default function ContactPage() {
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#D6362C] px-8 py-4 text-sm font-bold uppercase tracking-wider text-white shadow-lg transition-all duration-300 hover:bg-[#B52A21] hover:shadow-xl active:scale-95"
                 >
                   <Send className="h-4 w-4" />
-                  <span>Get In Touch</span>
+                  <span>SUBMIT ENQUIRY</span>
                 </button>
 
               </form>

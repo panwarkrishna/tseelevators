@@ -14,7 +14,7 @@ const whyUsPoints = [
 
 export default function WhyUsSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-slate-50  py-10 text-slate-900 lg:py-16">
+    <section className="relative w-full overflow-hidden bg-slate-50 py-0 md:py-10 text-slate-900 lg:py-16">
       {/* Background Subtle Gradient Accents */}
       <div className="pointer-events-none absolute -left-40 top-1/3 h-96 w-96 rounded-full bg-[#D6362C]/5 blur-[140px]" />
       <div className="pointer-events-none absolute -right-40 bottom-1/4 h-96 w-96 rounded-full bg-[#1B2A5E]/5 blur-[140px]" />
