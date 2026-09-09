@@ -50,7 +50,7 @@ export default function AllProductsPage() {
         Elevator Solutions in Delhi-NCR
       </h2>
 
-      <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+      <p className="text-black text-sm sm:text-base leading-relaxed">
         For every necessity, TSE Shaft Elevators provides comprehensive
         Elevator Solutions in Delhi-NCR. Passenger, home, hydraulic,
         commercial, and goods lifts are among the options. You always get
@@ -62,7 +62,7 @@ export default function AllProductsPage() {
         Designed to Fit Any Space
       </h3>
 
-      <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+      <p className="text-black text-sm sm:text-base leading-relaxed">
         Our lifts are long-lasting, easy to use, and require little
         maintenance. We make sure your area receives the ideal lift, whether
         it's through elegant finishes or straightforward concepts.
@@ -72,7 +72,7 @@ export default function AllProductsPage() {
         Elite Series
       </h3>
 
-      <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+      <p className="text-black text-sm sm:text-base leading-relaxed">
         TSE Shaft Elevators Elite Series is designed for luxury seekers. It
         presents a wide range of premium options, from traditional fine
         finishes to smart technologies to make your ride remarkable. This
@@ -84,7 +84,7 @@ export default function AllProductsPage() {
         Includes the following features:
       </h3>
 
-      <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed space-y-2">
+      <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed space-y-2">
         <li>Upgraded interior and premium finishes</li>
         <li>Smart technologies</li>
         <li>Stylish lighting</li>
@@ -95,7 +95,7 @@ export default function AllProductsPage() {
         Classic Series
       </h3>
 
-      <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+      <p className="text-black text-sm sm:text-base leading-relaxed">
         Classic series is a simple and sophisticated lift series that offers
         comprehensive solutions. This elevator series is engineered to meet
         the demands of the modern home while providing excellent value and
@@ -106,7 +106,7 @@ export default function AllProductsPage() {
         Includes the following features:
       </h3>
 
-      <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed space-y-2">
+      <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed space-y-2">
         <li>Ultimate simplicity and reliability</li>
         <li>Cost-effective and high-quality construction</li>
         <li>Simple installation</li>

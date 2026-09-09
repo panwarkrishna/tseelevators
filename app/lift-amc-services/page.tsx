@@ -43,17 +43,17 @@ export default function PassengerLiftPage() {
   <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Lift AMC Services in Delhi
 </h3>
 
-<p>TSE Shaft Elevators provides Lift AMC Services in Delhi, for residential, commercial and office lifts. Our skilled and experienced technicians take care of all your lift needs like regular inspection, servicing and minor repairs to prevent serious issues. Our Lift AMC services ensure that you have the lift that serves you for a long time without any safety hazards.
+<p>TSE Shaft Elevators provides <strong>Lift AMC Services in Delhi,</strong> for residential, commercial and office lifts. Our skilled and experienced technicians take care of all your lift needs like regular inspection, servicing and minor repairs to prevent serious issues. Our Lift AMC services ensure that you have the lift that serves you for a long time without any safety hazards.
 </p>
 
 
   <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Elevator AMC Services in Delhi-NCR
 </h3>
 
-<p>TSE Shaft Elevators offers comprehensive Elevator AMC Services in Delhi-NCR. With our certified professionals and round the clock customer support, we ensure that the lifts in Delhi, Noida, Gurugram, Faridabad, Ghaziabad and surrounding areas are well maintained and free from malfunctioning. The following services are included in our 24×7 Elevator AMC Services.
+<p>TSE Shaft Elevators offers comprehensive <strong>Elevator AMC Services in Delhi-NCR.</strong> With our certified professionals and round the clock customer support, we ensure that the lifts in Delhi, Noida, Gurugram, Faridabad, Ghaziabad and surrounding areas are well maintained and free from malfunctioning. The following services are included in our 24×7 Elevator AMC Services.
 </p>
 
-   <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
 
     <li>Regular inspection and servicing by professional elevator technicians.</li>
     <li>Prompt and quick repair services to avoid breakdowns</li>

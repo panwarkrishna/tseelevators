@@ -46,7 +46,7 @@ The requirement of lifts varies from building to building and therefore we provi
 Customized Elevator Manufacturers in Delhi</h3>
 
 
-<p>TSE Shaft Elevators are one of the preferred Customized Elevator Manufacturers in Delhi, we understand every building is different in terms of structure, size and architecture, hence we bring to you a lift of your choice according to your requirement. We specialize in Customized Elevator which offers you the style and comfort of your choice like glass panel, unique design and much more.
+<p>TSE Shaft Elevators are one of the preferred <strong>Customized Elevator Manufacturers in Delhi,</strong> we understand every building is different in terms of structure, size and architecture, hence we bring to you a lift of your choice according to your requirement. We specialize in Customized Elevator which offers you the style and comfort of your choice like glass panel, unique design and much more.
 </p>
 
 <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
@@ -54,11 +54,11 @@ Customized Elevator Manufacturers in Delhi</h3>
 Customized Elevator Suppliers in Delhi-NCR
 </h3>
 
-<p>We are the top Customized Elevator Suppliers in Delhi-NCR offering our clients with high-end customized lifts. We provide our services in Delhi, Noida, Gurugram, and Haryana. Here are some reasons why our clients prefer us:
+<p>We are the top <strong>Customized Elevator Suppliers in Delhi-NCR</strong> offering our clients with high-end customized lifts. We provide our services in Delhi, Noida, Gurugram, and Haryana. Here are some reasons why our clients prefer us:
 </p>
 
 <h4 className=" text-lg font-bold text-slate-800 mt-2 mb-1">We specialize in:</h4>
-   <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
   <li>Elevator customization that fits your building architecture.</li>
   <li>Offer a wide range of sizes to suit all your needs.</li>
   <li>Provide you with a variety of finishes.</li>

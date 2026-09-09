@@ -54,7 +54,7 @@ export default function TopProductionSolutions() {
                     Elevator Installation
                   </h3>
                 </div>
-                <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
+                <p className="text-xs sm:text-sm leading-relaxed text-black">
                   TSE Elevators provides turnkey elevator installation services for both residential and commercial buildings. We work closely with architects, builders, and property owners to design and install customized elevator systems that meet your specific requirements and budget.
                 </p>
               </div>
@@ -69,7 +69,7 @@ export default function TopProductionSolutions() {
                     Elevator Maintenance and Repairs
                   </h3>
                 </div>
-                <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
+                <p className="text-xs sm:text-sm leading-relaxed text-black">
                   Our team of certified technicians is available 24/7 to keep your elevators running smoothly. We offer preventative maintenance to extend the lifespan of your elevator and minimize downtime. In case of emergencies or breakdowns, we respond promptly to ensure minimal disruption to your operations.
                 </p>
               </div>

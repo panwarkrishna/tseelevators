@@ -158,7 +158,7 @@ export default function RecognizedLeadersSection() {
 
             {/* Description */}
 
-            <p className="mt-6 max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
+            <p className="mt-6 max-w-xl text-sm leading-7 text-black sm:text-base">
               TSE Elevators combines experienced technicians, dependable
               products, and responsive service to deliver complete elevator
               solutions for residential and commercial buildings across

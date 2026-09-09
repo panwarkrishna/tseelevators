@@ -192,7 +192,7 @@ export default function BestProductsSection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base"
+            className="mt-4 text-sm leading-relaxed text-black sm:text-base"
           >
             Discover our comprehensive range of high-performance elevators,
             customized to elevate comfort, safety, and modern architectural
@@ -301,7 +301,7 @@ export default function BestProductsSection() {
                       min-h-[72px]
                       text-sm
                       leading-6
-                      text-slate-600
+                      text-black
                       sm:text-[15px]
                     "
                   >

@@ -138,7 +138,7 @@ export default function GalleryShowcase() {
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-1.5 shadow-sm">
             <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" />
 
-            <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-slate-600">
+            <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-black">
               Visual Craftsmanship
             </span>
           </div>

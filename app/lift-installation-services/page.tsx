@@ -43,7 +43,7 @@ export default function PassengerLiftPage() {
   <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
 Reliable Lift Installation Services in Delhi</h3>
 
-<p>Our Lift Installation Services in Delhi are a reliable choice for seamless lift installation in residential, commercial and office buildings. Our professional lift installers take care of each step of the installation process to ensure your lift is installed to perfection. We always assess your requirements and the site to ensure seamless installation.
+<p>Our <strong>Lift Installation Services in Delhi</strong> are a reliable choice for seamless lift installation in residential, commercial and office buildings. Our professional lift installers take care of each step of the installation process to ensure your lift is installed to perfection. We always assess your requirements and the site to ensure seamless installation.
 </p>
 <p>
 With our reliable and fast lift installation services in Delhi-NCR, you can rest assured that each step is taken to ensure your lift is safely installed.
@@ -51,14 +51,14 @@ With our reliable and fast lift installation services in Delhi-NCR, you can rest
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">TSE Shaft Elevators: Professional Elevator Installation in Delhi-NCR</h3>
 
-<p>TSE Shaft Elevators provides professional Elevator Installation Services in Delhi-NCR including Noida, Gurgaon, Haryana and more.
+<p>TSE Shaft Elevators provides professional <strong>Elevator Installation Services in Delhi-NCR</strong> including Noida, Gurgaon, Haryana and more.
 </p>
 
 
 
 <p>Here are some features of our elevator installation services:</p>
 
-   <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
 
   <li>Professional and experienced elevator installation technicians.</li>
   <li>On-time elevator installation with no delays </li>

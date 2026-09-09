@@ -44,17 +44,17 @@ Old lifts and lifts that are damaged beyond repair need to be dismantled in a ti
  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Lift Dismantling Services in Delhi
 </h3>
 
-<p>TSE Shaft Elevators provides reliable Lift Dismantling Services in Delhi for old lifts, lifts that are not in use, and lifts that have malfunctioned. Our certified professionals take proper safety precautions while removing the lift and its components in order to ensure that the building is not damaged in the process. We provide hassle-free lift dismantling services to make sure that the removal of your lift’s machine, cabin, and other components is done with care.
+<p>TSE Shaft Elevators provides reliable <strong>Lift Dismantling Services in Delhi</strong> for old lifts, lifts that are not in use, and lifts that have malfunctioned. Our certified professionals take proper safety precautions while removing the lift and its components in order to ensure that the building is not damaged in the process. We provide hassle-free lift dismantling services to make sure that the removal of your lift’s machine, cabin, and other components is done with care.
 </p>
 
 
  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Elevator Dismantling Services in Delhi-NCR
 </h3>
 
-<p>We are a reliable name for Elevator Dismantling Services in Delhi-NCR providing lift removal services in Delhi, Noida, Gurugram, Haryana and other local areas. Below are the reasons why you should choose our company for all elevator and lift dismantling services in Delhi-NCR:
+<p>We are a reliable name for <strong>Elevator Dismantling Services in Delhi-NCR</strong> providing lift removal services in Delhi, Noida, Gurugram, Haryana and other local areas. Below are the reasons why you should choose our company for all elevator and lift dismantling services in Delhi-NCR:
 </p>
 
-   <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
 
 
   <li>Safe removal of old lifts</li>

@@ -37,16 +37,51 @@ export default function HomeLiftPage() {
               
              
              <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Home Lift</h2>
-<p className="text-md text-slate-600"> Everyone's daily life is made easier and safer with a home elevator, especially for children and the elderly. Smart, compact, and secure elevators designed specifically for houses are available from TSE Shaft Elevators.
+<p className="text-md text-black"> Everyone's daily life is made easier and safer with a home elevator, especially for children and the elderly. Smart, compact, and secure elevators designed specifically for houses are available from TSE Shaft Elevators.
 </p>
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Home Lift Manufacturers in Delhi</h3>
-<p className="text-md text-slate-600"> TSE Shaft Elevators is a leading Home Lift Manufacturer in Delhi specializing in developing compact and elegant lifts that can be installed in a home, villa, or duplex with ease. With their minimal space requirement and low noise levels TSE lifts become an ideal addition to all sorts of residential buildings. At the time of delivery of our lifts, every single detail is triple checked and all safety mechanisms are put through a rigorous testing procedure. In order to make sure that your lift will be a perfect fit for your home we offer you a wide variety of options to choose from. We specialize in creating lifts that prioritize both comfort and safety and focus on delivering on-time installations and exceptional customer care.
+<p className="text-md text-black"> 
+  TSE Shaft Elevators is counted as one of the premier <strong>Home Lift Manufacturers in Delhi</strong> that specializes in compact and sophisticated lifts suitable for homes, villas, and duplexes, with minimal requirements for space and low noise levels. Each lift is triple checked before handing it over to the customer, and all the lift’s safety mechanisms are put through rigorous tests.
+We offer a variety of lifts to suit different home requirements in and around Delhi NCR, prioritizing comfort, safety, and punctual installation.
+
 </p>
 
- <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Home Elevator Suppliers in Delhi-NCR</h3>
-            <p className="text-md text-slate-600">Furthermore, we are also a prominent Home Elevator Suppliers in Delhi-NCR that offers end-to-end services. Irrespective of Delhi, Noida, Gurugram, Faridabad, our professional team members even interact with you at your residence and help you decide the most appropriate lift plan for you. We assure you that we take care of every minute detail starting from installation to testing and completion of the task.
+ <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Home Elevator Suppliers in Delhi-NCR
+</h3>
+            <p className="text-md text-black">
+              And we also happen to be one of the best  <strong>Home Elevator Suppliers in Delhi-NCR,</strong> providing end-to-end solutions across Delhi, Noida, Gurugram, and Haryana.
+In addition to manufacturing, our experts also come to your home to help design lift specifications based on your requirements.
+
+
+
             </p>
+
+ 
+
+
+<h5 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Below are the services we provide:
+</h5>
+
+              <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed mb-8">
+    <li>Onsite home lift consultation</li>
+        <li>Customized Lift Plans</li>
+
+    <li>Professional installation</li>
+
+    <li>Rigorous testing before handover</li>
+
+    <li>End-to-end support</li>
+
+</ul>
+
+
+<p>With TSE Shaft Elevators, you can relax and enjoy a seamless and stress-free home elevator experience.
+</p>
+
+
+
+
 
              
              

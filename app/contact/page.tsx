@@ -172,7 +172,7 @@ export default function ContactPage() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Facebook"
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-black shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
                 >
                   <FacebookIcon className="h-4 w-4" />
                 </a>
@@ -182,7 +182,7 @@ export default function ContactPage() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Instagram"
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-black shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
                 >
                   <InstagramIcon className="h-4 w-4" />
                 </a>
@@ -192,7 +192,7 @@ export default function ContactPage() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="LinkedIn"
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-black shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
                 >
                   <LinkedinIcon className="h-4 w-4" />
                 </a>
@@ -202,7 +202,7 @@ export default function ContactPage() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Twitter"
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-black shadow-sm transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
                 >
                   <TwitterIcon className="h-4 w-4" />
                 </a>
@@ -315,7 +315,7 @@ export default function ContactPage() {
 
                   <label
                     htmlFor="consent"
-                    className="cursor-pointer text-xs leading-relaxed text-slate-600 sm:text-sm"
+                    className="cursor-pointer text-xs leading-relaxed text-black sm:text-sm"
                   >
                     I agree that my data is collected and stored.
                   </label>

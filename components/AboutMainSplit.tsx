@@ -81,7 +81,7 @@ export default function AboutMainSplit() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="flex flex-col justify-center text-left lg:col-span-7"
           >
-            <div className="space-y-4 text-sm leading-relaxed text-slate-600 sm:text-base">
+            <div className="space-y-4 text-sm leading-relaxed text-black sm:text-base">
               <p>
                 Welcome to TSE Shaft Elevators, the name you can trust for
                 lifts and elevators in Delhi-NCR. It is important to select

@@ -36,27 +36,27 @@ export default function PitlessLiftPage() {
 
   <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Pitless Lift</h2>
 
-<p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">Looking for a space-saving and pit-less lift? Our pitless lifts are the right option for you. It is a safe and sophisticated solution for installations with limited pit depth or no pits at all. A pitless lift can be installed without much civil work, making it an excellent choice for both commercial and residential buildings.
+<p className="mt-3 sm:mt-4 text-black text-sm sm:text-base leading-relaxed">Looking for a space-saving and pit-less lift? Our pitless lifts are the right option for you. It is a safe and sophisticated solution for installations with limited pit depth or no pits at all. A pitless lift can be installed without much civil work, making it an excellent choice for both commercial and residential buildings.
 </p>
 
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Top Pitless Lift Manufacturers In Delhi</h3>
 
 
-<p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">We are one of the best leading Pitless Lift Manufacturers in Delhi, manufacturing lifts that require minimum pit depth or no pits at all; our lifts save your time and money in the long run. These lifts are very safe and sophisticated and can be installed in commercial and residential spaces with minimal civil work.
+<p className="mt-3 sm:mt-4 text-black text-sm sm:text-base leading-relaxed">We are one of the best leading <strong>Pitless Lift Manufacturers in Delhi,</strong> manufacturing lifts that require minimum pit depth or no pits at all; our lifts save your time and money in the long run. These lifts are very safe and sophisticated and can be installed in commercial and residential spaces with minimal civil work.
 </p>
 
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">TSE Shaft Elevators: Your Trusted Pitless Elevator Suppliers In Delhi-NCR</h3>
 
 
-<p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is a trusted supplier of pitless elevators in Delhi, Noida, Gurugram, and Faridabad. Below are some reasons why you should choose us as your Pitless Elevator Suppliers in Delhi-NCR.</p>
+<p className="mt-3 sm:mt-4 text-black text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is a trusted supplier of pitless elevators in Delhi, Noida, Gurugram, and Faridabad. Below are some reasons why you should choose us as your <strong>Pitless Elevator Suppliers in Delhi-NCR.</strong></p>
 
-<p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">Our experienced professionals at TSE Shaft Elevators offer high-tech pitless lifts with the following benefits:
+<p className="mt-3 sm:mt-4 text-black text-sm sm:text-base leading-relaxed">Our experienced professionals at TSE Shaft Elevators offer high-tech pitless lifts with the following benefits:
 </p>
 
 
-<ul className="list-disc pl-5 text-md text-slate-600 space-y-2 mt-3">
+<ul className="list-disc pl-5 text-md text-black space-y-2 mt-3">
     <li>High-quality pitless lifts  </li>
     <li>No pits or minimum pits needed for installation</li>
     <li>Saves your space</li>

@@ -40,10 +40,10 @@ export default function PassengerLiftPage() {
 </p>
 
  <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2"> Lift Maintenance Services Delhi</h3>
-<p>At TSE Shaft Elevators we provide professional Lift Maintenance Services in Delhi for residential and commercial property owners and managers. Our lift service technicians will perform routine maintenance and inspections of your elevators and lifts.
+<p>At TSE Shaft Elevators we provide professional <strong>Lift Maintenance Services in Delhi</strong> for residential and commercial property owners and managers. Our lift service technicians will perform routine maintenance and inspections of your elevators and lifts.
 </p>
 
-   <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
 <li>  On-Site Lift Inspection and Examination</li>
 <li> Experienced and Qualified Engineers</li>
 <li>  Emergency Lift Repair Services</li>

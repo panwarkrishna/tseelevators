@@ -35,12 +35,12 @@ export default function WhyUsSection() {
             
                 <h3 className="text-2xl font-bold text-slate-800  mb-2">Why Us</h3>
            
-            <p className="mt-5 text-sm leading-relaxed text-slate-600 sm:text-base">
+            <p className="mt-5 text-sm leading-relaxed text-black sm:text-base">
               It is important to select the right elevator partner to ensure
               long term safety and performance.
             </p>
 
-            <p className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base">
+            <p className="mt-4 text-sm leading-relaxed text-black sm:text-base">
               We&apos;re not just designing a machine — we&apos;re designing a
               part of the look and feel of your building. That&apos;s why we
               focus on:

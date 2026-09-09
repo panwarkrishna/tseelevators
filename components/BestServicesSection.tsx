@@ -238,7 +238,7 @@ export default function BestProductsSection() {
               duration: 0.6,
               delay: 0.3,
             }}
-            className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base"
+            className="mt-4 text-sm leading-relaxed text-black sm:text-base"
           >
 Explore our comprehensive elevator services, delivering reliable installation, seamless maintenance, modernisation, and expert support to ensure superior performance, safety, efficiency, and long-term reliability.          </motion.p>
 

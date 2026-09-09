@@ -33,16 +33,16 @@ export default function PassengerLiftPage() {
             </div>
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Lift Repair</h2>
-            <p className="text-slate-600 text-sm sm:text-base leading-relaxed">Your lift is making strange noises and it is stopping in between floors. The key to prevent such situations is faster and quality repair to avoid larger expenses. We are here to help you get the most reliable and trusted lift repair services in Delhi.</p>
+            <p className="text-black text-sm sm:text-base leading-relaxed">Your lift is making strange noises and it is stopping in between floors. The key to prevent such situations is faster and quality repair to avoid larger expenses. We are here to help you get the most reliable and trusted lift repair services in Delhi.</p>
 
             <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Lift Repair Services in Delhi for Residential, Commercial & Offices</h3>
-            <p className="text-slate-600 text-sm sm:text-base leading-relaxed">We at TSE Shaft Elevators provide reliable Lift Repair Services in Delhi for residential, commercial, and offices. Our certified professionals can detect and solve all kinds of issues with your lift. We use only high-quality spare parts so that your lift continues to function smoothly for a longer period of time.</p>
+            <p className="text-black text-sm sm:text-base leading-relaxed">We at TSE Shaft Elevators provide reliable <strong>Lift Repair Services in Delhi</strong> for residential, commercial, and offices. Our certified professionals can detect and solve all kinds of issues with your lift. We use only high-quality spare parts so that your lift continues to function smoothly for a longer period of time.</p>
 
             <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Fast Elevator Repair Services in Delhi-NCR</h3>
-            <p className="text-slate-600 text-sm sm:text-base leading-relaxed">We are a trusted provider of Elevator Repair Services in Delhi-NCR with experience. We provide Lift Repair Services in Delhi, Noida, Gurugram, Haryana and the surrounding areas. Here are some of the reasons why our customers keep choosing us for all their lift repair services.</p>
+            <p className="text-black text-sm sm:text-base leading-relaxed">We are a trusted provider of <strong>Elevator Repair Services in Delhi-NCR</strong> with experience. We provide Lift Repair Services in Delhi, Noida, Gurugram, Haryana and the surrounding areas. Here are some of the reasons why our customers keep choosing us for all their lift repair services.</p>
 
 
-   <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
 
   <li>Fast emergency lift repair services</li>
     <li>Highly experienced and certified professionals

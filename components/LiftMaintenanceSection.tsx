@@ -68,7 +68,7 @@ export default function LiftMaintenanceSection() {
                 </div>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-600">
+              <p className="text-sm sm:text-base leading-relaxed text-black">
                 Installation services encompass the entire process, from planning and design to actual installation, testing, and commissioning. We ensure that elevators are compliant with safety regulations and perform rigorous quality checks to guarantee their safe and efficient operation. Proper installation is essential to the long-term reliability and functionality of the elevator system within a building.
               </p>
             </div>
@@ -98,7 +98,7 @@ export default function LiftMaintenanceSection() {
                 </div>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-600">
+              <p className="text-sm sm:text-base leading-relaxed text-black">
                 We offer the highest-quality lifts to our clients and will never compromise on your safety. Using the finest raw materials to design our elevators. The quality is also our priority and this makes us the preferred Lift Maintenance Services in Delhi-NCR. Worry not; we&apos;ll use the latest tools to develop our lifts. With TSE Elevators, you&apos;re in safe hands!
               </p>
             </div>

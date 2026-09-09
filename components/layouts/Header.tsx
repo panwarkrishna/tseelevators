@@ -559,7 +559,7 @@ export default function Header() {
 
           {/* DRAWER CONTENT */}
 
-          <div className="relative z-10 flex-1 space-y-6 overflow-y-auto p-6 text-md leading-relaxed text-slate-600 md:p-8">
+          <div className="relative z-10 flex-1 space-y-6 overflow-y-auto p-6 text-md leading-relaxed text-black md:p-8">
 
             <div className="rounded-2xl border border-slate-100 bg-slate-50 p-5">
 
@@ -765,7 +765,7 @@ export default function Header() {
                                 key={child.href}
                                 href={child.href}
                                 onClick={closeMobileNav}
-                                className="block py-1 text-md font-medium text-slate-600 transition-colors hover:text-[#D6362C]"
+                                className="block py-1 text-md font-medium text-black transition-colors hover:text-[#D6362C]"
                               >
 
                                 {child.label}

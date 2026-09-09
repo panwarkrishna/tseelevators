@@ -140,7 +140,7 @@ export default function ServicesSliderSection() {
               let themeClasses = "bg-white text-slate-900 border-slate-200";
               let iconBoxClasses = "bg-red-50 text-[#D6362C]";
               let titleClasses = "text-[#1B2A5E]";
-              let descClasses = "text-slate-600";
+              let descClasses = "text-black";
 
               if (item.theme === "red") {
                 themeClasses = "bg-[#D6362C] text-white border-[#D6362C]";

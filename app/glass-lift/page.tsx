@@ -33,15 +33,15 @@ export default function GlassLiftPage() {
             </div>
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
              <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Glass Lift</h2>
-              <p className="text-slate-600 text-sm sm:text-base leading-relaxed">Elevate the aesthetics of your building with our elegant glass lifts. With a combination of contemporary style and luxury appeal, our lifts provide unrivaled panoramic views making it a desirable choice for residential, commercial malls and hotels.</p>
+              <p className="text-black text-sm sm:text-base leading-relaxed">Elevate the aesthetics of your building with our elegant glass lifts. With a combination of contemporary style and luxury appeal, our lifts provide unrivaled panoramic views making it a desirable choice for residential, commercial malls and hotels.</p>
 
               <h3 className="text-xl font-bold text-slate-900">Premier Glass Lift Manufacturers in Delhi</h3>
-              <p className="text-slate-600 text-sm sm:text-base leading-relaxed">We take immense pride in specializing as a reputed Glass Lift Manufacturers in Delhi that presents exquisite transparent lifts that are high on style quotient while exuding luxury appeal. Our range of lifts utilize top quality tempered glasses that add to the beauty of your home apart from providing utmost safety. From commercial malls to elite residential projects and luxury hotels, we bring you contemporary transparent lifts that enhance the beauty of your space while providing absolute safety to its passengers.
+              <p className="text-black text-sm sm:text-base leading-relaxed">We take immense pride in specializing as a reputed <strong>Glass Lift Manufacturers in Delhi</strong> that presents exquisite transparent lifts that are high on style quotient while exuding luxury appeal. Our range of lifts utilize top quality tempered glasses that add to the beauty of your home apart from providing utmost safety. From commercial malls to elite residential projects and luxury hotels, we bring you contemporary transparent lifts that enhance the beauty of your space while providing absolute safety to its passengers.
             </p>
 
               <h3 className="text-xl font-bold text-slate-900">Leading Glass Elevator Suppliers In Delhi-NCR</h3>
-              <p className="text-slate-600 text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is one of the trusted Glass Elevator Suppliers In Delhi-NCR. We bring you a wide range of premium glass elevators designed to offer you elegance and luxury along with total safety. Here are some reasons why our Glass lifts are preferred across residential, commercial and hospitality projects:</p>
-              <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+              <p className="text-black text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is one of the trusted <strong>Glass Elevator Suppliers In Delhi-NCR.</strong> We bring you a wide range of premium glass elevators designed to offer you elegance and luxury along with total safety. Here are some reasons why our Glass lifts are preferred across residential, commercial and hospitality projects:</p>
+              <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
                 <li>Elegant transparent design</li>
                 <li>Lifts made up of safety glass</li>
                 <li>Offers smooth and silent rides</li>

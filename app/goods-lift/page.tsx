@@ -33,14 +33,14 @@ export default function GoodsLiftPage() {
             </div>
             <div className="lg:col-span-6 space-y-6 sm:space-y-8">
               <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Goods Lift</h2>
-              <p className="text-slate-600 text-sm sm:text-base leading-relaxed">Do you need the best goods lifts to carry heavy goods from one level to another? Our range of Goods Lifts is suitable for heavy loads and ideal for warehouses, factories, shops, and godowns. These commercial lifts are durable so that you can save time and effort.</p>
+              <p className="text-black text-sm sm:text-base leading-relaxed">Do you need the best goods lifts to carry heavy goods from one level to another? Our range of Goods Lifts is suitable for heavy loads and ideal for warehouses, factories, shops, and godowns. These commercial lifts are durable so that you can save time and effort.</p>
 
               <h3 className="text-xl font-bold text-slate-900">Top Goods Lift Manufacturers in Delhi</h3>
-              <p className="text-slate-600 text-sm sm:text-base leading-relaxed">We, as one of the Top Goods Lift Manufacturers in Delhi, offer lifts that are heavy-duty and long-lasting. Our goods lifts have the ability to carry heavy loads of various weights from one floor to another. All our commercial lifts are tested thoroughly before being delivered to our clients.</p>
+              <p className="text-black text-sm sm:text-base leading-relaxed">We, as one of the Top <strong>Goods Lift Manufacturers in Delhi,</strong> offer lifts that are heavy-duty and long-lasting. Our goods lifts have the ability to carry heavy loads of various weights from one floor to another. All our commercial lifts are tested thoroughly before being delivered to our clients.</p>
 
               <h3 className="text-xl font-bold text-slate-900">Trusted Goods Elevator Suppliers in Delhi-NCR</h3>
-              <p className="text-slate-600 text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is one of the reliable Goods Elevator Suppliers in Delhi-NCR, who provide commercial lifts for all types of businesses. Here are some reasons why you should hire our Goods Lifts Services:</p>
-              <ul className="list-disc list-inside text-slate-600 text-sm sm:text-base leading-relaxed">
+              <p className="text-black text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is one of the reliable Goods Elevator Suppliers in Delhi-NCR, who provide commercial lifts for all types of businesses. Here are some reasons why you should hire our Goods Lifts Services:</p>
+              <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
                 <li>These lifts can carry a huge amount of load on a daily basis.</li>
                 <li>The commercial lifts are durable and long-lasting.</li>
                 <li>Our staff offers fast installation of goods lifts.</li>

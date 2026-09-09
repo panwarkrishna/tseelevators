@@ -59,24 +59,24 @@ export default function OurPromiseSection() {
             <div className="mt-8 ">
               
          
-<p className="text-md text-slate-600 mb-3">
+<p className="text-md text-black mb-3">
               Welcome to <strong>TSE Shaft Elevators,</strong> the name you can trust for lifts and elevators in Delhi-NCR. It is important to select the right elevator partner to ensure long term safety and performance.
 </p>
 
-<p className="text-md text-slate-600">
+<p className="text-md text-black">
 We began with one goal – to provide safe, smooth and stylish elevators that last for years to homes and buildings.
 </p>
 
  <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Luxury Elevator Company in Delhi-NCR</h3>
 
-<p className="text-md text-slate-600">
+<p className="text-md text-black">
 Today, we are proud to be recognized as a prominent Luxury Elevator Company in Delhi-NCR.
 It is important to select the right elevator partner to ensure long term safety and performance. From simple home lifts to grand high-end elevators for villas, hotels and premium buildings we design every lift with care, style and top quality.
 </p>
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Our Work</h3>
 
-<p className="text-md text-slate-600">
+<p className="text-md text-black">
 We manufacture and supply many types of lifts, including passenger lifts, home lifts, hydraulic lifts, glass lifts and goods lifts. All the elevators are made from durable material and state of the art technology. For those who want a hint of luxury in their building we add elegant designs and finishes.
 </p>
 

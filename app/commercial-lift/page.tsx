@@ -38,24 +38,24 @@ export default function CommercialLiftPage() {
  
  
    <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Commercial Lift</h2>
-<p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is a renowned commercial lifts manufacturer in Delhi-NCR. We offer premium commercial lifts that can withstand high traffic with ease while providing you with years of safe and smooth riding.</p>
+<p className="mt-3 sm:mt-4 text-black text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is a renowned commercial lifts manufacturer in Delhi-NCR. We offer premium commercial lifts that can withstand high traffic with ease while providing you with years of safe and smooth riding.</p>
 
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
 Best Commercial Lift Manufacturers in Delhi
 </h3>
-<p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">If you are searching for the best Commercial Lift Manufacturers in Delhi then TSE Shaft Elevators is the one-stop solution for all your commercial lift requirements. We specialize in manufacturing commercial lifts across Delhi-NCR that are engineered to perfection to suit the commercial unit's unique requirements. Whether it is a small office space or a large mall complex; we have the most advanced commercial lifts that promise hassle-free installation while being highly durable and safe.
+<p className="mt-3 sm:mt-4 text-black text-sm sm:text-base leading-relaxed">If you are searching for the best Commercial Lift Manufacturers in Delhi then TSE Shaft Elevators is the one-stop solution for all your commercial lift requirements. We specialize in manufacturing commercial lifts across Delhi-NCR that are engineered to perfection to suit the commercial unit's unique requirements. Whether it is a small office space or a large mall complex; we have the most advanced commercial lifts that promise hassle-free installation while being highly durable and safe.
 
 </p>
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
 Leading Commercial Elevator Suppliers in Delhi-NCR
 </h3>
 
-<p className="mt-3 sm:mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">
-  As the leading Commercial Elevator Suppliers in Delhi-NCR, we take pride in serving some of the most reputable commercial establishments across Delhi, Noida, Gurugram, Faridabad, and the rest of Delhi-NCR. Here's what makes us your most preferred commercial elevator supplier:
+<p className="mt-3 sm:mt-4 text-black text-sm sm:text-base leading-relaxed">
+  As the leading <strong>Commercial Elevator Suppliers in Delhi-NCR,</strong> we take pride in serving some of the most reputable commercial establishments across Delhi, Noida, Gurugram, Faridabad, and the rest of Delhi-NCR. Here's what makes us your most preferred commercial elevator supplier:
 </p>
 
-<ul className="list-disc pl-5 text-md text-slate-600 space-y-2 mt-3">
+<ul className="list-disc pl-5 text-md text-black space-y-2 mt-3">
 
   <li>Heavy-duty commercial lifts</li>
   <li>Fast and safe elevator installation by professional engineers</li>

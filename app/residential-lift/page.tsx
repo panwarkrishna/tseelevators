@@ -31,18 +31,38 @@ export default function ResidentialLiftPage() {
               </div>
             </div>
             <div className="lg:col-span-7 space-y-7 sm:space-y-7">
-              <div>
+              
 
-                <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Residential Lift</h2>
-                <p className="text-md text-slate-600">At TSE Shaft Elevators, we present safe and elegant lifts in residential buildings. A residential lift adds comfort, luxury, and space-saver capabilities to every family member, making it easy for children and aged people. Our lifts combine high quality and modernism to offer a comfortable ride in your family house or home.</p>
+              <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4"> Residential Lift</h2>
 
-                <h3 className="text-xl font-bold text-slate-800 mt-8 mb-2">Best Residential Lift Manufacturers In Delhi</h3>
-                <p className="text-md text-slate-600">TSE Shaft Elevators is known to be among the best Residential Lift Manufacturers in Delhi. We offer residential lifts that are manufactured by combining advanced technology and a reliable material with high-end designs. All our residential lifts are engineered to fit in small and large houses in Delhi, Noida, Gurgaon, and Faridabad.</p>
+             <p>
+At TSE Shaft Elevators, we present safe and elegant lifts in residential buildings. A residential lift adds comfort, luxury, and space-saver capabilities to every family member, making it easy for children and aged people. Our lifts combine high quality and modernism to offer a comfortable ride in your family house or home.
+</p>
 
-                <h3 className="text-xl font-bold text-slate-800 mt-8 mb-2">Reliable Residential Elevator Suppliers In Delhi-NCR</h3>
-                <p className="text-md text-slate-600">TSE Shaft Elevators is a reliable Residential Elevator Supplier in Delhi-NCR offering home lift installation in Faridabad, Delhi, Noida, Gurgaon, Ghaziabad, and Meerut. We have professional lift installers who offer onsite visits to every customer’s location to recommend the best residential lift design. Our residential lifts have advanced technology features and are dependable on all levels. We ensure your total satisfaction with every residential lift installation service in the NCR region and provide complete after-sale support.</p>
 
-               </div>
+<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Best Residential Lift Manufacturers In Delhi</h3>
+<p>
+TSE Shaft Elevators is known to be among the best Residential Lift Manufacturers in Delhi. We offer residential lifts that are manufactured by combining advanced technology and a reliable material with high-end designs. All our residential lifts are engineered to fit in small and large houses.
+</p>
+
+
+<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Reliable Residential Elevator Suppliers In Delhi-NCR  </h3>
+
+
+<p>TSE Shaft Elevators is one of the most reliable Residential Elevator Suppliers in Delhi-NCR who provides home lift installation in Haryana, Delhi, Noida, Gurgaon. Our professional elevator installers come to your place to suggest the best lift design for your home.
+</p>
+
+
+ <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed mb-8">
+  <li> We arrange onsite visits for understanding your individual needs apart from providing you advanced technology for hassle free ride
+</li>
+<li> Our lifts are dependable for all levels of homes</li>
+<li>  We also provide complete after-sales services whenever required</li>
+<li>  We provide you total satisfaction on every installation work done by us</li>
+</ul>
+
+
+
             </div>
           </div>
         </div>

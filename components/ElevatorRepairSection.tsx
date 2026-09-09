@@ -82,7 +82,7 @@ export default function ElevatorRepairSection() {
                     Safe & Efficient Functioning
                   </h3>
                 </div>
-                <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
+                <p className="text-xs sm:text-sm leading-relaxed text-black">
                   Elevator manufacturers play a critical role in ensuring the safe and efficient functioning of elevators within various buildings and structures. This is where TSE Elevators come into play!
                 </p>
               </div>
@@ -97,7 +97,7 @@ export default function ElevatorRepairSection() {
                     Expert Maintenance & Repairs
                   </h3>
                 </div>
-                <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
+                <p className="text-xs sm:text-sm leading-relaxed text-black">
                   We offer a range of services to support <strong className="text-slate-900 font-semibold">elevator owners and users</strong> in maintaining the elevators&apos; reliability and safety. As a leading people mover in the field of lifts, we provide <strong className="text-slate-900 font-semibold">Elevator Repair Services in Delhi</strong> and install and maintain your elevators. All our lifts and elevators are designed to withstand high traffic loads and move smoothly.
                 </p>
               </div>

@@ -67,7 +67,7 @@ TSE Shaft Elevators is a registered company that provides luxury elevator servic
 </ul>
 
 <p>
-If you want the best Luxury Elevator Suppliers in Delhi-NCR to install a luxury elevator in your building or house, contact us today.
+If you want the best Luxury <strong>Elevator Suppliers in Delhi-NCR</strong> to install a luxury elevator in your building or house, contact us today.
 
 </p>
 

@@ -34,21 +34,21 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-7 sm:space-y-7">
               <div>
               <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Passenger Lift</h2>
-            <p className="text-md text-slate-600">
+            <p className="text-md text-black">
 TSE Shaft Elevators is your premier passenger lift supplier in Delhi-NCR providing safe, smooth and reliable lifts for homes, offices, malls and commercial buildings of all sizes. Our lifts are strong, user-friendly and perfect to offer comfort to every passenger.
 </p>
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Best Passenger Lift Manufacturers in Delhi</h3>
-<p className="text-md text-slate-600">
+<p className="text-md text-black">
 TSE Shaft Elevators is one of the best Passenger Lift Manufacturers in Delhi providing lifts that are safe, quick and easy to use. Our lifts are made up of premium quality material and are tested thrice before they are dispatched to our clients. We manufacture lifts that are suitable for both commercial and residential uses. Our team of experts works hard to provide you with the most reliable lifts in the market.
 </p>
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Reliable Passenger Elevator Suppliers Across Delhi-NCR</h3>
-<p className="text-md text-slate-600">
-As one of the reliable Passenger Elevator Suppliers in Delhi-NCR, we bring you the most efficient and reliable lifts for residential and commercial buildings in Delhi, Noida, Gurugram, Faridabad and other nearby locations. Following are the features that make us the most preferred passenger lift supplier in Delhi-NCR
+<p className="text-md text-black">
+As one of the reliable <strong>Passenger Elevator Suppliers in Delhi-NCR,</strong> we bring you the most efficient and reliable lifts for residential and commercial buildings in Delhi, Noida, Gurugram, Faridabad and other nearby locations. Following are the features that make us the most preferred passenger lift supplier in Delhi-NCR
 </p>
 
-<ul className="list-disc pl-5 text-md text-slate-600 space-y-2 mt-3">
+<ul className="list-disc pl-5 text-md text-black space-y-2 mt-3">
   <li>Offers maximum safety with modern safety features.</li>
   <li>Make sure that the lifts run smoothly and silently.</li>
   <li> Ensures quick and hassle free installation within the estimated time.</li>
