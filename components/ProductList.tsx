@@ -152,17 +152,17 @@ export default function BestProductsSection() {
       {/* ================= BACKGROUND GRID ================= */}
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000004_1px,transparent_1px),linear-gradient(to_bottom,#00000004_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_40%,#000_70%,transparent_100%)]" />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
         {/* ================= SECTION HEADER ================= */}
-        <div className="mx-auto flex max-w-2xl flex-col md:items-center text-left md:text-center">
+        <div className="mx-auto flex max-w-2xl flex-col md:items-center ">
           <motion.div
             initial={{ opacity: 0, y: -15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 shadow-sm"
+            className=" items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 shadow-sm"
           >
-            <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" />
+            {/* <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" /> */}
             <span className="text-[11px] font-bold uppercase tracking-widest text-slate-700">
               Engineered for Excellence
             </span>

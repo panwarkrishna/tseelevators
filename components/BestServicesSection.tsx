@@ -150,7 +150,7 @@ export default function BestProductsSection() {
 
         {/* ================= SECTION HEADER ================= */}
 
-        <div className="mx-auto flex max-w-2xl flex-col md:items-center text-left md:text-center">
+        <div className="mx-auto flex max-w-2xl flex-col md:items-center ">
 
           <motion.div
             initial={{
@@ -167,12 +167,12 @@ export default function BestProductsSection() {
             transition={{
               duration: 0.6,
             }}
-            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 shadow-sm"
+            className=" items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 shadow-sm"
           >
 
-            <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" />
+            {/* <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" /> */}
 
-            <span className="text-[11px] font-bold uppercase tracking-widest text-slate-700">
+            <span className="text-[11px] font-bold uppercase tracking-widest text-slate-700 block text-center">
               Engineered for Excellence
             </span>
 
@@ -316,7 +316,7 @@ Explore our comprehensive elevator services, delivering reliable installation, s
           {/* was a <Link>, now a <span> since the whole card is already the link */}
           <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-white transition-colors group-hover:text-[#E85C4A]">
             <span>View More</span>
-            <ArrowUpRight className="h-4 w-4 text-[#D6362C] transition-transform duration-200 group-hover:translate-x-1 group-hover:-translate-y-1" />
+            {/* <ArrowUpRight className="h-4 w-4 text-[#D6362C] transition-transform duration-200 group-hover:translate-x-1 group-hover:-translate-y-1" /> */}
           </span>
 
           <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-white transition-all duration-300 group-hover:bg-[#D6362C]">

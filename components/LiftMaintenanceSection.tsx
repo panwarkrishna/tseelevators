@@ -13,7 +13,7 @@ export default function LiftMaintenanceSection() {
       <div className="pointer-events-none absolute -left-40 top-1/2 h-96 w-96 rounded-full bg-[#D6362C]/5 blur-[130px]" />
       <div className="pointer-events-none absolute -right-40 top-1/3 h-96 w-96 rounded-full bg-[#1B2A5E]/5 blur-[130px]" />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
         
         {/* ================= SECTION HEADER ================= */}
         <div className="text-center max-w-4xl mx-auto mb-16">

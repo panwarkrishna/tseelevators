@@ -19,7 +19,7 @@ export default function PerfectElevatorsSection() {
       <div className="pointer-events-none absolute -left-40 top-1/2 h-96 w-96 rounded-full bg-[#D6362C]/10 blur-[150px]" />
       <div className="pointer-events-none absolute -right-40 bottom-0 h-96 w-96 rounded-full bg-blue-500/10 blur-[150px]" />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-12 lg:gap-16">
 
           {/* ================= LEFT COLUMN: TITLE (Col 5) ================= */}

@@ -298,7 +298,7 @@ export default function ContactPage() {
 
                   <textarea
                     rows={7}
-                    placeholder="How can we help you? Feel free to get in touch!"
+                    placeholder="How can we help you? "
                     required
                     className="w-full resize-none rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
                   />
