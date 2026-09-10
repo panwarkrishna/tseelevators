@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -83,12 +84,30 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={plusJakartaSans.variable}>
+      
+ <meta name="google-site-verification" content="90IUPvR9mSjYZlvoq679Pe_X_VJx_XHh5YuMAFiPL_k" />
+
+
+
       <body className={plusJakartaSans.className}>
+        {/* Google tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-TC5WX2DXL9"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-TC5WX2DXL9');
+          `}
+        </Script>
+
         <Header />
         {children}
         <Footer />
-              <WhatsAppFloat />
-        
+        <WhatsAppFloat />
       </body>
     </html>
   );

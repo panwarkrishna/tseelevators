@@ -4,6 +4,7 @@ import BestProductsSection from "@/components/BestProductsSection";
 import HeroSlider from "@/components/HeroSlider";
 import RecognizedLeadersSection from "@/components/RecognizedLeadersSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import FAQSection from "@/components/FAQSection"
 
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
       <BestProductsSection />
       <RecognizedLeadersSection />
       <TestimonialsSection  isHomePage={true} />
+      <FAQSection />
     </main>
   );
 }
