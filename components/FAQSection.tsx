@@ -86,7 +86,7 @@ export default function FAQSection() {
           </span> */}
 
           <h2 className="mt-3 text-2xl font-extrabold text-[#102D5E] sm:text-3xl lg:text-4xl">
-            Frequently Asked Questions
+            Frequently Asked <span className="text-[#D6362C]">Questions</span>
           </h2>
 
           <p className="mx-auto mt-3 max-w-xl text-sm text-slate-500 sm:text-base">

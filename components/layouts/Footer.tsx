@@ -130,9 +130,9 @@ export default function Footer() {
         <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-7 lg:p-8">
           <div className="mb-6 flex items-center gap-2">
             <Sparkles className="h-3.5 w-3.5 text-[#ef6a5f]" />
-            <h5 className="text-[11px] font-bold uppercase tracking-widest text-white">
+            <span className="text-[11px] font-bold uppercase tracking-widest text-white">
               Our Certifications
-            </h5>
+            </span>
           </div>
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -277,9 +277,9 @@ export default function Footer() {
         <div className="mt-14 border-t border-white/10 pt-8">
           <div className="mb-4 flex items-center gap-2">
             {/* <Sparkles className="h-3.5 w-3.5 text-[#ef6a5f]" /> */}
-            <h5 className="text-[11px] font-bold uppercase tracking-widest text-white">
+            <span className="text-[11px] font-bold uppercase tracking-widest text-white">
 Our Best Services Across Multiple Locations
-            </h5>
+            </span>
           </div>
           <div className="flex flex-wrap gap-2">
             {MARKET_AREAS.map((area) => (

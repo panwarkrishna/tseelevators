@@ -157,9 +157,9 @@ export default function AboutSection() {
                     <p className="text-[10px] font-bold uppercase tracking-wider text-[#E85C4A]">
                       Engineered In Delhi
                     </p>
-                    <h4 className="mt-0.5 text-xs sm:text-sm font-bold text-white">
+                    <span className="mt-0.5 text-xs sm:text-sm font-bold text-white">
                       TSE Panoramic Series
-                    </h4>
+                    </span>
                   </div>
                   <div className="flex items-center gap-1 text-[11px] sm:text-xs font-semibold text-white">
                     <ShieldCheck className="h-4 w-4 text-[#E85C4A]" />
