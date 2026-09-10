@@ -276,7 +276,7 @@ export default function Footer() {
         {/* ================= SERVICE AREA BADGES ================= */}
         <div className="mt-14 border-t border-white/10 pt-8">
           <div className="mb-4 flex items-center gap-2">
-            <Sparkles className="h-3.5 w-3.5 text-[#ef6a5f]" />
+            {/* <Sparkles className="h-3.5 w-3.5 text-[#ef6a5f]" /> */}
             <h5 className="text-[11px] font-bold uppercase tracking-widest text-white">
 Our Best Services Across Multiple Locations
             </h5>

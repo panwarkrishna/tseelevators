@@ -53,101 +53,44 @@ type NavLink = {
 };
 
 const NAV_LINKS: NavLink[] = [
-  // {
-  //   label: "Home",
-  //   href: "/",
-  // },
   {
     label: "About Us",
     href: "/about",
   },
-
   {
     label: "Products",
     href: "/products",
     children: [
-      {
-        label: "Home Lift",
-        href: "/home-lift",
-      },
-      {
-        label: "Domestic Lift",
-        href: "/domestic-lift",
-      },
-      {
-        label: "Residential Lift",
-        href: "/residential-lift",
-      },
-      {
-        label: "Passenger Lift",
-        href: "/passenger-lift",
-      },
-      {
-        label: "Commercial Lift",
-        href: "/commercial-lift",
-      },
-      {
-        label: "Pitless Lift",
-        href: "/pitless-lift",
-      },
-      {
-        label: "Goods Lift",
-        href: "/goods-lift",
-      },
-      {
-        label: "Glass Lift",
-        href: "/glass-lift",
-      },
-      {
-        label: "Hydraulic Lift",
-        href: "/hydraulic-lift",
-      },
-      
+      { label: "Home Lift", href: "/home-lift" },
+      { label: "Domestic Lift", href: "/domestic-lift" },
+      { label: "Residential Lift", href: "/residential-lift" },
+      { label: "Passenger Lift", href: "/passenger-lift" },
+      { label: "Commercial Lift", href: "/commercial-lift" },
+      { label: "Pitless Lift", href: "/pitless-lift" },
+      { label: "Goods Lift", href: "/goods-lift" },
+      { label: "Glass Lift", href: "/glass-lift" },
+      { label: "Hydraulic Lift", href: "/hydraulic-lift" },
     ],
   },
-
   {
     label: "Services",
     href: "/services",
     children: [
-      {
-        label: "Lift Installation",
-        href: "/lift-installation-services",
-      },
-      {
-        label: "Lift Repair",
-        href: "/lift-repair-services",
-      },
-      {
-        label: "Lift Maintenance",
-        href: "/lift-maintenance-services",
-      },
-      {
-        label: "Lift AMC ",
-        href: "/lift-amc-services",
-      },
-      {
-        label: "Lift Dismantling",
-        href: "/lift-dismantling-services",
-      },
-      {
-        label: "Lift MS Structural",
-        href: "/lift-ms-structure",
-      },
+      { label: "Lift Installation", href: "/lift-installation-services" },
+      { label: "Lift Repair", href: "/lift-repair-services" },
+      { label: "Lift Maintenance", href: "/lift-maintenance-services" },
+      { label: "Lift AMC", href: "/lift-amc-services" },
+      { label: "Lift Dismantling", href: "/lift-dismantling-services" },
+      { label: "Lift MS Structural", href: "/lift-ms-structure" },
     ],
   },
   {
     label: "Luxury Elevator",
     href: "/luxury-elevator",
     children: [
-      {
-        label: "Customized Elevator",
-        href: "/customized-elevator",
-      },
-      
+      { label: "Customized Elevator", href: "/customized-elevator" },
     ],
   },
-
   {
     label: "Gallery",
     href: "/gallery",
@@ -175,7 +118,16 @@ export default function Header() {
   const [offcanvasOpen, setOffcanvasOpen] = useState(false);
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-  const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
+  const [mobileExpanded, setMobileExpanded] = useState<number | null>(null);
+
+  // ================= SCROLL HELPER =================
+  // Shared helper so every navigational link (desktop + mobile) resets
+  // scroll position to the top when a new page is opened, instead of
+  // relying on the browser/Next.js default scroll-restoration timing.
+
+  const handleNavigate = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  };
 
   // ================= OFFCANVAS =================
 
@@ -206,6 +158,10 @@ export default function Header() {
     if (!offcanvasOpen) {
       document.body.style.overflow = "";
     }
+
+    // Ensure the next page opens at the top instead of retaining the
+    // scroll position that was frozen behind the menu overlay.
+    handleNavigate();
   };
 
   return (
@@ -230,7 +186,6 @@ export default function Header() {
                 className="hidden items-center gap-2 text-md font-medium transition-colors hover:text-[#D6362C] sm:flex"
               >
                 <Mail className="h-4 w-4 text-[#D6362C]" />
-
                 {CONTACT_INFO.email}
               </a>
 
@@ -243,7 +198,6 @@ export default function Header() {
                 className="flex items-center gap-2 text-md font-medium transition-colors hover:text-[#D6362C]"
               >
                 <Phone className="h-4 w-4 text-[#D6362C]" />
-
                 {CONTACT_INFO.phone}
               </a>
 
@@ -312,6 +266,7 @@ export default function Header() {
 
             <Link
               href="/"
+              onClick={handleNavigate}
               className="inline-flex shrink-0 items-center"
             >
               <Image
@@ -330,30 +285,24 @@ export default function Header() {
 
               {NAV_LINKS.map((link) => {
 
-                const hasChildren =
-                  !!link.children && link.children.length > 0;
-
-                const isDropdownOpen =
-                  openDropdown === link.label;
+                const hasChildren = !!link.children && link.children.length > 0;
+                const isDropdownOpen = openDropdown === link.label;
 
                 return (
                   <div
                     key={link.label}
                     className="relative"
                     onMouseEnter={() => {
-                      if (hasChildren) {
-                        setOpenDropdown(link.label);
-                      }
+                      if (hasChildren) setOpenDropdown(link.label);
                     }}
                     onMouseLeave={() => {
-                      if (hasChildren) {
-                        setOpenDropdown(null);
-                      }
+                      if (hasChildren) setOpenDropdown(null);
                     }}
                   >
 
                     <Link
                       href={link.href}
+                      onClick={handleNavigate}
                       className="flex items-center gap-1 px-2 py-7 text-[15px] font-bold text-[#102D5E] transition-colors hover:text-[#D6362C]"
                     >
                       {link.label}
@@ -361,9 +310,7 @@ export default function Header() {
                       {hasChildren && (
                         <ChevronDown
                           className={`h-3.5 w-3.5 transition-transform duration-200 ${
-                            isDropdownOpen
-                              ? "rotate-180 text-[#D6362C]"
-                              : ""
+                            isDropdownOpen ? "rotate-180 text-[#D6362C]" : ""
                           }`}
                         />
                       )}
@@ -379,17 +326,17 @@ export default function Header() {
                             : "invisible -translate-y-2 opacity-0"
                         }`}
                       >
-
                         <div className="flex flex-col gap-1 rounded-b-xl border-t-2 border-[#D6362C] bg-white p-3 text-slate-800 shadow-2xl">
-
                           {link.children!.map((child) => (
                             <Link
                               key={child.href}
                               href={child.href}
-                              onClick={() => setOpenDropdown(null)}
+                              onClick={() => {
+                                setOpenDropdown(null);
+                                handleNavigate();
+                              }}
                               className="group rounded-lg p-3 transition-colors hover:bg-slate-50"
                             >
-
                               <span className="block text-md font-bold text-[#102D5E] transition-colors group-hover:text-[#D6362C]">
                                 {child.label}
                               </span>
@@ -399,12 +346,9 @@ export default function Header() {
                                   {child.desc}
                                 </span>
                               )}
-
                             </Link>
                           ))}
-
                         </div>
-
                       </div>
                     )}
 
@@ -421,30 +365,31 @@ export default function Header() {
               {/* ENQUIRE NOW */}
 
               <Link
-                  href="/contact"
-                  className="ml-5 hidden min-h-[40px] items-center gap-2 rounded-md bg-[#D6362C] px-5 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#B52A21] sm:px-7 md:flex md:min-h-[48px]"
-                >
-                  Enquire Now
-                  <ArrowUpRight className="h-4 w-4" />
-                </Link>
+                href="/contact"
+                onClick={handleNavigate}
+                className="ml-5 hidden min-h-[40px] items-center gap-2 rounded-md bg-[#D6362C] px-5 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#B52A21] sm:px-7 md:flex md:min-h-[48px]"
+              >
+                Enquire Now
+                <ArrowUpRight className="h-4 w-4" />
+              </Link>
 
               {/* OWL BUTTON */}
 
-             <button
-  type="button"
-  onClick={openOffcanvas}
-  aria-label="TSE Philosophy"
-  title="TSE Philosophy"
-  className="group ml-4 flex h-12 w-12 cursor-pointer items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition-all hover:border-[#D6362C] hover:bg-red-50"
->
-  <Image
-    src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
-    alt="TSE Owl"
-    width={28}
-    height={28}
-    className="h-6 w-6 object-contain transition-transform group-hover:scale-110"
-  />
-</button>
+              <button
+                type="button"
+                onClick={openOffcanvas}
+                aria-label="TSE Philosophy"
+                title="TSE Philosophy"
+                className="group ml-4 flex h-12 w-12 cursor-pointer items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition-all hover:border-[#D6362C] hover:bg-red-50"
+              >
+                <Image
+                  src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
+                  alt="TSE Owl"
+                  width={28}
+                  height={28}
+                  className="h-6 w-6 object-contain transition-transform group-hover:scale-110"
+                />
+              </button>
 
               {/* MOBILE MENU */}
 
@@ -478,9 +423,7 @@ export default function Header() {
 
       <div
         className={`fixed inset-0 z-[100] transition-all duration-300 ${
-          offcanvasOpen
-            ? "visible pointer-events-auto"
-            : "invisible pointer-events-none"
+          offcanvasOpen ? "visible pointer-events-auto" : "invisible pointer-events-none"
         }`}
       >
 
@@ -489,9 +432,7 @@ export default function Header() {
         <div
           onClick={closeOffcanvas}
           className={`absolute inset-0 bg-slate-950/60 backdrop-blur-sm transition-opacity duration-300 ${
-            offcanvasOpen
-              ? "opacity-100"
-              : "opacity-0"
+            offcanvasOpen ? "opacity-100" : "opacity-0"
           }`}
         />
 
@@ -499,16 +440,13 @@ export default function Header() {
 
         <div
           className={`relative ml-auto flex h-full w-full max-w-2xl flex-col overflow-hidden bg-white text-slate-700 shadow-2xl transition-transform duration-300 ${
-            offcanvasOpen
-              ? "translate-x-0"
-              : "translate-x-full"
+            offcanvasOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
 
           {/* WATERMARK */}
 
           <div className="pointer-events-none absolute -bottom-10 -right-10 opacity-[0.04]">
-
             <Image
               src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
               alt="Owl Watermark"
@@ -516,7 +454,6 @@ export default function Header() {
               height={420}
               className="h-auto w-[420px] object-contain"
             />
-
           </div>
 
           {/* DRAWER HEADER */}
@@ -536,11 +473,8 @@ export default function Header() {
               <span className="h-6 w-px bg-slate-200" />
 
               <div className="flex items-center gap-1.5 rounded-full bg-[#D6362C]/10 px-3 py-1 text-xs font-semibold text-[#D6362C]">
-
                 <Sparkles className="h-3.5 w-3.5" />
-
                 Our Philosophy
-
               </div>
 
             </div>
@@ -562,20 +496,14 @@ export default function Header() {
           <div className="relative z-10 flex-1 space-y-6 overflow-y-auto p-6 text-md leading-relaxed text-black md:p-8">
 
             <div className="rounded-2xl border border-slate-100 bg-slate-50 p-5">
-
               <p className="text-slate-700">
-
                 Owls are often associated with{" "}
-
                 <strong className="text-[#102D5E]">
                   wisdom, keen observation, and vigilance
                 </strong>
-
                 . They are known for their energy efficiency in
                 hunting and their silent movement.
-
               </p>
-
             </div>
 
             <p>
@@ -588,75 +516,54 @@ export default function Header() {
             {/* FEATURES */}
 
             <div className="space-y-3">
-
               {[
                 "We design our elevators with precision and constantly ensure passenger safety.",
                 "Our products have energy-efficient features as they consume low power.",
                 "Our noise reduction quality promotes quiet and comfortable elevator operation.",
                 "Our elevators ensure excellent working conditions with round-the-clock monitoring and maintenance.",
               ].map((text, index) => (
-
                 <div
                   key={index}
                   className="flex items-start gap-3 rounded-xl border border-slate-100 bg-white p-3.5 shadow-sm"
                 >
-
                   <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#D6362C]" />
-
-                  <span className="font-medium text-slate-700">
-                    {text}
-                  </span>
-
+                  <span className="font-medium text-slate-700">{text}</span>
                 </div>
-
               ))}
-
             </div>
 
             {/* QUOTE */}
 
             <div className="rounded-xl border-l-4 border-[#D6362C] bg-slate-50 p-4 italic text-slate-700">
-
-              “Just like owls move silently and fly higher, our
+              &ldquo;Just like owls move silently and fly higher, our
               elevators work smoothly without interruptions or
-              unwanted sound.”
-
+              unwanted sound.&rdquo;
             </div>
 
             {/* CONTACT */}
 
             <div className="rounded-2xl bg-[#102D5E] p-5 text-white">
-
               <p className="text-xs font-bold uppercase tracking-wider text-slate-300">
                 Get In Touch With Us
               </p>
 
               <div className="mt-4 flex flex-wrap gap-4 text-md font-semibold">
-
                 <a
                   href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
                   className="flex items-center gap-2 transition-colors hover:text-[#D6362C]"
                 >
-
                   <Phone className="h-4 w-4 text-[#D6362C]" />
-
                   {CONTACT_INFO.phone}
-
                 </a>
 
                 <a
                   href={`mailto:${CONTACT_INFO.email}`}
                   className="flex items-center gap-2 transition-colors hover:text-[#D6362C]"
                 >
-
                   <Mail className="h-4 w-4 text-[#D6362C]" />
-
                   {CONTACT_INFO.email}
-
                 </a>
-
               </div>
-
             </div>
 
           </div>
@@ -677,11 +584,7 @@ export default function Header() {
 
           <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">
 
-            <Link
-              href="/"
-              onClick={closeMobileNav}
-            >
-
+            <Link href="/" onClick={closeMobileNav}>
               <Image
                 src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
                 alt="TSE Elevators"
@@ -689,7 +592,6 @@ export default function Header() {
                 height={45}
                 className="h-10 w-auto object-contain"
               />
-
             </Link>
 
             <button
@@ -697,9 +599,7 @@ export default function Header() {
               onClick={closeMobileNav}
               className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-slate-700 transition-colors hover:bg-[#D6362C] hover:text-white"
             >
-
               <X className="h-5 w-5" />
-
             </button>
 
           </div>
@@ -710,72 +610,66 @@ export default function Header() {
 
             <ul className="divide-y divide-slate-100">
 
-              {NAV_LINKS.map((link) => {
+              {NAV_LINKS.map((link, index) => {
 
-                const hasChildren =
-                  !!link.children && link.children.length > 0;
-
-                const isExpanded =
-                  mobileExpanded === link.label;
+                const hasChildren = !!link.children && link.children.length > 0;
+                const isExpanded = mobileExpanded === index;
 
                 return (
 
-                  <li
-                    key={link.label}
-                    className="py-3"
-                  >
+                  <li key={link.label} className="py-3">
 
                     {hasChildren ? (
 
                       <div>
 
-                        <button
-                          type="button"
-                          onClick={() =>
-                            setMobileExpanded((prev) =>
-                              prev === link.label
-                                ? null
-                                : link.label
-                            )
-                          }
-                          className="flex w-full items-center justify-between text-left text-base font-bold text-[#102D5E]"
-                        >
+                        {/* Label and chevron are separate tap targets.
+                            Tapping the text navigates to the parent page
+                            (e.g. /products) like a normal link; tapping
+                            the chevron only expands the dropdown of
+                            sub-links, without navigating. */}
+                        <div className="flex w-full items-center justify-between text-left text-base font-bold text-[#102D5E]">
 
-                          <span>
+                          <Link
+                            href={link.href}
+                            onClick={closeMobileNav}
+                            className="flex-1 py-1 transition-colors hover:text-[#D6362C]"
+                          >
                             {link.label}
-                          </span>
+                          </Link>
 
-                          <ChevronDown
-                            className={`h-4 w-4 transition-transform ${
-                              isExpanded
-                                ? "rotate-180 text-[#D6362C]"
-                                : "text-slate-400"
-                            }`}
-                          />
+                          <button
+                            type="button"
+                            onClick={() =>
+                              setMobileExpanded((prev) =>
+                                prev === index ? null : index
+                              )
+                            }
+                            aria-label={`Toggle ${link.label} submenu`}
+                            className="flex h-9 w-9 shrink-0 items-center justify-center"
+                          >
+                            <ChevronDown
+                              className={`h-4 w-4 pointer-events-none transition-transform ${
+                                isExpanded ? "rotate-180 text-[#D6362C]" : "text-slate-400"
+                              }`}
+                            />
+                          </button>
 
-                        </button>
+                        </div>
 
                         {isExpanded && (
-
                           <div className="mt-3 space-y-2 border-l-2 border-[#D6362C] pl-4">
-
                             {link.children!.map((child) => (
-
                               <Link
                                 key={child.href}
                                 href={child.href}
                                 onClick={closeMobileNav}
                                 className="block py-1 text-md font-medium text-black transition-colors hover:text-[#D6362C]"
                               >
-
                                 {child.label}
-
                               </Link>
-
                             ))}
-
                           </div>
-
                         )}
 
                       </div>
@@ -787,9 +681,7 @@ export default function Header() {
                         onClick={closeMobileNav}
                         className="flex py-1 text-base font-bold text-[#102D5E] transition-colors hover:text-[#D6362C]"
                       >
-
                         {link.label}
-
                       </Link>
 
                     )}
@@ -813,22 +705,16 @@ export default function Header() {
               onClick={closeMobileNav}
               className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#D6362C] py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-md transition-colors hover:bg-[#B52A21]"
             >
-
-            Enquire Now
-
+              Enquire Now
               <ArrowUpRight className="h-4 w-4" />
-
             </Link>
 
             <a
               href={`tel:${CONTACT_INFO.phone.replace(/[^\d+]/g, "")}`}
               className="flex items-center justify-center gap-2 pt-1 text-md font-bold text-[#102D5E]"
             >
-
               <Phone className="h-4 w-4 text-[#D6362C]" />
-
               {CONTACT_INFO.phone}
-
             </a>
 
           </div>
