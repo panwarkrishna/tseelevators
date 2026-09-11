@@ -33,7 +33,7 @@ export default function ElevatorRepairSection() {
               {/* Main Image Container with Overflow Hidden for Zoom Effect */}
               <div className="relative z-10 overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 shadow-2xl aspect-[4/5]">
                 <Image
-                  src="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-8-scaled.jpg"
+                  src="../product-img/hydraulic-lift.webp"
                   alt="Elevator Repair Services in Delhi"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"

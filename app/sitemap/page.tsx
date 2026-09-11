@@ -107,7 +107,7 @@ export default function SitemapPage() {
                 title="Sitemap"
                 description="A complete list of every page on the TSE Shaft Elevators
             website, organized by category."
-                backgroundImage="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-1.jpg"
+                backgroundImage="../product-img/hydraulic-lift.webp"
                 badgeText="Project Showcase"
               />
         

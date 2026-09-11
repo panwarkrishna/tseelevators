@@ -93,7 +93,7 @@ export default function TopProductionSolutions() {
               {/* Main Image Container with Overflow Hidden for Zoom Effect */}
               <div className="relative z-10 overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 shadow-2xl aspect-[4/5]">
                 <Image
-                  src="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-4.jpg"
+                  src="../product-img/hydraulic-lift.webp"
                   alt="Top Production Solutions and Elevator Installation"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"

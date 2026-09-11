@@ -30,7 +30,7 @@ const SLIDES_DATA: SlideItem[] = [
     ctaText: "Enquire Now",
     ctaLink: "/contact",
     image:
-      "https://aditechinfo.com/tseelevators/home-banner-img/lift.webp",
+      "../home-banner-img/lift.webp",
   },
   {
     id: 2,
@@ -41,7 +41,7 @@ const SLIDES_DATA: SlideItem[] = [
     ctaText: "Enquire Now",
     ctaLink: "/contact",
     image:
-      "https://aditechinfo.com/tseelevators/home-banner-img/lift-Installation.webp",
+      "../home-banner-img/lift-Installation.webp",
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const SLIDES_DATA: SlideItem[] = [
     ctaText: "Enquire Now",
     ctaLink: "/contact",
     image:
-      "https://aditechinfo.com/tseelevators/home-banner-img/luxury-elevator.webp",
+      "../home-banner-img/luxury-elevator.webp",
   },
 ];
 

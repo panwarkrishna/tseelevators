@@ -18,7 +18,7 @@ export default function CommercialLiftPage() {
   
   return (
     <main className="w-full bg-white text-slate-900 selection:bg-[#D6362C] selection:text-white overflow-x-hidden">
-      <GlobalPageHero title="Commercial Lift" description="High-capacity commercial lifts designed for efficient vertical transportation in office buildings, shopping malls, and other commercial spaces." backgroundImage="https://aditechinfo.com/tseelevators/product-img/commercial-lift.webp" badgeText="Commercial Lifts" />
+      <GlobalPageHero title="Commercial Lift" description="High-capacity commercial lifts designed for efficient vertical transportation in office buildings, shopping malls, and other commercial spaces." backgroundImage="../product-img/commercial-lift.webp" badgeText="Commercial Lifts" />
       <section className="sm:py-10 lg:py-15">
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
@@ -26,7 +26,7 @@ export default function CommercialLiftPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-5 space-y-5">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
-                <Image src="https://aditechinfo.com/tseelevators/product-img/commercial-lift.webp" alt="Commercial Lift for office buildings, shopping malls, and other commercial spaces" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
+                <Image src="../product-img/commercial-lift.webp" alt="Commercial Lift for office buildings, shopping malls, and other commercial spaces" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
                 {/* <div className="absolute bottom-6 left-6 z-10"><span className="rounded-full bg-[#D6362C] px-3.5 py-1 text-[11px] font-bold uppercase tracking-wider text-white shadow-md">Perfect for Commercial Spaces</span></div> */}
               </div>

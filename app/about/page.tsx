@@ -25,7 +25,7 @@ export default function AboutPage() {
       <GlobalPageHero
         title="About Us"
         description="Pioneering vertical mobility and engineering safety standards across Delhi-NCR."
-        backgroundImage="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-7-scaled.jpg"
+        backgroundImage="../product-img/passenger-lift.webp"
       />
 
            <div className="mx-auto flex max-w-7xl flex-col items-center ">

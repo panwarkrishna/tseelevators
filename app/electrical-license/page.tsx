@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function CommercialLiftPage() {
   return (
     <main className="w-full bg-white text-slate-900 selection:bg-[#D6362C] selection:text-white overflow-x-hidden">
-      {/* <GlobalPageHero title="Commercial Lift" description="High-performance commercial lifts designed for offices, hotels, shopping centres, and hospitals." backgroundImage="https://aditechinfo.com/tseelevators/product-img/commercial-lift.webp" badgeText="Elevators" /> */}
+      {/* <GlobalPageHero title="Commercial Lift" description="High-performance commercial lifts designed for offices, hotels, shopping centres, and hospitals." backgroundImage="../product-img/commercial-lift.webp" badgeText="Elevators" /> */}
       <section className="sm:py-10 lg:py-15">
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
@@ -24,7 +24,7 @@ export default function CommercialLiftPage() {
             <div className="lg:col-span-12 space-y-6">
          <div className="group relative w-full aspect-square overflow-hidden rounded-3xl  mx-auto">
   <Image
-    src="https://aditechinfo.com/tseelevators/electrical_license.jpg"
+    src="../electrical_license.jpg"
     alt="Electrical License"
     fill
     priority

@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     siteName: 'TSE Elevators',
     title: 'TSE Elevators – Premium Lift Manufacturers & Elevator Company in Delhi NCR',
     description: 'We design, manufacture, install, and maintain high-performance residential and commercial elevators across Delhi NCR.',
-    images: [{ url: 'https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png', width: 1200, height: 630, alt: 'TSE Elevators' }],
+    images: [{ url: './Logo-new.webp', width: 1200, height: 630, alt: 'TSE Elevators' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     creator: '@tseelevators',
     title: 'TSE Elevators – Premium Lift Manufacturers in Delhi NCR',
     description: 'Reliable lift manufacturing, installation, and 24/7 AMC services in Delhi-NCR.',
-    images: ['https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png'],
+    images: ['./Logo-new.webp'],
   },
   robots: {
     index: true,

@@ -16,7 +16,7 @@ export default function GalleryPage() {
       <GlobalPageHero
         title="Our Gallery"
         description="A visual showcase of our premium craftsmanship, luxury finishes, and precision elevator installations."
-        backgroundImage="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-1.jpg"
+        backgroundImage="../product-img/domestic.webp"
         badgeText="Project Showcase"
       />
 

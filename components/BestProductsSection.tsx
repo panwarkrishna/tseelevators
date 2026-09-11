@@ -26,7 +26,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Everyone's daily life is made easier and safer with a home elevator, especially for children and the elderly.",
     image:
-      "https://aditechinfo.com/tseelevators/product-img/home-lift.webp",
+      "../product-img/home-lift.webp",
     href: "/domestic-lift",
     altText:
       "Home Lift for homes, villas, and residential properties",
@@ -40,7 +40,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Compact and reliable domestic lifts designed for private homes, villas, and duplex residences with smooth and safe vertical transportation.",
     image:
-      "https://aditechinfo.com/tseelevators/product-img/domestic.webp",
+      "../product-img/domestic.webp",
     href: "/domestic-lift",
     altText:
       "Domestic Lift for homes, villas, and residential properties",
@@ -54,7 +54,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "At TSE Shaft Elevators, we present safe and elegant lifts in residential buildings. A residential lift adds comfort, luxury, and space-saver capabilities to every family.",
     image:
-      "https://aditechinfo.com/tseelevators/product-img/home-lift.webp",
+      "../product-img/home-lift.webp",
     href: "/residential-lift",
     altText:
       "Residential Lift for homes and apartment buildings by TSE Elevators",
@@ -68,7 +68,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "TSE Shaft Elevators is your premier passenger lift supplier in Delhi-NCR providing safe, smooth and reliable lifts for homes, offices, malls and commercial buildings of all sizes.",
     image:
-      "https://aditechinfo.com/tseelevators/product-img/passenger-lift.webp",
+      "../product-img/passenger-lift.webp",
     href: "/passenger-lift",
     altText:
       "Modern Passenger Lift installation for commercial and residential buildings",
@@ -82,7 +82,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "TSE Shaft Elevators is a renowned commercial lifts manufacturer in Delhi-NCR. We offer premium commercial lifts that can withstand high traffic with ease while providing you with years of safe and smooth riding.",
     image:
-      "https://aditechinfo.com/tseelevators/product-img/commercial-lift.webp",
+      "../product-img/commercial-lift.webp",
     href: "/commercial-lift",
     altText:
       "Commercial Lift for offices, hotels, hospitals and commercial buildings",
@@ -96,7 +96,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Looking for a space-saving and pit-less lift? Our pitless lifts are the right option for you. It is a safe and sophisticated solution for installations with limited pit depth or no pits at all.",
     image:
-      "https://aditechinfo.com/tseelevators/product-img/pitlesslift.webp",
+      "../product-img/pitlesslift.webp",
     href: "/pitless-lift",
     altText:
       "Space-saving Pitless Lift solution for buildings with limited construction space",
@@ -110,7 +110,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Do you need the best goods lifts to carry heavy goods from one level to another? Our range of Goods Lifts is suitable for heavy loads and ideal for",
     image:
-      "https://aditechinfo.com/tseelevators/product-img/goods-lift.webp",
+      "../product-img/goods-lift.webp",
     href: "/goods-lift",
     altText:
       "Heavy-duty Goods Lift for industrial and commercial material transportation",
@@ -124,7 +124,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Elevate the aesthetics of your building with our elegant glass lifts. With a combination of contemporary style and luxury appeal, our lifts provide",
     image:
-      "https://aditechinfo.com/tseelevators/product-img/glass-lift.webp",
+      "../product-img/glass-lift.webp",
     href: "/glass-lift",
     altText:
       "Modern Glass Lift with panoramic design for homes and premium buildings",
@@ -138,7 +138,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Do you want to install a powerful, smooth, and quiet lift? The hydraulic lift option is a great solution for low- and medium-rise buildings because of",
     image:
-      "https://aditechinfo.com/tseelevators/product-img/hydraulic-lift.webp",
+      "../product-img/hydraulic-lift.webp",
     href: "/hydraulic-lift",
     altText:
       "Hydraulic Lift system for residential and commercial buildings",

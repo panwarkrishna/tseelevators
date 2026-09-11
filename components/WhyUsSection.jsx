@@ -74,7 +74,7 @@ Trust is built at TSE Shaft Elevators, not just lifts installed. Be it a small h
             className="group relative min-h-[400px] overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 shadow-xl lg:col-span-5 lg:min-h-full"
           >
             <Image
-              src="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-5-scaled.jpg"
+              src="../product-img/hydraulic-lift.webp"
               alt="Why choose TSE Shaft Elevators"
               fill
               sizes="(max-width: 1024px) 100vw, 40vw"

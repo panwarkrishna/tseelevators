@@ -270,7 +270,7 @@ export default function Header() {
               className="inline-flex shrink-0 items-center"
             >
               <Image
-                src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
+                src="../Logo-new.webp"
                 alt="TSE Shaft Elevators (I) Pvt Ltd"
                 width={180}
                 height={75}
@@ -383,10 +383,10 @@ export default function Header() {
                 className="group ml-4 flex h-12 w-12 cursor-pointer items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition-all hover:border-[#D6362C] hover:bg-red-50"
               >
                 <Image
-                  src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
+                  src="../owl-transparent.webp"
                   alt="TSE Owl"
-                  width={28}
-                  height={28}
+                  width={48}
+                  height={66}
                   className="h-6 w-6 object-contain transition-transform group-hover:scale-110"
                 />
               </button>
@@ -448,7 +448,7 @@ export default function Header() {
 
           <div className="pointer-events-none absolute -bottom-10 -right-10 opacity-[0.04]">
             <Image
-              src="https://tseelevators.com/wp-content/uploads/2023/01/Owl.png"
+             src="../owl-transparent.webp"
               alt="Owl Watermark"
               width={420}
               height={420}
@@ -463,7 +463,7 @@ export default function Header() {
             <div className="flex items-center gap-3">
 
               <Image
-                src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
+                src="../Logo-new.webp"
                 alt="TSE Shaft Elevators"
                 width={140}
                 height={45}
@@ -586,7 +586,7 @@ export default function Header() {
 
             <Link href="/" onClick={closeMobileNav}>
               <Image
-                src="https://tseelevators.com/wp-content/uploads/2023/01/Logo-new.png"
+                src="./Logo-new.webp"
                 alt="TSE Elevators"
                 width={140}
                 height={45}

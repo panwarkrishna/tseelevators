@@ -24,7 +24,7 @@ export default function AllProductsPage() {
       <GlobalPageHero
         title="Our Products "
         description="Explore our comprehensive range of high-performance elevators, customized to elevate comfort, safety, and modern architectural aesthetics."
-        backgroundImage="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-4.jpg"
+        backgroundImage="../product-img/home-lift.webp"
         badgeText="Engineered For Excellence"
       />
 

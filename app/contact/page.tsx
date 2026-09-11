@@ -74,10 +74,9 @@ export default function ContactPage() {
       <GlobalPageHero
         title="Contact Us"
         description="Reach out to our vertical mobility experts for inquiries, custom quotations, and 24/7 support."
-        backgroundImage="https://tseelevators.com/wp-content/uploads/2024/03/Gallery-img-4.jpg"
+        backgroundImage="../product-img/hydraulic-lift.webp"
         badgeText="Get In Touch"
       />
-
       {/* ================= CONTACT SECTION ================= */}
       <section className="relative w-full overflow-hidden bg-white py-4 md:py-14 sm:py-16 lg:py-20">
 
