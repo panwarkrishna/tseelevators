@@ -26,7 +26,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Lift installation requires professional precision and we at TSE Shaft Elevator are here to provide you with safe and fast lift installation. Our professional lift installation services are available for residential, commercial and office lifts in Delhi-NCR.",
     image:
-      "./services/lift-installation1.webp",
+      "../services/lift-installation1.webp",
     href: "/lift-installation-services",
     altText:
       "Lift Installation",
@@ -40,7 +40,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Your lift is making strange noises and it is stopping in between floors. The key to prevent such situations is faster and quality repair to avoid larger expenses. We are here to help you get the most reliable and trusted lift repair services in Delhi.",
     image:
-      "./services/lift-repair1.webp",
+      "../services/lift-repair1.webp",
     href: "/lift-repair-services",
     altText:
       "Lift Repair",
@@ -54,7 +54,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "A properly maintained lift can keep your building operating smoothly and safely with minimal breakdowns and expensive repairs. TSE Shaft Elevators can help to provide high-quality lift maintenance that meets all safety regulations and extends the life of your lifts.",
     image:
-      "./services/lift-maintenance1.webp",
+      "../services/lift-maintenance1.webp",
     href: "/lift-maintenance-services",
     altText:
       "Lift Maintenance",
@@ -68,7 +68,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "TSE Shaft Elevators provides best Lift AMC service in Delhi-NCR and ensures that a lift is maintained regularly so that it serves for a longer time without any malfunctioning",
     image:
-      "./services/amc-lift1.webp",
+      "../services/amc-lift1.webp",
     href: "/lift-amc-services",
     altText:
       "Lift AMC",
@@ -82,7 +82,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Old lifts and lifts that are damaged beyond repair need to be dismantled in a timely manner. Proper and safe removal of lifts is necessary. TSE Shaft Elevators offer safe and quick lift removal services for people looking to replace their existing lift or upgrade their current lift.",
     image:
-      "./services/dismantling-llift1.webp",
+      "../services/dismantling-llift1.webp",
     href: "/lift-dismantling-services",
     altText:
       "Lift Dismantling",
@@ -96,7 +96,7 @@ const PRODUCTS: ProductItem[] = [
     description:
       "Any good elevator lift requires a reliable MS structure to bear the total load of the elevator. The MS structure is a reliable system that supports the lift throughout its functioning. We at TSE Shaft Elevators deal in providing you with MS structures made of high-quality steel that are reliable according to your building's requirement and lift specification.",
     image:
-      "./services/ms-structural1.webp",
+      "../services/ms-structural1.webp",
     href: "/lift-ms-structure",
     altText:
       "Lift MS Structure",
