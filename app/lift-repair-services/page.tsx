@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function PassengerLiftPage() {
   return (
     <main className="w-full bg-white text-slate-900 selection:bg-[#D6362C] selection:text-white overflow-x-hidden">
-      <GlobalPageHero title="Lift Repair" description="Modern Lift Repairs engineered to provide safe, smooth, and efficient vertical transportation." backgroundImage="./services/lift-repair1.webp" badgeText="Elevators" />
+      <GlobalPageHero title="Lift Repair" description="Modern Lift Repairs engineered to provide safe, smooth, and efficient vertical transportation." backgroundImage="../services/lift-repair1.webp" badgeText="Elevators" />
       <section className="sm:py-10 lg:py-15">
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
