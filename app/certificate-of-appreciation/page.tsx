@@ -24,7 +24,7 @@ export default function CommercialLiftPage() {
             <div className="lg:col-span-12 space-y-6">
          <div className="group relative w-full aspect-square overflow-hidden rounded-3xl  mx-auto">
   <Image
-    src="./certificate_of_appreciation.jpg"
+    src="../certificate_of_appreciation.jpg"
     alt="Certificate of Appreciation"
     fill
     priority
