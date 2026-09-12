@@ -158,9 +158,7 @@ export default function Footer() {
             />
 
             <p className="text-sm leading-relaxed text-white">
-              Pioneering custom residential, commercial, and industrial vertical
-              mobility solutions with German engineering and absolute safety
-              compliance.
+            We are the leading Lift Manufacturers in Delhi, offering turnkey mobility solutions to Residential, Commercial, and Public Transportation Buildings. 
             </p>
 
             <div className="space-y-4">

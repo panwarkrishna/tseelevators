@@ -69,12 +69,12 @@ export default function AboutSection() {
             className="flex flex-col lg:col-span-7"
           >
             {/* Tagline */}
-            <motion.div variants={fadeInUp} className="inline-flex items-center gap-2 rounded-full border border-[#D6362C] bg-white/5 px-3.5 py-1.5 backdrop-blur-md self-start">
+            {/* <motion.div variants={fadeInUp} className="inline-flex items-center gap-2 rounded-full border border-[#D6362C] bg-white/5 px-3.5 py-1.5 backdrop-blur-md self-start">
               <span className="h-2 w-2 rounded-full bg-[#D6362C] animate-pulse" />
               <span className="text-[11px] font-bold uppercase tracking-widest text-black">
                 Pioneering Vertical Engineering
               </span>
-            </motion.div>
+            </motion.div> */}
 
             {/* Section 1: Lift Manufacturers in Delhi */}
             <motion.div variants={fadeInUp} className="mt-6">
@@ -94,7 +94,7 @@ export default function AboutSection() {
                 // whileHover={{ scale: 1.01 }}
                 className="mt-6 flex items-start gap-3 rounded-xl border border-[#D6362C]/30 bg-white/[0.05] p-3.5 backdrop-blur-sm transition-colors"
               >
-                <Wrench className="h-5 w-5 shrink-0 text-[#E85C4A] mt-0.5" />
+                {/* <Wrench className="h-5 w-5 shrink-0 text-[#E85C4A] mt-0.5" /> */}
                 <p className="text-xs leading-relaxed text-black sm:text-sm">
                   Apart from new elevator manufacturing, our certified technical team provides comprehensive repair, modernizations, and proactive Annual Maintenance Contracts (AMC) across Delhi-NCR.
                 </p>
@@ -145,13 +145,13 @@ export default function AboutSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-[#0A0F26] via-transparent to-black/20" />
 
               {/* Top Badge */}
-              <div className="absolute left-3.5 top-3.5 flex items-center gap-1.5 rounded-full border border-white/15 bg-black/50 px-3 py-1 text-[11px] font-semibold text-white backdrop-blur-sm">
+              {/* <div className="absolute left-3.5 top-3.5 flex items-center gap-1.5 rounded-full border border-white/15 bg-black/50 px-3 py-1 text-[11px] font-semibold text-white backdrop-blur-sm">
                 <Sparkles className="h-3.5 w-3.5 text-amber-400" />
                 <span>Gold Series Interior</span>
-              </div>
+              </div> */}
 
               {/* Bottom Floating Stats Inside Card */}
-              <div className="absolute inset-x-3.5 bottom-3.5 rounded-xl border border-white/10 bg-slate-950/80 p-3 backdrop-blur-md shadow-sm">
+              {/* <div className="absolute inset-x-3.5 bottom-3.5 rounded-xl border border-white/10 bg-slate-950/80 p-3 backdrop-blur-md shadow-sm">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-[10px] font-bold uppercase tracking-wider text-[#E85C4A]">
@@ -166,7 +166,7 @@ export default function AboutSection() {
                     <span>EN-81 Safety</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
           </div>
