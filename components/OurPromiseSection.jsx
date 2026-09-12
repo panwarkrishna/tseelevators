@@ -6,7 +6,7 @@ import { ShieldCheck } from "lucide-react";
 
 export default function OurPromiseSection() {
   return (
-    <section className="relative w-full overflow-hidden py-10 text-slate-900 lg:py-15">
+    <section className="relative w-full overflow-hidden md:py-10 text-slate-900 md:py-15">
       {/* Background Architectural Technical Grid Pattern */}
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3.5rem_3.5rem]" />
 
