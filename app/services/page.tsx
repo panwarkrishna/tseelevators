@@ -22,8 +22,8 @@ export default function ServicesPage() {
       <section className="sm:py-10 lg:py-15">
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
-        <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+        <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-6 md:mt-6">
+          <div className="grid grid-cols-1 lg:grid-cols-12  items-start">
             <div className="lg:col-span-6 space-y-6">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="../product-img/hydraulic-lift.webp" alt="Hydraulic Lift system for residential and commercial buildings" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
@@ -32,7 +32,7 @@ export default function ServicesPage() {
 </span></div> */}
               </div>
             </div>
-            <div className="lg:col-span-6 space-y-6 sm:space-y-8">
+            <div className="lg:col-span-6 space-y-6 sm:space-y-8 mt-6 md:ml-8">
           
               <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Services</h2>
 
