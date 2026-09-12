@@ -129,7 +129,6 @@ export default function Footer() {
       <div className="relative mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8">
         <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-7 lg:p-8">
           <div className="mb-6 flex items-center gap-2">
-            <Sparkles className="h-3.5 w-3.5 text-[#ef6a5f]" />
             <span className="text-[11px] font-bold uppercase tracking-widest text-white">
               Our Certifications
             </span>
