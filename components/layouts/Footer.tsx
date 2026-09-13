@@ -1,4 +1,3 @@
- 
 "use client";
 
 import Link from "next/link";
@@ -148,15 +147,16 @@ export default function Footer() {
 
           {/* BRAND & ADDRESS */}
           <div className="lg:col-span-1 space-y-6 md:col-span-2 lg:max-w-sm">
-            
-            <Link href="/"><Image
-              src="../Logo-new.webp"
-              alt="TSE Shaft Elevators"
-              width={180}
-              height={72}
-              className="h-12 w-auto rounded-lg bg-white p-2 object-contain"
-            />
-</Link>
+
+            <Link href="/" title="TSE Shaft Elevators - Home">
+              <Image
+                src="../Logo-new.webp"
+                alt="TSE Shaft Elevators"
+                width={180}
+                height={72}
+                className="h-12 w-auto rounded-lg bg-white p-2 object-contain"
+              />
+            </Link>
             <p className="text-sm leading-relaxed text-white mt-2">
             We are the leading Lift Manufacturers in Delhi, offering turnkey mobility solutions to Residential, Commercial, and Public Transportation Buildings. 
             </p>
@@ -219,6 +219,7 @@ export default function Footer() {
             <div className="space-y-3">
               <a
                 href="tel:+919971022555"
+                title="Call TSE Shaft Elevators"
                 className="flex items-start gap-3 text-slate-300 transition-colors hover:text-white"
               >
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[#ef6a5f]" />
@@ -232,6 +233,7 @@ export default function Footer() {
 
               <a
                 href="mailto:info@tseelevators.com"
+                title="Email TSE Shaft Elevators"
                 className="flex items-start gap-3 text-slate-300 transition-colors hover:text-white"
               >
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-[#ef6a5f]" />
@@ -260,6 +262,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noreferrer"
                       aria-label={social.label}
+                      title={social.label}
                       className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 text-white transition-colors hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
                     >
                       <Icon className="h-3.5 w-3.5" />
@@ -308,6 +311,7 @@ Our Best Services Across Multiple Locations
             <button
               type="button"
               onClick={scrollToTop}
+              title="Back to top"
               className="group flex items-center gap-1.5 text-xs font-semibold text-white transition-colors hover:text-white"
             >
               Back to top
@@ -345,6 +349,7 @@ function FooterLink({ href, label }: { href: string; label: string }) {
     <li>
       <Link
         href={href}
+        title={label}
         className="group flex items-center gap-1.5 text-sm text-white transition-colors hover:text-white"
       >
         <ChevronRight className="h-3.5 w-3.5 shrink-0 text-[#D6362C] transition-transform group-hover:translate-x-1" />
@@ -372,6 +377,7 @@ function CertBadge({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
+      title={title}
       className="group flex items-center gap-4 rounded-xl border border-white/10 bg-white/[0.04] p-5 transition-all duration-200 hover:border-[#D6362C]/50 hover:bg-white/[0.08]"
     >
       <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-white">
