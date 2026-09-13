@@ -125,7 +125,7 @@ export default function RecognizedLeadersSection() {
             {/* Eyebrow */}
 
             <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3.5 py-1.5 shadow-sm">
-              <CheckCircle2 className="h-3.5 w-3.5 text-[#D6362C]" />
+              {/* <CheckCircle2 className="h-3.5 w-3.5 text-[#D6362C]" /> */}
 
               <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-700 sm:text-[11px]">
                 Why Choose TSE Elevators
