@@ -22,7 +22,7 @@ export default function GlassLiftPage() {
         
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-            <div className="lg:col-span-6 space-y-6">
+            <div className="lg:col-span-5 space-y-5">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="../product-img/glass-lift.webp" alt="Glass Lift" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
@@ -30,7 +30,7 @@ export default function GlassLiftPage() {
               </div>
           
             </div>
-            <div className="lg:col-span-6 space-y-6 sm:space-y-8">
+            <div className="lg:col-span-7 space-y-6 sm:space-y-8">
              <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Glass Lift</h2>
               <p className="text-black text-sm sm:text-base leading-relaxed">Elevate the aesthetics of your building with our elegant glass lifts. With a combination of contemporary style and luxury appeal, our lifts provide unrivaled panoramic views making it a desirable choice for residential, commercial malls and hotels.</p>
 

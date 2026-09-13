@@ -22,7 +22,7 @@ export default function GoodsLiftPage() {
         
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-            <div className="lg:col-span-6 space-y-6">
+            <div className="lg:col-span-5 space-y-6">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="../product-img/goods-lift.webp" alt="Goods Lift" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
@@ -30,7 +30,7 @@ export default function GoodsLiftPage() {
               </div>
 
             </div>
-            <div className="lg:col-span-6 space-y-6 sm:space-y-8">
+            <div className="lg:col-span-7 space-y-6 sm:space-y-8">
               <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Goods Lift</h2>
               <p className="text-black text-sm sm:text-base leading-relaxed">Do you need the best goods lifts to carry heavy goods from one level to another? Our range of Goods Lifts is suitable for heavy loads and ideal for warehouses, factories, shops, and godowns. These commercial lifts are durable so that you can save time and effort.</p>
 
