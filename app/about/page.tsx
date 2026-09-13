@@ -27,16 +27,7 @@ export default function AboutPage() {
         description="TSE Shaft Elevators, the name you can trust for lifts and elevators in Delhi-NCR"
         backgroundImage="../product-img/passenger-lift.webp"
       />
-
-           <div className="mx-auto flex max-w-7xl flex-col items-center ">
-          
-{/* 
-            <h2 className="mt-6 md:mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px] pt-0 md:pt-12 ml-8 md:ml-0">
-              Innovative <span className="text-[#D6362C]">Elevator Systems</span>
-            </h2> */}
-
-    </div>
-
+ 
       <OurPromiseSection />
       <WhyUsSection />
       <BestProductsSection/>

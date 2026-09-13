@@ -20,10 +20,10 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://tseelevators.com'),
   title: {
     default: 'Lift Manufacturers in Delhi, Elevator Suppliers in Delhi-NCR',
-    template: '%s | TSE Elevators',
+    template: '',
   },
   description: 'TSE Shaft Elevators - Leading Lift Manufacturers in Delhi & Elevator Suppliers in Delhi-NCR. Quality, safety & reliable installation. Call now +919971022555 for a free quote! ',
-  applicationName: 'TSE Elevators',
+  applicationName: '',
   icons: {
     icon: '/favicon.png',
     shortcut: '/favicon-96x96.png',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   appleWebApp: {
     capable: true,
-    title: 'TSE Elevators',
+    title: '',
     statusBarStyle: 'default',
   },
   keywords: [
@@ -48,18 +48,18 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     url: 'https://tseelevators.com',
-    siteName: 'TSE Elevators',
-    title: 'TSE Elevators – Premium Lift Manufacturers & Elevator Company in Delhi NCR',
+    siteName: 'T',
+    title: ' Premium Lift Manufacturers & Elevator Company in Delhi NCR',
     description: 'We design, manufacture, install, and maintain high-performance residential and commercial elevators across Delhi NCR.',
-    images: [{ url: './Logo-new.webp', width: 1200, height: 630, alt: 'TSE Elevators' }],
+    images: [{ url: '../Logo-new.webp', width: 1200, height: 630, alt: 'TSE Elevators' }],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@tseelevators',
     creator: '@tseelevators',
-    title: 'TSE Elevators – Premium Lift Manufacturers in Delhi NCR',
+    title: 'Premium Lift Manufacturers in Delhi NCR',
     description: 'Reliable lift manufacturing, installation, and 24/7 AMC services in Delhi-NCR.',
-    images: ['./Logo-new.webp'],
+    images: ['../Logo-new.webp'],
   },
   robots: {
     index: true,

@@ -586,7 +586,7 @@ export default function Header() {
 
             <Link href="/" onClick={closeMobileNav}>
               <Image
-                src="./Logo-new.webp"
+                src="../Logo-new.webp"
                 alt="TSE Elevators"
                 width={140}
                 height={45}

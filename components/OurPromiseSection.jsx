@@ -59,6 +59,10 @@ export default function OurPromiseSection() {
             <div className="mt-0 md:mt-8 ">
               
          
+            <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px]  mb-8">
+              TSE Shaft Elevators - Your Trusted Partner in Delhi
+            </h2>  
+
 <p className="text-md text-black mb-3">
               Welcome to <strong>TSE Shaft Elevators,</strong> the name you can trust for lifts and elevators in Delhi-NCR. It is important to select the right elevator partner to ensure long term safety and performance.
 </p>

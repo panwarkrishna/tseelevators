@@ -136,7 +136,7 @@ export default function AboutSection() {
             <div className="group relative aspect-[4/5] w-full overflow-hidden">
               <Image
                 src="../product-img/about-tseelevators.webp"
-                alt="TSE Luxury Gold Elevator Cabin"
+                alt="Lift Manufacturers in Delhi"
                 fill
                 sizes="(max-width: 1024px) 100vw, 30vw"
                 className="object-cover object-center transition-transform duration-700 group-hover:scale-105"

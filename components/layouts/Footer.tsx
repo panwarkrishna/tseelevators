@@ -148,15 +148,16 @@ export default function Footer() {
 
           {/* BRAND & ADDRESS */}
           <div className="lg:col-span-1 space-y-6 md:col-span-2 lg:max-w-sm">
-            <Image
+            
+            <Link href="/"><Image
               src="../Logo-new.webp"
               alt="TSE Shaft Elevators"
               width={180}
               height={72}
               className="h-12 w-auto rounded-lg bg-white p-2 object-contain"
             />
-
-            <p className="text-sm leading-relaxed text-white">
+</Link>
+            <p className="text-sm leading-relaxed text-white mt-2">
             We are the leading Lift Manufacturers in Delhi, offering turnkey mobility solutions to Residential, Commercial, and Public Transportation Buildings. 
             </p>
 
