@@ -473,7 +473,6 @@ export default function Header() {
               <span className="h-6 w-px bg-slate-200" />
 
               <div className="flex items-center gap-1.5 rounded-full bg-[#D6362C]/10 px-3 py-1 text-xs font-semibold text-[#D6362C]">
-                <Sparkles className="h-3.5 w-3.5" />
                 Our Philosophy
               </div>
 
