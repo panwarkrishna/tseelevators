@@ -25,7 +25,7 @@ export default function AboutPage() {
       <GlobalPageHero
         title="About Us"
         description="TSE Shaft Elevators, the name you can trust for lifts and elevators in Delhi-NCR"
-        backgroundImage="../product-img/passenger-lift.webp"
+        backgroundImage="../about.webp"
       />
  
       <OurPromiseSection />
