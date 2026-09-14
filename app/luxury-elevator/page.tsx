@@ -7,9 +7,9 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import BestProductsSection from "@/components/BestProductsSection";
 
 export const metadata: Metadata = {
-  title: "Lift Maintenance Services in Delhi, Elevator Lift Maintenance in Delhi-NCR",
-  keywords: "Lift Maintenance Services in Delhi, Elevator Lift Maintenance in Delhi-NCR, Lift Maintenance Services, Elevator Lift Maintenance",
-  description: "TSE Shaft Elevators - Reliable Lift Maintenance Services in Delhi & Elevator Maintenance Services in Delhi-NCR. Regular upkeep for safe, smooth performance. Call +919971022555 for a free quote! ",
+  title: "Luxury Elevator Manufacturers in Delhi, Luxury Elevator Suppliers in Delhi-NCR",
+  keywords: "Luxury Elevator Manufacturers in Delhi, Luxury Elevator Suppliers in Delhi-NCR, Luxury Elevator Manufacturers, Luxury Elevator Suppliers, Luxury Elevator in Delhi, Luxury Elevator in Delhi-NCR",
+  description: "TSE Shaft Elevators - Premium Luxury Elevator Manufacturers in Delhi & Luxury Elevator Suppliers in Delhi-NCR. Elegant designs, top-notch quality & safety. Call +919971022555 for a free consultation! ",
   alternates: { canonical: "https://tseelevators.com/luxury-elevator" },
 };
 
