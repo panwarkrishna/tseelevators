@@ -124,8 +124,9 @@ export default function ContactPage() {
                   </span>
 
                   <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
-                    S.C.O. No. 635, Second Floor, PUDA Gateway City, Sector 119,
-                    Mohali - 140501
+                  S.C.O. No. - 635, Second Floor, TDI City, Near Regenta Hotel, Sec-119, Mohali, PB
+
+
                   </p>
                 </div>
 

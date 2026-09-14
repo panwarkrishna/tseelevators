@@ -181,8 +181,7 @@ export default function Footer() {
                     Branch Office — Mohali
                   </p>
                   <p className="mt-0.5 text-xs leading-relaxed text-white">
-                    S.C.O. No. 635, Second Floor, PUDA Gateway City, Sector 119,
-                    Mohali - 140501
+                    S.C.O. No. - 635, Second Floor, TDI City, Near Regenta Hotel, Sec-119, Mohali, PB
                   </p>
                 </div>
               </div>
