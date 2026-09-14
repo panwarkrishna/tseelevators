@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
-import TestimonialsSection from "@/components/TestimonialsSection";
 
 export const metadata: Metadata = {
   title: "Commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR",
@@ -38,7 +37,6 @@ export default function CommercialLiftPage() {
           </div>
         </div>
       </section>
-      <TestimonialsSection />
     </main>
   );
 }

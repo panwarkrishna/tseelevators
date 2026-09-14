@@ -375,7 +375,6 @@ function CertBadge({
   return (
     <Link
       href={href}
-      target="_blank"
       rel="noopener noreferrer"
       title={title}
       className="group flex items-center gap-4 rounded-xl border border-white/10 bg-white/[0.04] p-5 transition-all duration-200 hover:border-[#D6362C]/50 hover:bg-white/[0.08]"
