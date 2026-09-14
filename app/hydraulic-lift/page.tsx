@@ -3,7 +3,6 @@ import GlobalPageHero from "@/components/GlobalPageHero";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import BestProductsSection from "@/components/BestProductsSection";
 
 export const metadata: Metadata = {
@@ -21,7 +20,7 @@ export default function HydraulicLiftPage() {
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-6">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="../product-img/hydraulic-lift.webp" alt="Hydraulic Lift" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
@@ -36,7 +35,16 @@ export default function HydraulicLiftPage() {
               <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Trusted Hydraulic Lift Manufacturers In Delhi</h3>
               <p className="text-black text-sm sm:text-base leading-relaxed">We are one of the best <strong>Hydraulic Lift manufacturers in Delhi,</strong> providing top-class residential, commercial and institutional lifts with low-overhead design. Our hydraulic lifts are suitable for small and medium-sized buildings, shops, and houses. All our hydraulic lifts are produced using high-quality components and are subject to rigorous testing to ensure their safe and reliable operation.</p>
 
-              <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Hydraulic Elevator Suppliers In Delhi-NCR</h3>
+            
+
+
+           
+            </div>
+          </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+            <div className="lg:col-span-12 space-y-5">
+                        <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Hydraulic Elevator Suppliers In Delhi-NCR</h3>
               <p className="text-black text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is recognized as one of the trusted <strong>Hydraulic Elevator Suppliers in Delhi-NCR.</strong> Our hydraulic lifts are a perfect solution for residential and commercial buildings because of their
 
 </p>
@@ -51,16 +59,12 @@ export default function HydraulicLiftPage() {
     <li>easy maintenance and longer lifespan</li>
 
 </ul>
-
-
-           
             </div>
-          </div>
+            </div>
         </div>
       </section>
              <BestProductsSection />
       
-      <TestimonialsSection />
     </main>
   );
 }

@@ -21,7 +21,7 @@ export default function PassengerLiftPage() {
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-5">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="../luxury-elevator.webp" alt="Modern Lift Maintenance installation for commercial and residential buildings" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
@@ -48,6 +48,14 @@ Premium Luxury Elevator Manufacturers in Delhi</h3>
 <p> We are one of the best Luxury Elevator Manufacturers in Delhi offering luxury lift services in Delhi and other parts of India. The luxury elevator we produce has exquisite finishing and uses the best technology to provide comfort to all our customers. Our luxury lifts have beautiful cabins with amazing designs and high-quality panels to suit the needs of all our clients.
 </p>
 
+
+             
+            </div>
+          </div>
+
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+            <div className="lg:col-span-12 space-y-5">
+
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2"> 
 TSE Shaft Elevators – Best Luxury Elevator Suppliers in Delhi-NCR
 </h3>
@@ -70,15 +78,13 @@ If you want the best Luxury <strong>Elevator Suppliers in Delhi-NCR</strong> to 
 
 </p>
 
-
-             
             </div>
-          </div>
+            </div>
         </div>
       </section>
                    <BestProductsSection />
       
-      <TestimonialsSection />
+ 
     </main>
   );
 }

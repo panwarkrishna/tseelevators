@@ -335,7 +335,7 @@ export default function Header() {
                                 setOpenDropdown(null);
                                 handleNavigate();
                               }}
-                              className="group rounded-lg p-3 transition-colors hover:bg-slate-50"
+                              className="group rounded-lg p-2 transition-colors hover:bg-slate-50"
                             >
                               <span className="block text-md font-bold text-[#102D5E] transition-colors group-hover:text-[#D6362C]">
                                 {child.label}

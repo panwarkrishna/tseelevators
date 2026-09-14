@@ -3,7 +3,6 @@ import GlobalPageHero from "@/components/GlobalPageHero";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import BestProductsSection from "@/components/BestProductsSection";
 
 export const metadata: Metadata = {
@@ -21,7 +20,7 @@ export default function PassengerLiftPage() {
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-5">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="../cutomised-elevator.webp" alt="Modern Customized Elevator installation for commercial and residential buildings" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
@@ -37,7 +36,7 @@ export default function PassengerLiftPage() {
  <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
 Customized Elevator</h2>
 
-<p>
+<p className="m-0 p-0">
 The requirement of lifts varies from building to building and therefore we provide you with a customized option that fits your building dimension, elevator style and budget. Our Customized Elevator will offer you an ultimate comfortable experience along with elegance and style.
 </p>
 
@@ -47,6 +46,16 @@ Customized Elevator Manufacturers in Delhi</h3>
 
 <p>TSE Shaft Elevators are one of the preferred <strong>Customized Elevator Manufacturers in Delhi,</strong> we understand every building is different in terms of structure, size and architecture, hence we bring to you a lift of your choice according to your requirement. We specialize in Customized Elevator which offers you the style and comfort of your choice like glass panel, unique design and much more.
 </p>
+
+
+
+
+             
+            </div>
+          </div>
+
+             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+            <div className="lg:col-span-12 space-y-5">
 
 <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
 
@@ -68,17 +77,12 @@ Customized Elevator Suppliers in Delhi-NCR
 <p>
 
 Choose us to bring home the ultimate experience of a customized lift.</p>
-
-
-
-             
             </div>
-          </div>
+            </div>
         </div>
       </section>
              <BestProductsSection />
       
-      <TestimonialsSection />
     </main>
   );
 }

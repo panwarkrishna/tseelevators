@@ -3,7 +3,6 @@ import GlobalPageHero from "@/components/GlobalPageHero";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import BestProductsSection from "@/components/BestProductsSection";
 
 export const metadata: Metadata = {
@@ -22,7 +21,7 @@ export default function DomesticLiftPage() {
         
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
           {/* <div className="mb-8 sm:mb-10"><Link href="/" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100 px-4 py-2 text-xs font-bold uppercase tracking-wider text-slate-700 transition-all hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"><ArrowLeft className="h-4 w-4" /><span>Back to Home</span></Link></div> */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-5">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="../product-img/domestic.webp" alt="Domestic Lift" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
@@ -31,7 +30,7 @@ export default function DomesticLiftPage() {
               </div>
             
             </div>
-            <div className="lg:col-span-7 space-y-7 sm:space-y-7">
+            <div className="lg:col-span-7 space-y-5 sm:space-y-5">
               <div>
  
  
@@ -53,6 +52,20 @@ export default function DomesticLiftPage() {
 </p>
 
 
+ 
+
+
+ 
+               </div>
+            
+            </div>
+          </div>
+
+
+
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+            <div className="lg:col-span-12 space-y-5">
+                  
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Trusted Domestic Elevator Suppliers In Delhi-NCR</h3>
 
 <p className="mb-3">TSE Shaft Elevators is one the trusted Domestic <strong>Elevator Suppliers in Delhi-NCR</strong> that supplies residential lifts in Delhi, Noida, Gurugram, and Haryana. Our professional Domestic Elevator installers carry out a detailed survey of your home to come up with the best design and model of lifts for your home.
@@ -76,19 +89,13 @@ export default function DomesticLiftPage() {
 
 
 </ul>
- 
 
-
- 
-               </div>
-            
             </div>
-          </div>
+            </div>
         </div>
       </section>
              <BestProductsSection />
       
-      <TestimonialsSection />
     </main>
   );
 }

@@ -107,9 +107,9 @@ export default function HeroSlider() {
                   </span>
                 </div>
 
-                <h1 className="text-3xl font-extrabold leading-[1.12] tracking-tight text-white drop-shadow-sm sm:text-5xl lg:text-[54px]">
+                <div className="text-3xl font-extrabold leading-[1.12] tracking-tight text-white drop-shadow-sm sm:text-5xl lg:text-[54px]">
                   {slide.title}
-                </h1>
+                </div>
 
                 <p className="mt-4 text-sm font-normal leading-relaxed text-slate-200 drop-shadow sm:text-base md:text-lg">
                   {slide.description}

@@ -21,7 +21,7 @@ const PRODUCTS: ProductItem[] = [
     id: 1,
     title: "Home Lift",
     category: "Home Lifts",
-    tag: "Perfect for Homes",
+    tag: "Crafted for comfort",
     description:
       "Everyone's daily life is made easier and safer with a home elevator, especially for children and the elderly.",
     image: "../product-img/home-lift.webp",

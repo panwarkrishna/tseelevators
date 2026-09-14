@@ -3,7 +3,6 @@ import GlobalPageHero from "@/components/GlobalPageHero";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import BestServicesSection from "@/components/BestServicesSection";
 
 export const metadata: Metadata = {
@@ -44,7 +43,19 @@ export default function ServicesPage() {
 
  <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Complete Lift Services in Delhi-NCR</h3>
  <p className="text-black text-sm sm:text-base leading-relaxed">TSE Shaft Elevators provide complete <strong>Lift Services in Delhi-NCR</strong> to serve you in Delhi, Noida, Gurgaon, Haryana, and the entire Delhi-NCR region. We offer:</p>
-<ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
+
+
+
+
+           
+            </div>
+          </div>
+
+
+ <div className="grid grid-cols-1 lg:grid-cols-12  items-start">
+            <div className="lg:col-span-12 space-y-5">
+
+<ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed mt-6">
   <li>Lift maintenance to avoid breakdowns</li>
   <li>Timely and efficient lift repair services</li>
   <li>Safety audit to ensure smooth ride</li>
@@ -54,17 +65,12 @@ export default function ServicesPage() {
 
 <p className="text-black text-sm sm:text-base leading-relaxed">So, you can rely on us for top-notch maintenance and repair services, no matter where you are in Delhi-NCR.</p>
 
-
-
-
-           
             </div>
-          </div>
+                  </div>
         </div>
       </section>
              <BestServicesSection />
       
-      <TestimonialsSection />
     </main>
 
   );

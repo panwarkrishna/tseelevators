@@ -21,7 +21,7 @@ export default function PassengerLiftPage() {
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-6">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="../services/ms-structural1.webp" alt="Lift MS Structural" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
@@ -46,6 +46,13 @@ Any good elevator lift requires a reliable MS structure to bear the total load o
 </p>
 
 
+             
+            </div>
+          </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+            <div className="lg:col-span-12 space-y-5">
+
 <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Best Elevator MS Structure Services In Delhi-NCR</h3>
 
 
@@ -63,14 +70,12 @@ Any good elevator lift requires a reliable MS structure to bear the total load o
 <p>
 TSE Shaft Elevators provide you with the best  MS elevator structures that promise a safe and stable lift throughout its lifespan.
 </p>
-             
             </div>
-          </div>
+            </div>
         </div>
       </section>
                    <BestServicesSection />
       
-      <TestimonialsSection />
     </main>
   );
 }

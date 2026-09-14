@@ -3,7 +3,6 @@ import GlobalPageHero from "@/components/GlobalPageHero";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import BestServicesSection from "@/components/BestServicesSection";
 
 export const metadata: Metadata = {
@@ -21,7 +20,7 @@ export default function PassengerLiftPage() {
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-6">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="../services/lift-repair1.webp" alt="Lift Repair" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
@@ -37,7 +36,19 @@ export default function PassengerLiftPage() {
             <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Lift Repair Services in Delhi for Residential, Commercial & Offices</h3>
             <p className="text-black text-sm sm:text-base leading-relaxed">We at TSE Shaft Elevators provide reliable <strong>Lift Repair Services in Delhi</strong> for residential, commercial, and offices. Our certified professionals can detect and solve all kinds of issues with your lift. We use only high-quality spare parts so that your lift continues to function smoothly for a longer period of time.</p>
 
-            <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Fast Elevator Repair Services in Delhi-NCR</h3>
+          
+ 
+
+
+             
+            </div>
+          </div>
+
+
+
+           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+            <div className="lg:col-span-12 space-y-6">
+  <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Fast Elevator Repair Services in Delhi-NCR</h3>
             <p className="text-black text-sm sm:text-base leading-relaxed">We are a trusted provider of <strong>Elevator Repair Services in Delhi-NCR</strong> with experience. We provide Lift Repair Services in Delhi, Noida, Gurugram, Haryana and the surrounding areas. Here are some of the reasons why our customers keep choosing us for all their lift repair services.</p>
 
 
@@ -50,17 +61,13 @@ export default function PassengerLiftPage() {
         <li>Focus on maintaining the safety of lifts during repairs</li>
           <li>Competitive and pocket-friendly cost for all our repair services</li>
 </ul>
- 
-
-
-             
             </div>
-          </div>
+            </div>
+
         </div>
       </section>
                    <BestServicesSection />
       
-      <TestimonialsSection />
     </main>
   );
 }

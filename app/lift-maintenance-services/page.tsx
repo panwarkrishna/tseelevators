@@ -21,7 +21,7 @@ export default function PassengerLiftPage() {
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
         <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-6">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
                 <Image src="../services/lift-maintenance1.webp" alt="Lift Maintenance" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
@@ -42,7 +42,16 @@ export default function PassengerLiftPage() {
 <p>At TSE Shaft Elevators we provide professional <strong>Lift Maintenance Services in Delhi</strong> for residential and commercial property owners and managers. Our lift service technicians will perform routine maintenance and inspections of your elevators and lifts.
 </p>
 
-   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
+
+
+             
+            </div>
+          </div>
+
+           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+            <div className="lg:col-span-12 space-y-6">
+
+   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed mt-4">
 <li>  On-Site Lift Inspection and Examination</li>
 <li> Experienced and Qualified Engineers</li>
 <li>  Emergency Lift Repair Services</li>
@@ -61,15 +70,13 @@ Our expert staff can handle all types of lift maintenance, including elevator ma
 We have qualified engineering staff that can handle all of your elevator needs, from scheduled lift maintenance to emergency lift repairs and replacement parts. We also offer competitive pricing on all of our lift maintenance and repair services. Get a free estimate for lift maintenance and other elevator services today.
 </p>
 
-
-             
             </div>
-          </div>
+            </div>
         </div>
       </section>
                    <BestServicesSection />
       
-      <TestimonialsSection />
+ c
     </main>
   );
 }
