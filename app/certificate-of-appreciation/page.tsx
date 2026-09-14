@@ -26,6 +26,7 @@ export default function CommercialLiftPage() {
   <Image
     src="../certificate_of_appreciation.jpg"
     alt="Certificate of Appreciation"
+    title="Certificate of Appreciation"
     fill
     priority
     sizes="(max-width: 768px) 100vw, 900px"

@@ -37,6 +37,7 @@ export default function GlobalPageHero({
           <Image
             src={backgroundImage}
             alt={title}
+               title={title}
             fill
             priority
             sizes="100vw"

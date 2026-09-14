@@ -179,6 +179,7 @@ export default function GalleryShowcase() {
               <Image
                 src={item.image}
                 alt={item.alt}
+                title={item.alt}
                 fill
                 loading="lazy"
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -255,6 +256,7 @@ export default function GalleryShowcase() {
                 <Image
                   src={selectedImage.image}
                   alt={selectedImage.alt}
+                   title={selectedImage.alt}
                   fill
                   className="object-contain"
                 />

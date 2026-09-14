@@ -50,6 +50,7 @@ export default function AboutMainSplit() {
             <Image
               src="../product-img/hydraulic-lift.webp"
               alt="Luxury Elevator Manufacturers in Delhi-NCR"
+              title="Luxury Elevator Manufacturers in Delhi-NCR"
               fill
               sizes="(max-width: 1024px) 100vw, 40vw"
               className="object-cover object-center transition-transform duration-700 group-hover:scale-105"

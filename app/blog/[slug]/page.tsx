@@ -157,6 +157,7 @@ export default async function BlogDetailPage({ params }: Props) {
                 <Image
                   src={blog.image}
                   alt={blog.title}
+                  title={blog.title}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 65vw"
@@ -351,6 +352,7 @@ export default async function BlogDetailPage({ params }: Props) {
                       <Image
                         src={item.image}
                         alt={item.title}
+                           title={item.title}
                         fill
                         loading="lazy"
                         sizes="(max-width: 768px) 100vw, 33vw"

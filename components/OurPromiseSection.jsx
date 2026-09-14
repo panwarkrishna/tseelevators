@@ -33,6 +33,7 @@ export default function OurPromiseSection() {
                 <Image
                   src="../product-img/hydraulic-lift.webp"
                   alt="TSE Shaft Elevators — our promise"
+                     title="TSE Shaft Elevators — our promise"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"

@@ -26,7 +26,7 @@ export default function PassengerLiftPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-6">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
-                <Image src="../services/dismantling-llift1.webp" alt="Lift Dismantling" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
+                <Image src="../services/dismantling-llift1.webp" alt="Lift Dismantling" title="Lift Dismantling" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
                 {/* <div className="absolute bottom-6 left-6 z-10"><span className="rounded-full bg-[#D6362C] px-3.5 py-1 text-[11px] font-bold uppercase tracking-wider text-white shadow-md">Premium Comfort</span></div> */}
               </div>

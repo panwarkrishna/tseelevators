@@ -272,6 +272,7 @@ export default function Header() {
               <Image
                 src="../Logo-new.webp"
                 alt="TSE Shaft Elevators (I) Pvt Ltd"
+                title="TSE Shaft Elevators (I) Pvt Ltd"
                 width={180}
                 height={75}
                 className="h-15 w-auto object-contain sm:h-17"
@@ -385,6 +386,7 @@ export default function Header() {
                 <Image
                   src="../owl.png"
                   alt="TSE Owl"
+                  title="TSE Owl"
                   width={48}
                   height={66}
                   className="h-6 w-6 object-contain transition-transform group-hover:scale-110"
@@ -450,6 +452,7 @@ export default function Header() {
             <Image
              src="../owl.png"
               alt="Owl Watermark"
+                title="Owl Watermark"
               width={420}
               height={420}
               className="h-auto w-[420px] object-contain"
@@ -465,6 +468,7 @@ export default function Header() {
               <Image
                 src="../Logo-new.webp"
                 alt="TSE Shaft Elevators"
+                 title="TSE Shaft Elevators"
                 width={140}
                 height={45}
                 className="h-10 w-auto object-contain"
@@ -587,6 +591,7 @@ export default function Header() {
               <Image
                 src="../Logo-new.webp"
                 alt="TSE Elevators"
+                title="TSE Elevators"
                 width={140}
                 height={45}
                 className="h-10 w-auto object-contain"

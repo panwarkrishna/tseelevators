@@ -95,6 +95,7 @@ export default function TopProductionSolutions() {
                 <Image
                   src="../product-img/hydraulic-lift.webp"
                   alt="Top Production Solutions and Elevator Installation"
+                  title="Top Production Solutions and Elevator Installation"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"

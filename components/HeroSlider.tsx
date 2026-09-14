@@ -87,6 +87,7 @@ export default function HeroSlider() {
               <Image
                 src={slide.image}
                 alt={slide.title}
+                 title={slide.title}
                 fill
                 priority
                 sizes="100vw"

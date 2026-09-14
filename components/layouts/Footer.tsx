@@ -152,6 +152,7 @@ export default function Footer() {
               <Image
                 src="../Logo-new.webp"
                 alt="TSE Shaft Elevators"
+                   title="TSE Shaft Elevators"
                 width={180}
                 height={72}
                 className="h-12 w-auto rounded-lg bg-white p-2 object-contain"
@@ -384,6 +385,7 @@ function CertBadge({
           <Image
             src={iconSrc}
             alt={label}
+            title={label}
             width={50}
             height={50}
             className="h-auto w-auto object-contain"

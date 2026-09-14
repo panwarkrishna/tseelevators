@@ -35,6 +35,7 @@ export default function ElevatorRepairSection() {
                 <Image
                   src="../product-img/hydraulic-lift.webp"
                   alt="Elevator Repair Services in Delhi"
+                  title=""
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"

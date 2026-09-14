@@ -110,6 +110,7 @@ export default function BlogListSection() {
                   <Image
                     src={post.image}
                     alt={post.title} 
+                    title={post.title} 
                     fill
                     loading="lazy"
                     sizes="(max-width: 768px) 100vw, 33vw"

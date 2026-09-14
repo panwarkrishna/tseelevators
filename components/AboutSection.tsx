@@ -154,6 +154,7 @@ export default function AboutSection() {
                   <Image
                     src="../about-tseelevators.webp"
                     alt="Lift Manufacturers in Delhi"
+                    title="Lift Manufacturers in Delhi"
                     fill
                     sizes="(max-width: 1024px) 100vw, 30vw"
                     className="object-cover object-center transition-transform duration-700 group-hover:scale-105"

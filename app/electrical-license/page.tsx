@@ -26,6 +26,7 @@ export default function CommercialLiftPage() {
   <Image
     src="../electrical_license.jpg"
     alt="Electrical License"
+    title="Electrical License"
     fill
     priority
     sizes="(max-width: 768px) 100vw, 900px"
