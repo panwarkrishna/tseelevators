@@ -1,11 +1,17 @@
 RewriteEngine On
 RewriteBase /
 
-# mail.php ko bypass karo — sabse pehle
+# mail.php
 RewriteCond %{REQUEST_URI} ^/mail\.php$ [NC]
 RewriteRule ^ - [L]
 
-# Next.js static files
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.html [L]
+# Remove trailing slash
+RewriteCond %{REQUEST_URI} ^(.+)/$
+RewriteRule ^ %1 [R=301,L]
+
+# Don't rewrite existing files
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Next.js fallback
+RewriteRule ^ /index.html [L]
