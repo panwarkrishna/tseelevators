@@ -51,5 +51,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...productRoutes, ...serviceRoutes];
+  
+
+    const locationRoutes: MetadataRoute.Sitemap = [
+    "noida",
+    "haryana",
+    "gurgaon",
+    "sonipat",
+    "panipat",
+    "rewari",
+    "manesar",
+    "kundli",
+    "murthal",
+    "ambala",
+    "panchkula",
+    "mohali",
+    "zirakpur",
+    "chandigarh",
+    "kharar",
+    "ropar",
+    "kurali",
+  ].map((slug) => ({
+    url: `${SITE_URL}/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...productRoutes, ...serviceRoutes, ...locationRoutes];
 }

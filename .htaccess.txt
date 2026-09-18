@@ -1,10 +1,12 @@
 RewriteEngine On
-RewriteBase /
 
-RewriteCond %{REQUEST_URI} ^/mail\.php$ [NC]
-RewriteRule ^ - [L]
+# Remove trailing slash from URLs
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301,L]
 
-# Next.js static files aur routing ke liye
+# Map clean URLs to Next.js static HTML files
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.html [L]
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+?)/?$ /$1.html [L]
