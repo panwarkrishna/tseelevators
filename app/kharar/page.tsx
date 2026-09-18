@@ -1,0 +1,80 @@
+import type { Metadata } from "next";
+import GlobalPageHero from "@/components/GlobalPageHero";
+import Image from "next/image";
+import Link from "next/link";
+import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
+import BestServicesSection from "@/components/BestServicesSection";
+
+export const metadata: Metadata = {
+  title: "Lift Manufacturers in Kharar, Elevator Suppliers in Kharar",
+  keywords: "Lift Manufacturers in Kharar, Elevator Suppliers in Kharar, Lift Manufacturers, Elevator Suppliers, Lift in Kharar, Elevator in Kharar",
+  description: "Lift Manufacturers in Kharar & Elevator Suppliers in Kharar – TSE Shaft Elevators offers safe, reliable lifts. Call +919971022555 for a free quote!",
+  alternates: { canonical: "https://tseelevators.com/kharar" },
+};
+
+export default function PassengerLiftPage() {
+  return (
+    <main className="w-full bg-white text-slate-900 selection:bg-[#D6362C] selection:text-white overflow-x-hidden">
+      <GlobalPageHero title="Kharar" description="Trusted Lift Manufacturers in Kharar" backgroundImage="../lift-location/16.jpg" badgeText="Elevators" />
+      <section className="sm:py-10 lg:py-15">
+        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
+        
+        <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+            <div className="lg:col-span-5 space-y-6">
+              <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
+                <Image src="../lift-location/16.jpg" alt="Kharar"  title="Kharar" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
+              </div>
+            </div>
+            <div className="lg:col-span-7 space-y-6 sm:space-y-8">
+            
+
+             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
+              Trusted Lift Manufacturers in Kharar
+             </h2>
+              <p>
+Searching for a reliable and high-quality lift for residential or commercial purposes? TSE Shaft Elevators is a preferred Lift Manufacturer in Kharar, providing with top-quality lifts. All our lifts undergo a thorough inspection to ensure that they are made with durable parts and advanced technology, which guarantee their stable functioning.
+</p>
+
+
+  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Leading Elevator Suppliers in Kharar
+</h3>
+
+<p>TSE Shaft Elevators is a leading Elevator Supplier in Kharar, distributing and installing lifts of different sizes and types for homes and businesses. Our team of professional engineers and installers can help you select the most suitable model according to your location, budget, and other criteria.
+</p>
+
+
+             
+            </div>
+          </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+            <div className="lg:col-span-12 space-y-6">
+
+  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Kharar's Most Trusted and Professional Lift Supplier
+</h3>
+
+<p>TSE Shaft Elevators offers comprehensive <strong>Elevator AMC Services in Delhi-NCR.</strong> With our certified professionals and round the clock customer support, we ensure that the lifts in Delhi, Noida, Gurugram, Faridabad, Ghaziabad and surrounding areas are well maintained and free from malfunctioning. The following services are included in our 24×7 Elevator AMC Services.
+</p>
+
+   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
+  <li>Lifts that provide a safe and comfortable experience on every floor</li>
+  <li>Fast and reliable lift installation with professional staff</li>
+  <li>Affordable prices and excellent customer support</li>
+  <li>Customized solutions and superior engineering for residential and commercial buildings</li>
+  <li>Flexible terms and satisfaction guarantee</li>
+
+</ul>
+
+<p>
+From the first call to the completion of the installation, we make sure that you are fully satisfied with our work and take care of your lift around the clock. Choose our company for a lifetime of comfort and reliability of your building in Kharar.
+</p>
+            </div>
+            </div>
+        </div>
+      </section>
+      
+     </main>
+  );
+}

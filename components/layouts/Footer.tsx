@@ -85,11 +85,25 @@ const SOCIALS = [
 ];
 
 const MARKET_AREAS = [
-  "Noida", "Haryana", "Gurgaon", "Sonipat", "Panipat", "Rewari",
-  "Manesar", "Kundli", "Murthal", "Punjab", "Ambala", "Panchkula",
-  "Mohali", "Zirakpur", "Chandigarh", "Kharar", "Ropar", "Kurali"
-];
-
+{ label: "Noida", href: "/noida" },
+{ label: "Haryana", href: "/haryana" },
+{ label: "Gurgaon", href: "/gurgaon" },
+{ label: "Sonipat", href: "/sonipat" },
+{ label: "Panipat", href: "/panipat" },
+{ label: "Rewari", href: "/rewari" },
+{ label: "Manesar", href: "/manesar" },
+{ label: "Kundli", href: "/kundli" },
+{ label: "Murthal", href: "/murthal" },
+{ label: "Punjab", href: "/punjab" },
+{ label: "Ambala", href: "/ambala" },
+{ label: "Panchkula", href: "/panchkula" },
+{ label: "Mohali", href: "/mohali" },
+{ label: "Zirakpur", href: "/zirakpur" },
+{ label: "Chandigarh", href: "/chandigarh" },
+{ label: "Kharar", href: "/kharar" },
+{ label: "Ropar", href: "/ropar" },
+{ label: "Kurali", href: "/kurali" },
+]
 // Certification badges shown in the top strip.
 // iconSrc = local/static image import, iconComponent = a lucide-react icon.
 const CERTIFICATIONS = [
@@ -283,14 +297,24 @@ Our Best Services Across Multiple Locations
             </span>
           </div>
           <div className="flex flex-wrap gap-2">
-            {MARKET_AREAS.map((area) => (
-              <span
-                key={area}
-                className="rounded-lg border border-white/10 px-3 py-1 text-xs font-medium text-white transition-colors hover:border-[#D6362C] hover:text-white"
-              >
-                {area}
-              </span>
-            ))}
+        
+
+            {MARKET_AREAS.map((area) => {
+  return (
+    <a
+      key={area.label}
+      href={area.href}
+      rel="noreferrer"
+      aria-label={area.label}
+      title={area.label}
+      className="flex h-9 items-center justify-center rounded-lg border border-white/10 px-4 text-sm text-white transition-colors hover:border-[#D6362C] hover:bg-[#D6362C] hover:text-white"
+    >
+      {area.label}
+    </a>
+  );
+})}
+
+
           </div>
         </div>
       </div>
