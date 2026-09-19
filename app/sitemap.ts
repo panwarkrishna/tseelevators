@@ -3,21 +3,27 @@ import { SITE_URL } from "../lib/site";
 
 export const dynamic = "force-static";
 
+// always returns https://domain.com/path/ (root stays https://domain.com/)
+const u = (path = "") => {
+  const clean = path.replace(/^\/+|\/+$/g, "");
+  return clean ? `${SITE_URL}/${clean}/` : `${SITE_URL}/`;
+};
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${SITE_URL}/products`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/services`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/luxury-elevator`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE_URL}/customized-elevator`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE_URL}/gallery`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${SITE_URL}/blog001`, lastModified: now, changeFrequency: "weekly", priority: 0.6 },
-    { url: `${SITE_URL}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.7 },
-    { url: `${SITE_URL}/certificate-of-appreciation`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
-    { url: `${SITE_URL}/electrical-license`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
+    { url: u(), lastModified: now, changeFrequency: "weekly", priority: 1.0 },
+    { url: u("about"), lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: u("products"), lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: u("services"), lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: u("luxury-elevator"), lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: u("customized-elevator"), lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: u("gallery"), lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: u("blog001"), lastModified: now, changeFrequency: "weekly", priority: 0.6 },
+    { url: u("contact"), lastModified: now, changeFrequency: "yearly", priority: 0.7 },
+    { url: u("certificate-of-appreciation"), lastModified: now, changeFrequency: "yearly", priority: 0.4 },
+    { url: u("electrical-license"), lastModified: now, changeFrequency: "yearly", priority: 0.4 },
   ];
 
   const productRoutes: MetadataRoute.Sitemap = [
@@ -31,9 +37,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "glass-lift",
     "hydraulic-lift",
   ].map((slug) => ({
-    url: `${SITE_URL}/${slug}`,
+    url: u(slug),
     lastModified: now,
-    changeFrequency: "monthly",
+    changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
@@ -45,15 +51,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "lift-dismantling-services",
     "lift-ms-structure",
   ].map((slug) => ({
-    url: `${SITE_URL}/${slug}`,
+    url: u(slug),
     lastModified: now,
-    changeFrequency: "monthly",
+    changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
-  
-
-    const locationRoutes: MetadataRoute.Sitemap = [
+  const locationRoutes: MetadataRoute.Sitemap = [
     "noida",
     "haryana",
     "gurgaon",
@@ -72,9 +76,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "ropar",
     "kurali",
   ].map((slug) => ({
-    url: `${SITE_URL}/${slug}`,
+    url: u(slug),
     lastModified: now,
-    changeFrequency: "monthly",
+    changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 

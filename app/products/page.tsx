@@ -50,7 +50,7 @@ export default function AllProductsPage() {
 
       <p className="text-black text-sm sm:text-base leading-relaxed">
         For every necessity, TSE Shaft Elevators provides comprehensive
-        Elevator Solutions in Delhi-NCR. Passenger, home, hydraulic,
+       <strong> Elevator Solutions in Delhi-NCR.</strong> Passenger, home, hydraulic,
         commercial, and goods lifts are among the options. You always get
         comfort and dependability because every product is constructed with
         sturdy materials, smooth motors, and a secure design.

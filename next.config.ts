@@ -1,7 +1,9 @@
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  trailingSlash: false,
+  trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,  
   },
@@ -11,3 +13,5 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+
