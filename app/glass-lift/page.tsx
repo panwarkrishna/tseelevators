@@ -50,8 +50,7 @@ export default function GlassLiftPage() {
               <p className="text-black text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is one of the trusted <strong>Glass Elevator Suppliers In Delhi-NCR.</strong> We bring you a wide range of premium glass elevators designed to offer you elegance and luxury along with total safety. Here are some reasons why our Glass lifts are preferred across residential, commercial and hospitality projects:</p>
              
              
-              <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
-                <li>Elegant transparent design</li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">                <li>Elegant transparent design</li>
                 <li>Lifts made up of safety glass</li>
                 <li>Offers smooth and silent rides</li>
                 <li>Customized sizes and finish</li>

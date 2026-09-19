@@ -255,7 +255,7 @@ export default function BestProductsSection() {
               duration: 0.6,
               delay: 0.3,
             }}
-            className="mt-4 text-sm leading-relaxed text-black sm:text-base"
+            className="mt-4 text-md leading-relaxed text-black "
           >
             Discover our comprehensive range of high-performance
             elevators, customized to elevate comfort, safety, and

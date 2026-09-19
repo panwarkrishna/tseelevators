@@ -61,8 +61,7 @@ Old lifts and lifts that are damaged beyond repair need to be dismantled in a ti
 <p>We are a reliable name for <strong>Elevator Dismantling Services in Delhi-NCR</strong> providing lift removal services in Delhi, Noida, Gurugram, Haryana and other local areas. Below are the reasons why you should choose our company for all elevator and lift dismantling services in Delhi-NCR:
 </p>
 
-   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
-
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
 
   <li>Safe removal of old lifts</li>
     <li>Certified professionals wear proper safety equipment</li>  <li>Your building will not be damaged during the dismantling process</li> 

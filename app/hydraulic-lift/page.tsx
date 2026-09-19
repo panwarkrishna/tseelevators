@@ -48,8 +48,7 @@ export default function HydraulicLiftPage() {
               <p className="text-black text-sm sm:text-base leading-relaxed">TSE Shaft Elevators is recognized as one of the trusted <strong>Hydraulic Elevator Suppliers in Delhi-NCR.</strong> Our hydraulic lifts are a perfect solution for residential and commercial buildings because of their
 
 </p>
-              <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
-    <li>smooth and quiet movement</li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">    <li>smooth and quiet movement</li>
         <li>smaller machine room requirements</li>
 
     <li>exceptional lifting power</li>

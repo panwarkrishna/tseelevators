@@ -62,8 +62,8 @@ TSE Shaft Elevators is known to be among the best Residential Lift Manufacturers
 </p>
 
 
- <ul className="pt-2 list-disc list-inside text-black text-sm sm:text-base leading-relaxed mb-8">
-  <li> We arrange onsite visits for understanding your individual needs apart from providing you advanced technology for hassle free ride
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
+    <li> We arrange onsite visits for understanding your individual needs apart from providing you advanced technology for hassle free ride
 </li>
 <li> Our lifts are dependable for all levels of homes</li>
 <li>  We also provide complete after-sales services whenever required</li>

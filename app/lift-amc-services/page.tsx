@@ -58,8 +58,7 @@ export default function PassengerLiftPage() {
 <p>TSE Shaft Elevators offers comprehensive <strong>Elevator AMC Services in Delhi-NCR.</strong> With our certified professionals and round the clock customer support, we ensure that the lifts in Delhi, Noida, Gurugram, Faridabad, Ghaziabad and surrounding areas are well maintained and free from malfunctioning. The following services are included in our 24×7 Elevator AMC Services.
 </p>
 
-   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
-
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
     <li>Regular inspection and servicing by professional elevator technicians.</li>
     <li>Prompt and quick repair services to avoid breakdowns</li>
     <li>Safety audit and inspection services for hassle-free and smooth riding experience.</li>

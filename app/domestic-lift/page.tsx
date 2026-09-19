@@ -75,8 +75,7 @@ export default function DomesticLiftPage() {
 <div className="mb-2 font-bold">Below are some of the services we provide when you choose to install our lifts for residential buildings:
 </div>
 
-   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
-
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
 
   <li>Conducting a survey of your house before designing the lift</li>
     <li>Professional designing and installation of lift</li>

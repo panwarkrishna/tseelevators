@@ -31,9 +31,9 @@ export default function OurPromiseSection() {
 
               <div className="relative z-10 aspect-[4/5] overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 shadow-2xl">
                 <Image
-                  src="../product-img/hydraulic-lift.webp"
-                  alt="TSE Shaft Elevators — our promise"
-                     title="TSE Shaft Elevators — our promise"
+                  src="../about.webp"
+                  alt="Luxury Elevator Company in Delhi-NCR"
+                     title="Luxury Elevator Company in Delhi-NCR"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"

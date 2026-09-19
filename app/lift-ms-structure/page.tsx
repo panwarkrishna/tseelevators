@@ -60,8 +60,8 @@ Any good elevator lift requires a reliable MS structure to bear the total load o
 </p>
 
 
- <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
-<li> Customized MS Structures for all kinds of lifts in your building</li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
+  <li> Customized MS Structures for all kinds of lifts in your building</li>
 <li>Durable MS structures made of the best quality steel</li>
 <li> Installation of the MS structures done by professionals</li>
 <li> Reliable and safe MS structures suitable for all kinds of buildings</li>

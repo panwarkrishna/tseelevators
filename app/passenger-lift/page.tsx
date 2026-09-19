@@ -57,8 +57,7 @@ TSE Shaft Elevators is one of the best <strong>Passenger Lift Manufacturers in D
 As one of the reliable <strong>Passenger Elevator Suppliers in Delhi-NCR,</strong> we bring you the most efficient and reliable lifts for residential and commercial buildings in Delhi, Noida, Gurugram, Faridabad and other nearby locations. Following are the features that make us the most preferred passenger lift supplier in Delhi-NCR
 </p>
 
-<ul className="list-disc pl-5 text-md text-black space-y-2 ">
-  <li>Offers maximum safety with modern safety features.</li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">  <li>Offers maximum safety with modern safety features.</li>
   <li>Make sure that the lifts run smoothly and silently.</li>
   <li> Ensures quick and hassle free installation within the estimated time.</li>
     <li> Affordable pricing with pocket friendly maintenance costs.</li>

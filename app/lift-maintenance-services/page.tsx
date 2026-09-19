@@ -51,8 +51,8 @@ export default function PassengerLiftPage() {
            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed mt-4">
-<li>  On-Site Lift Inspection and Examination</li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
+  <li>  On-Site Lift Inspection and Examination</li>
 <li> Experienced and Qualified Engineers</li>
 <li>  Emergency Lift Repair Services</li>
 <li>  Replacement Parts and Components</li>

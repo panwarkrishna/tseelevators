@@ -19,7 +19,7 @@ export default function PassengerLiftPage() {
       <section className="sm:py-10 lg:py-15">
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
-        <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0">
+        <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12 mt-8 md:mt-0 mb-8 md:mb-0">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-6">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
@@ -57,8 +57,7 @@ Are you looking for dependable and efficient lifts? TSE Shaft Elevators presents
 
  
 
-   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
-
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
      <li>High-quality and safe lifts that are perfect for all your commercial and residential needs.</li>
   <li>Fast and reliable installation by our expert lift installers.</li>
   <li>Affordable and pocket-friendly prices.</li>

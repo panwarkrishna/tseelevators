@@ -83,8 +83,7 @@ In addition to manufacturing, our experts also come to your home to help design 
 <p className="font-bold mb-2 mt-0">Below are the services we provide:
 </p>
 
-              <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed mb-8">
-    <li>Onsite home lift consultation</li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">    <li>Onsite home lift consultation</li>
         <li>Customized Lift Plans</li>
 
     <li>Professional installation</li>

@@ -65,8 +65,7 @@ Leading Commercial Elevator Suppliers in Delhi-NCR
   As the leading <strong>Commercial Elevator Suppliers in Delhi-NCR,</strong> we take pride in serving some of the most reputable commercial establishments across Delhi, Noida, Gurugram, Faridabad, and the rest of Delhi-NCR. Here's what makes us your most preferred commercial elevator supplier:
 </p>
 
-<ul className="list-disc pl-5 text-md text-black space-y-2 ">
-
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
   <li>Heavy-duty commercial lifts</li>
   <li>Fast and safe elevator installation by professional engineers</li>
   <li>Customized commercial elevator designs

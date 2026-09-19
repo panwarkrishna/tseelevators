@@ -69,8 +69,7 @@ With our reliable and fast lift installation services in Delhi-NCR, you can rest
 
 <p className="font-bold p-0 m-0">Here are some features of our elevator installation services:</p>
 
-   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
-
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
   <li>Professional and experienced elevator installation technicians.</li>
   <li>On-time elevator installation with no delays </li>
     <li>Thorough safety checks at every step of installation</li>

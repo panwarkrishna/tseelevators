@@ -68,8 +68,7 @@ export default function PitlessLiftPage() {
 </p>
 
 
-<ul className="list-disc pl-5 text-md text-black space-y-2 mt-3">
-    <li>High-quality pitless lifts  </li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">    <li>High-quality pitless lifts  </li>
     <li>No pits or minimum pits needed for installation</li>
     <li>Saves your space</li>
     <li>Easy and quick installation</li>

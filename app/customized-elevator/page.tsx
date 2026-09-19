@@ -66,8 +66,7 @@ Customized Elevator Suppliers in Delhi-NCR
 </p>
 
 <h4 className=" text-lg font-bold text-slate-800 mt-2 mb-1">We specialize in:</h4>
-   <ul className="list-disc list-inside text-black text-sm sm:text-base leading-relaxed">
-  <li>Elevator customization that fits your building architecture.</li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">  <li>Elevator customization that fits your building architecture.</li>
   <li>Offer a wide range of sizes to suit all your needs.</li>
   <li>Provide you with a variety of finishes.</li>
   <li>Unique designs and smart features.</li>

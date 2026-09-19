@@ -75,7 +75,7 @@ export default function AboutSection() {
                 </span>
               </h1>
 
-              <p className="mt-4 text-sm leading-relaxed text-black sm:text-base">
+              <p className="mt-4 text-md leading-relaxed text-black ">
                 TSE Shaft Elevators is one of the best Lift Manufacturers in
                 Delhi. We manufacture different types of Lifts like passenger
                 lift, home lift, hydraulic lift, goods lift etc. Every lift

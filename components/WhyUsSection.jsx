@@ -35,12 +35,12 @@ export default function WhyUsSection() {
             
                 <h3 className="text-2xl font-bold text-slate-800  mb-2">Why Us</h3>
            
-            <p className="mt-5 text-sm leading-relaxed text-black sm:text-base">
+            <p className="mt-5  leading-relaxed text-black text-md">
               It is important to select the right elevator partner to ensure
               long term safety and performance.
             </p>
 
-            <p className="mt-4 text-sm leading-relaxed text-black sm:text-base">
+            <p className="mt-4 leading-relaxed text-black text-md">
               We&apos;re not just designing a machine — we&apos;re designing a
               part of the look and feel of your building. That&apos;s why we
               focus on:
@@ -50,7 +50,7 @@ export default function WhyUsSection() {
               {whyUsPoints.map((point) => (
                 <li key={point} className="flex items-start gap-3">
                   <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#D6362C]" />
-                  <span className="text-sm leading-relaxed text-slate-700 sm:text-base">
+                  <span className="text-md leading-relaxed text-slate-700 ">
                     {point}
                   </span>
                 </li>
@@ -74,9 +74,9 @@ Trust is built at TSE Shaft Elevators, not just lifts installed. Be it a small h
             className="group relative min-h-[400px] overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 shadow-xl lg:col-span-5 lg:min-h-full"
           >
             <Image
-              src="../product-img/hydraulic-lift.webp"
-              alt="Why choose TSE Shaft Elevators"
-              title="Why choose TSE Shaft Elevators"
+              src="../about-tseelevators.webp"
+              alt="TSE Shaft Elevators - Your Trusted Partner in Delhi"
+              title="TSE Shaft Elevators - Your Trusted Partner in Delhi"
               fill
               sizes="(max-width: 1024px) 100vw, 40vw"
               className="object-cover object-center transition-transform duration-700 group-hover:scale-105"

@@ -64,8 +64,7 @@ TSE Shaft Elevators – Best Luxury Elevator Suppliers in Delhi-NCR
 TSE Shaft Elevators is a registered company that provides luxury elevator services in Delhi, Noida, Gurugram, and Haryana. Below are some of the reasons why you should consider buying luxury elevators from us:
 </p>
 
-<ul>
-
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
   <li>Elegant designs that use the best finishing materials</li>
   <li>Quiet and smooth elevator that will provide comfort to the users</li>
   <li>Customized interior options that will suit your needs</li>

@@ -152,31 +152,7 @@ export default function BestProductsSection() {
 
         <div className="mx-auto flex max-w-2xl flex-col md:items-center ">
 
-          <motion.div
-            initial={{
-              opacity: 0,
-              y: -15,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-            }}
-            viewport={{
-              once: true,
-            }}
-            transition={{
-              duration: 0.6,
-            }}
-            className=" items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 shadow-sm"
-          >
-
-            {/* <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" /> */}
-
-            <span className="text-[11px] font-bold uppercase tracking-widest text-slate-700 block text-center">
-              Engineered for Excellence
-            </span>
-
-          </motion.div>
+       
 
           <motion.h2
             initial={{
@@ -238,7 +214,7 @@ export default function BestProductsSection() {
               duration: 0.6,
               delay: 0.3,
             }}
-            className="mt-4 text-sm leading-relaxed text-black sm:text-base"
+            className="mt-4 text-md leading-relaxed text-black  text-left md:text-center"
           >
 Explore our comprehensive elevator services, delivering reliable installation, seamless maintenance, modernisation, and expert support to ensure superior performance, safety, efficiency, and long-term reliability.          </motion.p>
 
