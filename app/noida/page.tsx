@@ -67,13 +67,14 @@ There are many reasons why you should choose us. Some of them are mentioned belo
  
  
 <ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
-      <li>Safe and sturdy lifts with all modern safety features</li>
-  <li>Fast installation by professional elevator technicians</li>
-  <li>Cost-effective solutions suitable for every budget</li>
+   <li>Safe and sturdy lifts with all modern safety features</li>
+  <li>Fast installations with professional elevator technicians</li>
+  <li>Cost-effective solutions suitable for any budget</li>
   <li>Customized designs to suit individual customer requirements</li>
-  <li>Trusted partner providing round-the-clock support even after the sale</li>
-  <li>Excellent customer support throughout the entire process</li>
-  <li>Customized designs to fit your building's unique features</li>
+  <li>Trusted partner that provides round-the-clock support even after the sale</li>
+  <li>Excellent customer support</li>
+  <li>Customized design to fit your building's unique features</li>
+
   </ul>
 
   <p>

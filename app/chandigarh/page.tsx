@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function PassengerLiftPage() {
   return (
     <main className="w-full bg-white text-slate-900 selection:bg-[#D6362C] selection:text-white overflow-x-hidden">
-      <GlobalPageHero title="Chandigarh" description="Reliable Lift Manufacturers in Chandigarh" backgroundImage="../lift-location/15.jpg" badgeText="Elevators" />
+      <GlobalPageHero title="Reliable Lift Manufacturers in Chandigarh" description="Reliable Lift Manufacturers in Chandigarh" backgroundImage="../lift-location/15.jpg" badgeText="Elevators" />
       <section className="sm:py-10 lg:py-15">
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:3rem_3rem]" />
         
@@ -23,18 +23,18 @@ export default function PassengerLiftPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-6">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
-                <Image src="../lift-location/15.jpg" alt="Chandigarh"  title="Chandigarh" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
+                <Image src="../lift-location/15.jpg" alt="Reliable Lift Manufacturers in Chandigarh"  title="Reliable Lift Manufacturers in Chandigarh" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
               </div>
             </div>
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Chandigrah</h2>
+             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Reliable Lift Manufacturers in Chandigarh
+</h2>
              
-             <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Reliable Lift Manufacturers in Chandigarh</h3>
               <p>
-Are you looking for dependable and efficient lifts? TSE Shaft Elevators presents quality lifts for homes and businesses in Chandigarh. Every lift is engineered to perfection to provide a comfortable ride and years of trouble-free performance.
+Are you looking for dependable and efficient lifts? TSE Shaft Elevators, one of the trusted <strong>Lift Manufacturers in Chandigarh,</strong> presents quality lifts for homes and businesses in Chandigarh. Every lift is engineered to perfection to provide a comfortable ride and years of trouble-free performance.
 </p>
 
 
@@ -42,7 +42,7 @@ Are you looking for dependable and efficient lifts? TSE Shaft Elevators presents
     Trusted Elevator Suppliers in Chandigarh
 </h3>
 
- <p>We, TSE Shaft Elevators, are renowned as one of the leading Elevator Suppliers in Chandigarh, providing passenger, home, and commercial lifts to residential, commercial, and medical facilities. With our experience and expertise in the field, we specialize in installing and supplying a wide range of lifts in Chandigarh that are designed and built to perfection.
+ <p>We, TSE Shaft Elevators, are renowned as one of the leading <strong>Elevator Suppliers in Chandigarh,</strong> providing passenger, home, and commercial lifts to residential, commercial, and medical facilities. With our experience and expertise in the field, we specialize in installing and supplying a wide range of lifts in Chandigarh that are designed and built to perfection.
 </p>
 
              

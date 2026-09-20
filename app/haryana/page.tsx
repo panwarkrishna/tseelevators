@@ -73,12 +73,12 @@ We are a leading supplier of <strong>Elevator Suppliers in Haryana</strong> that
  
 
   <ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1 mt-8">
-      <li>Lifts with cutting-edge safety features and durable components</li>
-  <li>Prompt installation to avoid project delays</li>
-  <li>Competitive pricing for reliable lift solutions</li>
-  <li>Excellent customer support and after-sales service</li>
-  <li>Customized lift designs to fit your building's unique features</li>
-
+  
+  <li>Lifts with cutting-edge safety features and durable components</li>
+  <li>Prompt installation to avoid any project delays</li>
+  <li>Competitive pricing</li>
+  <li>Excellent customer support</li>
+  <li>Customized design to fit your building's unique features</li>
   </ul>
 
   <p className="mt-6">

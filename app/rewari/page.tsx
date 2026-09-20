@@ -61,12 +61,12 @@ Elevator Suppliers in Rewari
 
  
 
-<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">    <li>Reliable and durable lifts for residential and commercial applications.</li>
-   <li>Reliable and durable lifts designed to meet your specific needs</li>
-  <li>Professional installation by experienced and skilled engineers</li>
-  <li>Affordable lift solutions for both commercial and residential buildings</li>
-  <li>Customized lift solutions tailored to your building requirements</li>
-  <li>Reliable and high-quality post-installation support</li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">    
+ <li>Reliable and durable lifts for all your needs</li>
+  <li>Installs the lifts with experienced engineers</li>
+  <li>Affordable commercial and residential lifts</li>
+  <li>Offers customized lift solutions</li>
+  <li>Reliable and quality post-installation support</li>
   </ul>
 
   <p className="mt-6">

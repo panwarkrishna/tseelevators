@@ -38,11 +38,11 @@ export default function ServicesPage() {
 
 <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Trusted Elevator Services in Delhi</h3>
 
- <p className="text-black text-sm sm:text-base leading-relaxed">We TSE Shaft Elevators provide the best <strong>Elevator Services in Delhi</strong> like repair, maintenance and modernization to ensure that your lift remains safe and operational at all times.
+ <p className="text-black text-md sm:text-base leading-relaxed">We TSE Shaft Elevators provide the best <strong>Elevator Services in Delhi</strong> like repair, maintenance and modernization to ensure that your lift remains safe and operational at all times.
 </p>
 
  <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Complete Lift Services in Delhi-NCR</h3>
- <p className="text-black text-sm sm:text-base leading-relaxed">TSE Shaft Elevators provide complete <strong>Lift Services in Delhi-NCR</strong> to serve you in Delhi, Noida, Gurgaon, Haryana, and the entire Delhi-NCR region. We offer:</p>
+ <p className="text-black text-md sm:text-base leading-relaxed">TSE Shaft Elevators provide complete <strong>Lift Services in Delhi-NCR</strong> to serve you in Delhi, Noida, Gurgaon, Haryana, and the entire Delhi-NCR region. We offer:</p>
 
 
 
@@ -63,7 +63,7 @@ export default function ServicesPage() {
   <li>Lift modernization services</li>
 </ul>
 
-<p className="text-black text-sm sm:text-base leading-relaxed">So, you can rely on us for top-notch maintenance and repair services, no matter where you are in Delhi-NCR.</p>
+<p className="text-black text-md sm:text-base leading-relaxed">So, you can rely on us for top-notch maintenance and repair services, no matter where you are in Delhi-NCR.</p>
 
             </div>
                   </div>

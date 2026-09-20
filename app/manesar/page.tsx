@@ -39,11 +39,13 @@ Are you in search of a dependable and durable lift that can provide you with yea
 
 
   <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
-    Elevator Suppliers in Manesar
+Elevator Suppliers in Manesar
 
 </h3>
 
-<p>    TSE Shaft Elevators is a company that deals in supplying and installing lifts in Manesar. We are known as one of the leading <strong>Elevator Suppliers in Manesar</strong> that provides lifts for both residential and commercial buildings as well as industrial buildings.
+<p>    
+
+  TSE Shaft Elevators is a company that deals in supplying and installing lifts in Manesar. We are known as one of the leading <strong>Elevator Suppliers in Manesar</strong> that provides lifts for both residential and commercial buildings as well as industrial buildings.
 
 </p>
 
@@ -56,23 +58,21 @@ Are you in search of a dependable and durable lift that can provide you with yea
             <div className="lg:col-span-12 space-y-6">
 
   <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
-    Why We Are Manesar's Preferred Choice
+Why We Are Manesar's Preferred Choice
 
 </h3>
 
-<p>     Some of the reasons why you should choose us as your preferred Lift Manufacturers in Manesar include:
 
-</p>
 
 
 
 
 <ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
-     <li>Strong and durable lifts designed for industrial and commercial applications</li>
-  <li>Quick and professional installation by skilled and experienced technicians</li>
-  <li>Affordable pricing for all our lift products and services</li>
-  <li>Customized lift solutions tailored to your specific requirements</li>
-  <li>Reliable and professional after-sales support</li>
+    <li>We provide strong and durable lifts that suit industrial and commercial use</li>
+  <li>Our lifts are installed quickly by our professional and skilled staff</li>
+  <li>We ensure affordable prices for all our products and services</li>
+  <li>We offer customized solutions for your lifts</li>
+  <li>We also provide reliable and professional after-sales support</li>
 
 </ul>
 

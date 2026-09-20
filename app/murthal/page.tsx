@@ -44,7 +44,7 @@ Searching for a reliable, comfortable, and high-performance lift? Well, TSE Shaf
 </h3>
 
 <p>
-TSE Shaft Elevators specialize in supplying and installing lifts in Murthal. We have been serving as a competent Elevator Suppliers in Murthal for commercial and residential purposes. Our team provides and installs commercial lifts, passenger lifts, and home lifts on your behalf. You can count on our experience while selecting and buying lifts in Murthal as we have highly qualified and expert engineers who can assess the site and offer you the best recommendations.
+TSE Shaft Elevators specialize in supplying and installing lifts in Murthal. We have been serving as a competent <strong>Elevator Suppliers in Murthal</strong> for commercial and residential purposes. Our team provides and installs commercial lifts, passenger lifts, and home lifts on your behalf. You can count on our experience while selecting and buying lifts in Murthal as we have highly qualified and expert engineers who can assess the site and offer you the best recommendations.
 </p>
 
 

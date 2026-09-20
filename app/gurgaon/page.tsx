@@ -64,12 +64,13 @@ It is important to choose the right partner for all your lift needs. Below are t
   </p>
 
    
-<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">   <li>Tested and reliable lifts designed for safe operation</li>
-  <li>Flexible designs suitable for different types of building structures</li>
-  <li>Skilled and experienced technicians for professional installation</li>
-  <li>Reasonable and transparent pricing with no hidden costs</li>
-  <li>Dedicated post-sale assistance and customer support</li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">   
 
+    <li>Lifts that are tested and safe enough to be used</li>
+  <li>Designs that suit all types of building structures</li>
+  <li>Skilled workers who install them</li>
+  <li>Reasonable rates with no hidden prices</li>
+  <li>Offers post-sale assistance</li>
   </ul>
 
   <p>All our lifts are manufactured to exact specifications and fitted using our professional experience to ensure a perfect finish for seamless movement of your passengers or luggage.

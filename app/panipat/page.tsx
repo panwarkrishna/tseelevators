@@ -64,10 +64,12 @@ Why Choose TSE Shaft Elevators in Panipat?
 
  
 
-<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">    <li>Durable and reliable lifts that cater to residential and commercial needs.</li>
-     <li>Durable and reliable lifts designed for residential and commercial needs</li>
-  <li>Affordable lift solutions with pocket-friendly pricing</li>
-  <li>Customized lift solutions tailored to your specific requirements</li>
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1"> 
+  
+    <li>Durable and reliable lifts that cater to residential and commercial needs</li>
+  <li>Affordable products with pocket-friendly prices</li>
+  <li>Customized lift solutions</li>
+   
 
   </ul>
 

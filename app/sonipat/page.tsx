@@ -45,7 +45,7 @@ Elevator Suppliers in Sonipat
   </h3>
 
   <p>
-TSE Shaft Elevators is a reputable Elevator Suppliers in Sonipat , providing lifts for residential, commercial and office buildings in the region. We offer a wide range of lifts, including passenger lifts, home lifts and commercial lifts, and install them efficiently so that they are safe to use.
+TSE Shaft Elevators is a reputable <strong>Elevator Suppliers in Sonipat,</strong> providing lifts for residential, commercial and office buildings in the region. We offer a wide range of lifts, including passenger lifts, home lifts and commercial lifts, and install them efficiently so that they are safe to use.
   </p>
 
    
@@ -63,11 +63,11 @@ Elevating Sonipat, One Lift at a Time
 
 <ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
 
-      <li>Durable and safe lifts designed to meet your specific needs</li>
-  <li>Quick and hassle-free installation by skilled professionals</li>
-  <li>Affordable lift solutions to suit every budget</li>
-  <li>Custom-designed lifts tailored to your preferences and requirements</li>
-  <li>Excellent customer support and reliable after-sales service</li>
+       <li>Durable and safe lifts for all your needs</li>
+  <li>Quick and stress-free installation process</li>
+  <li>Affordable prices for every budget</li>
+  <li>Custom design to suit your preferences</li>
+  <li>Excellent customer support after purchase</li>
 
   </ul>
 
