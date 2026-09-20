@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR",
   keywords: "Commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR, Commercial Lift Manufacturers, Commercial Elevator Suppliers, Commercial Lift in Delhi, Commercial Elevator in Delhi-NCR",
   description: "TSE Shaft Elevators - Trusted Commercial Lift Manufacturers in Delhi &  Commercial Elevator Suppliers in Delhi-NCR. Durable, efficient & safe lifts for offices & businesses. Call +919971022555 for a free quote!",
-  alternates: { canonical: "https://tseelevators.com/tseelevators/commercial-lifts" },
+  alternates: { canonical: "https://tseelevators.com/electrical-license" },
 };
 
 export default function CommercialLiftPage() {

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Blog – TSE Elevators",
   description: "Explore the latest insights, elevator maintenance tips, luxury lift guides, and industry news from TSE Elevators.",
   alternates: {
-    canonical: "https://tseelevators.com/blog/",
+    canonical: "https://tseelevators.com/blog",
   },
 };
 

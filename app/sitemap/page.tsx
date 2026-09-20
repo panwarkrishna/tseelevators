@@ -46,7 +46,7 @@ const SITEMAP_GROUPS: SitemapGroup[] = [
       { label: "Home", href: "/" },
       { label: "About Us", href: "/about" },
       { label: "Gallery", href: "/gallery" },
-      { label: "Blog", href: "/blog001" },
+      { label: "Blog", href: "/blog" },
       { label: "Contact Us", href: "/contact" },
     ],
   },

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Customized Elevator Manufacturers in Delhi, Customized Elevator Suppliers in Delhi-NCR",
   keywords: "Customized Elevator Manufacturers in Delhi, Customized Elevator Suppliers in Delhi-NCR, Customized Elevator Manufacturers, Customized Elevator Suppliers, Customized Elevator in Delhi, Customized Elevator in Delhi-NCR",
   description: "TSE Shaft Elevators - Leading Customized Elevator Manufacturers in Delhi Customized Elevator & Suppliers in Delhi-NCR. Tailored designs to fit your space & needs. Call +919971022555 for a free consultation!",
-  alternates: { canonical: "https://tseelevators.com/passenger-lifts" },
+  alternates: { canonical: "https://tseelevators.com/customized-elevator" },
 };
 
 export default function PassengerLiftPage() {

@@ -3,10 +3,10 @@ import { SITE_URL } from "../lib/site";
 
 export const dynamic = "force-static";
 
-// always returns https://domain.com/path/ (root stays https://domain.com/)
+// always returns https://domain.com/path (no trailing slash; root stays https://domain.com/)
 const u = (path = "") => {
   const clean = path.replace(/^\/+|\/+$/g, "");
-  return clean ? `${SITE_URL}/${clean}/` : `${SITE_URL}/`;
+  return clean ? `${SITE_URL}/${clean}` : `${SITE_URL}/`;
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -20,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: u("luxury-elevator"), lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: u("customized-elevator"), lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: u("gallery"), lastModified: now, changeFrequency: "monthly", priority: 0.6 },
-    { url: u("blog001"), lastModified: now, changeFrequency: "weekly", priority: 0.6 },
+    { url: u("blog"), lastModified: now, changeFrequency: "weekly", priority: 0.6 },
     { url: u("contact"), lastModified: now, changeFrequency: "yearly", priority: 0.7 },
     { url: u("certificate-of-appreciation"), lastModified: now, changeFrequency: "yearly", priority: 0.4 },
     { url: u("electrical-license"), lastModified: now, changeFrequency: "yearly", priority: 0.4 },
@@ -82,5 +82,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...productRoutes, ...serviceRoutes, ...locationRoutes];
+  const blogRoutes: MetadataRoute.Sitemap = [
+    "why-do-customers-prioritize-us-for-their-elevator-needs",
+    "luxury-lift-manufacturers-in-gurgaon",
+    "lift-manufacturers-in-delhi",
+    "the-best-lift-manufacturers-in-mohali",
+    "understanding-domestic-home-lifts",
+    "capsule-elevators-blending-architecture-performance",
+  ].map((slug) => ({
+    url: u(`blog/${slug}`),
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }));
+
+  return [...staticRoutes, ...productRoutes, ...serviceRoutes, ...locationRoutes, ...blogRoutes];
 }

@@ -48,10 +48,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     url: 'https://tseelevators.com',
-    siteName: 'T',
+    siteName: 'TSE Shaft Elevators',
     title: ' Premium Lift Manufacturers & Elevator Company in Delhi NCR',
     description: 'We design, manufacture, install, and maintain high-performance residential and commercial elevators across Delhi NCR.',
-    images: [{ url: '../Logo-new.webp', width: 1200, height: 630, alt: 'TSE Elevators' }],
+    images: [{ url: '/Logo-new.webp', width: 1200, height: 630, alt: 'TSE Elevators' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     creator: '@tseelevators',
     title: 'Premium Lift Manufacturers in Delhi NCR',
     description: 'Reliable lift manufacturing, installation, and 24/7 AMC services in Delhi-NCR.',
-    images: ['../Logo-new.webp'],
+    images: ['/Logo-new.webp'],
   },
   robots: {
     index: true,
