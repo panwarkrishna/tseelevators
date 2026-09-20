@@ -30,17 +30,17 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Reliable Lift Manufacturers in Chandigarh
-</h2>
+             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Reliable Lift Manufacturers in Chandigarh
+</h1>
              
               <p>
 Are you looking for dependable and efficient lifts? TSE Shaft Elevators, one of the trusted <strong>Lift Manufacturers in Chandigarh,</strong> presents quality lifts for homes and businesses in Chandigarh. Every lift is engineered to perfection to provide a comfortable ride and years of trouble-free performance.
 </p>
 
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h2 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
     Trusted Elevator Suppliers in Chandigarh
-</h3>
+</h2>
 
  <p>We, TSE Shaft Elevators, are renowned as one of the leading <strong>Elevator Suppliers in Chandigarh,</strong> providing passenger, home, and commercial lifts to residential, commercial, and medical facilities. With our experience and expertise in the field, we specialize in installing and supplying a wide range of lifts in Chandigarh that are designed and built to perfection.
 </p>
@@ -52,10 +52,8 @@ Are you looking for dependable and efficient lifts? TSE Shaft Elevators, one of 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Why Trusted By Customers In Chandigarh?
+  <h3 className=" text-2xl sm:text-2xl font-bold text-slate-800 mt-8 mb-2">Why Trusted By Customers In Chandigarh?
 </h3>
-
- 
 
 <ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
      <li>High-quality and safe lifts that are perfect for all your commercial and residential needs.</li>

@@ -95,9 +95,9 @@ export default function AboutMainSplit() {
                 elevators that last for years to homes and buildings.
               </p>
 
-              <h3 className="pt-2 text-xl font-bold text-[#1B2A5E] sm:text-2xl">
+              <h2 className="pt-2 text-3xl font-bold text-[#1B2A5E] sm:text-2xl">
                 Luxury Elevator Company in Delhi-NCR
-              </h3>
+              </h2>
               <p>
                 Today, we are proud to be recognized as a prominent Luxury
                 Elevator Company in Delhi-NCR. From simple home lifts to
@@ -113,7 +113,7 @@ export default function AboutMainSplit() {
                 a touch of luxury.
               </p>
 
-              <h3 className="pt-2 text-xl font-bold text-[#1B2A5E] sm:text-2xl">
+              <h3 className="pt-2 text-3xl font-bold text-[#1B2A5E] sm:text-2xl">
                 Why Us
               </h3>
               <p>

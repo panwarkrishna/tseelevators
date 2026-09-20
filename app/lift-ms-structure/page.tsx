@@ -31,14 +31,14 @@ export default function PassengerLiftPage() {
              
             </div>
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
-           <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift MS Structure</h2>
+           <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift MS Structure</h1>
 
              <p>
 Any good elevator lift requires a reliable MS structure to bear the total load of the elevator. The MS structure is a reliable system that supports the lift throughout its functioning. We at TSE Shaft Elevators deal in providing you with MS structures made of high-quality steel that are reliable according to your building's requirement and lift specification.
 </p>
 
 
-<h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Lift MS Structure Services In Delhi
+<h3 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">Lift MS Structure Services In Delhi
 </h3>
 
 
@@ -53,7 +53,7 @@ Any good elevator lift requires a reliable MS structure to bear the total load o
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-5">
 
-<h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Best Elevator MS Structure Services In Delhi-NCR</h3>
+<h3 className=" text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2">Best Elevator MS Structure Services In Delhi-NCR</h3>
 
 
 <p>TSE Shaft Elevators provide the best <strong>Elevator MS Structure Services In Delhi-NCR.</strong> We serve all areas in Noida, Gurgaon, Haryana and the rest of Delhi-NCR. Here are the services we provide:

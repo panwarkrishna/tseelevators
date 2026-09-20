@@ -37,7 +37,7 @@ When it comes to luxury, everyone wants to have the best in the market. As one o
 
   </p>
 
-    <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+    <h3  className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
 
 Elevator Suppliers in Gurgaon
 
@@ -55,7 +55,7 @@ Being one of the most trusted <strong>Elevator Suppliers in Gurgaon,</strong> we
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
-      <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+      <h3  className="text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2">
 Reliable Lift Company in Gurgaon
 </h3>
   <p className="mt-2">

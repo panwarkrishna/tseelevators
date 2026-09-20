@@ -99,9 +99,9 @@ export default function ContactPage() {
 
                 {/* Heading */}
                 <div>
-                  <h3 className="text-2xl font-extrabold tracking-tight text-black">
+                  <h1 className="text-2xl font-extrabold tracking-tight text-black">
                     Contact Details
-                  </h3>
+                  </h1>
 
                   <div className="mt-3 h-1 w-16 rounded-full bg-[#D6362C]" />
                 </div>
@@ -215,9 +215,9 @@ export default function ContactPage() {
 
               {/* Heading */}
               <div>
-                <h3 className="text-2xl font-extrabold tracking-tight text-black">
+                <h2 className="text-2xl font-extrabold tracking-tight text-black">
                   Get In Touch
-                </h3>
+                </h2>
 
                 <div className="mt-3 h-1 w-16 rounded-full bg-[#D6362C]" />
               </div>

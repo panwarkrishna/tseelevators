@@ -34,9 +34,9 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
   
- <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Haryana
+ <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Haryana
 
-</h2>
+</h1>
 
  
   <p>
@@ -44,10 +44,10 @@ Searching for the best and reliable lifts for your home or office? TSE Shaft Ele
 
   </p>
 
-  <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h2 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
 
 Elevator Suppliers in Haryana
- </h3>
+ </h2>
 
   <p>
 We are a leading supplier of <strong>Elevator Suppliers in Haryana</strong> that provides high-class lifts to residential, commercial and industrial buildings. We offer our installation services in Gurugram, Faridabad, Panipat, and other nearby cities in Haryana. Our experts will come to your site and study it to recommend to you the best-matching design and type of lifts.
@@ -63,7 +63,7 @@ We are a leading supplier of <strong>Elevator Suppliers in Haryana</strong> that
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
    
-  <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h3  className=" text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2">
 
   Haryana's Top Choice for Lifts and Elevators
 </h3>

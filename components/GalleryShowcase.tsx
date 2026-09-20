@@ -133,20 +133,12 @@ export default function GalleryShowcase() {
         {/* ================= SECTION HEADER ================= */}
 
         <div className="mx-auto mb-12 max-w-2xl text-left md:text-center sm:mb-14 lg:mb-16">
-
-          {/* Badge */}
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-1.5 shadow-sm">
-            {/* <Sparkles className="h-3.5 w-3.5 text-[#D6362C]" /> */}
-
-            <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-black">
-              Visual Craftsmanship
-            </span>
-          </div>
+ 
 
           {/* Heading */}
-          <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[46px]">
+          <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[46px]">
             Explore Our Masterpieces
-          </h2>
+          </h1>
 
           {/* Red underline */}
           <div className=" md:mx-auto mt-4 h-1 w-20 rounded-full bg-[#D6362C]" />

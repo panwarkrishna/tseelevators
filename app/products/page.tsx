@@ -44,11 +44,11 @@ export default function AllProductsPage() {
             </div>
             <div className="lg:col-span-7 space-y-7 sm:space-y-8 mt-6 md:ml-8">
           
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            <h1 className="text-4xl sm:text-4xl font-extrabold text-slate-900 tracking-tight p-0 mb-6">
         Elevator Solutions in Delhi-NCR
-      </h2>
+      </h1>
 
-      <p className="text-black text-md sm:text-base leading-relaxed">
+      <p className="text-black text-md sm:text-base leading-relaxed p-0 mb-6">
         For every necessity, TSE Shaft Elevators provides comprehensive
        <strong> Elevator Solutions in Delhi-NCR.</strong> Passenger, home, hydraulic,
         commercial, and goods lifts are among the options. You always get
@@ -56,11 +56,11 @@ export default function AllProductsPage() {
         sturdy materials, smooth motors, and a secure design.
       </p>
 
-      <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
+      <h2 className="text-3xl font-bold text-slate-800 mt-8 mb-2">
         Designed to Fit Any Space
-      </h3>
+      </h2>
 
-      <p className="text-black text-md sm:text-base leading-relaxed">
+      <p className="text-black text-md sm:text-base leading-relaxed p-0 mb-6">
         Our lifts are long-lasting, easy to use, and require little
         maintenance. We make sure your area receives the ideal lift, whether
         it's through elegant finishes or straightforward concepts.
@@ -85,7 +85,7 @@ export default function AllProductsPage() {
         Elite Series
       </h3>
 
-      <p className="text-black text-md sm:text-base leading-relaxed">
+      <p className="text-black text-md sm:text-base leading-relaxed p-0 mb-6">
         TSE Shaft Elevators Elite Series is designed for luxury seekers. It
         presents a wide range of premium options, from traditional fine
         finishes to smart technologies to make your ride remarkable. This
@@ -104,7 +104,7 @@ export default function AllProductsPage() {
         <li>Suitable for homes and commercial buildings</li>
       </ul> */}
 
-      <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">
+      <h3 className="text-2xl font-bold text-slate-800 mt-0  pt-0 mb-2">
         Classic Series
       </h3>
 

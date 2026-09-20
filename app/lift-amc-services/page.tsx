@@ -32,14 +32,14 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift AMC</h2>
+             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift AMC</h1>
               <p>
               TSE Shaft Elevators provides best Lift AMC service in Delhi-NCR and ensures that a lift is maintained regularly so that it serves for a longer time without any malfunctioning
 </p>
 
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Lift AMC Services in Delhi
-</h3>
+  <h2 className="text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">Lift AMC Services in Delhi
+</h2>
 
 <p>TSE Shaft Elevators provides <strong>Lift AMC Services in Delhi,</strong> for residential, commercial and office lifts. Our skilled and experienced technicians take care of all your lift needs like regular inspection, servicing and minor repairs to prevent serious issues. Our Lift AMC services ensure that you have the lift that serves you for a long time without any safety hazards.
 </p>
@@ -52,7 +52,7 @@ export default function PassengerLiftPage() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">Elevator AMC Services in Delhi-NCR
+  <h3 className="text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2">Elevator AMC Services in Delhi-NCR
 </h3>
 
 <p>TSE Shaft Elevators offers comprehensive <strong>Elevator AMC Services in Delhi-NCR.</strong> With our certified professionals and round the clock customer support, we ensure that the lifts in Delhi, Noida, Gurugram, Faridabad, Ghaziabad and surrounding areas are well maintained and free from malfunctioning. The following services are included in our 24×7 Elevator AMC Services.

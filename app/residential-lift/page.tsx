@@ -32,14 +32,14 @@ export default function ResidentialLiftPage() {
             <div className="lg:col-span-7 space-y-5 sm:space-y-5 ">
               
 
-              <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4"> Residential Lift</h2>
+              <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4"> Residential Lift</h1>
 
              <p>
 At TSE Shaft Elevators, we present safe and elegant lifts in residential buildings. A residential lift adds comfort, luxury, and space-saver capabilities to every family member, making it easy for children and aged people. Our lifts combine high quality and modernism to offer a comfortable ride in your family house or home.
 </p>
 
 
-<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Best Residential Lift Manufacturers In Delhi</h3>
+<h2 className="text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">Best Residential Lift Manufacturers In Delhi</h2>
 <p>
 TSE Shaft Elevators is known to be among the best Residential Lift Manufacturers in Delhi. We offer residential lifts that are manufactured by combining advanced technology and a reliable material with high-end designs. All our residential lifts are engineered to fit in small and large houses.
 </p>
@@ -55,7 +55,7 @@ TSE Shaft Elevators is known to be among the best Residential Lift Manufacturers
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y5">
                 
-<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Reliable Residential Elevator Suppliers In Delhi-NCR  </h3>
+<h3 className="text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2">Reliable Residential Elevator Suppliers In Delhi-NCR  </h3>
 
 
 <p className="pt-2 m-0">TSE Shaft Elevators is one of the most reliable <strong>Residential Elevator Suppliers in Delhi-NCR</strong> who provides home lift installation in Haryana, Delhi, Noida, Gurgaon. Our professional elevator installers come to your place to suggest the best lift design for your home.

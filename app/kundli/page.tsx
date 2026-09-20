@@ -31,8 +31,8 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers Kundli
-</h2>
+             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers Kundli
+</h1>
             
 
 
@@ -42,10 +42,10 @@ export default function PassengerLiftPage() {
 
 
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">   
+  <h2 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">   
     Elevator Suppliers Kundli
 
-</h3>
+</h2>
 
 
 <p>
@@ -63,10 +63,9 @@ We, TSE Shaft Elevators take up the responsibility of being one of the preferred
 
  
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">   
+  <h3 className="text-2xl sm:text-2xl font-bold text-slate-800 mt-8 mb-2">   
     Built for Kundli - Why We Stand Out 
-
-</h3>
+  </h3>
 
    <ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
   <li>Sturdy lifts</li>

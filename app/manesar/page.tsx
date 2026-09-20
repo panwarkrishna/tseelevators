@@ -30,18 +30,18 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4"> Lift Manufacturers in Manesar
-</h2>
+             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4"> Lift Manufacturers in Manesar
+</h1>
  
               <p>
 Are you in search of a dependable and durable lift that can provide you with years of service? Choose us as your preferred <strong>Lift Manufacturers in Manesar.</strong> TSE Shaft Elevators is the right place for you as we present to you our quality lifts in Manesar. We offer our clients a wide variety of lifts such as passenger lifts, goods lifts, and commercial lifts.
 </p>
 
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h2 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
 Elevator Suppliers in Manesar
 
-</h3>
+</h2>
 
 <p>    
 
@@ -57,7 +57,7 @@ Elevator Suppliers in Manesar
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h3 className="text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2">
 Why We Are Manesar's Preferred Choice
 
 </h3>

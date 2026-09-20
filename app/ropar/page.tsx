@@ -30,7 +30,7 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Ropar</h2>
+             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Ropar</h1>
              
              
          
@@ -39,10 +39,10 @@ Searching for <strong>Lift Manufacturers in Ropar</strong> who can deliver relia
 </p>
 
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h2 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
     Elevator Suppliers in Ropar
 
-</h3>
+</h2>
 
 <p>
 We are proud to be a top <strong>Elevator Supplier in Ropar,</strong> with experience in dealing with residential and commercial buildings, installing lifts for houses, offices, hospitals, and more. We offer a wide variety of lifts including passenger lifts, home lifts, commercial lifts, and more.
@@ -56,7 +56,7 @@ We are proud to be a top <strong>Elevator Supplier in Ropar,</strong> with exper
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 ">
+  <h3 className=" text-2xl sm:text-2xl font-bold text-slate-800 mt-8 ">
     Why We're a Trusted Name in Ropar
 
 </h3>

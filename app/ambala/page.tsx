@@ -31,9 +31,9 @@ export default function PassengerLiftPage() {
             
 
 
-   <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Ambala
+   <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Ambala
 
-</h2>
+</h1>
 
      
   <p>
@@ -41,10 +41,10 @@ Do you need a reliable and secure lift? As trusted <strong>Lift Manufacturers in
 
   </p>
 
-  <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h2  className="text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
 Elevator Suppliers in Ambala
 
-  </h3>
+  </h2>
 
   <p>
 As trusted <strong>Elevator Suppliers in Ambala,</strong> TSE Shaft Elevators is a company that provides all types of lifts in Ambala for residential, commercial, and office buildings. We also install and supply passenger lifts, home lifts, and commercial lifts that suit the architectural features of your home or business. Our team works with a passion to offer you the best client experience.
@@ -65,7 +65,7 @@ As trusted <strong>Elevator Suppliers in Ambala,</strong> TSE Shaft Elevators is
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-  <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h3  className="text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2">
 What We Offer As The Best Lift Vendors in Ambala
 </h3>
  

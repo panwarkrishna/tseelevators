@@ -29,10 +29,10 @@ export default function PassengerLiftPage() {
             </div>
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
-           <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
+           <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
             Lift Manufacturers in Sonipat
 
-           </h2>
+           </h1>
  
 <p>
 Searching for an organization that deals with reliable, smooth and long-lasting lifts? TSE Shaft Elevators is the right choice for you. We specialize in <strong>Lift Manufacturers in Sonipat</strong> and take care of every detail so that your lift operates safely for decades.
@@ -40,9 +40,9 @@ Searching for an organization that deals with reliable, smooth and long-lasting 
 
   
 
-    <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+    <h2  className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
 Elevator Suppliers in Sonipat
-  </h3>
+  </h2>
 
   <p>
 TSE Shaft Elevators is a reputable <strong>Elevator Suppliers in Sonipat,</strong> providing lifts for residential, commercial and office buildings in the region. We offer a wide range of lifts, including passenger lifts, home lifts and commercial lifts, and install them efficiently so that they are safe to use.
@@ -57,7 +57,7 @@ TSE Shaft Elevators is a reputable <strong>Elevator Suppliers in Sonipat,</stron
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-  <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h3  className="text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2">
 Elevating Sonipat, One Lift at a Time
   </h3>
 

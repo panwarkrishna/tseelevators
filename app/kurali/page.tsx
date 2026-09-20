@@ -30,8 +30,8 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Kurali
-</h2>
+             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Kurali
+</h1>
              
            
               <p>
@@ -39,7 +39,7 @@ Searching for <strong>Lift Manufacturers in Kurali</strong> that can provide you
 </p>
 
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h3 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
 Elevator Suppliers in Kurali
 
 
@@ -58,7 +58,7 @@ TSE Shaft Elevators take pride in being a part of the most trustworthy <br/>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h3 className=" text-2xl sm:text-2xl font-bold text-slate-800 mt-8 mb-2">
 Why Do People Choose Us in Kurali?
 
 

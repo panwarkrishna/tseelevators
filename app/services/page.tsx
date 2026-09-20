@@ -31,42 +31,34 @@ export default function ServicesPage() {
 </span></div> */}
               </div>
             </div>
-            <div className="lg:col-span-7 space-y-7 sm:space-y-8 mt-6 md:ml-8">
+            <div className="lg:col-span-7 space-y-7 sm:space-y-8 md:ml-8">
           
-              <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Services</h2>
+              <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight p-0 mb-2">Trusted Elevator Services in Delhi</h1>
 
 
-<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Trusted Elevator Services in Delhi</h3>
-
+ 
  <p className="text-black text-md sm:text-base leading-relaxed">We TSE Shaft Elevators provide the best <strong>Elevator Services in Delhi</strong> like repair, maintenance and modernization to ensure that your lift remains safe and operational at all times.
 </p>
 
- <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Complete Lift Services in Delhi-NCR</h3>
+ <h2 className="text-2xl sm:text-3xl  font-bold text-slate-800 mt-8 mb-2">Complete Lift Services in Delhi-NCR </h2>
  <p className="text-black text-md sm:text-base leading-relaxed">TSE Shaft Elevators provide complete <strong>Lift Services in Delhi-NCR</strong> to serve you in Delhi, Noida, Gurgaon, Haryana, and the entire Delhi-NCR region. We offer:</p>
 
 
 
 
-           
-            </div>
-          </div>
-
-
- <div className="grid grid-cols-1 lg:grid-cols-12  items-start">
-            <div className="lg:col-span-12 space-y-5">
-
-<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1 mt-8">
     <li>Lift maintenance to avoid breakdowns</li>
   <li>Timely and efficient lift repair services</li>
   <li>Safety audit to ensure smooth ride</li>
   <li>Emergency lift services</li>
   <li>Lift modernization services</li>
 </ul>
-
-<p className="text-black text-md sm:text-base leading-relaxed">So, you can rely on us for top-notch maintenance and repair services, no matter where you are in Delhi-NCR.</p>
-
+           
             </div>
-                  </div>
+          </div>
+
+
+ 
         </div>
       </section>
              <BestServicesSection />

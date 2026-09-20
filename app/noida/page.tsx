@@ -31,15 +31,15 @@ export default function PassengerLiftPage() {
             
 
             
-   <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Noida
-</h2>
+   <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Noida
+</h1>
   <p>
 TSE Shaft Elevators is a leading <strong>Lift Manufacturers in Noida,</strong> providing reliable & durable lifts for residential, commercial and elevator suppliers. It is a perfect combination of strong materials and cutting-edge technology that helps to guarantee smooth operations throughout its life. Our expert technicians at TSE Shaft Elevators ensure passenger safety during every travel.
   </p>
 
-  <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h2  className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
 Elevator Suppliers in Noida
-  </h3>
+  </h2>
 
   <p>
 We are a top <strong>Elevator Suppliers in Noida</strong> providing dependable lift solutions for residential, commercial and industrial businesses. In addition, we assure you of our prompt delivery & installations in Noida. Our skilled technicians will reach your site to understand your requirements and suggest the best possible elevator design that suits your needs.
@@ -56,7 +56,7 @@ We are a top <strong>Elevator Suppliers in Noida</strong> providing dependable l
              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-               <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+               <h3  className=" text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2">
 What Makes Us the Right Choice
 </h3>
 <p className="mt-4">

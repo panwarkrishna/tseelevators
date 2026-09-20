@@ -103,9 +103,9 @@ export default function GlobalPageHero({
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="flex flex-col items-center"
         >
-          <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-[54px] lg:leading-[1.12] drop-shadow-md">
+          <div className="text-3xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-[54px] lg:leading-[1.12] drop-shadow-md">
             {title}
-          </h1>
+          </div>
 
           {description && (
             <p className="mt-4 max-w-2xl text-xs sm:text-sm lg:text-base leading-relaxed text-slate-200 font-normal drop-shadow">

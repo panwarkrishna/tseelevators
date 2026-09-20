@@ -29,16 +29,16 @@ export default function PassengerLiftPage() {
             </div>
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
-                <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Rewari
-</h2>
+                <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Rewari
+</h1>
     
 <p>
  Searching for reliable and durable lifts for your home or business? As trusted <strong>Lift Manufacturers in Rewari,</strong> TSE Shaft Elevators present safe and stylish lifts that are perfect for residential and commercial buildings in Rewari. Using advanced technology, TSE Shaft Elevators provides high-quality lifts that are dependable and long-lasting.
 </p>
 
-    <h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+    <h2  className="text-2xl sm:text-4xl font-bold text-slate-800 mt-8 mb-2">
 Elevator Suppliers in Rewari
-  </h3>
+  </h2>
 
   <p>
   TSE Shaft Elevators is a renowned name when it comes to <strong>Elevator Suppliers in Rewari,</strong> catering to the needs of homes and offices. From hospitals to commercial buildings we offer a wide range of passenger lifts, home lifts and commercial lifts, suitable for all your commercial and residential needs and budgets.
@@ -54,7 +54,7 @@ Elevator Suppliers in Rewari
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-<h3  className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+<h3  className=" text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2">
     What makes TSE Shaft Elevators different in Rewari?
 
   </h3>

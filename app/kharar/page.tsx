@@ -30,19 +30,19 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
+             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
 Lift Manufacturers in Kharar
 
-             </h2>
+             </h1>
               <p>
 Searching for a reliable and high-quality lift for residential or commercial purposes? TSE Shaft Elevators is a preferred <strong>Lift Manufacturer in Kharar,</strong> providing top-quality lifts. All our lifts undergo a thorough inspection to ensure that they are made with durable parts and advanced technology, which guarantee their stable functioning.
 </p>
 
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h2 className=" text-2xl sm:text-3xl  font-bold text-slate-800 mt-8 mb-2">
     Elevator Suppliers in Kharar
 
-</h3>
+</h2>
 
 <p>
 TSE Shaft Elevators is one of the leading <strong>Elevator Suppliers in Kharar,</strong> distributing and installing lifts of different sizes and types for homes and businesses. Our team of professional engineers and installers can help you select the most suitable model according to your location, budget, and other criteria.
@@ -56,7 +56,7 @@ TSE Shaft Elevators is one of the leading <strong>Elevator Suppliers in Kharar,<
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h3 className=" text-2xl sm:text-2xl font-bold text-slate-800 mt-8 mb-2">
     Reasons to Pick TSE Shaft Elevators in Kharar
 
 </h3>

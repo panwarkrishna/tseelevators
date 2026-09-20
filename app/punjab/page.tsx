@@ -30,18 +30,18 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Punjab
-</h2>
+             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Punjab
+</h1>
              
                <p>
 Are you looking for a supplier of safe and reliable lifts? TSE Shaft Elevators is pleased to offer you <strong>Lift Manufacturers in Punjab,</strong> which are produced with modern technology and high-quality materials, so that their use brings only comfort.
 </p>
 
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h2 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
     Elevator Suppliers in Punjab
 
-</h3>
+</h2>
 
 <p>
 We provide you with the necessary equipment for the reliable and comfortable movement of passengers and goods in your home or business building. In our <strong>Elevator Suppliers in Punjab</strong> catalog, you will find a wide range of lifts, passenger lifts, home lifts, and commercial lifts, the use of which extends from small private houses to large enterprises.
@@ -55,12 +55,10 @@ We provide you with the necessary equipment for the reliable and comfortable mov
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-  <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+  <h3 className="text-2xl sm:text-2xl font-bold text-slate-800 mt-8 mb-2">
     Punjab's Preferred Choice for Lifts and Elevators
-
 </h3>
  
-
 
 
 <ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">

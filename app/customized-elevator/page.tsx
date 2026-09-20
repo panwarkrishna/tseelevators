@@ -33,15 +33,15 @@ export default function PassengerLiftPage() {
              
              
 
- <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-Customized Elevator</h2>
+ <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight p-0 mb-2">
+Customized Elevator</h1>
 
 <p className="m-0 p-0">
 The requirement of lifts varies from building to building and therefore we provide you with a customized option that fits your building dimension, elevator style and budget. Our Customized Elevator will offer you an ultimate comfortable experience along with elegance and style.
 </p>
 
-<h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
-Customized Elevator Manufacturers in Delhi</h3>
+<h2 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
+Customized Elevator Manufacturers in Delhi</h2>
 
 
 <p>TSE Shaft Elevators are one of the preferred <strong>Customized Elevator Manufacturers in Delhi,</strong> we understand every building is different in terms of structure, size and architecture, hence we bring to you a lift of your choice according to your requirement. We specialize in Customized Elevator which offers you the style and comfort of your choice like glass panel, unique design and much more.
@@ -57,7 +57,7 @@ Customized Elevator Manufacturers in Delhi</h3>
              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-5">
 
-<h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+<h3 className="text-2xl sm:text-2xl font-bold text-slate-800 mt-8 mb-2">
 
 Customized Elevator Suppliers in Delhi-NCR
 </h3>

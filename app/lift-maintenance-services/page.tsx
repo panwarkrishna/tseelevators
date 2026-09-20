@@ -33,12 +33,12 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
               
 
-<h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
- Lift Maintenance</h2>
+<h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
+ Lift Maintenance</h1>
 <p>A properly maintained lift can keep your building operating smoothly and safely with minimal breakdowns and expensive repairs. TSE Shaft Elevators can help to provide high-quality lift maintenance that meets all safety regulations and extends the life of your lifts.
 </p>
 
- <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2"> Lift Maintenance Services Delhi</h3>
+ <h2 className="text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2"> Lift Maintenance Services Delhi</h2>
 <p>At TSE Shaft Elevators we provide professional <strong>Lift Maintenance Services in Delhi</strong> for residential and commercial property owners and managers. Our lift service technicians will perform routine maintenance and inspections of your elevators and lifts.
 </p>
 
@@ -51,7 +51,7 @@ export default function PassengerLiftPage() {
            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
 
-<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">
+<ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1 mt-8">
   <li>  On-Site Lift Inspection and Examination</li>
 <li> Experienced and Qualified Engineers</li>
 <li>  Emergency Lift Repair Services</li>
@@ -60,7 +60,7 @@ export default function PassengerLiftPage() {
 <li>  Safety Audits and Reports</li>
 </ul>
 
-<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2"> 
+<h3 className="text-2xl sm:text-2xl  font-bold text-slate-800 mt-8 mb-2"> 
 Elevator Lift maintenance in Delhi-NCR</h3>
 <p>
 Our expert staff can handle all types of lift maintenance, including elevator maintenance and repair, escalator maintenance, lift safety inspection and many more. We also provide <strong>Elevator Lift maintenance in Delhi-NCR. 24/7</strong> Emergency Repair and Servicing

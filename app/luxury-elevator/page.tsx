@@ -34,16 +34,16 @@ export default function PassengerLiftPage() {
                
 
 
-<h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
+<h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
 
-Luxury Elevator</h2>
+Luxury Elevator</h1>
 
 
 <p> Would you like to get a luxury elevator installed in your building or house? A luxury elevator will make your building look more upscale and provide comfort to the visitors and residents of the building. Our luxury elevators are made with the finest finishing and materials to offer comfort and elegance to the users of the elevator.
 </p>
 
-<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2"> 
-Premium Luxury Elevator Manufacturers in Delhi</h3>
+<h2 className="text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2"> 
+Premium Luxury Elevator Manufacturers in Delhi</h2>
 
 <p> We are one of the best Luxury Elevator Manufacturers in Delhi offering luxury lift services in Delhi and other parts of India. The luxury elevator we produce has exquisite finishing and uses the best technology to provide comfort to all our customers. Our luxury lifts have beautiful cabins with amazing designs and high-quality panels to suit the needs of all our clients.
 </p>
@@ -56,8 +56,8 @@ Premium Luxury Elevator Manufacturers in Delhi</h3>
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-5">
 
-<h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2"> 
-TSE Shaft Elevators – Best Luxury Elevator Suppliers in Delhi-NCR
+<h3 className="text-2xl sm:text-2xl font-bold text-slate-800 mt-8 mb-2"> 
+TSE Shaft Elevators - Best Luxury Elevator Suppliers in Delhi-NCR
 </h3>
 
 <p> 

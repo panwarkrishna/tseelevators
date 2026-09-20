@@ -30,8 +30,8 @@ export default function PassengerLiftPage() {
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
 
-             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Panipat
-</h2>
+             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Lift Manufacturers in Panipat
+</h1>
              
  
   <p>
@@ -39,9 +39,9 @@ Are you looking for dependable <strong>Lift Manufacturers in Panipat</strong> th
 
   </p>
 
- <h3 className=" text-2xl font-bold text-slate-800 mt-8 mb-2">
+ <h2 className="text-2xl sm:text-3xl  font-bold text-slate-800 mt-8 mb-2">
 Elevator Suppliers in Panipat
-  </h3>
+  </h2>
 
   <p>
 TSE Shaft Elevators is one of the most reliable names in the list of <strong>Elevator Suppliers in Panipat,</strong> satisfying the retail clients. We specialize in the installation of different types of lifts. Our work includes the supply and installation of passenger lifts, home lifts, and commercial lifts in Panipat.

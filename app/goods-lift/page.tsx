@@ -30,10 +30,10 @@ export default function GoodsLiftPage() {
 
             </div>
             <div className="lg:col-span-7 space-y-6 sm:space-y-8">
-              <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Goods Lift</h2>
+              <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Goods Lift</h1>
               <p className="text-black text-md sm:text-base leading-relaxed">Do you need the best goods lifts to carry heavy goods from one level to another? Our range of Goods Lifts is suitable for heavy loads and ideal for warehouses, factories, shops, and godowns. These commercial lifts are durable so that you can save time and effort.</p>
 
-              <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Top Goods Lift Manufacturers in Delhi</h3>
+              <h2 className="text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">Top Goods Lift Manufacturers in Delhi</h2>
               <p className="text-black text-md sm:text-base leading-relaxed">We, as one of the Top <strong>Goods Lift Manufacturers in Delhi,</strong> offer lifts that are heavy-duty and long-lasting. Our goods lifts have the ability to carry heavy loads of various weights from one floor to another. All our commercial lifts are tested thoroughly before being delivered to our clients.</p>
 
             
@@ -43,7 +43,7 @@ export default function GoodsLiftPage() {
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
             <div className="lg:col-span-12 space-y-6">
-                        <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-2">Trusted Goods Elevator Suppliers in Delhi-NCR</h3>
+                        <h3 className="text-2xl sm:text-2xl font-bold text-slate-800 mt-8 mb-2">Trusted Goods Elevator Suppliers in Delhi-NCR</h3>
               <p className="text-black text-md sm:text-base leading-relaxed">TSE Shaft Elevators is one of the reliable Goods Elevator Suppliers in Delhi-NCR, who provide commercial lifts for all types of businesses. Here are some reasons why you should hire our Goods Lifts Services:</p>
               
 <ul className="list-disc list-outside pl-5 text-black leading-relaxed space-y-1">                <li>These lifts can carry a huge amount of load on a daily basis.</li>
