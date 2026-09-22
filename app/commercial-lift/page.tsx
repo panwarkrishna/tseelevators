@@ -7,7 +7,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import BestProductsSection from "@/components/BestProductsSection";
 
 export const metadata: Metadata = {
-  title: "commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR",
+  title: "Commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR",
   keywords: "Commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR, Commercial Lift Manufacturers, Commercial Elevator Suppliers, Commercial Lift in Delhi, Commercial Elevator in Delhi-NCR",
   description: "TSE Shaft Elevators - Trusted Commercial Lift Manufacturers in Delhi & Commercial Elevator Suppliers in Delhi-NCR. Safe, reliable & customized commercial lifts for every space. Call +919971022555 for a free quote!",
   alternates: { canonical: "https://tseelevators.com/commercial-lift" },
@@ -26,7 +26,7 @@ export default function CommercialLiftPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-5">
               <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl aspect-[4/3]">
-                <Image src="../product-img/commercial-lift.webp" alt="Commercial Lift"  title="Commercial Lift" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
+                <Image src="../product-img/commercial-lift.webp" alt="Commercial Lift Manufacturers in Delhi"  title="Commercial Lift Manufacturers in Delhi" fill priority className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
                 {/* <div className="absolute bottom-6 left-6 z-10"><span className="rounded-full bg-[#D6362C] px-3.5 py-1 text-[11px] font-bold uppercase tracking-wider text-white shadow-md">Perfect for Commercial Spaces</span></div> */}
               </div>

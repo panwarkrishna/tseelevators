@@ -74,7 +74,7 @@ Trust is built at TSE Shaft Elevators, not just lifts installed. Be it a small h
             className="group relative min-h-[400px] overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 shadow-xl lg:col-span-5 lg:min-h-full"
           >
             <Image
-              src="../about-tseelevators.webp"
+              src="../about-us1.webp"
               alt="TSE Shaft Elevators - Your Trusted Partner in Delhi"
               title="TSE Shaft Elevators - Your Trusted Partner in Delhi"
               fill
