@@ -1,0 +1,27 @@
+# ============================================
+# public_html/blogsite/.htaccess  (WordPress at /blogsite)
+# Overrides root Next.js settings for this folder only.
+# ============================================
+
+# Root .htaccess sets "DirectorySlash Off" - WordPress needs it ON,
+# otherwise /blogsite/wp-admin gives 403.
+DirectorySlash On
+DirectoryIndex index.php index.html
+Options -Indexes
+
+# Block direct access to sensitive files
+<FilesMatch "^(wp-config\.php|readme\.html|license\.txt|\.htaccess)$">
+  Require all denied
+</FilesMatch>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blogsite/
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blogsite/index.php [L]
+</IfModule>
+# END WordPress

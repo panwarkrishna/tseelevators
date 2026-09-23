@@ -24,6 +24,10 @@ RewriteRule ^(.*)$ https://tseelevators.com/$1 [L,R=301]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://tseelevators.com/$1 [L,R=301]
 
+# ---- Bypass all Next.js rules for the WordPress /blogsite folder ----
+# Let public_html/blogsite/.htaccess (WordPress's own rules) handle it.
+RewriteRule ^blogsite(/.*)?$ - [L]
+
 # ---- Old / mistyped URLs -> current pages (301) ----
 RewriteRule ^blog001/?$ /blog [L,R=301]
 RewriteRule ^(commercial|domestic|glass|goods|hydraulic)-lifts/?$ /$1-lift [L,R=301]
