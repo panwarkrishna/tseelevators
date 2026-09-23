@@ -5,10 +5,9 @@ import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR",
-  keywords: "Commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR, Commercial Lift Manufacturers, Commercial Elevator Suppliers, Commercial Lift in Delhi, Commercial Elevator in Delhi-NCR",
-  description: "TSE Shaft Elevators - Trusted Commercial Lift Manufacturers in Delhi &  Commercial Elevator Suppliers in Delhi-NCR. Durable, efficient & safe lifts for offices & businesses. Call +919971022555 for a free quote!",
-  alternates: { canonical: "https://tseelevators.com/electrical-license" },
+ title: "Electrical License | TSE Shaft Elevators",
+keywords: "Electrical License TSE Shaft Elevators, Electrical License Delhi, Electrical Contractor License Delhi, Lift Electrical License, Elevator Electrical License, Electrical Safety License Delhi, TSE Shaft Elevators License",
+description: "View the electrical license of TSE Shaft Elevators, demonstrating our authorization and commitment to electrical safety and compliance for lift and elevator installations in Delhi and Delhi-NCR."
 };
 
 export default function CommercialLiftPage() {
@@ -24,8 +23,8 @@ export default function CommercialLiftPage() {
          <div className="group relative w-full aspect-square overflow-hidden rounded-3xl  mx-auto">
   <Image
     src="../electrical_license.jpg"
-    alt="Electrical License"
-    title="Electrical License"
+    alt="Electrical License | TSE Shaft Elevators"
+    title="Electrical License | TSE Shaft Elevators"
     fill
     priority
     sizes="(max-width: 768px) 100vw, 900px"

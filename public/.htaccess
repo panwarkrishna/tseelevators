@@ -6,7 +6,7 @@
 # ============================================
 
 Options -Indexes
-DirectoryIndex index.html
+DirectoryIndex index.html index.php
 
 # IMPORTANT: stops Apache redirecting /contact -> /contact/ when a folder
 # named "contact" exists. That redirect is what caused the 403 Forbidden.
@@ -24,9 +24,13 @@ RewriteRule ^(.*)$ https://tseelevators.com/$1 [L,R=301]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://tseelevators.com/$1 [L,R=301]
 
-# ---- Bypass all Next.js rules for the WordPress /blogsite folder ----
-# Let public_html/blogsite/.htaccess (WordPress's own rules) handle it.
-RewriteRule ^blogsite(/.*)?$ - [L]
+# ---- WordPress blog lives in /blogs (folder: public_html/blogs) ----
+# Old /blogsite URLs -> /blogs (301)
+RewriteRule ^blogsite(/.*)?$ /blogs$1 [L,R=301]
+# /blogs -> /blogs/ (root has DirectorySlash Off)
+RewriteRule ^blogs$ /blogs/ [L,R=301]
+# Skip all Next.js rules; public_html/blogs/.htaccess (WordPress) handles it
+RewriteRule ^blogs/ - [L]
 
 # ---- Old / mistyped URLs -> current pages (301) ----
 RewriteRule ^blog001/?$ /blog [L,R=301]

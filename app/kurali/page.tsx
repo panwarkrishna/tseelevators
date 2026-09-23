@@ -39,12 +39,12 @@ Searching for <strong>Lift Manufacturers in Kurali</strong> that can provide you
 </p>
 
 
-  <h3 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
+  <h2 className=" text-2xl sm:text-3xl font-bold text-slate-800 mt-8 mb-2">
 Elevator Suppliers in Kurali
 
 
 
-</h3>
+</h2>
 <p>
 TSE Shaft Elevators take pride in being a part of the most trustworthy <br/>
 

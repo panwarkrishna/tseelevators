@@ -1,9 +1,9 @@
 #!/bin/bash
-# Sets permissions ONLY inside public_html/blogsite. Nothing else is touched.
+# Sets permissions ONLY inside public_html/blogs. Nothing else is touched.
 # Run via SSH / cPanel Terminal:  bash fix-permissions.sh
 set -e
-WP="$HOME/public_html/blogsite"      # change if your path differs
-cd "$WP" || { echo "blogsite folder not found: $WP"; exit 1; }
+WP="$HOME/public_html/blogs"      # change if your path differs
+cd "$WP" || { echo "blogs folder not found: $WP"; exit 1; }
 
 # --- cPanel / shared hosting (PHP runs as your cPanel user) ---
 find "$WP" -type d -exec chmod 755 {} \;

@@ -5,10 +5,10 @@ import Link from "next/link";
 import { CheckCircle2, ShieldCheck, PhoneCall, ArrowLeft, Zap, Sliders, Award } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR",
-  keywords: "Commercial Lift Manufacturers in Delhi, Commercial Elevator Suppliers in Delhi-NCR, Commercial Lift Manufacturers, Commercial Elevator Suppliers, Commercial Lift in Delhi, Commercial Elevator in Delhi-NCR",
-  description: "TSE Shaft Elevators - Trusted Commercial Lift Manufacturers in Delhi &  Commercial Elevator Suppliers in Delhi-NCR. Durable, efficient & safe lifts for offices & businesses. Call +919971022555 for a free quote!",
-  alternates: { canonical: "https://tseelevators.com/certificate-of-appreciation" },
+title: "Lift Certificates & Safety Licenses in Delhi | TSE Shaft Elevators",
+keywords: "Lift Certificates in Delhi, Elevator Certificates in Delhi, Lift Safety License Delhi, Elevator License Delhi-NCR, Lift Manufacturer Certification, Elevator Safety Certificate, TSE Shaft Elevators Certificate, Lift Installation Certification",
+description: "Explore TSE Shaft Elevators' certificates, licenses and safety credentials for lift manufacturing and installation in Delhi and Delhi-NCR. Quality, safety and compliance you can trust.",  
+alternates: { canonical: "https://tseelevators.com/certificate-of-appreciation" },
 };
 
 export default function CommercialLiftPage() {
@@ -24,8 +24,8 @@ export default function CommercialLiftPage() {
          <div className="group relative w-full aspect-square overflow-hidden rounded-3xl  mx-auto">
   <Image
     src="../certificate_of_appreciation.jpg"
-    alt="Certificate of Appreciation"
-    title="Certificate of Appreciation"
+    alt="Lift Certificates & Safety Licenses in Delhi"
+    title="Lift Certificates & Safety Licenses in Delhi"
     fill
     priority
     sizes="(max-width: 768px) 100vw, 900px"

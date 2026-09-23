@@ -1,9 +1,9 @@
 <?php
 /* Paste ABOVE the line: "That's all, stop editing! Happy publishing."
-   in public_html/blogsite/wp-config.php */
+   in public_html/blogs/wp-config.php */
 
-define( 'WP_HOME',    'https://tseelevators.com/blogsite' );
-define( 'WP_SITEURL', 'https://tseelevators.com/blogsite' );
+define( 'WP_HOME',    'https://tseelevators.com/blogs' );
+define( 'WP_SITEURL', 'https://tseelevators.com/blogs' );
 
 // Install/update themes & plugins directly (no FTP credentials popup)
 define( 'FS_METHOD', 'direct' );
