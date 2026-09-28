@@ -51,7 +51,7 @@ const USEFUL_LINKS = [
   { label: "About Us", href: "/about" },
   { label: "Services", href: "/services" },
   { label: "Gallery", href: "/gallery" },
-  { label: "Blog", href: "/blog" },
+  { label: "Blog", href: "/blogs/" },
   { label: "Sitemap", href: "/sitemap" },
   { label: "Contact Us", href: "/contact" },
   {

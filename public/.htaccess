@@ -28,7 +28,8 @@ RewriteRule ^(.*)$ https://tseelevators.com/$1 [L,R=301]
 # Old /blogsite URLs -> /blogs (301)
 RewriteRule ^blogsite(/.*)?$ /blogs$1 [L,R=301]
 # /blogs -> /blogs/ (root has DirectorySlash Off)
-RewriteRule ^blogs$ /blogs/ [L,R=301]
+RewriteCond %{REQUEST_URI} ^/blogs$ [NC]
+RewriteRule ^ https://tseelevators.com/blogs/ [L,R=301]
 # Skip all Next.js rules; public_html/blogs/.htaccess (WordPress) handles it
 RewriteRule ^blogs/ - [L]
 

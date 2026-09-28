@@ -97,7 +97,7 @@ const NAV_LINKS: NavLink[] = [
   },
   {
     label: "Blogs",
-    href: "/blog",
+    href: "/blogs/",
   },
   {
     label: "Contact",

@@ -20,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: u("luxury-elevator"), lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: u("customized-elevator"), lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: u("gallery"), lastModified: now, changeFrequency: "monthly", priority: 0.6 },
-    { url: u("blog"), lastModified: now, changeFrequency: "weekly", priority: 0.6 },
+    { url: u("blogs"), lastModified: now, changeFrequency: "weekly", priority: 0.6 },
     { url: u("contact"), lastModified: now, changeFrequency: "yearly", priority: 0.7 },
     { url: u("certificate-of-appreciation"), lastModified: now, changeFrequency: "yearly", priority: 0.4 },
     { url: u("electrical-license"), lastModified: now, changeFrequency: "yearly", priority: 0.4 },

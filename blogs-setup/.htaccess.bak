@@ -18,20 +18,8 @@ Options -Indexes
 # saving Permalinks never removes it)
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /blogs/
 RewriteCond %{REQUEST_URI} ^/blogs$ [NC]
 RewriteRule ^ https://tseelevators.com/blogs/ [L,R=301]
-
-# Folder without slash -> add slash (/blogs/wp-admin -> /blogs/wp-admin/)
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^(.+[^/])$ https://tseelevators.com/blogs/$1/ [L,R=301]
-
-# Serve index.php for folder URLs directly (fixes 403 on /blogs/ and
-# /blogs/wp-admin/ caused by root "DirectorySlash Off" / DirectoryIndex)
-RewriteRule ^$ index.php [L]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteCond %{REQUEST_FILENAME}/index.php -f
-RewriteRule ^(.+)/$ $1/index.php [L]
 </IfModule>
 
 # BEGIN WordPress

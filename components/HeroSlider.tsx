@@ -41,7 +41,7 @@ const SLIDES_DATA: SlideItem[] = [
     ctaText: "Enquire Now",
     ctaLink: "/contact",
     image:
-      "../home-banner-img/lift-Installation.webp",
+      "../home-banner-img/luxury-elevator.webp",
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const SLIDES_DATA: SlideItem[] = [
     ctaText: "Enquire Now",
     ctaLink: "/contact",
     image:
-      "../home-banner-img/luxury-elevator.webp",
+      "../home-banner-img/lift-Installation.webp",
   },
 ];
 
