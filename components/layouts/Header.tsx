@@ -13,6 +13,7 @@ import {
   CheckCircle2,
   Sparkles,
 } from "lucide-react";
+import { useEnquiryModal } from "@/components/EnquiryModal";
 
 // ================= SOCIAL ICONS =================
 
@@ -124,6 +125,8 @@ export default function Header() {
   // Shared helper so every navigational link (desktop + mobile) resets
   // scroll position to the top when a new page is opened, instead of
   // relying on the browser/Next.js default scroll-restoration timing.
+
+  const { handleEnquiryClick } = useEnquiryModal();
 
   const handleNavigate = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "instant" });
@@ -367,7 +370,7 @@ export default function Header() {
 
               <Link
                 href="/contact"
-                onClick={handleNavigate}
+                onClick={handleEnquiryClick}
                 className="ml-5 hidden min-h-[40px] items-center gap-2 rounded-md bg-[#D6362C] px-5 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#B52A21] sm:px-7 md:flex md:min-h-[48px]"
               >
                 Enquire Now
@@ -706,7 +709,10 @@ export default function Header() {
 
             <Link
               href="/contact"
-              onClick={closeMobileNav}
+              onClick={(e) => {
+                closeMobileNav();
+                handleEnquiryClick(e);
+              }}
               className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#D6362C] py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-md transition-colors hover:bg-[#B52A21]"
             >
               Enquire Now

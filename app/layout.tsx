@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import { EnquiryModalProvider } from "@/components/EnquiryModal";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -104,10 +105,12 @@ export default function RootLayout({
           `}
         </Script>
 
-        <Header />
-        {children}
-        <Footer />
-        <WhatsAppFloat />
+        <EnquiryModalProvider>
+          <Header />
+          {children}
+          <Footer />
+          <WhatsAppFloat />
+        </EnquiryModalProvider>
       </body>
     </html>
   );

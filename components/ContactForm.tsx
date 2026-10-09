@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useId, useState, type FormEvent } from "react";
 import {
   Send,
   User,
@@ -22,7 +22,19 @@ type Errors = Partial<
 const inputClass =
   "w-full rounded-xl border bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10";
 
-export default function ContactForm() {
+type ContactFormProps = {
+  className?: string;
+  messageRows?: number;
+  /** Called after a successful submission */
+  onSuccess?: () => void;
+};
+
+export default function ContactForm({
+  className = "mt-8 space-y-6",
+  messageRows = 7,
+  onSuccess,
+}: ContactFormProps = {}) {
+  const consentId = useId();
   const [errors, setErrors] = useState<Errors>({});
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">(
     "idle"
@@ -71,6 +83,7 @@ export default function ContactForm() {
         setStatus("success");
         setFeedback("Thank you! Your enquiry has been sent. We will contact you shortly.");
         form.reset();
+        onSuccess?.();
       } else {
         setStatus("error");
         setFeedback(data.message || "Something went wrong. Please try again.");
@@ -85,7 +98,7 @@ export default function ContactForm() {
     errors[k] ? "border-red-500" : "border-slate-200";
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="mt-8 space-y-6">
+    <form onSubmit={handleSubmit} noValidate className={className}>
       {/* Web3Forms config */}
       <input type="hidden" name="access_key" value={ACCESS_KEY} />
       <input
@@ -180,7 +193,7 @@ export default function ContactForm() {
             <MessageSquare className="h-4 w-4 text-[#D6362C]" />
           </div>
           <textarea
-            rows={7}
+            rows={messageRows}
             name="message"
             placeholder="How can we help you?"
             className={`${inputClass} resize-none ${border("message")}`}
@@ -196,12 +209,12 @@ export default function ContactForm() {
         <div className="flex items-start gap-3">
           <input
             type="checkbox"
-            id="consent"
+            id={consentId}
             name="consent"
             className="mt-0.5 h-4 w-4 cursor-pointer rounded border-slate-300 text-[#D6362C] focus:ring-[#D6362C]"
           />
           <label
-            htmlFor="consent"
+            htmlFor={consentId}
             className="cursor-pointer text-xs leading-relaxed text-black sm:text-sm"
           >
             I agree that my data is collected and stored.

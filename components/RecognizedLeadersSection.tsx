@@ -12,6 +12,7 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import Link from "next/link";
+import { useEnquiryModal } from "@/components/EnquiryModal";
 
 type FeatureItem = {
   id: string;
@@ -92,6 +93,7 @@ const itemVariants = {
 };
 
 export default function RecognizedLeadersSection() {
+  const { handleEnquiryClick } = useEnquiryModal();
   return (
     <section className="relative overflow-hidden bg-[#fff] py-16 text-slate-900 sm:py-20 lg:py-24">
 
@@ -195,6 +197,7 @@ export default function RecognizedLeadersSection() {
 
             <Link
               href="/contact"
+              onClick={handleEnquiryClick}
               className="mt-6 group inline-flex items-center gap-2 rounded-lg bg-[#D6362C] px-8 py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-lg shadow-[#D6362C]/25 transition-all duration-200 hover:bg-[#b52a21] hover:shadow-xl active:scale-95 sm:text-sm"
             >
               Enquire Now

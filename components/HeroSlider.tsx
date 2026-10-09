@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Navigation } from "swiper/modules";
 import { ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { useEnquiryModal } from "@/components/EnquiryModal";
 
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -57,6 +58,7 @@ const SLIDES_DATA: SlideItem[] = [
 ];
 
 export default function HeroSlider() {
+  const { handleEnquiryClick } = useEnquiryModal();
   return (
     <section className="relative w-full overflow-hidden bg-[#070B1E]">
       <Swiper
@@ -119,6 +121,9 @@ export default function HeroSlider() {
                 <div className="mt-6 sm:mt-8">
                   <Link
                     href={slide.ctaLink}
+                    onClick={
+                      slide.ctaLink === "/contact" ? handleEnquiryClick : undefined
+                    }
                     className="group inline-flex items-center gap-2 rounded-lg bg-[#D6362C] px-8 py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-xl shadow-[#D6362C]/30 transition-all duration-200 hover:bg-[#b52a21] hover:shadow-2xl active:scale-95 sm:text-sm"
                   >
                     <span>{slide.ctaText}</span>
