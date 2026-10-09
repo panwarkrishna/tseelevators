@@ -384,12 +384,12 @@ export default function Header() {
                 className="group ml-4 flex h-12 w-12 cursor-pointer items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition-all hover:border-[#D6362C] hover:bg-red-50"
               >
                 <Image
-                  src="../owl.png"
+                  src="/owl.png"
                   alt="TSE Owl"
                   title="TSE Owl"
-                  width={48}
-                  height={66}
-                  className="h-6 w-6 object-contain transition-transform group-hover:scale-110"
+                  width={53}
+                  height={69}
+                  className="h-6 w-auto object-contain transition-transform group-hover:scale-110"
                 />
               </button>
 
@@ -450,11 +450,11 @@ export default function Header() {
 
           <div className="pointer-events-none absolute -bottom-10 -right-10 opacity-[0.04]">
             <Image
-             src="../owl.png"
+              src="/owl.png"
               alt="Owl Watermark"
-                title="Owl Watermark"
+              title="Owl Watermark"
               width={420}
-              height={420}
+              height={547}
               className="h-auto w-[420px] object-contain"
             />
           </div>

@@ -1,16 +1,7 @@
-
 import type { Metadata } from "next";
 import GlobalPageHero from "@/components/GlobalPageHero";
-import {
-  Mail,
-  Phone,
-  Send,
-  User,
-  AtSign,
-  PhoneCall,
-  FileText,
-  MessageSquare,
-} from "lucide-react";
+import ContactForm from "@/components/ContactForm";
+import { Mail, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact Us – TSE Elevators",
@@ -77,6 +68,7 @@ export default function ContactPage() {
         backgroundImage="../product-img/hydraulic-lift.webp"
         badgeText="Get In Touch"
       />
+
       {/* ================= CONTACT SECTION ================= */}
       <section className="relative w-full overflow-hidden bg-white py-4 md:py-14 sm:py-16 lg:py-20">
 
@@ -99,9 +91,9 @@ export default function ContactPage() {
 
                 {/* Heading */}
                 <div>
-                  <h1 className="text-2xl font-extrabold tracking-tight text-black">
+                  <h3 className="text-2xl font-extrabold tracking-tight text-black">
                     Contact Details
-                  </h1>
+                  </h3>
 
                   <div className="mt-3 h-1 w-16 rounded-full bg-[#D6362C]" />
                 </div>
@@ -113,7 +105,7 @@ export default function ContactPage() {
                   </span>
 
                   <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
-                       Metro Station-Saket, Shop No.02, Opposite Blue Tokai, Champa Gali, Lane No.3, Westend Marg, Near Saket, Saidulajab, New Delhi, Delhi 110030
+                    Metro Station-Saket, Shop No.02, Opposite Blue Tokai, Champa Gali, Lane No.3, Westend Marg, Near Saket, Saidulajab, New Delhi, Delhi 110030
                   </p>
                 </div>
 
@@ -124,9 +116,7 @@ export default function ContactPage() {
                   </span>
 
                   <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
-                  S.C.O. No. - 635, Second Floor, TDI City, Near Regenta Hotel, Sec-119, Mohali, PB
-
-
+                    S.C.O. No. - 635, Second Floor, TDI City, Near Regenta Hotel, Sec-119, Mohali, PB
                   </p>
                 </div>
 
@@ -215,122 +205,15 @@ export default function ContactPage() {
 
               {/* Heading */}
               <div>
-                <h2 className="text-2xl font-extrabold tracking-tight text-black">
+                <h3 className="text-2xl font-extrabold tracking-tight text-black">
                   Get In Touch
-                </h2>
+                </h3>
 
                 <div className="mt-3 h-1 w-16 rounded-full bg-[#D6362C]" />
               </div>
 
-              {/* Form */}
-              <form className="mt-8 space-y-6">
-
-                {/* Name + Email */}
-                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-
-                  {/* Name */}
-                  <div className="relative">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
-                      <User className="h-4 w-4 text-[#D6362C]" />
-                    </div>
-
-                    <input
-                      type="text"
-                      placeholder="Name"
-                      required
-                      className="w-full rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
-                    />
-                  </div>
-
-                  {/* Email */}
-                  <div className="relative">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
-                      <AtSign className="h-4 w-4 text-[#D6362C]" />
-                    </div>
-
-                    <input
-                      type="email"
-                      placeholder="Email Address"
-                      required
-                      className="w-full rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
-                    />
-                  </div>
-
-                </div>
-
-                {/* Phone + Requirement */}
-                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-
-                  {/* Phone */}
-                  <div className="relative">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
-                      <PhoneCall className="h-4 w-4 text-[#D6362C]" />
-                    </div>
-
-                    <input
-                      type="tel"
-                      placeholder="Phone"
-                      required
-                      className="w-full rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
-                    />
-                  </div>
-
-                  {/* Requirement */}
-                  <div className="relative">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
-                      <FileText className="h-4 w-4 text-[#D6362C]" />
-                    </div>
-
-                    <input
-                      type="text"
-                      placeholder="Requirement"
-                      className="w-full rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
-                    />
-                  </div>
-
-                </div>
-
-                {/* Message */}
-                <div className="relative">
-                  <div className="pointer-events-none absolute left-3.5 top-4">
-                    <MessageSquare className="h-4 w-4 text-[#D6362C]" />
-                  </div>
-
-                  <textarea
-                    rows={7}
-                    placeholder="How can we help you? "
-                    required
-                    className="w-full resize-none rounded-xl border border-slate-200 bg-white py-3.5 pl-10 pr-4 text-sm text-black placeholder-slate-400 shadow-sm outline-none transition-all focus:border-[#D6362C] focus:ring-2 focus:ring-[#D6362C]/10"
-                  />
-                </div>
-
-                {/* Consent */}
-                <div className="flex items-start gap-3">
-                  <input
-                    type="checkbox"
-                    id="consent"
-                    required
-                    className="mt-0.5 h-4 w-4 cursor-pointer rounded border-slate-300 text-[#D6362C] focus:ring-[#D6362C]"
-                  />
-
-                  <label
-                    htmlFor="consent"
-                    className="cursor-pointer text-xs leading-relaxed text-black sm:text-sm"
-                  >
-                    I agree that my data is collected and stored.
-                  </label>
-                </div>
-
-                {/* Submit */}
-                <button
-                  type="submit"
-                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#D6362C] px-8 py-4 text-sm font-bold uppercase tracking-wider text-white shadow-lg transition-all duration-300 hover:bg-[#B52A21] hover:shadow-xl active:scale-95"
-                >
-                  <Send className="h-4 w-4" />
-                  <span>SUBMIT ENQUIRY</span>
-                </button>
-
-              </form>
+              {/* Form (Web3Forms) */}
+              <ContactForm />
             </div>
 
           </div>
